@@ -1,0 +1,1515 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "personality-development",
+  "language": "en",
+  "title": "Personality Development - Complete Course",
+  "description": "Comprehensive test covering all aspects of personality development including self-awareness, leadership, communication, and social skills",
+  "questions": [
+    {
+      "id": "personality_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "According to WHO, how are Life Skills defined?",
+      "options": {
+        "a": "Academic abilities for career success",
+        "b": "Abilities for adopting positive behaviour to deal with life's demands",
+        "c": "Technical skills for professional development",
+        "d": "Physical abilities for sports and activities"
+      },
+      "correct_answer": ["b"],
+      "explanation": "WHO defines Life Skills as 'abilities for adopting positive behaviour that enable individuals to deal effectively with the demands and challenges of everyday life'.",
+      "points": 1
+    },
+    {
+      "id": "personality_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT one of the ten core Life Skills identified by WHO?",
+      "options": {
+        "a": "Self Awareness",
+        "b": "Empathy",
+        "c": "Technical Programming",
+        "d": "Critical Thinking"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The ten core Life Skills are: Self Awareness, Empathy, Critical Thinking, Creative Thinking, Problem Solving, Decision Making, Interpersonal Relationship, Effective Communication, Coping with Emotions, and Coping with Stress. Technical Programming is not included.",
+      "points": 1
+    },
+    {
+      "id": "personality_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary benefit of Self Awareness according to the lesson?",
+      "options": {
+        "a": "Building self-esteem and self-confidence",
+        "b": "Improving physical strength",
+        "c": "Learning new languages",
+        "d": "Developing technical skills"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Self Awareness helps build a sense of self-esteem and self-confidence by recognizing one's strengths and weaknesses, and helps utilize opportunities according to one's abilities.",
+      "points": 1
+    },
+    {
+      "id": "personality_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which factor influencing personality is described as 'the most important'?",
+      "options": {
+        "a": "Hereditary",
+        "b": "Environment",
+        "c": "Self-Development",
+        "d": "Education"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Self-development is described as the most important factor that can influence one's personality, as it involves self-awareness and taking control of molding one's own personality.",
+      "points": 1
+    },
+    {
+      "id": "personality_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What are the three aspects of how every person perceives themselves?",
+      "options": {
+        "a": "Physical, Mental, Spiritual",
+        "b": "Perceived self, Real self, Ideal self",
+        "c": "Past, Present, Future",
+        "d": "Student, Professional, Retired"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Every person perceives themselves in three aspects: The perceived self (how we see ourselves), the real self (how we truly are), and the ideal self (how we would like to be).",
+      "points": 1
+    },
+    {
+      "id": "personality_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In the context of mindset, what characterizes a 'growth mindset'?",
+      "options": {
+        "a": "Believing abilities are fixed traits",
+        "b": "Believing abilities can be developed through effort",
+        "c": "Focusing only on natural talent",
+        "d": "Avoiding challenges to prevent failure"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In a growth mindset, people believe that their basic abilities can be developed through dedication and hard work, creating love of learning and resilience.",
+      "points": 1
+    },
+    {
+      "id": "personality_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main difference between empathy and sympathy?",
+      "options": {
+        "a": "Empathy is feeling sorry, sympathy is understanding",
+        "b": "Empathy is understanding, sympathy is feeling sorry",
+        "c": "They are exactly the same",
+        "d": "Empathy is for friends, sympathy for strangers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Empathy involves understanding another person's situation and feelings, while sympathy involves feeling sorry or pity for someone.",
+      "points": 1
+    },
+    {
+      "id": "personality_008",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which dimension of self-awareness involves 'the endless talks and conversations that run through our minds'?",
+      "options": {
+        "a": "Self Knowledge",
+        "b": "Self Talk",
+        "c": "Self Esteem",
+        "d": "Self Control"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Self Talk refers to the automatic thoughts and internal conversations that run through our minds throughout the day, which can be positive or negative.",
+      "points": 1
+    },
+    {
+      "id": "personality_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does SWOT analysis stand for in self-exploration?",
+      "options": {
+        "a": "Strengths, Weaknesses, Opportunities, Threats",
+        "b": "Skills, Work, Objectives, Training",
+        "c": "Study, Work, Organization, Time",
+        "d": "Success, Weakness, Organization, Talent"
+      },
+      "correct_answer": ["a"],
+      "explanation": "SWOT analysis focuses on Internal factors (Strengths and Weaknesses) and External factors (Opportunities and Threats) to promote strengths, minimize weaknesses, exploit opportunities, and plan for threats.",
+      "points": 1
+    },
+    {
+      "id": "personality_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is considered a 'fixed mindset' characteristic?",
+      "options": {
+        "a": "Believing talent alone creates success without effort",
+        "b": "Viewing challenges as opportunities to grow",
+        "c": "Learning from criticism and feedback",
+        "d": "Being inspired by others' success"
+      },
+      "correct_answer": ["a"],
+      "explanation": "In a fixed mindset, people believe their basic qualities are fixed traits and that talent alone creates success without effort, which is incorrect.",
+      "points": 1
+    },
+    {
+      "id": "personality_011",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the ultimate goal of self-awareness according to the lesson?",
+      "options": {
+        "a": "Self-realization",
+        "b": "Wealth accumulation",
+        "c": "Popularity among peers",
+        "d": "Academic excellence"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Self-realization is described as the ultimate of self-awareness when one realizes oneself and the requirement of their existence in the world.",
+      "points": 1
+    },
+    {
+      "id": "personality_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which factor is described as having 'a lasting effect on an individual's personality'?",
+      "options": {
+        "a": "Daily weather",
+        "b": "Favorite color",
+        "c": "Hereditary",
+        "d": "Current fashion"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Modern psychological studies suggest that hereditary factors have a lasting effect on personality, as we inherit not just physical attributes but also mental aptitudes and temperaments.",
+      "points": 1
+    },
+    {
+      "id": "personality_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the key purpose of using the 'Open Your Heart' activity in self-awareness training?",
+      "options": {
+        "a": "To practice drawing skills",
+        "b": "To explore and express personal identity",
+        "c": "To learn about human anatomy",
+        "d": "To improve handwriting"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 'Open Your Heart' activity helps participants explore and express their personal identity by writing about the meaning of their name, qualities they like, and qualities others like about them.",
+      "points": 1
+    },
+    {
+      "id": "personality_014",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which life skill involves 'analyzing information and experience in an objective manner'?",
+      "options": {
+        "a": "Creative Thinking",
+        "b": "Critical Thinking",
+        "c": "Self Awareness",
+        "d": "Empathy"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Critical Thinking is defined as the ability to analyze information and experience in an objective manner, helping recognize and assess factors that influence attitudes and behavior.",
+      "points": 1
+    },
+    {
+      "id": "personality_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is described as 'the core determining factor of a strong personality'?",
+      "options": {
+        "a": "Physical appearance",
+        "b": "Wealth and status",
+        "c": "A healthy self-image",
+        "d": "Educational qualifications"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A healthy self-image is identified as the core determining factor of a strong personality, as personality is one's identity and sum total of inherent and acquired characteristics.",
+      "points": 1
+    },
+    {
+      "id": "personality_016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In the story of 'Hunter and Pigeons', which life skill did the young pigeon demonstrate by suggesting they fly together?",
+      "options": {
+        "a": "Creative Thinking",
+        "b": "Coping with Stress",
+        "c": "Empathy",
+        "d": "Self Awareness"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The young pigeon demonstrated Creative Thinking by identifying a creative solution of flying together with the net, rather than trying individually.",
+      "points": 1
+    },
+    {
+      "id": "personality_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT listed as a dimension of self-awareness?",
+      "options": {
+        "a": "Self Esteem",
+        "b": "Self Purpose",
+        "c": "Self Driving",
+        "d": "Self Control"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The dimensions of self-awareness include Self Realization, Self Knowledge, Self Confidence, Self Talk, Self Motivation, Self Esteem, Self Image, Self Control, Self Purpose, Individuality, Personality, Values, Attitude, and Character - but not Self Driving.",
+      "points": 1
+    },
+    {
+      "id": "personality_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the recommended approach to changing one's mindset according to the lesson?",
+      "options": {
+        "a": "Get the best information only and role model the best people",
+        "b": "Ignore all external influences",
+        "c": "Focus only on academic learning",
+        "d": "Avoid all challenges and risks"
+      },
+      "correct_answer": ["a"],
+      "explanation": "To change mindset, the lesson recommends getting the best information only, role modeling the best people, examining current beliefs, shaping mindset with vision and goals, finding your voice, and protecting your mindset.",
+      "points": 1
+    },
+    {
+      "id": "personality_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of skill is described as 'capacity to lighten the spirits of the group'?",
+      "options": {
+        "a": "Vocational Skills",
+        "b": "Cultural Skills",
+        "c": "Literacy Skills",
+        "d": "Functional Skills"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Cultural Skills are defined as the capacity to lighten the spirits of the group with activities that can break monotony, such as using jokes and energizers.",
+      "points": 1
+    },
+    {
+      "id": "personality_020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary cause of unhappiness and poor adjustments according to self-awareness principles?",
+      "options": {
+        "a": "Lack of money",
+        "b": "Discrepancies between perceived and real/ideal self",
+        "c": "Too many friends",
+        "d": "Excessive free time"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Unhappiness and poor adjustments are mainly due to discrepancies between the perceived self and the real or ideal self, caused by misperceptions that lead to discontentment.",
+      "points": 1
+    },
+    {
+      "id": "personality_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which life skill involves 'being sensitive to another person's situation and understanding their concerns'?",
+      "options": {
+        "a": "Critical Thinking",
+        "b": "Empathy",
+        "c": "Problem Solving",
+        "d": "Decision Making"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Empathy is defined as the ability to be sensitive to another person's situation, to understand their concerns, worries, fears and needs and how they feel.",
+      "points": 1
+    },
+    {
+      "id": "personality_022",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is described as 'the mother of all skills' in personality development?",
+      "options": {
+        "a": "Communication Skills",
+        "b": "Self-Awareness",
+        "c": "Critical Thinking",
+        "d": "Leadership Skills"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Self-Awareness is called the mother of all skills as it is a thinking skill, social skill and coping skill that forms the foundation for other skills.",
+      "points": 1
+    },
+    {
+      "id": "personality_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In the context of values influencing personality, what characterizes a person with 'strong moral fiber'?",
+      "options": {
+        "a": "Wealth and power",
+        "b": "Integrity and trustworthiness",
+        "c": "Popularity and fame",
+        "d": "Intelligence and knowledge"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A person who adheres to high moral standards is known for integrity and is trusted by family, colleagues and friends, having strong moral fiber ingrained in their character.",
+      "points": 1
+    },
+    {
+      "id": "personality_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which of these is a recommended strategy for developing the right mindset?",
+      "options": {
+        "a": "Let go of comparisons and end perfectionism",
+        "b": "Compare yourself with successful people constantly",
+        "c": "Wait for perfect conditions before starting",
+        "d": "Focus only on what others think of you"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Recommended strategies include letting go of comparisons, putting an end to perfectionism, looking at evidence, redefining failure, and stopping worry about what people think.",
+      "points": 1
+    },
+    {
+      "id": "personality_025",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the ultimate benefit of developing life skills according to the introduction?",
+      "options": {
+        "a": "To create a strong positive impression about self",
+        "b": "To become wealthy and famous",
+        "c": "To dominate others in arguments",
+        "d": "To avoid all life challenges"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Personality development involves developing a personality to create a strong positive impression about self with targeted groups, which is crucial for long-term success.",
+      "points": 1
+    },
+    {
+      "id": "personality_026",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which leadership trait is described as 'the ability to appreciate amusing moments and remain cheerful under stress'?",
+      "options": {
+        "a": "Decisiveness",
+        "b": "Sense of Humour",
+        "c": "Initiative",
+        "d": "Dependability"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Sense of Humour is defined as the ability to appreciate amusing moments in everyday life and remain cheerful under stress, which can help defuse tense situations.",
+      "points": 1
+    },
+    {
+      "id": "personality_027",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What characterizes the autocratic style of leadership?",
+      "options": {
+        "a": "Shared decision-making with subordinates",
+        "b": "Total concern for mission with little concern for human relations",
+        "c": "Equal emphasis on task and relationships",
+        "d": "Complete delegation of authority"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Autocratic leadership implies total concern for mission accomplishment with little or no concern for human relations, based on power derived from position.",
+      "points": 1
+    },
+    {
+      "id": "personality_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which component of attitude involves 'the belief segment that forms opinions about people, objects or situations'?",
+      "options": {
+        "a": "Affective Component",
+        "b": "Behavioral Component",
+        "c": "Cognitive Component",
+        "d": "Emotional Component"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Cognitive Component is the belief segment of an attitude where someone forms opinions or perceptions about any person, object, or situation.",
+      "points": 1
+    },
+    {
+      "id": "personality_029",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is described as 'the world's number one time-waster' according to time management principles?",
+      "options": {
+        "a": "Socializing",
+        "b": "Procrastination",
+        "c": "Telephone calls",
+        "d": "Paperwork"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Procrastination, which comes from the Latin word for 'tomorrow', is defined as putting off the doing of something that should be done intentionally and habitually.",
+      "points": 1
+    },
+    {
+      "id": "personality_030",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In the two-dimensional leadership model, which quadrant represents the most desirable leadership style?",
+      "options": {
+        "a": "High mission accomplishment, low concern for men",
+        "b": "Low mission accomplishment, high concern for men",
+        "c": "High mission accomplishment, high concern for men",
+        "d": "Low mission accomplishment, low concern for men"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The most desirable leadership style is represented in the upper right quadrant with high mission accomplishment and high concern for men.",
+      "points": 1
+    },
+    {
+      "id": "personality_031",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which leadership trait involves 'the willingness to act or offer well-considered recommendations in the absence of orders'?",
+      "options": {
+        "a": "Dependability",
+        "b": "Initiative",
+        "c": "Judgment",
+        "d": "Loyalty"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Initiative is the willingness to act or offer well-considered recommendations in the absence of orders, seeing what needs to be done and accomplishing it.",
+      "points": 1
+    },
+    {
+      "id": "personality_032",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What type of attitude is characterized by 'disagreement with most situations and defensive thinking'?",
+      "options": {
+        "a": "Positive Attitude",
+        "b": "Neutral Attitude",
+        "c": "Rebellious Attitude",
+        "d": "Rational Attitude"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Rebellious attitude involves being in disagreement with most situations, people and things, thinking defensively and reacting aggressively.",
+      "points": 1
+    },
+    {
+      "id": "personality_033",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "According to time management principles, what percentage of your time typically produces 80% of your high-quality output?",
+      "options": {
+        "a": "10%",
+        "b": "20%",
+        "c": "30%",
+        "d": "40%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 80/20 rule applies to time management where 20% of your time produces 80% of your high-quality output, emphasizing the importance of managing that critical 20% well.",
+      "points": 1
+    },
+    {
+      "id": "personality_034",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of team 'brings together knowledge and skills from various work areas to identify and solve mutual problems'?",
+      "options": {
+        "a": "Functional Teams",
+        "b": "Problem Solving Teams",
+        "c": "Cross-Functional Teams",
+        "d": "Self-Managed Teams"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Cross-Functional Teams bring together the knowledge and skills of people from various work areas to identify and solve mutual problems.",
+      "points": 1
+    },
+    {
+      "id": "personality_035",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What leadership trait is demonstrated by Alexander pouring water on the ground to share suffering with his troops?",
+      "options": {
+        "a": "Courage",
+        "b": "Endurance",
+        "c": "Decisiveness",
+        "d": "Knowledge"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Alexander demonstrated Endurance by sharing the suffering of his troops, showing his ability to endure hardship alongside them and inspiring them through personal example.",
+      "points": 1
+    },
+    {
+      "id": "personality_036",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In conflict resolution, which approach aims to 'maximize goals of both parties through collaborative problem solving'?",
+      "options": {
+        "a": "Win-Lose Approach",
+        "b": "Lose-Lose Approach",
+        "c": "Win-Win Approach",
+        "d": "Avoidance Approach"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Win-Win Approach consciously attempts to maximize both parties' goals through collaborative problem solving, viewing conflict as a problem to be solved rather than a war to be won.",
+      "points": 1
+    },
+    {
+      "id": "personality_037",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which leadership trait involves 'being faithful to country, army, unit, subordinates, colleagues and superiors'?",
+      "options": {
+        "a": "Integrity",
+        "b": "Loyalty",
+        "c": "Dependability",
+        "d": "Justice"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Loyalty is the quality of being faithful to the country, army, unit, subordinates, colleagues and superiors, given by subordinates in the manner the leader gives it to them.",
+      "points": 1
+    },
+    {
+      "id": "personality_038",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of keeping a 'Time Log' in time management?",
+      "options": {
+        "a": "To track expenses",
+        "b": "To record how time is actually spent",
+        "c": "To schedule future appointments",
+        "d": "To monitor others' activities"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A Time Log helps record how time is actually spent throughout the day, providing objective data to identify time-wasting activities and opportunities for improvement.",
+      "points": 1
+    },
+    {
+      "id": "personality_039",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which conflict resolution technique involves 'agreeing with criticism to disarm the criticizer'?",
+      "options": {
+        "a": "Cognitive Restructuring",
+        "b": "Disarm the Opposition",
+        "c": "Confrontation",
+        "d": "Third Party Appeal"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Disarm the Opposition involves agreeing with the criticizer's criticism, which removes their reason to continue the conflict since agreement is disarming.",
+      "points": 1
+    },
+    {
+      "id": "personality_040",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What characterizes a 'mature group' according to group dynamics?",
+      "options": {
+        "a": "Dependence on the leader",
+        "b": "Inability to handle disagreement",
+        "c": "Increasing ability to be self-directed",
+        "d": "Rigid adherence to initial plans"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A mature group shows increasing ability to be self-directed rather than dependent on the leader, among other characteristics like better conflict handling and improved problem-solving.",
+      "points": 1
+    },
+    {
+      "id": "personality_041",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which leadership trait is defined as 'the power of the mind to assess various factors quickly and arrive at wise decisions'?",
+      "options": {
+        "a": "Knowledge",
+        "b": "Judgment",
+        "c": "Initiative",
+        "d": "Decisiveness"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Judgment is the power of the mind to assess various factors and values quickly, often under difficult circumstances, and arrive at wise decisions.",
+      "points": 1
+    },
+    {
+      "id": "personality_042",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In stress management, what technique involves 'imaging a quiet place to mentally escape stressful situations'?",
+      "options": {
+        "a": "Deep Breathing",
+        "b": "Creating a Quiet Place in Your Mind",
+        "c": "Physical Activity",
+        "d": "Talking It Out"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Creating a Quiet Place in Your Mind involves imaging a place where you feel relaxed and comfortable, with all pleasant details, to provide mental escape from stress.",
+      "points": 1
+    },
+    {
+      "id": "personality_043",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What type of conflict occurs 'between collections of people such as ethnic groups or departments'?",
+      "options": {
+        "a": "Interpersonal Conflict",
+        "b": "Role Conflict",
+        "c": "Intergroup Conflict",
+        "d": "Intrapersonal Conflict"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Intergroup Conflict occurs between collections of people such as ethnic or racial groups, departments, or union and management, often involving stereotypes and scapegoating.",
+      "points": 1
+    },
+    {
+      "id": "personality_044",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which principle of time management emphasizes 'focusing on vital few things that make long-term difference'?",
+      "options": {
+        "a": "Develop Personal Sense of Time",
+        "b": "Concentrate on High Return Activities",
+        "c": "Weekly and Daily Planning",
+        "d": "Manage Your Health"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Concentrating on High Return Activities means identifying which activities give the highest return and focusing on the vital few things that make long-term difference.",
+      "points": 1
+    },
+    {
+      "id": "personality_045",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What leadership lesson does Churchill's 'Never give up' speech primarily demonstrate?",
+      "options": {
+        "a": "Knowledge",
+        "b": "Will Power",
+        "c": "Justice",
+        "d": "Bearing"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Churchill's famous five-word speech 'Never give up' demonstrates Will Power and dogged perseverance as the secret of his leadership and success.",
+      "points": 1
+    },
+    {
+      "id": "personality_046",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In interview skills, what is the recommended approach when you don't know the answer to a question?",
+      "options": {
+        "a": "Make up a plausible answer",
+        "b": "Change the subject",
+        "c": "Respond honestly that you don't know",
+        "d": "Criticize the question"
+      },
+      "correct_answer": ["c"],
+      "explanation": "When you don't know the answer to an interview question, respond honestly that you don't know much about that topic rather than being dishonest.",
+      "points": 1
+    },
+    {
+      "id": "personality_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which time management principle involves 'using travel time and waiting time productively'?",
+      "options": {
+        "a": "Delegate Effectively",
+        "b": "Make Use of Committed Time",
+        "c": "Organise Office Work",
+        "d": "Manage Meetings"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Making Use of Committed Time involves using otherwise unproductive time like travel and waiting time for thinking, reading, or writing.",
+      "points": 1
+    },
+    {
+      "id": "personality_048",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the key difference between assertiveness and aggressiveness in negotiation?",
+      "options": {
+        "a": "Assertiveness involves pushing harder",
+        "b": "Aggressiveness uses confident, persuasive tone",
+        "c": "Assertiveness uses confident tone without pushing",
+        "d": "They are essentially the same"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Assertiveness uses a confident, persuasive tone without pushing aggressively, while aggressiveness involves hard pushing that makes the other party push back harder.",
+      "points": 1
+    },
+    {
+      "id": "personality_049",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which leadership trait involves 'the quality of being impartial and consistent in exercising command'?",
+      "options": {
+        "a": "Integrity",
+        "b": "Justice",
+        "c": "Loyalty",
+        "d": "Dependability"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Justice is the quality of being impartial and consistent in exercising command, with the principle that 'justice delayed is justice denied'.",
+      "points": 1
+    },
+    {
+      "id": "personality_050",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In group dynamics, what is 'group synergy'?",
+      "options": {
+        "a": "Conflict within the group",
+        "b": "Achievement of high quality through combined contributions",
+        "c": "Dependence on the leader",
+        "d": "Formal structure of the group"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Group synergy is the achievement of high quality as a result of combined individual contributions, where the whole becomes greater than the sum of its parts.",
+      "points": 1
+    },
+    {
+      "id": "personality_051",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary advantage of democratic leadership style according to studies?",
+      "options": {
+        "a": "Faster decision making",
+        "b": "Higher quality of work",
+        "c": "Group enjoyment and constructive work",
+        "d": "Better control over subordinates"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Democratic leadership leads to group enjoyment, constructive work, and continued effective functioning even when the leader is absent.",
+      "points": 1
+    },
+    {
+      "id": "personality_052",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which stress management technique involves 'releasing pressure through exercise or physical activity'?",
+      "options": {
+        "a": "Take Deep Breath",
+        "b": "Move",
+        "c": "Talk It Out",
+        "d": "Take A Break"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Moving through physical activity helps reduce and prevent stress by releasing pressure when you feel nervous, angry or upset.",
+      "points": 1
+    },
+    {
+      "id": "personality_053",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What type of team 'consists of employees who work together daily to manufacture entire products or services'?",
+      "options": {
+        "a": "Functional Teams",
+        "b": "Problem Solving Teams",
+        "c": "Cross-Functional Teams",
+        "d": "Self-Managed Teams"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Self-Managed Teams consist of employees who must work together effectively daily to manufacture entire products or major components or services.",
+      "points": 1
+    },
+    {
+      "id": "personality_054",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In conflict resolution, what approach involves 'splitting the difference or smoothing over difficulties'?",
+      "options": {
+        "a": "Win-Lose Approach",
+        "b": "Lose-Lose Approach",
+        "c": "Win-Win Approach",
+        "d": "Collaborative Approach"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Lose-Lose Approach involves smoothing over conflict or reaching simple compromises where each party gets only partial satisfaction.",
+      "points": 1
+    },
+    {
+      "id": "personality_055",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which leadership trait did Lieutenant Colonel Sher Jung Thapa demonstrate during the siege of Skardu?",
+      "options": {
+        "a": "Knowledge and Judgment",
+        "b": "Courage and Endurance",
+        "c": "Initiative and Decisiveness",
+        "d": "Bearing and Integrity"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Lieutenant Colonel Sher Jung Thapa demonstrated exceptional Courage and Endurance by holding Skardu for six months with minimal supplies against overwhelming odds.",
+      "points": 1
+    },
+    {
+      "id": "personality_056",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the recommended strategy for dealing with visitors who overstay their time during work?",
+      "options": {
+        "a": "Ignore them completely",
+        "b": "Stand up when finishing business",
+        "c": "Have loud arguments",
+        "d": "Complain to their supervisor"
+      },
+      "correct_answer": ["b"],
+      "explanation": "When visitors overstay, standing up at the finish of business signals the end of the meeting without being rude.",
+      "points": 1
+    },
+    {
+      "id": "personality_057",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which component of attitude involves 'the behavior segment that shows desire to act in certain ways'?",
+      "options": {
+        "a": "Cognitive Component",
+        "b": "Affective Component",
+        "c": "Behavioral Component",
+        "d": "Emotional Component"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Behavioral Component involves the desire to behave or act in certain ways based on emotions attached to opinions about people, objects, or situations.",
+      "points": 1
+    },
+    {
+      "id": "personality_058",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the key benefit of delegation in time management?",
+      "options": {
+        "a": "Saves organization's time",
+        "b": "Saves your time and develops subordinates",
+        "c": "Increases your control",
+        "d": "Reduces paperwork"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Delegation saves your time and develops subordinates' initiative, though it doesn't save the organization's time since someone else's time is being used.",
+      "points": 1
+    },
+    {
+      "id": "personality_059",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In interview skills, what should you do at the end of the interview?",
+      "options": {
+        "a": "Ask about salary immediately",
+        "b": "Express gratitude for the opportunity",
+        "c": "Criticize your previous employer",
+        "d": "Leave quickly without ceremony"
+      },
+      "correct_answer": ["b"],
+      "explanation": "At the end of an interview, express gratitude for being given the opportunity and provide additional copies of your resume.",
+      "points": 1
+    },
+    {
+      "id": "personality_060",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What leadership lesson does the story of the counterattack on 'Baldy' demonstrate?",
+      "options": {
+        "a": "Importance of technical knowledge",
+        "b": "Need for detailed planning",
+        "c": "Practice what you preach",
+        "d": "Value of intelligence gathering"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The story demonstrates the importance of practicing what you preach, as the commander who took cover while ordering others to advance lost the battle.",
+      "points": 1
+    },
+    {
+      "id": "personality_061",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which time management tool helps 'break down objectives into manageable daily steps'?",
+      "options": {
+        "a": "Time Log",
+        "b": "Weekly Planning",
+        "c": "Daily Planning",
+        "d": "Delegation"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Daily Planning breaks down the longest journey into single steps, ensuring each day moves you closer to objectives through manageable tasks.",
+      "points": 1
+    },
+    {
+      "id": "personality_062",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What characterizes the 'affective component' of attitude?",
+      "options": {
+        "a": "Beliefs and opinions",
+        "b": "Actions and behaviors",
+        "c": "Emotions and feelings",
+        "d": "Thoughts and perceptions"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Affective Component involves the feeling segment where someone attaches emotions to opinions about people, objects, or situations.",
+      "points": 1
+    },
+    {
+      "id": "personality_063",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In stress management, what technique involves 'looking for five good things around you'?",
+      "options": {
+        "a": "Cognitive Restructuring",
+        "b": "Positive Reframing",
+        "c": "Deep Breathing",
+        "d": "Physical Activity"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Looking for five good things around you helps counter negative thinking by focusing on positive moments and interactions.",
+      "points": 1
+    },
+    {
+      "id": "personality_064",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which leadership trait involves 'the display of genuine interest and zeal in performance of duties'?",
+      "options": {
+        "a": "Initiative",
+        "b": "Enthusiasm",
+        "c": "Dependability",
+        "d": "Alertness"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Enthusiasm is the display of genuine interest and zeal in performance of duties, coming from liking your job and seeing development possibilities.",
+      "points": 1
+    },
+    {
+      "id": "personality_065",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary cause of work-family conflict according to the lesson?",
+      "options": {
+        "a": "Lack of company policies",
+        "b": "Performing multiple roles simultaneously",
+        "c": "Inadequate childcare facilities",
+        "d": "Long working hours only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Work-family conflict occurs when individuals have to perform multiple roles: worker, spouse/partner, and often parent simultaneously.",
+      "points": 1
+    },
+    {
+      "id": "personality_066",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In group dynamics, what is an 'effective group' characterized by?",
+      "options": {
+        "a": "Dependence on strong leader",
+        "b": "Shared goals and free communication",
+        "c": "Avoidance of all conflict",
+        "d": "Strict hierarchical structure"
+      },
+      "correct_answer": ["b"],
+      "explanation": "An effective group has shared goals, supports agreed procedures, communicates freely, and deals constructively with conflict.",
+      "points": 1
+    },
+    {
+      "id": "personality_067",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which principle of time management emphasizes 'making the best use of your most productive hours'?",
+      "options": {
+        "a": "Manage Your Health",
+        "b": "Make Best Use of Your Best Time",
+        "c": "Concentrate on High Return Activities",
+        "d": "Develop Personal Sense of Time"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Making the Best Use of Your Best Time means programming your day so highest-grade activities get your peak mental alertness periods.",
+      "points": 1
+    },
+    {
+      "id": "personality_068",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What type of conflict occurs 'when two people have incompatible needs, goals or approaches in their relationship'?",
+      "options": {
+        "a": "Intergroup Conflict",
+        "b": "Role Conflict",
+        "c": "Interpersonal Conflict",
+        "d": "International Conflict"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Interpersonal Conflict occurs when two people have incompatible needs, goals or approaches in their relationship, often involving communication breakdown.",
+      "points": 1
+    },
+    {
+      "id": "personality_069",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In negotiation skills, what does 'being willing to compromise' demonstrate?",
+      "options": {
+        "a": "Weakness",
+        "b": "Rigid thinking",
+        "c": "Win-win philosophy",
+        "d": "Lack of preparation"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Being willing to compromise demonstrates a win-win philosophy where negotiation and compromise are synonymous for mutual benefit.",
+      "points": 1
+    },
+    {
+      "id": "personality_070",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What leadership trait involves 'the ability to remain unperturbed in crisis and think rationally when others are paralyzed'?",
+      "options": {
+        "a": "Courage",
+        "b": "Decisiveness",
+        "c": "Endurance",
+        "d": "Judgment"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Decisiveness involves the ability to remain unperturbed in crisis and think rationally when others have ceased to think, being decisive when others are paralyzed by fear.",
+      "points": 1
+    },
+    {
+      "id": "personality_071",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which time management strategy involves 'blocking appointments with yourself for high-priority activities'?",
+      "options": {
+        "a": "Daily Planning",
+        "b": "Weekly Planning",
+        "c": "Time Log",
+        "d": "Delegation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Weekly Planning involves blocking appointments with yourself in controllable time for proactive activities you've decided are high priorities.",
+      "points": 1
+    },
+    {
+      "id": "personality_072",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the key difference between sympathy and empathy?",
+      "options": {
+        "a": "Sympathy involves understanding, empathy involves feeling sorry",
+        "b": "They are exactly the same",
+        "c": "Empathy involves understanding, sympathy involves feeling sorry",
+        "d": "Sympathy is for friends, empathy for strangers"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Empathy involves understanding another's situation and feelings, while sympathy involves feeling sorry or pity for someone.",
+      "points": 1
+    },
+    {
+      "id": "personality_073",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In stress management, what technique involves 'expressing feelings rather than bottling them up'?",
+      "options": {
+        "a": "Take Deep Breath",
+        "b": "Talk It Out",
+        "c": "Move",
+        "d": "Take A Break"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Talking It Out involves expressing feelings when stressed, as bottling up feelings increases stress while sharing can provide new perspectives.",
+      "points": 1
+    },
+    {
+      "id": "personality_074",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which leadership trait involves 'setting high standards and carrying out instructions to the best of ability on time'?",
+      "options": {
+        "a": "Initiative",
+        "b": "Dependability",
+        "c": "Loyalty",
+        "d": "Knowledge"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Dependability involves setting high standards, carrying out instructions to the best of ability always on time, and being ready to help in emergencies.",
+      "points": 1
+    },
+    {
+      "id": "personality_075",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the ultimate benefit of teamwork according to the lesson?",
+      "options": {
+        "a": "Faster individual accomplishment",
+        "b": "Group synergy achieving uncommon results",
+        "c": "Reduced personal responsibility",
+        "d": "Simplified decision making"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Teamwork provides group synergy where common people attain uncommon results through combined contributions that achieve more than individuals working alone.",
+      "points": 1
+    },
+    {
+      "id": "personality_076",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which influencing skill involves 'active listening and asking probing questions to involve the other person in discussion'?",
+      "options": {
+        "a": "Building Rapport",
+        "b": "Probing and Listening",
+        "c": "Selling",
+        "d": "Assertiveness"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Probing and Listening involves active listening and asking questions to encourage the other person to think through your rationale and participate actively in the discussion.",
+      "points": 1
+    },
+    {
+      "id": "personality_077",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "According to body language research, what percentage of human communication consists of body language and paralinguistic cues?",
+      "options": {
+        "a": "30-40%",
+        "b": "50-60%",
+        "c": "60-70%",
+        "d": "80-90%"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Research suggests that between 60-70% of all meaning is derived from nonverbal behavior, with some experts like James Borg claiming up to 93%.",
+      "points": 1
+    },
+    {
+      "id": "personality_078",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'social distance' in personal space according to body language studies?",
+      "options": {
+        "a": "Touching to 18 inches",
+        "b": "18 inches to 4 feet",
+        "c": "4 to 8 feet",
+        "d": "More than 8 feet"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Social distance ranges from 4 to 8 feet away and is reserved for strangers, newly formed groups, and new acquaintances.",
+      "points": 1
+    },
+    {
+      "id": "personality_079",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which law of influence states that 'items are more valuable when their availability is limited'?",
+      "options": {
+        "a": "Law of Reciprocity",
+        "b": "Law of Scarcity",
+        "c": "Law of Authority",
+        "d": "Law of Liking"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Law of Scarcity states that items are more valuable to us when their availability is limited, as scarcity determines perceived value.",
+      "points": 1
+    },
+    {
+      "id": "personality_080",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What does 'sign posting' refer to in building rapport during influencing?",
+      "options": {
+        "a": "Using road signs in conversation",
+        "b": "Stating clear intentions before speaking",
+        "c": "Following the other person's directions",
+        "d": "Making hand signals while talking"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Sign posting involves clearly stating the intention of what you're about to say so the other person is prepared and can focus on your meaning.",
+      "points": 1
+    },
+    {
+      "id": "personality_081",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In body language, what does looking right and up generally indicate?",
+      "options": {
+        "a": "Recalling memories",
+        "b": "Visual imagining or fabrication",
+        "c": "Accessing feelings",
+        "d": "Self-talking"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Looking right and up typically indicates visual imagining, fabrication, or lying, as opposed to looking left and up which suggests recalling actual images.",
+      "points": 1
+    },
+    {
+      "id": "personality_082",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which type of etiquette refers to 'how an individual should behave while at work'?",
+      "options": {
+        "a": "Social Etiquette",
+        "b": "Corporate Etiquette",
+        "c": "Wedding Etiquette",
+        "d": "Business Etiquette"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Corporate Etiquette refers to how an individual should behave while at work, maintaining organizational decorum and professionalism.",
+      "points": 1
+    },
+    {
+      "id": "personality_083",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the 'Law of Reciprocity' in influence suggest?",
+      "options": {
+        "a": "People follow authority figures",
+        "b": "People return favors when given something",
+        "c": "People imitate similar others",
+        "d": "Limited availability increases value"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Law of Reciprocity states that if you give something to people, they feel compelled to return the favor, creating a sense of obligation.",
+      "points": 1
+    },
+    {
+      "id": "personality_084",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In body language, what does a 'tight-lipped smile' typically indicate?",
+      "options": {
+        "a": "Genuine happiness",
+        "b": "Secrecy or withheld feelings",
+        "c": "Playfulness",
+        "d": "Mixed feelings"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A tight-lipped smile usually indicates secrecy or withheld feelings, unlike a genuine smile that involves the whole face.",
+      "points": 1
+    },
+    {
+      "id": "personality_085",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which social skill involves 'striking a balance between being too shy and too outgoing'?",
+      "options": {
+        "a": "Being Responsible",
+        "b": "Being Open & Approachable",
+        "c": "Being Attentive",
+        "d": "Being Cautious"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Being Open & Approachable involves striking a delicate balance between being too shy/withdrawn and too loud/outgoing for effective social interaction.",
+      "points": 1
+    },
+    {
+      "id": "personality_086",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary purpose of 'pacing' in building rapport?",
+      "options": {
+        "a": "To race ahead in conversation",
+        "b": "To assess progress by checking understanding",
+        "c": "To set physical walking pace",
+        "d": "To time the conversation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Pacing involves assessing progress by checking the other person's understanding through questions or summaries, ensuring you don't leave them behind mentally.",
+      "points": 1
+    },
+    {
+      "id": "personality_087",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which value is described as 'uprightness and moral soundness'?",
+      "options": {
+        "a": "Honesty",
+        "b": "Integrity",
+        "c": "Purity",
+        "d": "Discipline"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Integrity refers to uprightness and moral soundness, maintaining strong moral principles in all situations.",
+      "points": 1
+    },
+    {
+      "id": "personality_088",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In body language, what does crossed arms typically indicate?",
+      "options": {
+        "a": "Openness and receptivity",
+        "b": "Defensiveness or reluctance",
+        "c": "Confidence and authority",
+        "d": "Relaxation and comfort"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Crossed arms generally indicate defensiveness, reluctance, or creating a barrier, though context and cultural factors should be considered.",
+      "points": 1
+    },
+    {
+      "id": "personality_089",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which law of influence is based on 'people following those who are similar to them'?",
+      "options": {
+        "a": "Law of Authority",
+        "b": "Law of Liking",
+        "c": "Law of Social Proof",
+        "d": "Law of Commitment"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Law of Liking states we're more inclined to follow people who are similar to us in dress, age, background, or interests.",
+      "points": 1
+    },
+    {
+      "id": "personality_090",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is described as 'a code of behaviour that delineates expectations for social behavior'?",
+      "options": {
+        "a": "Mannerism",
+        "b": "Etiquette",
+        "c": "Values",
+        "d": "Ethics"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Etiquette is a code of behaviour that outlines expectations for social behavior according to contemporary conventional norms within a society.",
+      "points": 1
+    },
+    {
+      "id": "personality_091",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In influencing skills, what does the 'selling' approach primarily focus on?",
+      "options": {
+        "a": "Forcing products on people",
+        "b": "Linking your proposal to the other person's needs",
+        "c": "Using aggressive sales tactics",
+        "d": "Discounting prices"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Selling in influencing focuses on finding what's important to the other person and gearing your discussion to things that attract them and serve their needs.",
+      "points": 1
+    },
+    {
+      "id": "personality_092",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which personal space distance is reserved for 'lovers, children, and close family members'?",
+      "options": {
+        "a": "Intimate Distance",
+        "b": "Personal Distance",
+        "c": "Social Distance",
+        "d": "Public Distance"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Intimate distance ranges from touching to about 18 inches and is reserved for lovers, children, close family members and friends.",
+      "points": 1
+    },
+    {
+      "id": "personality_093",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the 'broken record' technique in assertiveness?",
+      "options": {
+        "a": "Playing damaged records",
+        "b": "Repeating a point with variation",
+        "c": "Breaking things when angry",
+        "d": "Recording conversations"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 'broken record' technique involves repeating a point several times with slight variation to stay focused and calm during difficult situations.",
+      "points": 1
+    },
+    {
+      "id": "personality_094",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which value involves 'unselfishness and rising above self-centered individualism'?",
+      "options": {
+        "a": "Loyalty",
+        "b": "Selflessness",
+        "c": "Fairness",
+        "d": "Trust"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Selflessness involves unselfishness and rising above selfish or self-centered individualism, often involving self-sacrifice for others.",
+      "points": 1
+    },
+    {
+      "id": "personality_095",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In body language, what does direct eye contact typically indicate when listening?",
+      "options": {
+        "a": "Aggression",
+        "b": "Dishonesty",
+        "c": "Attentiveness and interest",
+        "d": "Boredom"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Direct eye contact when listening typically indicates attentiveness, interest, and attraction to what the speaker is saying.",
+      "points": 1
+    },
+    {
+      "id": "personality_096",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which social skill emphasizes 'being an attentive listener rather than constantly talking'?",
+      "options": {
+        "a": "Be Yourself",
+        "b": "Be Responsible",
+        "c": "Be Attentive",
+        "d": "Be Polite"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Being Attentive focuses on the art of listening as a stepping stone for conversation, recognizing that everyone wants to talk but few listen properly.",
+      "points": 1
+    },
+    {
+      "id": "personality_097",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the 'Law of Social Proof' in influence suggest?",
+      "options": {
+        "a": "Experts are always right",
+        "b": "People return favors",
+        "c": "We follow what others are doing",
+        "d": "Scarcity increases value"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Law of Social Proof states we view behavior as more correct the more we see others performing it, leading to herd behavior.",
+      "points": 1
+    },
+    {
+      "id": "personality_098",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which type of etiquette refers to 'styles needed when attending meetings or presentations'?",
+      "options": {
+        "a": "Telephone Etiquette",
+        "b": "Meeting Etiquette",
+        "c": "Eating Etiquette",
+        "d": "Bathroom Etiquette"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Meeting Etiquette refers to styles one needs to adopt when attending meetings, seminars, presentations, including listening and taking notes.",
+      "points": 1
+    },
+    {
+      "id": "personality_099",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In body language, what does a 'thumb(s) up' gesture typically indicate?",
+      "options": {
+        "a": "Disapproval",
+        "b": "Positive approval",
+        "c": "Aggression",
+        "d": "Uncertainty"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Thumb(s) up typically indicates positive approval, agreement, or that all is well, though cultural context should be considered.",
+      "points": 1
+    },
+    {
+      "id": "personality_100",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the ultimate goal of practicing good etiquette and mannerisms according to the lesson?",
+      "options": {
+        "a": "To show off wealth and status",
+        "b": "To make others uncomfortable",
+        "c": "To create comfort for people concerned",
+        "d": "To follow rigid rules blindly"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The ultimate goal of etiquette is the comfort of the people concerned, not just following rules for their own sake.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 100,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "introduction",
+  "language": "en",
+  "title": "NCC Introduction - Aims, Organization and Incentives",
+  "description": "Comprehensive test on NCC history, aims, organization structure, training activities, and cadet incentives",
+  "questions": [
+    {
+      "id": "ncc_intro_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "When was the NCC formally inaugurated in India?",
+      "options": {
+        "a": "15 August 1947",
+        "b": "16 April 1948",
+        "c": "15 July 1948",
+        "d": "26 January 1950"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC was formally inaugurated on 15 July 1948, after the schools and colleges reopened after summer vacation.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the motto of NCC?",
+      "options": {
+        "a": "Service Before Self",
+        "b": "Unity and Discipline",
+        "c": "Truth and Courage",
+        "d": "Nation First"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The motto of NCC is 'Unity and Discipline' which reflects the core values of the organization.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT one of the main aims of NCC?",
+      "options": {
+        "a": "Development of Character and Comradeship",
+        "b": "To provide leadership in all walks of life",
+        "c": "To create professional sports persons",
+        "d": "To motivate youth for Armed Forces careers"
+      },
+      "correct_answer": ["c"],
+      "explanation": "While sportsmanship is encouraged, creating professional sports persons is not a main aim of NCC. The aims focus on character building, leadership, and motivating youth for national service.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "When was the Naval Wing of NCC raised?",
+      "options": {
+        "a": "July 1949",
+        "b": "April 1950",
+        "c": "July 1952",
+        "d": "January 1955"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Naval Wing of NCC was raised in July 1952, completing the representation of all three services in the Corps.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How many Directorates does NCC have across India?",
+      "options": {
+        "a": "12",
+        "b": "15",
+        "c": "17",
+        "d": "20"
+      },
+      "correct_answer": ["c"],
+      "explanation": "There are 17 Directorates located in state capitals, headed by officers of Major General/Brigadier rank or equivalent.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the current approximate enrolled strength of NCC cadets?",
+      "options": {
+        "a": "Over 5 lakhs",
+        "b": "Over 8 lakhs",
+        "c": "Over 13 lakhs",
+        "d": "Over 20 lakhs"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC has an enrolled strength of more than 13 Lakh cadets comprising Senior and Junior divisions for college and school students.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a Centrally Organised Camp (COC) in NCC?",
+      "options": {
+        "a": "Annual Training Camp",
+        "b": "Basic Leadership Camp",
+        "c": "Institutional Training",
+        "d": "Weekly Parade"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Leadership Camps (Basic and Advance) are Centrally Organised Camps planned by HQ DG NCC for all-India participation.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_008",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many seats are reserved for NCC 'C' certificate holders at IMA per year?",
+      "options": {
+        "a": "32 seats",
+        "b": "64 seats",
+        "c": "100 seats",
+        "d": "128 seats"
+      },
+      "correct_answer": ["b"],
+      "explanation": "64 seats per year are reserved at Indian Military Academy (IMA) for NCC 'C' certificate holders as officers.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the duration of Annual Training Camps for senior division cadets?",
+      "options": {
+        "a": "7 days",
+        "b": "10 days",
+        "c": "12 days",
+        "d": "15 days"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Annual Training Camps are of 12 days duration for senior boys/girls and 10 days for junior boys/girls.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization provides financial assistance to cadets in case of injuries during NCC activities?",
+      "options": {
+        "a": "NDRF",
+        "b": "CWS",
+        "c": "SSB",
+        "d": "UPSC"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Cadet Welfare Society (CWS) provides financial assistance and relief to cadets for injuries during NCC activities.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_011",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What percentage of vacancies in Air Force courses are reserved for NCC 'C' certificate holders?",
+      "options": {
+        "a": "5%",
+        "b": "10%",
+        "c": "15%",
+        "d": "20%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "10% vacancies in all Air Force courses are reserved for NCC 'C' certificate holders through Air Force SSB.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which training involves attachment with army/naval/air force units?",
+      "options": {
+        "a": "Institutional Training",
+        "b": "Camp Training",
+        "c": "Attachment Training",
+        "d": "Adventure Training"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Attachment Training is formal training organized by attachment with armed forces units or officer training academies.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main objective of Youth Exchange Programme (YEP)?",
+      "options": {
+        "a": "To provide foreign education",
+        "b": "To interact with youths of friendly foreign countries",
+        "c": "To train for international sports",
+        "d": "To learn foreign languages"
+      },
+      "correct_answer": ["b"],
+      "explanation": "YEP sends selected cadets to friendly foreign countries for 10-day visits to promote international understanding.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_014",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which of these states provides reservation in police department for NCC certificate holders?",
+      "options": {
+        "a": "Delhi",
+        "b": "Gujarat",
+        "c": "Jammu & Kashmir",
+        "d": "Mizoram"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Jammu & Kashmir reserves 10% or one post (whichever higher) in non-gazetted police services for NCC 'C' certificate holders.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the rank of the officer heading the DG NCC at headquarters?",
+      "options": {
+        "a": "Major General",
+        "b": "Lieutenant General",
+        "c": "Brigadier",
+        "d": "Colonel"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The NCC organization at headquarters is headed by an officer of Lieutenant General rank as Director General.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_016",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which training activity includes mountaineering, sailing, and trekking?",
+      "options": {
+        "a": "Institutional Training",
+        "b": "Camp Training",
+        "c": "Attachment Training",
+        "d": "Adventure Training"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Adventure Training includes activities like mountaineering, sailing, para sailing, rafting, trekking, and expeditions.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What benefit do NCC cadets get for recruitment in ranks of armed forces?",
+      "options": {
+        "a": "Direct entry without tests",
+        "b": "5-10% bonus marks",
+        "c": "Higher starting salary",
+        "d": "Quick promotions"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NCC cadets get 5-10% bonus marks for recruitment in ranks in Army, Navy and Air Force.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Where are Associate NCC Officers (ANOs) trained?",
+      "options": {
+        "a": "Indian Military Academy",
+        "b": "Officers Training School, Kamptee",
+        "c": "National Defence Academy",
+        "d": "Service Selection Board"
+      },
+      "correct_answer": ["b"],
+      "explanation": "ANO training is conducted at Officers Training School, Kamptee and Women Officers Training School, Gwalior.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is NOT a type of NCC staff?",
+      "options": {
+        "a": "Whole Time Lady Officers",
+        "b": "Associate NCC Officers",
+        "c": "Civilian Gliding Instructors",
+        "d": "Regular University Professors"
+      },
+      "correct_answer": ["d"],
+      "explanation": "NCC staff includes Regular officers, WTLOs, ANOs, GCIs, PI Staff, Civilian Gliding Instructors and Civilian Staff - but not regular university professors.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What was the original name of the NCC before independence?",
+      "options": {
+        "a": "National Cadet Force",
+        "b": "University Corps",
+        "c": "Youth Training Corps",
+        "d": "Student Defence Force"
+      },
+      "correct_answer": ["b"],
+      "explanation": "During First World War, Britishers created University Corps as second line of defence, which later evolved into NCC.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which ministry administers the NCC organization?",
+      "options": {
+        "a": "Ministry of Education",
+        "b": "Ministry of Youth Affairs",
+        "c": "Ministry of Defence",
+        "d": "Ministry of Home Affairs"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC is administered through Ministry of Defence, with Defence Secretary being overall in charge.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_022",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of National Integration Camps (NIC)?",
+      "options": {
+        "a": "To train for international competitions",
+        "b": "To promote secularism and national unity",
+        "c": "To prepare for Republic Day Parade",
+        "d": "To conduct military training"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NICs instill spirit of secularism and united India by bringing together cadets from across the country.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_023",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many Group Headquarters does NCC have across India?",
+      "options": {
+        "a": "67",
+        "b": "85",
+        "c": "95",
+        "d": "105"
+      },
+      "correct_answer": ["c"],
+      "explanation": "There are 95 Group Headquarters in India that exercise control over a network of Army, Naval and Air Force units.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_024",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which certificate is required for getting direct entry to SSB interview for officer commission?",
+      "options": {
+        "a": "A Certificate",
+        "b": "B Certificate",
+        "c": "C Certificate",
+        "d": "All of the above"
+      },
+      "correct_answer": ["c"],
+      "explanation": "'C' Certificate holders get direct entry to SSB interviews without UPSC written exams for officer commissions.",
+      "points": 1
+    },
+    {
+      "id": "ncc_intro_025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What activity is specifically mentioned for Remount & Veterinary units?",
+      "options": {
+        "a": "Swimming training",
+        "b": "Horsemanship and riding",
+        "c": "First aid training",
+        "d": "Weapon training"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Remount & Veterinary activities are primarily meant for horsemanship and riding training.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

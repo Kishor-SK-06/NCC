@@ -1,0 +1,235 @@
+/* About Page Custom Styles */
+
+/* Achievements Section Styles */
+        .achievements-section {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 25px;
+            border-left: 4px solid #d4af37;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .achievements-title {
+            color: #1a365d;
+            font-weight: 700;
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .achievements-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 2px;
+            background: linear-gradient(90deg, #d4af37, #e53e3e);
+        }
+        
+        .achievement-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            padding: 12px 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            border-left: 3px solid #1a365d;
+        }
+        
+        .achievement-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .achievement-icon {
+            width: 35px;
+            height: 35px;
+            background: linear-gradient(135deg, #1a365d, #2d3748);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: white;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+        
+        .achievement-text {
+            flex: 1;
+        }
+        
+        .achievement-text h6 {
+            color: #1a365d;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .achievement-text p {
+            color: #666;
+            font-size: 0.9rem;
+            margin: 0;
+            line-height: 1.4;
+        }
+        .about-hero {
+            background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+            color: white;
+            padding: 80px 0 40px;
+            margin-bottom: 60px;
+        }
+        
+        .profile-section {
+            margin-top: -100px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .profile-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .profile-image {
+            height: 400px;
+            background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .profile-card:hover .profile-image img {
+            transform: scale(1.05);
+        }
+        
+        .profile-content {
+            padding: 40px;
+        }
+        
+        .detail-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .detail-item:hover {
+            background: #e9ecef;
+            transform: translateX(10px);
+        }
+        
+        .detail-icon {
+            width: 50px;
+            height: 50px;
+            background: #0d6efd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #0d6efd, #0a58ca);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .skill-bar {
+            background: #e9ecef;
+            border-radius: 10px;
+            height: 8px;
+            margin: 15px 0;
+            overflow: hidden;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(90deg, #0d6efd, #0a58ca);
+            border-radius: 10px;
+            transition: width 2s ease;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .social-link {
+            width: 45px;
+            height: 45px;
+            background: #0d6efd;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link:hover {
+            background: #0a58ca;
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            .profile-section {
+                margin-top: -50px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .profile-content {
+                padding: 25px;
+            }
+        }

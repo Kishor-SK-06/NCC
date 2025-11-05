@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "damage_control",
+  "language": "en",
+  "title": "Fire Fighting, Flooding and Damage Control",
+  "description": "Comprehensive test on fire classification, extinguishers, damage control procedures, and emergency response protocols",
+  "questions": [
+    {
+      "id": "ffdc_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What are the three essential components required for fire to exist?",
+      "options": {
+        "a": "Smoke, Flame, Heat",
+        "b": "Fuel, Heat, Oxygen",
+        "c": "Spark, Fuel, Air",
+        "d": "Wood, Fire, Air"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Fire depends on three things being present together: Fuel or inflammable materials, Heat, and Oxygen - known as the Fire Triangle.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which class of fire involves combustible metals?",
+      "options": {
+        "a": "Class A - General Fire",
+        "b": "Class B - Oil Fire",
+        "c": "Class C - Gaseous Fire",
+        "d": "Class D - Metallic Fire"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Class D fire involves metallic fires from combustible metals like magnesium, sodium, or potassium.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does AFFF stand for in fire fighting equipment?",
+      "options": {
+        "a": "Advanced Fire Fighting Foam",
+        "b": "Aqueous Film Forming Foam",
+        "c": "Automatic Fire Fighting Fluid",
+        "d": "Accelerated Fire Foam Formula"
+      },
+      "correct_answer": ["b"],
+      "explanation": "AFFF stands for 'Aqueous Film Forming Foam' - a type of fire extinguisher used in naval applications.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What color is the 9 Ltrs AFFF Extinguisher painted?",
+      "options": {
+        "a": "Black",
+        "b": "Blue",
+        "c": "Bright Red",
+        "d": "Yellow"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The 9 Ltrs AFFF Extinguisher is painted bright red and can extinguish both general and oil fires.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which fire extinguisher is specifically used against electrical fires?",
+      "options": {
+        "a": "9 Ltrs AFFF Extinguisher",
+        "b": "2 Kg CO2 Extinguisher",
+        "c": "10 Kg Dry Chemical Powder Extinguisher",
+        "d": "PD 12 Dry Chemical Powder Extinguisher"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 2 Kg CO2 Extinguisher (painted black) is used against electrical fires as CO2 doesn't conduct electricity.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the minimum safe distance to maintain from electrical fire when using AFFF extinguisher on 440V supply?",
+      "options": {
+        "a": "0.5 metres",
+        "b": "1.0 metre",
+        "c": "1.8 metres",
+        "d": "3.0 metres"
+      },
+      "correct_answer": ["c"],
+      "explanation": "AFFF can be used against electrical fires up to 440V provided the nozzle is kept 1.8 metres away from the electrical fire.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which principle of fire fighting involves cutting off air supply?",
+      "options": {
+        "a": "Cooling",
+        "b": "Starving",
+        "c": "Smothering",
+        "d": "Dousing"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Smothering is the process of cutting off air supply (oxygen) which helps fire, achieved by closing openings or using CO2 systems.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of Damage Control on naval vessels?",
+      "options": {
+        "a": "To improve ship speed",
+        "b": "To enhance weapon systems",
+        "c": "To prevent sinking and maintain operational capability",
+        "d": "To reduce fuel consumption"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Damage control involves emergency control of situations that may hazard the sinking of a ship and maintaining operational capability.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which zone of damage involves complete destruction and immediate flooding?",
+      "options": {
+        "a": "Remote Zone",
+        "b": "Secondary Zone",
+        "c": "Primary Zone",
+        "d": "Containment Zone"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Primary Zone is the immediate vicinity of damage causing complete destruction, with parts below waterline completely flooded.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the 'Red Zone' marking indicate on naval vessels?",
+      "options": {
+        "a": "Medical emergency area",
+        "b": "Weapons storage area",
+        "c": "Area susceptible to immediate flooding or damage",
+        "d": "Officers quarters"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Red Zone marks areas susceptible to immediate flooding, extending from keel above waterline, with red triangle markings on openings.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Under which condition are X, Y, and Z openings all closed?",
+      "options": {
+        "a": "X-Ray",
+        "b": "Yankee",
+        "c": "Zulu",
+        "d": "Alpha"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Zulu condition requires all X, Y, and Z openings to be closed for maximum watertight integrity.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the minimum composition of a search party for rescue operations?",
+      "options": {
+        "a": "1 searcher",
+        "b": "2 searchers",
+        "c": "2+1 searchers",
+        "d": "4 searchers"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Search party minimum composition is 2+1 searchers operating in pairs for safety and effectiveness.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_013",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which device is used for securing cable to buoy in anchorwork?",
+      "options": {
+        "a": "Wooden plugs",
+        "b": "Bottle Screw Slip",
+        "c": "Jubilee clips",
+        "d": "Splinter Box"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Bottle Screw Slip is specifically used for securing cable to buoy in anchor operations.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What should be your immediate action upon discovering smoke issuing from beneath a closed door?",
+      "options": {
+        "a": "Open the door immediately to assess the fire",
+        "b": "Do not open door, raise alarm 'fire fire fire'",
+        "c": "Find a fire extinguisher first",
+        "d": "Check if anyone is inside the compartment"
+      },
+      "correct_answer": ["b"],
+      "explanation": "If smoke is seen from beneath a closed door, do not open it as fire might flare up fiercely. Raise alarm immediately.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which fire extinguisher type is painted blue and used on helo/flight decks?",
+      "options": {
+        "a": "AFFF Extinguisher",
+        "b": "CO2 Extinguisher",
+        "c": "PD 12 Dry Chemical Powder Extinguisher",
+        "d": "Water Type Extinguisher"
+      },
+      "correct_answer": ["c"],
+      "explanation": "PD 12 and PD 25 Dry Chemical Powder Extinguishers are painted blue and used on helicopter/flight decks.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Starving' in fire fighting principles?",
+      "options": {
+        "a": "Reducing temperature by applying water",
+        "b": "Removing inflammable materials from fire vicinity",
+        "c": "Cutting off air supply to the fire",
+        "d": "Using chemical agents to interrupt combustion"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Starving involves removing all inflammable materials in the vicinity so fire doesn't spread and is automatically extinguished.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which of these is NOT mentioned as an everyday fire hazard?",
+      "options": {
+        "a": "Carelessness with naked lights and cigarettes",
+        "b": "Cooking oil left unattended in galley",
+        "c": "Using mobile phones in unauthorized areas",
+        "d": "Private electrical equipment without proper plugs"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The documented hazards include naked lights, cooking oil, electrical equipment, smoking, irons, flammable materials, and power left on.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What does the 'Yankee' condition specify for door operations?",
+      "options": {
+        "a": "Only X openings closed",
+        "b": "X and Y openings closed, Z open",
+        "c": "All openings closed",
+        "d": "Only Z openings closed"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Yankee condition requires X and Y doors closed with Z remaining open. Y can be opened for passage but must be shut immediately.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which equipment is essential for search parties in smoke-filled compartments?",
+      "options": {
+        "a": "BA sets and guide lines",
+        "b": "Fire proximity suits only",
+        "c": "CO2 extinguishers",
+        "d": "Radar equipment"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Search team members don BA sets, carry extension equipment and run guide lines for safety and coordination.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary purpose of watertight control markings?",
+      "options": {
+        "a": "To indicate emergency exits",
+        "b": "To mark electrical panels",
+        "c": "To maintain watertight integrity during flooding",
+        "d": "To identify storage areas"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Watertight control markings maintain watertight integrity by controlling opening of doors/hatches to isolate flooded compartments.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which fire fighting method involves bringing down the temperature?",
+      "options": {
+        "a": "Smothering",
+        "b": "Starving",
+        "c": "Cooling",
+        "d": "Containing"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Cooling is done by bringing down temperature, best achieved with water applied to burning materials (not flames).",
+      "points": 1
+    },
+    {
+      "id": "ffdc_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What type of fire is Class E?",
+      "options": {
+        "a": "General Fire",
+        "b": "Oil Fire",
+        "c": "Gaseous Fire",
+        "d": "Electric Fire"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Class E fire involves electrical fires from electrical equipment and wiring.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which search location is specifically mentioned for casualty search?",
+      "options": {
+        "a": "On top of cabinets",
+        "b": "Fully at deck level",
+        "c": "Inside ventilation ducts",
+        "d": "Above ceiling panels"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Search must include deck level as casualties may crawl to bulkheads and collapse there.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the duration of operation for a 9 Ltrs AFFF extinguisher?",
+      "options": {
+        "a": "30-45 seconds",
+        "b": "60-90 seconds",
+        "c": "120-150 seconds",
+        "d": "180-210 seconds"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 9 Ltrs AFFF extinguisher has an operational duration of 60 to 90 seconds.",
+      "points": 1
+    },
+    {
+      "id": "ffdc_025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which zone experiences shock wave damage from explosions?",
+      "options": {
+        "a": "Primary Zone",
+        "b": "Secondary Zone",
+        "c": "Remote Zone",
+        "d": "Containment Zone"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Remote Zone experiences shock waves traveling through ship structure causing whip and resultant damage/fire.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

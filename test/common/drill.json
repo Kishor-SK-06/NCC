@@ -1,0 +1,763 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "drill",
+  "language": "en",
+  "questions": [
+    {
+      "id": "drill_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What are the three main principles of drill?",
+      "options": {
+        "a": "Speed, Strength, Stamina",
+        "b": "Smartness, Steadiness, Coordination",
+        "c": "Precision, Power, Performance",
+        "d": "Discipline, Dedication, Determination"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The three main principles of drill are Smartness (furti), Steadiness (sthirta), and Coordination (milkar kaam karna).",
+      "points": 1
+    },
+    {
+      "id": "drill_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the standard step length for 'Tez Chal'?",
+      "options": {
+        "a": "24 inches",
+        "b": "30 inches",
+        "c": "36 inches",
+        "d": "42 inches"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The standard step length for 'Tez Chal' is 30 inches with a pace of 116 steps per minute for NCC cadets.",
+      "points": 1
+    },
+    {
+      "id": "drill_003",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which part of the body should move first when turning right?",
+      "options": {
+        "a": "Right shoulder",
+        "b": "Right foot heel",
+        "c": "Left foot toe",
+        "d": "Head and eyes"
+      },
+      "correct_answer": ["b"],
+      "explanation": "When turning right, the movement starts with the right foot heel and left foot toe pivoting to achieve the turn.",
+      "points": 1
+    },
+    {
+      "id": "drill_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Kadwar Sizing' in drill?",
+      "options": {
+        "a": "To arrange cadets by height for better appearance",
+        "b": "To test physical fitness",
+        "c": "To prepare for weapon training",
+        "d": "To practice emergency formations"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Kadwar Sizing arranges cadets by height with tallest on the right and shortest on the left for better visual appearance in ceremonial drill.",
+      "points": 1
+    },
+    {
+      "id": "drill_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In which position are the heels together and toes at 30 degrees?",
+      "options": {
+        "a": "Vishram",
+        "b": "Aram Se",
+        "c": "Savdhan",
+        "d": "Parade Par"
+      },
+      "correct_answer": ["c"],
+      "explanation": "In Savdhan position, heels are together and toes form a 30-degree angle with feet straight and knees braced back.",
+      "points": 1
+    },
+    {
+      "id": "drill_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the correct hand position for 'Vishram'?",
+      "options": {
+        "a": "Both hands behind back, left over right",
+        "b": "Both hands behind back, right over left",
+        "c": "Hands by the side",
+        "d": "Hands on hips"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In Vishram position, both hands are behind the back with right hand over left hand, thumbs interlocked and fingers straight.",
+      "points": 1
+    },
+    {
+      "id": "drill_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How many parts does a word of command have?",
+      "options": {
+        "a": "One",
+        "b": "Two - Cautionary and Executive",
+        "c": "Three - Preparation, Warning, Action",
+        "d": "Four - Alert, Ready, Set, Go"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A word of command has two parts - Cautionary (prepares for action) and Executive (executes the action), with four quick steps between them.",
+      "points": 1
+    },
+    {
+      "id": "drill_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the pace rate for 'Dhire Chal'?",
+      "options": {
+        "a": "50 steps per minute",
+        "b": "70 steps per minute",
+        "c": "90 steps per minute",
+        "d": "110 steps per minute"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Dhire Chal' is performed at 70 steps per minute with a step length of 30 inches, used during VIP inspections.",
+      "points": 1
+    },
+    {
+      "id": "drill_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which drill movement is used to change direction by 180 degrees?",
+      "options": {
+        "a": "Dahine Mud",
+        "b": "Baen Mud",
+        "c": "Piche Mud",
+        "d": "Adha Dahine Mud"
+      },
+      "correct_answer": ["c"],
+      "explanation": "'Piche Mud' is used to change direction by 180 degrees while maintaining the formation.",
+      "points": 1
+    },
+    {
+      "id": "drill_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'Khuli Line Chal' used for?",
+      "options": {
+        "a": "Quick movement",
+        "b": "Weapon inspection and VIP review",
+        "c": "Emergency evacuation",
+        "d": "Night operations"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Khuli Line Chal' is used for weapon inspection and VIP review where cadets need to be spaced out for better visibility.",
+      "points": 1
+    },
+    {
+      "id": "drill_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In rifle drill, what is 'Bagal Shastra' position used for?",
+      "options": {
+        "a": "Firing position",
+        "b": "Marching with rifle",
+        "c": "Saluting senior officers",
+        "d": "Storage of rifle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Bagal Shastra' is used for marching with rifle and during march past in ceremonial parades.",
+      "points": 1
+    },
+    {
+      "id": "drill_012",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the correct angle for the rifle in 'Salami Shastra'?",
+      "options": {
+        "a": "30 degrees",
+        "b": "45 degrees",
+        "c": "60 degrees",
+        "d": "90 degrees"
+      },
+      "correct_answer": ["d"],
+      "explanation": "In 'Salami Shastra', the rifle is held at 90 degrees to the body as the highest form of rifle salute.",
+      "points": 1
+    },
+    {
+      "id": "drill_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is considered a bad habit in drill?",
+      "options": {
+        "a": "Looking straight ahead",
+        "b": "Rolling eyes",
+        "c": "Breathing normally",
+        "d": "Keeping hands still"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Rolling eyes is considered a bad habit in drill along with hopping, dragging feet, clicking heels, and moving fingers.",
+      "points": 1
+    },
+    {
+      "id": "drill_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Tez Kadam Taal'?",
+      "options": {
+        "a": "Combat training",
+        "b": "Correcting alignment and spacing",
+        "c": "Weapon loading practice",
+        "d": "Emergency signaling"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Tez Kadam Taal' is used for correcting alignment, dressing, and spacing between cadets in formation.",
+      "points": 1
+    },
+    {
+      "id": "drill_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In Guard Mounting, who receives the report from the Guard Commander?",
+      "options": {
+        "a": "Orderly Officer",
+        "b": "Quarter Guard",
+        "c": "Duty JCO",
+        "d": "Unit Commander"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The Orderly Officer receives the report 'Guard nirikshan ke lie hazir hai' from the Guard Commander during Guard Mounting ceremony.",
+      "points": 1
+    },
+    {
+      "id": "drill_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the standard distance between cadets in open formation?",
+      "options": {
+        "a": "24 inches",
+        "b": "30 inches",
+        "c": "36 inches",
+        "d": "48 inches"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The standard distance between cadets in open formation is 36 inches from center to center.",
+      "points": 1
+    },
+    {
+      "id": "drill_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which command is used to dismiss a parade temporarily?",
+      "options": {
+        "a": "Visarjan",
+        "b": "Line Tod",
+        "c": "Aram Se",
+        "d": "Fall Out"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Line Tod' is used to dismiss a parade temporarily when they need to fall in again later, without formal dismissal.",
+      "points": 1
+    },
+    {
+      "id": "drill_018",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the correct position of thumbs in Savdhan?",
+      "options": {
+        "a": "Along the seam of trousers",
+        "b": "Across the palm",
+        "c": "Pointing forward",
+        "d": "Curled into fist"
+      },
+      "correct_answer": ["a"],
+      "explanation": "In Savdhan position, thumbs are straight and placed along the seam of the trousers with fingers naturally curled.",
+      "points": 1
+    },
+    {
+      "id": "drill_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which foot steps off first when marching?",
+      "options": {
+        "a": "Left foot",
+        "b": "Right foot",
+        "c": "Depends on the command",
+        "d": "Either foot"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The left foot always steps off first when marching forward from stationary position.",
+      "points": 1
+    },
+    {
+      "id": "drill_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'Nikat Line Chal' used for?",
+      "options": {
+        "a": "Opening out after inspection",
+        "b": "Closing in after inspection",
+        "c": "Quick advance",
+        "d": "Retreat procedure"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Nikat Line Chal' is used to close the formation after inspection when cadets need to come closer together.",
+      "points": 1
+    },
+    {
+      "id": "drill_021",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In rifle drill, what is the purpose of 'Bhumi Shastra'?",
+      "options": {
+        "a": "To fire the rifle",
+        "b": "To ground arms",
+        "c": "To clean the rifle",
+        "d": "To present arms"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Bhumi Shastra' is the command to ground arms or place the rifle on the ground from Savdhan position.",
+      "points": 1
+    },
+    {
+      "id": "drill_022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many cadets form a standard Guard of Honour for the President?",
+      "options": {
+        "a": "50",
+        "b": "100",
+        "c": "150",
+        "d": "200"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A Guard of Honour for the President consists of 150 rank and file personnel formed in three divisions.",
+      "points": 1
+    },
+    {
+      "id": "drill_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the correct response after receiving a word of command?",
+      "options": {
+        "a": "Repeat the command",
+        "b": "Execute immediately",
+        "c": "Wait for confirmation",
+        "d": "Check with neighbor"
+      },
+      "correct_answer": ["b"],
+      "explanation": "After receiving the executive part of a word of command, it should be executed immediately without hesitation.",
+      "points": 1
+    },
+    {
+      "id": "drill_024",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which position allows relaxation while maintaining basic posture?",
+      "options": {
+        "a": "Savdhan",
+        "b": "Vishram",
+        "c": "Aram Se",
+        "d": "Parade Par"
+      },
+      "correct_answer": ["c"],
+      "explanation": "'Aram Se' allows relaxation of the upper body while maintaining foot position and basic posture.",
+      "points": 1
+    },
+    {
+      "id": "drill_025",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of drill in military training?",
+      "options": {
+        "a": "Physical exercise only",
+        "b": "Weapon proficiency",
+        "c": "Discipline and teamwork",
+        "d": "Combat readiness"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The primary purpose of drill is to instill discipline, teamwork, obedience to commands, and collective working spirit.",
+      "points": 1
+    },
+    {
+      "id": "drill_026",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In which year was drill first introduced in armies according to NCC curriculum?",
+      "options": {
+        "a": "1666",
+        "b": "1776",
+        "c": "1857",
+        "d": "1947"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Drill was first introduced in armies by Major General Dral of Germany in 1666 to maintain control and discipline.",
+      "points": 1
+    },
+    {
+      "id": "drill_027",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the correct eye position during drill?",
+      "options": {
+        "a": "Looking at feet",
+        "b": "Looking at commander",
+        "c": "Looking straight ahead",
+        "d": "Looking at sky"
+      },
+      "correct_answer": ["c"],
+      "explanation": "During drill, eyes should look straight ahead with chin up, maintaining an alert and forward-looking posture.",
+      "points": 1
+    },
+    {
+      "id": "drill_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which command is used to form three files from single file?",
+      "options": {
+        "a": "Teen File Ban",
+        "b": "Teenon Teen Ban",
+        "c": "Khuli Line Chal",
+        "d": "Sajja Karo"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Teenon Teen Ban' is the command to form three files from single file formation.",
+      "points": 1
+    },
+    {
+      "id": "drill_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the distance between ranks in close order drill?",
+      "options": {
+        "a": "24 inches",
+        "b": "30 inches",
+        "c": "36 inches",
+        "d": "40 inches"
+      },
+      "correct_answer": ["d"],
+      "explanation": "In close order drill, the distance between ranks is 40 inches from back to chest.",
+      "points": 1
+    },
+    {
+      "id": "drill_030",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT a type of drill?",
+      "options": {
+        "a": "Open Drill",
+        "b": "Close Drill",
+        "c": "Field Drill",
+        "d": "Combat Drill"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The two main types of drill are Open Drill (field) and Close Drill (parade ground). Combat Drill is not classified separately.",
+      "points": 1
+    },
+    {
+      "id": "drill_031",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'Parade Par' command used for?",
+      "options": {
+        "a": "To start the parade",
+        "b": "To dismiss the parade",
+        "c": "To report to officer",
+        "d": "To change formation"
+      },
+      "correct_answer": ["a"],
+      "explanation": "'Parade Par' is used to start the parade and bring troops to the parade ground in an organized manner.",
+      "points": 1
+    },
+    {
+      "id": "drill_032",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In rifle salute, which part should be at eye level?",
+      "options": {
+        "a": "Barrel",
+        "b": "Bayonet",
+        "c": "Fore sight",
+        "d": "Butt"
+      },
+      "correct_answer": ["c"],
+      "explanation": "During rifle salute, the fore sight should be at eye level, about 1 inch above the right eyebrow.",
+      "points": 1
+    },
+    {
+      "id": "drill_033",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the correct way to hold rifle in 'Baju Shastra'?",
+      "options": {
+        "a": "Right hand on pistol grip",
+        "b": "Left hand on barrel",
+        "c": "Both hands on hand guard",
+        "d": "Right hand on butt"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In 'Baju Shastra', the left hand holds the barrel near flash hider in U-shape while right hand holds the hand guard.",
+      "points": 1
+    },
+    {
+      "id": "drill_034",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which VIP receives a National Salute?",
+      "options": {
+        "a": "Prime Minister",
+        "b": "President and State Governors",
+        "c": "Defence Minister",
+        "d": "Chief Ministers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Only the President and State Governors (within their states) receive the National Salute.",
+      "points": 1
+    },
+    {
+      "id": "drill_035",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Dahine/Baen Dekh'?",
+      "options": {
+        "a": "To change direction",
+        "b": "To acknowledge salute",
+        "c": "To inspect troops",
+        "d": "To alert about danger"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Dahine/Baen Dekh' is used to acknowledge a salute while marching past a saluting base.",
+      "points": 1
+    },
+    {
+      "id": "drill_036",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In Guard Mounting, who inspects the rifle?",
+      "options": {
+        "a": "Guard Commander",
+        "b": "Orderly Officer",
+        "c": "Guard NCO",
+        "d": "All of the above"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Orderly Officer inspects each rifle during 'Nirikshan ke liye Janch Shastra' in Guard Mounting ceremony.",
+      "points": 1
+    },
+    {
+      "id": "drill_037",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the correct position for 'Samne Salute'?",
+      "options": {
+        "a": "Palm facing forward",
+        "b": "Palm facing down",
+        "c": "Palm facing left",
+        "d": "Palm facing right"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In 'Samne Salute', the palm faces down with fingers straight and together, thumb along index finger.",
+      "points": 1
+    },
+    {
+      "id": "drill_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which command is given to correct step timing?",
+      "options": {
+        "a": "Kadam Taal",
+        "b": "Kadam Badal",
+        "c": "Tez Chal",
+        "d": "Dhire Chal"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Kadam Badal' is used to correct step timing when a cadet's step is out of synchronization with others.",
+      "points": 1
+    },
+    {
+      "id": "drill_039",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the distance for side step?",
+      "options": {
+        "a": "6 inches",
+        "b": "12 inches",
+        "c": "18 inches",
+        "d": "24 inches"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Side steps (Dahine/Baen Baju Kadam) are 12 inches to the side to adjust alignment.",
+      "points": 1
+    },
+    {
+      "id": "drill_040",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In ceremonial drill, where does the Guard Commander position himself?",
+      "options": {
+        "a": "Left of the guard",
+        "b": "Right of the guard",
+        "c": "Center front of guard",
+        "d": "Behind the guard"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Guard Commander positions himself on the right of the guard formation during ceremonial drill.",
+      "points": 1
+    },
+    {
+      "id": "drill_041",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'Uthao Shastra'?",
+      "options": {
+        "a": "Present arms",
+        "b": "Ground arms",
+        "c": "Take up arms",
+        "d": "Order arms"
+      },
+      "correct_answer": ["c"],
+      "explanation": "'Uthao Shastra' means 'take up arms' - to pick up the rifle from the ground to Savdhan position.",
+      "points": 1
+    },
+    {
+      "id": "drill_042",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many steps are taken before turning during march?",
+      "options": {
+        "a": "1 step",
+        "b": "2 steps",
+        "c": "3 steps",
+        "d": "5 steps"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Generally, three steps are taken to complete a turn while marching to maintain balance and coordination.",
+      "points": 1
+    },
+    {
+      "id": "drill_043",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary quality of a good word of command?",
+      "options": {
+        "a": "Loudness and clarity",
+        "b": "Speed and sharpness",
+        "c": "Length and detail",
+        "d": "Softness and politeness"
+      },
+      "correct_answer": ["a"],
+      "explanation": "A good word of command should have appropriate loudness and perfect clarity to be understood immediately.",
+      "points": 1
+    },
+    {
+      "id": "drill_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which foot is used for the halt?",
+      "options": {
+        "a": "Left foot",
+        "b": "Right foot",
+        "c": "Next foot that touches ground",
+        "d": "Either foot"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The halt is executed on the next foot that touches the ground after the command 'Tham' is given.",
+      "points": 1
+    },
+    {
+      "id": "drill_045",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of instructional practice in drill?",
+      "options": {
+        "a": "To test cadets",
+        "b": "To train new instructors",
+        "c": "To entertain audience",
+        "d": "To practice combat skills"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Instructional practice is used to train new instructors in proper command voice and drill teaching methods.",
+      "points": 1
+    },
+    {
+      "id": "drill_046",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In which position are hands clenched behind back?",
+      "options": {
+        "a": "Savdhan",
+        "b": "Vishram",
+        "c": "Aram Se",
+        "d": "Parade Par"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In Vishram position, hands are clenched behind the back with right hand over left.",
+      "points": 1
+    },
+    {
+      "id": "drill_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the correct response to 'Visarjan'?",
+      "options": {
+        "a": "Turn right and march off",
+        "b": "Turn left and march off",
+        "c": "Stand at ease",
+        "d": "Break ranks immediately"
+      },
+      "correct_answer": ["a"],
+      "explanation": "On 'Visarjan', cadets turn right, salute, take three steps forward and march off formally.",
+      "points": 1
+    },
+    {
+      "id": "drill_048",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is a ceremonial drill?",
+      "options": {
+        "a": "Guard Mounting",
+        "b": "Weapon Training",
+        "c": "Physical Training",
+        "d": "Field Craft"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Guard Mounting is a ceremonial drill, while others are training activities.",
+      "points": 1
+    },
+    {
+      "id": "drill_049",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the correct angle for 'Adha Dahine/Baen Mud'?",
+      "options": {
+        "a": "22.5 degrees",
+        "b": "45 degrees",
+        "c": "67.5 degrees",
+        "d": "90 degrees"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Adha Dahine/Baen Mud' is a 45-degree turn, half of the standard 90-degree turn.",
+      "points": 1
+    },
+    {
+      "id": "drill_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the ultimate test of good drill?",
+      "options": {
+        "a": "Perfect uniform",
+        "b": "Loud shouting",
+        "c": "Coordinated movement",
+        "d": "Individual skill"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The ultimate test of good drill is perfectly coordinated movement where the entire squad moves as one unit.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

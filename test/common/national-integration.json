@@ -1,0 +1,765 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "national-integration",
+  "language": "en",
+  "title": "National Integration - Religions, Culture, Freedom Struggle and Nation Building",
+  "description": "Comprehensive test on India's diversity, freedom movement, national integration challenges, and youth's role in nation building",
+  "questions": [
+    {
+      "id": "ni_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What percentage of India's population comprises Hindus according to the NCC curriculum?",
+      "options": {
+        "a": "78.5%",
+        "b": "83.5%",
+        "c": "85.2%",
+        "d": "80.1%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "As per NCC documentation, Hindus comprise 83.5% of India's population, with Muslims at 0.7%, Christians 2.44%, Sikhs 1.79% and others 1.51%.",
+      "points": 1
+    },
+    {
+      "id": "ni_002",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which race is considered the oldest to reach India according to J.H. Huntton?",
+      "options": {
+        "a": "Proto-Australoid Race",
+        "b": "Negrito Race",
+        "c": "Dravidian Race",
+        "d": "Aryan Race"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Negrito race was the oldest race reaching India, now found only in Andaman Islands. They didn't know advanced skills like stone tools or agriculture.",
+      "points": 1
+    },
+    {
+      "id": "ni_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does Islam literally mean?",
+      "options": {
+        "a": "Peace",
+        "b": "Submission to Allah",
+        "c": "Prayer",
+        "d": "Unity"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Islam means 'Submission' or resignation to Allah (God). Muslims bear witness to God's oneness and follow five daily prayers with weekly Juma prayer.",
+      "points": 1
+    },
+    {
+      "id": "ni_004",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which race introduced the festivals of Holi and Basant to India?",
+      "options": {
+        "a": "Aryan Race",
+        "b": "Dravidian Race",
+        "c": "Muslim Race",
+        "d": "Proto-Australoid Race"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Dravidian race gave India festivals like Holi and Basant, along with introducing new Gods and methods of worship including idol worship.",
+      "points": 1
+    },
+    {
+      "id": "ni_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the core meaning of National Integration?",
+      "options": {
+        "a": "Uniformity in religion and culture",
+        "b": "Feeling of togetherness and unity among people",
+        "c": "Elimination of regional languages",
+        "d": "Single religion for entire nation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "National integration means a feeling of togetherness and unity among people of a country, where all citizens live together peacefully irrespective of caste, religion and region.",
+      "points": 1
+    },
+    {
+      "id": "ni_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is NOT mentioned as a necessity for National Integration?",
+      "options": {
+        "a": "Maintenance of sovereignty",
+        "b": "Growth and development of nation",
+        "c": "Imposing single language",
+        "d": "Eradication of poverty and illiteracy"
+      },
+      "correct_answer": ["c"],
+      "explanation": "National integration necessities include sovereignty maintenance, peace, development, poverty eradication - but not imposing single language, rather respecting diversity.",
+      "points": 1
+    },
+    {
+      "id": "ni_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What immediate cause triggered the 1857 Revolt?",
+      "options": {
+        "a": "Introduction of zamindari system",
+        "b": "Greased cartridges with cow and pig fat",
+        "c": "Annexation of Indian states",
+        "d": "Economic exploitation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The immediate trigger was the introduction of new cartridges greased with cow and pig fat, which offended religious sentiments of both Hindu and Muslim soldiers.",
+      "points": 1
+    },
+    {
+      "id": "ni_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Who founded the Brahmo Samaj in 1828?",
+      "options": {
+        "a": "Swami Vivekananda",
+        "b": "Raja Rammohan Roy",
+        "c": "Ishwar Chandra Vidyasagar",
+        "d": "Bankim Chandra"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Raja Rammohan Roy founded Brahmo Samaj to purge society of evils like sati, child marriage and promote widow marriage and women's education.",
+      "points": 1
+    },
+    {
+      "id": "ni_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Where was the first session of Indian National Congress held?",
+      "options": {
+        "a": "Calcutta",
+        "b": "Bombay",
+        "c": "Madras",
+        "d": "Delhi"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The first session of INC was held in Bombay in December 1885 under presidentship of Womesh Chandra Banerjee, organized with help of A.O. Hume.",
+      "points": 1
+    },
+    {
+      "id": "ni_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What was the unique feature of Gandhi's non-violent agitation called?",
+      "options": {
+        "a": "Ahimsa",
+        "b": "Swaraj",
+        "c": "Satyagraha",
+        "d": "Swadeshi"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Gandhi called his novel technique of non-violent agitation 'Satyagraha', loosely translated as 'moral domination', emphasizing tolerance and brotherhood.",
+      "points": 1
+    },
+    {
+      "id": "ni_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which national interest refers to being autonomous and independent?",
+      "options": {
+        "a": "Integrity",
+        "b": "Sovereignty",
+        "c": "Unity",
+        "d": "Security"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Sovereignty is the foremost national interest meaning being autonomous and independent, while integrity means being indivisible with defined territory.",
+      "points": 1
+    },
+    {
+      "id": "ni_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main threat posed by regionalism?",
+      "options": {
+        "a": "Economic inequality",
+        "b": "Giving more importance to one's region than nation",
+        "c": "Religious conflicts",
+        "d": "Language imposition"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Regionalism gives more importance to one's own region than to one's nation, creating parochialism and regional interests over national interests.",
+      "points": 1
+    },
+    {
+      "id": "ni_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which problem arises from excessive affinity to one's religion transforming into hatred towards others?",
+      "options": {
+        "a": "Casteism",
+        "b": "Communalism",
+        "c": "Regionalism",
+        "d": "Linguistic Fanaticism"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Communalism occurs when excessive affinity to one's religion transforms into hatred towards other religions, leading to religious fanaticism.",
+      "points": 1
+    },
+    {
+      "id": "ni_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is considered an essential tool for achieving national unity through mass education?",
+      "options": {
+        "a": "Radio and TV",
+        "b": "Social Media",
+        "c": "Newspapers",
+        "d": "Political Speeches"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Radio and TV services must be intelligently used to introduce people of different states to each other's cultures and stress common elements.",
+      "points": 1
+    },
+    {
+      "id": "ni_015",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does 'Unity in Diversity' in India primarily represent?",
+      "options": {
+        "a": "Uniform culture across India",
+        "b": "Different cultures united under one nation",
+        "c": "Single religion with different practices",
+        "d": "One language with different dialects"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Unity in Diversity represents different cultures, religions, languages and traditions united under one nation, held together by common territory and history.",
+      "points": 1
+    },
+    {
+      "id": "ni_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which fundamental of national unity addresses the issue of caste discrimination?",
+      "options": {
+        "a": "Language",
+        "b": "Education",
+        "c": "Casteism",
+        "d": "Regionalism"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Casteism addresses the discrimination where upper caste hatred for lower caste threatens India's unity and should be tackled with strict measures.",
+      "points": 1
+    },
+    {
+      "id": "ni_017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How does NCC primarily contribute to national integration?",
+      "options": {
+        "a": "Through military training",
+        "b": "By organizing cultural shows",
+        "c": "Creating awareness about diverse heritage",
+        "d": "Teaching foreign languages"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC creates awareness about India's diverse heritage and fosters integration despite linguistic, cultural, religious barriers through camps and group activities.",
+      "points": 1
+    },
+    {
+      "id": "ni_018",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Who chairs the National Integration Council?",
+      "options": {
+        "a": "Home Minister",
+        "b": "Prime Minister",
+        "c": "President",
+        "d": "Defence Minister"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The National Integration Council is chaired by the Prime Minister, with 147 members including Union Ministers, Chief Ministers, and various representatives.",
+      "points": 1
+    },
+    {
+      "id": "ni_019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "When was the National Integration Council first established?",
+      "options": {
+        "a": "1961",
+        "b": "1962",
+        "c": "1947",
+        "d": "1950"
+      },
+      "correct_answer": ["a"],
+      "explanation": "NIC originated in a conference convened by Prime Minister Jawaharlal Nehru in September-October 1961 to address communalism, casteism and regionalism.",
+      "points": 1
+    },
+    {
+      "id": "ni_020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is one of the key agenda points discussed in the 15th NIC meeting?",
+      "options": {
+        "a": "Space exploration",
+        "b": "Foreign policy",
+        "c": "Ending alienation among minorities",
+        "d": "Nuclear weapons"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The 15th NIC meeting emphasized ending pervasive feeling of alienation among minorities and marginalized sections, promoting inclusiveness and social equity.",
+      "points": 1
+    },
+    {
+      "id": "ni_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What role do images and slogans play in national integration?",
+      "options": {
+        "a": "Political propaganda",
+        "b": "Commercial advertising",
+        "c": "Lasting impression on minds",
+        "d": "Religious promotion"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Images and slogans have lasting impression on people's minds, making them effective tools for promoting national integration and social messages.",
+      "points": 1
+    },
+    {
+      "id": "ni_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Why are youth considered important for nation building?",
+      "options": {
+        "a": "They are future taxpayers",
+        "b": "They are reservoirs of energy and enthusiasm",
+        "c": "They follow traditions blindly",
+        "d": "They avoid political participation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Youth are reservoirs of unbounded energy and enthusiasm, making them crucial for addressing challenges and shaping the nation's destiny.",
+      "points": 1
+    },
+    {
+      "id": "ni_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization is specifically mentioned as an asset for channelizing youth energy?",
+      "options": {
+        "a": "NCC",
+        "b": "NASA",
+        "c": "UNO",
+        "d": "WTO"
+      },
+      "correct_answer": ["a"],
+      "explanation": "NCC, NSS, NSVS and similar organizations are assets for channelizing young energy into constructive channels for nation building.",
+      "points": 1
+    },
+    {
+      "id": "ni_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What aspect of British influence helped in political awakening in India?",
+      "options": {
+        "a": "Western education",
+        "b": "Railway construction",
+        "c": "Telegraph system",
+        "d": "English language"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Western education created reformation wave bringing ideas of equality, freedom and nationality, helping uproot social evils and creating political awakening.",
+      "points": 1
+    },
+    {
+      "id": "ni_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which fundamental duty specifically promotes national integration?",
+      "options": {
+        "a": "To defend the country",
+        "b": "To promote harmony and common brotherhood",
+        "c": "To respect National Flag",
+        "d": "To safeguard public property"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The duty to promote harmony and spirit of common brotherhood among all people while respecting religious, linguistic and regional diversities directly supports national integration.",
+      "points": 1
+    },
+    {
+      "id": "ni_026",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What was the significance of the Government of India Act 1935 in India's federal structure?",
+      "options": {
+        "a": "It granted complete independence",
+        "b": "It prescribed federal type union of autonomous provinces",
+        "c": "It established British monarchy",
+        "d": "It divided India into Pakistan and India"
+      },
+      "correct_answer": ["b"],
+      "explanation": "India inherited federal structure from Government of India Act 1935 which prescribed federal type union of autonomous provinces deriving powers from crown.",
+      "points": 1
+    },
+    {
+      "id": "ni_027",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which Directive Principle emphasizes uniform civil code?",
+      "options": {
+        "a": "Separation of judiciary",
+        "b": "Uniform code of law",
+        "c": "Environmental protection",
+        "d": "Public health improvement"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Directive Principle emphasizes having uniform code of law irrespective of caste, creed, colour or religion to promote national integration.",
+      "points": 1
+    },
+    {
+      "id": "ni_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary cause for youth joining extremist movements according to NCC curriculum?",
+      "options": {
+        "a": "Religious fundamentalism",
+        "b": "Socio-economic deprivations",
+        "c": "Foreign influence",
+        "d": "Political ambition"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Youth join extremist movements mainly due to continuing socio-economic deprivations, daily humiliation, denial of justice, and political marginalization.",
+      "points": 1
+    },
+    {
+      "id": "ni_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which race contributed the Vedas to Indian culture?",
+      "options": {
+        "a": "Dravidian Race",
+        "b": "Aryan Race",
+        "c": "Muslim Race",
+        "d": "Proto-Australoid Race"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Aryans made greatest contribution through their Vedas which are main roots of Indian culture, with their language forming basis of major Indian languages.",
+      "points": 1
+    },
+    {
+      "id": "ni_030",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What was the main objective of the Non-Cooperation Movement?",
+      "options": {
+        "a": "Armed rebellion",
+        "b": "Withdraw nation's cooperation from British",
+        "c": "Economic boycott only",
+        "d": "International diplomacy"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Non-Cooperation Movement aimed to withdraw nation's cooperation from British Government to mar administrative setup, launched after Jallianwala Bagh massacre.",
+      "points": 1
+    },
+    {
+      "id": "ni_031",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which Sikh practice exemplifies equality and brotherhood?",
+      "options": {
+        "a": "Five Ks",
+        "b": "Gurudwara and common kitchen (langar)",
+        "c": "Turban wearing",
+        "d": "Kirpan carrying"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The institution of Gurudwara and common kitchen (langar) are noble examples of equality in Sikhism where all eat together irrespective of status.",
+      "points": 1
+    },
+    {
+      "id": "ni_032",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What concept did Dr. Jadunath Sarkar attribute to Aryans for caste adjustment?",
+      "options": {
+        "a": "Varna system",
+        "b": "Caste system",
+        "c": "Class system",
+        "d": "Feudal system"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Dr. Jadunath Sarkar described Aryan contribution through 'Varna' system principle that fixed adjustment among different castes.",
+      "points": 1
+    },
+    {
+      "id": "ni_033",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which event marked the transformation of Indian National Movement to include common masses?",
+      "options": {
+        "a": "Formation of INC",
+        "b": "Swadeshi Movement",
+        "c": "1857 Revolt",
+        "d": "Non-Cooperation Movement"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Swadeshi Movement launched by leaders like Bal Gangadhar Tilak reached out to common unlettered man, transforming freedom movement reach.",
+      "points": 1
+    },
+    {
+      "id": "ni_034",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the significance of cultural diversity in national integration?",
+      "options": {
+        "a": "It creates division",
+        "b": "It enriches national culture",
+        "c": "It should be eliminated",
+        "d": "It causes conflicts"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Cultural diversity through various races and religions enriches national culture, creating composite culture that strengthens national integration when respected.",
+      "points": 1
+    },
+    {
+      "id": "ni_035",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which British policy significantly affected Indian national unity before independence?",
+      "options": {
+        "a": "Divide and Rule",
+        "b": "Free Trade",
+        "c": "Industrialization",
+        "d": "Western Education"
+      },
+      "correct_answer": ["a"],
+      "explanation": "British followed 'Divide and Rule' policy making racial, religious and linguistic groups disintegrate emotionally, leading to eventual partition.",
+      "points": 1
+    },
+    {
+      "id": "ni_036",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main challenge posed by linguistic diversity in India?",
+      "options": {
+        "a": "Linguistic fanaticism",
+        "b": "Economic disparity",
+        "c": "Religious conversion",
+        "d": "Political instability"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Linguistic fanaticism where people of one language try to establish superiority over others creates barriers to national integration.",
+      "points": 1
+    },
+    {
+      "id": "ni_037",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which national integration measure involves cross-state teacher exchanges?",
+      "options": {
+        "a": "Educational reforms",
+        "b": "Cultural programs",
+        "c": "Political measures",
+        "d": "Economic policies"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Educational reforms including exchange of teachers between states and no bars on student admissions across states help cement national unity.",
+      "points": 1
+    },
+    {
+      "id": "ni_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What role do national level games play in national integration?",
+      "options": {
+        "a": "Promote regional competition",
+        "b": "Create one team forgetting regional differences",
+        "c": "Identify talented athletes",
+        "d": "Generate revenue"
+      },
+      "correct_answer": ["b"],
+      "explanation": "National level games provide excellent opportunity for national integration as players from across country participate as 'one team' forgetting regional differences.",
+      "points": 1
+    },
+    {
+      "id": "ni_039",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which quality development is NOT mentioned as NCC aim?",
+      "options": {
+        "a": "Character development",
+        "b": "Spirit of Adventure",
+        "c": "Professional sports training",
+        "d": "Selfless service ideals"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC aims to develop character, comradeship, discipline, secular outlook, adventure spirit, sportsmanship and selfless service - not professional sports training.",
+      "points": 1
+    },
+    {
+      "id": "ni_040",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What historical role did religion play according to NCC analysis?",
+      "options": {
+        "a": "Unifying force",
+        "b": "Obstructive role in nationalism",
+        "c": "Economic development",
+        "d": "Social equality"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Historical analysis shows religion played 'obstructive role' in nationalism rise, working as exploitation system in ancient times and barrier under British rule.",
+      "points": 1
+    },
+    {
+      "id": "ni_041",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which principle emphasizes that religion should not mix with political affairs?",
+      "options": {
+        "a": "Secularism",
+        "b": "Socialism",
+        "c": "Democracy",
+        "d": "Federalism"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Secularism adopted in constitution emphasizes religion as private affair of individual that should not mix with political affairs of state.",
+      "points": 1
+    },
+    {
+      "id": "ni_042",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What was the outcome of the 1857 Revolt in terms of British administration?",
+      "options": {
+        "a": "British left India",
+        "b": "End of East India Company rule",
+        "c": "Indian self-rule",
+        "d": "Partition of India"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 1857 Revolt led to end of East India Company's rule, with India thereafter governed in name of British Monarch through Secretary of State.",
+      "points": 1
+    },
+    {
+      "id": "ni_043",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which social reformer championed Vedantic philosophy internationally?",
+      "options": {
+        "a": "Raja Rammohan Roy",
+        "b": "Swami Vivekananda",
+        "c": "Mahatma Gandhi",
+        "d": "Dayanand Saraswati"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Swami Vivekananda championed Vedantic philosophy and made westerners realize Hinduism's greatness through his 1893 Chicago World Religions conference talk.",
+      "points": 1
+    },
+    {
+      "id": "ni_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary focus of youth contribution in social and cultural development?",
+      "options": {
+        "a": "Economic growth",
+        "b": "Addressing social problems",
+        "c": "Political leadership",
+        "d": "International relations"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Youth should study and address basic social problems like health, environment, education, economic backwardness, superstitions to contribute to social development.",
+      "points": 1
+    },
+    {
+      "id": "ni_045",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which national integration aspect involves emotional, cultural and geographical unity?",
+      "options": {
+        "a": "Political integration",
+        "b": "Economic integration",
+        "c": "Emotional integration",
+        "d": "Administrative integration"
+      },
+      "correct_answer": ["c"],
+      "explanation": "National integration means integration in all respects - social, political, economic and above all emotional, involving emotional, cultural and geographical unity.",
+      "points": 1
+    },
+    {
+      "id": "ni_046",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the significance of the NCC logo in national integration?",
+      "options": {
+        "a": "Military symbolism",
+        "b": "Educational purpose",
+        "c": "Excellent example of national integration",
+        "d": "Religious representation"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The NCC Logo itself is an excellent example of National Integration and is true to its image, representing unity among diversity.",
+      "points": 1
+    },
+    {
+      "id": "ni_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which factor makes youth crucial for national security?",
+      "options": {
+        "a": "Physical strength",
+        "b": "Alertness and balanced approach",
+        "c": "Military training",
+        "d": "Technological skills"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Youth are crucial for security due to their alertness and balanced approach that can help thwart enemy designs and bring national stability.",
+      "points": 1
+    },
+    {
+      "id": "ni_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the ultimate goal of Buddhist practice according to NCC teachings?",
+      "options": {
+        "a": "Wealth accumulation",
+        "b": "Political power",
+        "c": "Nirvana (emancipation from rebirth)",
+        "d": "Social status"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Buddhism teaches that emancipation from cycle of re-birth i.e Nirvana can be attained by path of self purification with doctrine of love and mercy.",
+      "points": 1
+    },
+    {
+      "id": "ni_049",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which element of British influence continues in India's current administration?",
+      "options": {
+        "a": "Monarchical system",
+        "b": "Federal structure",
+        "c": "Colonial mindset",
+        "d": "Divide and rule policy"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The present form of administration in India is outcome of British ideology influence, particularly the federal structure inherited from Government of India Act 1935.",
+      "points": 1
+    },
+    {
+      "id": "ni_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What should be the fundamental identity of every Indian according to national integration principles?",
+      "options": {
+        "a": "Religious identity first",
+        "b": "Regional identity first",
+        "c": "Indian first and Indians last",
+        "d": "Linguistic identity first"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Every Indian should regard themselves as 'Indian first and Indians last', rising above regional, religious or linguistic identities for national unity.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

@@ -1,0 +1,763 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "disaster-management",
+  "language": "en",
+  "questions": [
+    {
+      "id": "dm_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "When was Civil Defence first established in India?",
+      "options": {
+        "a": "24th October 1941",
+        "b": "15th August 1947",
+        "c": "26th January 1950",
+        "d": "1st April 1952"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Civil Defence was first established in India on 24th October 1941 and was further strengthened after the 1962 Chinese aggression and 1965 Indo-Pak war.",
+      "points": 1
+    },
+    {
+      "id": "dm_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Who heads the National Disaster Management Authority (NDMA)?",
+      "options": {
+        "a": "Home Minister",
+        "b": "Defence Minister",
+        "c": "Prime Minister",
+        "d": "President"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The NDMA is headed by the Prime Minister and is the apex body for disaster management in India, established under the Disaster Management Act of 2005.",
+      "points": 1
+    },
+    {
+      "id": "dm_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT a natural disaster?",
+      "options": {
+        "a": "Earthquakes",
+        "b": "Tsunamis",
+        "c": "Industrial accidents",
+        "d": "Cyclones"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Industrial accidents are classified as man-made disasters, while earthquakes, tsunamis, and cyclones are natural disasters.",
+      "points": 1
+    },
+    {
+      "id": "dm_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary purpose of the National Disaster Response Force (NDRF)?",
+      "options": {
+        "a": "Military operations",
+        "b": "Specialized response to disasters",
+        "c": "Police duties",
+        "d": "International peacekeeping"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NDRF is mandated for specialized response to threatening disaster situations or emergencies, both natural and man-made.",
+      "points": 1
+    },
+    {
+      "id": "dm_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which service in Civil Defence is responsible for rescuing injured people trapped under debris?",
+      "options": {
+        "a": "Welfare Services",
+        "b": "Rescue Services",
+        "c": "Communication Services",
+        "d": "Salvage Service"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Rescue Services are responsible for rescuing injured persons and those trapped under debris during disasters.",
+      "points": 1
+    },
+    {
+      "id": "dm_006",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What percentage of Indian landmass is prone to earthquakes of moderate to high intensity?",
+      "options": {
+        "a": "38.6%",
+        "b": "48.6%",
+        "c": "58.6%",
+        "d": "68.6%"
+      },
+      "correct_answer": ["c"],
+      "explanation": "58.6% of the Indian landmass is prone to earthquakes of moderate to very high intensity according to NDMA data.",
+      "points": 1
+    },
+    {
+      "id": "dm_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which method of fire fighting involves removing combustible materials from the fire area?",
+      "options": {
+        "a": "Cooling",
+        "b": "Smothering",
+        "c": "Starvation",
+        "d": "Blanketing"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Starvation involves removing fuel (combustible materials) from the fire area to extinguish the fire.",
+      "points": 1
+    },
+    {
+      "id": "dm_008",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the minimum recommended space per person in emergency shelters by WHO?",
+      "options": {
+        "a": "2.5 square meters",
+        "b": "3.5 square meters",
+        "c": "4.5 square meters",
+        "d": "5.5 square meters"
+      },
+      "correct_answer": ["b"],
+      "explanation": "WHO recommends 3.5 square meters as the absolute minimum floor space per person in emergency shelters.",
+      "points": 1
+    },
+    {
+      "id": "dm_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization is responsible for corpse disposal during disasters?",
+      "options": {
+        "a": "Welfare Service",
+        "b": "Corpse Disposal Service",
+        "c": "Salvage Service",
+        "d": "Rescue Service"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Corpse Disposal Service is responsible for collection, identification and disposal of dead bodies during disasters.",
+      "points": 1
+    },
+    {
+      "id": "dm_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does the 'R' position on safety catch of firearms indicate?",
+      "options": {
+        "a": "Repair needed",
+        "b": "Ready to fire",
+        "c": "Rest position",
+        "d": "Release safety"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'R' position on safety catch means 'Ready' or fire position, while 'S' means 'Safe' position.",
+      "points": 1
+    },
+    {
+      "id": "dm_011",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which natural disaster is measured using the Richter Scale?",
+      "options": {
+        "a": "Cyclones",
+        "b": "Earthquakes",
+        "c": "Floods",
+        "d": "Tsunamis"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Earthquakes are measured using the Richter Magnitude Scale invented by Charles F. Richter in 1935.",
+      "points": 1
+    },
+    {
+      "id": "dm_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary role of Traffic Police during natural disasters?",
+      "options": {
+        "a": "Fire fighting",
+        "b": "Medical assistance",
+        "c": "Ensuring smooth traffic flow",
+        "d": "Food distribution"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Traffic Police are responsible for ensuring smooth flow of all types of traffic and providing access to emergency vehicles during disasters.",
+      "points": 1
+    },
+    {
+      "id": "dm_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which fire extinguisher type is suitable for electrical fires?",
+      "options": {
+        "a": "Soda Acid Extinguishers",
+        "b": "Foam Type Extinguishers",
+        "c": "CTC Carbon dioxide Extinguishers",
+        "d": "Water Based Extinguishers"
+      },
+      "correct_answer": ["c"],
+      "explanation": "CTC Carbon dioxide and Dry Chemical Extinguishers are used for electrical fires as they contain non-conductive extinguishing agents.",
+      "points": 1
+    },
+    {
+      "id": "dm_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the single most important criteria for selecting a relief camp site?",
+      "options": {
+        "a": "Availability of electricity",
+        "b": "Proximity to cities",
+        "c": "Availability of water",
+        "d": "Flat terrain"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Availability of adequate water on a year-round basis is the single most important site selection criteria for relief camps.",
+      "points": 1
+    },
+    {
+      "id": "dm_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which service maintains communication between warden posts and control centres?",
+      "options": {
+        "a": "Rescue Services",
+        "b": "Communication Services",
+        "c": "Welfare Services",
+        "d": "Transport Services"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Communication Services are responsible for providing communication between warden posts, control centres through messengers or telephone.",
+      "points": 1
+    },
+    {
+      "id": "dm_016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the target strength of Civil Defence volunteers in India?",
+      "options": {
+        "a": "8.49 lakhs",
+        "b": "10.49 lakhs",
+        "c": "12.49 lakhs",
+        "d": "14.49 lakhs"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The present target of Civil Defence volunteers is 12.49 lakhs, out of which 6.0 lakhs have been raised and 4.8 lakhs trained.",
+      "points": 1
+    },
+    {
+      "id": "dm_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which natural disaster is characterized by giant waves caused by underwater earthquakes?",
+      "options": {
+        "a": "Cyclones",
+        "b": "Tsunamis",
+        "c": "Floods",
+        "d": "Avalanches"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Tsunamis are giant waves caused by underwater earthquakes, volcanoes, or landslides, with the Japanese word meaning 'harbor wave'.",
+      "points": 1
+    },
+    {
+      "id": "dm_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the main advantage of using stirrup pumps in fire fighting?",
+      "options": {
+        "a": "High water pressure",
+        "b": "Use with limited water supply",
+        "c": "Automatic operation",
+        "d": "Long range"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Stirrup pumps are excellent for localizing and controlling fires with limited water supplies, consuming about 1 to 1.5 gallons per minute.",
+      "points": 1
+    },
+    {
+      "id": "dm_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization heads disaster management at the state level?",
+      "options": {
+        "a": "NDMA",
+        "b": "SDMA",
+        "c": "DDMA",
+        "d": "NEC"
+      },
+      "correct_answer": ["b"],
+      "explanation": "State Disaster Management Authority (SDMA) headed by the Chief Minister is responsible for disaster management at state level.",
+      "points": 1
+    },
+    {
+      "id": "dm_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary cause of droughts?",
+      "options": {
+        "a": "Heavy rainfall",
+        "b": "Less than 0.2 mm precipitation over two weeks",
+        "c": "High temperatures",
+        "d": "Strong winds"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Drought is defined when there is less than 0.2 mm of precipitation over about two weeks, leading to water shortage.",
+      "points": 1
+    },
+    {
+      "id": "dm_021",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which group of NCC cadets would handle sanitation responsibilities in relief camps?",
+      "options": {
+        "a": "Traffic Control Group",
+        "b": "Sanitation Groups",
+        "c": "First Aid Medical Groups",
+        "d": "Evacuation and Rescue Groups"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Sanitation Groups consisting of both girl and boy cadets look after sanitation responsibilities in shelters and outdoors.",
+      "points": 1
+    },
+    {
+      "id": "dm_022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the recommended latrine-to-person ratio in relief camps?",
+      "options": {
+        "a": "1 latrine for 10 persons",
+        "b": "1 latrine for 20 persons",
+        "c": "1 latrine for 30 persons",
+        "d": "1 latrine for 40 persons"
+      },
+      "correct_answer": ["b"],
+      "explanation": "There should be at least one latrine for every 20 persons in relief camps to maintain proper sanitation.",
+      "points": 1
+    },
+    {
+      "id": "dm_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which essential service includes provision of water, electricity and sanitation?",
+      "options": {
+        "a": "Transport Services",
+        "b": "Infrastructure Services",
+        "c": "Medical Services",
+        "d": "Communication Services"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Infrastructure services include provision of water, electricity, sanitation services, roads, bridges and essential buildings.",
+      "points": 1
+    },
+    {
+      "id": "dm_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary focus during the immediate action phase of disaster response?",
+      "options": {
+        "a": "Long-term rehabilitation",
+        "b": "Rushing to spot with quick reaction team",
+        "c": "Documentation",
+        "d": "Public awareness"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Immediate action involves rushing to the spot with quick reaction team equipped with communication equipment and rescue material.",
+      "points": 1
+    },
+    {
+      "id": "dm_025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which type of fire spread occurs through heated metals?",
+      "options": {
+        "a": "Convection",
+        "b": "Radiation",
+        "c": "Conduction",
+        "d": "Direct Burning"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Conduction is the transfer of heat through intermediary materials like metals which can ignite other combustible materials.",
+      "points": 1
+    },
+    {
+      "id": "dm_026",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main purpose of cordoning during disaster management?",
+      "options": {
+        "a": "To restrict movement of onlookers",
+        "b": "To provide medical aid",
+        "c": "To distribute food",
+        "d": "To set up communication"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Cordoning restricts movement of onlookers and vehicular traffic in affected areas to maintain order and safety.",
+      "points": 1
+    },
+    {
+      "id": "dm_027",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which disaster management group handles carcass disposal?",
+      "options": {
+        "a": "First Aid Medical Groups",
+        "b": "Carcass Disposal Groups",
+        "c": "Shelter Management Group",
+        "d": "Relief Group"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Carcass Disposal Groups handle disposal of rotting animal carcasses to prevent unhygienic conditions and disease outbreaks.",
+      "points": 1
+    },
+    {
+      "id": "dm_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary consideration in site planning for relief camps?",
+      "options": {
+        "a": "Cost of land",
+        "b": "Characteristics and needs of individual families",
+        "c": "Political boundaries",
+        "d": "Historical significance"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Site planning should first consider the characteristics and needs of individual families and reflect community wishes.",
+      "points": 1
+    },
+    {
+      "id": "dm_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization is responsible for salvaging damaged property during disasters?",
+      "options": {
+        "a": "Welfare Services",
+        "b": "Salvage Service",
+        "c": "Rescue Services",
+        "d": "Communication Services"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Salvage Service is responsible to salvage damaged property and keep it in safe custody during disasters.",
+      "points": 1
+    },
+    {
+      "id": "dm_030",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary method for distributing water in relief camps?",
+      "options": {
+        "a": "Manual carrying",
+        "b": "Gravity feed distribution",
+        "c": "Water trucks only",
+        "d": "Bottled water only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Water is often pumped from source to an elevated point to allow gravity feed distribution throughout the camp.",
+      "points": 1
+    },
+    {
+      "id": "dm_031",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which factor is most critical for fire prevention in domestic kitchens?",
+      "options": {
+        "a": "Color of walls",
+        "b": "Size of kitchen",
+        "c": "Keeping inflammable materials away from fire",
+        "d": "Type of flooring"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Keeping inflammable materials like petrol, kerosene or clothing away from fire or gas is crucial for kitchen fire prevention.",
+      "points": 1
+    },
+    {
+      "id": "dm_032",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the role of NCC cadets in aid material collection?",
+      "options": {
+        "a": "Only financial contributions",
+        "b": "Maintaining records and sifting articles",
+        "c": "International coordination",
+        "d": "Political advocacy"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NCC cadets can help in maintaining records, sifting articles, bulk breaking, packaging and dispatch of aid materials.",
+      "points": 1
+    },
+    {
+      "id": "dm_033",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which natural disaster is characterized by shifting of Earth's tectonic plates?",
+      "options": {
+        "a": "Hurricanes",
+        "b": "Earthquakes",
+        "c": "Floods",
+        "d": "Droughts"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Earthquakes occur when there is shift, collision or sudden release of energy in Earth's crust along tectonic plate boundaries.",
+      "points": 1
+    },
+    {
+      "id": "dm_034",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary purpose of the Wardens Service in Civil Defence?",
+      "options": {
+        "a": "Medical treatment",
+        "b": "Link between public and authorities",
+        "c": "Fire fighting",
+        "d": "Communication"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Wardens Service acts as a link between the public and authorities, organizing self-help parties and reporting damages.",
+      "points": 1
+    },
+    {
+      "id": "dm_035",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which disaster requires particular attention to drainage in site selection?",
+      "options": {
+        "a": "Droughts",
+        "b": "Earthquakes",
+        "c": "Floods",
+        "d": "Landslides"
+      },
+      "correct_answer": ["c"],
+      "explanation": "For flood-prone areas, drainage becomes key criterion and sites should be located above flood level with gentle slope.",
+      "points": 1
+    },
+    {
+      "id": "dm_036",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main responsibility of the Relief Group in NCC disaster management?",
+      "options": {
+        "a": "Traffic control",
+        "b": "Collect and distribute relief material",
+        "c": "Medical aid",
+        "d": "Sanitation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Relief Group provides assistance to collect and distribute relief material such as food supply, cloth, and essential items.",
+      "points": 1
+    },
+    {
+      "id": "dm_037",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of fire extinguisher is suitable for inflammable liquids?",
+      "options": {
+        "a": "Soda Acid Extinguishers",
+        "b": "Foam Type Extinguishers",
+        "c": "Water Based Extinguishers",
+        "d": "All of the above"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Foam Type or Dry Chemical Powder Extinguishers are meant for fires involving inflammable liquids like oils, fats, or grease.",
+      "points": 1
+    },
+    {
+      "id": "dm_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary consideration for transportation during disaster relief?",
+      "options": {
+        "a": "Vehicle color",
+        "b": "Restoration of transport system",
+        "c": "Fuel type",
+        "d": "Driver uniforms"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Restoration of transport system is critical as it directly relates to delivering relief supplies and evacuation of affected people.",
+      "points": 1
+    },
+    {
+      "id": "dm_039",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization coordinates disaster management at district level?",
+      "options": {
+        "a": "NDMA",
+        "b": "SDMA",
+        "c": "DDMA",
+        "d": "NEC"
+      },
+      "correct_answer": ["c"],
+      "explanation": "District Disaster Management Authority (DDMA) headed by District Collector coordinates disaster management at district level.",
+      "points": 1
+    },
+    {
+      "id": "dm_040",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary method of fire spread in multi-story buildings?",
+      "options": {
+        "a": "Conduction",
+        "b": "Convection",
+        "c": "Radiation",
+        "d": "Direct Burning"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Convection spreads fire through gases or smoke that rise until ceiling and spread sideways, igniting higher levels.",
+      "points": 1
+    },
+    {
+      "id": "dm_041",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which essential service includes running of medical facilities and hospitals?",
+      "options": {
+        "a": "Transport Services",
+        "b": "Medical Services",
+        "c": "Communication Services",
+        "d": "Infrastructure Services"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Medical services include running of medical facilities, hospitals, providing nursing, first aid and immunization.",
+      "points": 1
+    },
+    {
+      "id": "dm_042",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main purpose of establishing transit centres during disasters?",
+      "options": {
+        "a": "Permanent housing",
+        "b": "Temporary reception for displaced people",
+        "c": "Administrative offices",
+        "d": "Storage facilities"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Transit centres serve as reception points where displaced people pass through on way to long-term settlement sites.",
+      "points": 1
+    },
+    {
+      "id": "dm_043",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which factor is most important for shelter material in high rainfall areas?",
+      "options": {
+        "a": "Color",
+        "b": "Weight",
+        "c": "Raised flooring",
+        "d": "Texture"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Raised flooring is required in areas of high rainfall to prevent water logging and maintain hygiene.",
+      "points": 1
+    },
+    {
+      "id": "dm_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary role of the National Executive Committee (NEC)?",
+      "options": {
+        "a": "International diplomacy",
+        "b": "Assist NDMA and ensure compliance",
+        "c": "Military operations",
+        "d": "State governance"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NEC assists NDMA in discharge of its functions and ensures compliance of directions issued by Central Government.",
+      "points": 1
+    },
+    {
+      "id": "dm_045",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which natural disaster is measured by duration without precipitation?",
+      "options": {
+        "a": "Floods",
+        "b": "Droughts",
+        "c": "Earthquakes",
+        "d": "Cyclones"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Drought is defined when there is less than 0.2 mm precipitation over about two weeks, leading to water shortage.",
+      "points": 1
+    },
+    {
+      "id": "dm_046",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary safety rule when handling weapons?",
+      "options": {
+        "a": "Keep loaded at all times",
+        "b": "Treat every weapon as loaded",
+        "c": "Point at ground only",
+        "d": "Store unlocked"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The fundamental safety rule is to treat every weapon as loaded, ensuring proper handling and accident prevention.",
+      "points": 1
+    },
+    {
+      "id": "dm_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which service provides shelter, food and clothing to affected people?",
+      "options": {
+        "a": "Rescue Services",
+        "b": "Welfare Services",
+        "c": "Communication Services",
+        "d": "Transport Services"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Welfare Services supply information about missing persons and provide shelter, food and clothing to affected people.",
+      "points": 1
+    },
+    {
+      "id": "dm_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main advantage of involving displaced people in shelter construction?",
+      "options": {
+        "a": "Reduces costs and builds self-reliance",
+        "b": "Increases government revenue",
+        "c": "Speeds up international aid",
+        "d": "Improves political relations"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Involving displaced people reduces costs, ensures housing meets their needs, and reduces sense of dependence.",
+      "points": 1
+    },
+    {
+      "id": "dm_049",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which disaster management principle emphasizes 'One Bullet One Enemy'?",
+      "options": {
+        "a": "Group Shooting",
+        "b": "Snap Shooting",
+        "c": "Deliberate Shooting",
+        "d": "Rapid Shooting"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Snap shooting follows the principle 'One Bullet One Enemy' and 'Shoot to Kill' for effective response.",
+      "points": 1
+    },
+    {
+      "id": "dm_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the ultimate goal of disaster management?",
+      "options": {
+        "a": "Complete prevention of disasters",
+        "b": "Minimizing loss of life and property",
+        "c": "Increasing international aid",
+        "d": "Building more hospitals"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The ultimate goal of disaster management is to minimize loss of life and property through preparedness, response and recovery.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

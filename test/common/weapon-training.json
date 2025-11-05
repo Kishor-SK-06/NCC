@@ -1,0 +1,765 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "weapon-training",
+  "language": "en",
+  "title": "Weapon Training - Rifle Characteristics, Handling and Firing Techniques",
+  "description": "Comprehensive test on .22 rifle and 7.62mm SLR characteristics, stripping, assembling, firing procedures, and range safety",
+  "questions": [
+    {
+      "id": "wt_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the effective range of .22 rifle?",
+      "options": {
+        "a": "25 yards",
+        "b": "50 yards",
+        "c": "100 yards",
+        "d": "200 yards"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The effective range of .22 rifle is 25 yards as per NCC training standards.",
+      "points": 1
+    },
+    {
+      "id": "wt_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which rifle is described as 'Self Loading' in NCC training?",
+      "options": {
+        "a": ".22 Rifle No II MK IV",
+        "b": ".22 Deluxe BA",
+        "c": "7.62mm SLR",
+        "d": "All of the above"
+      },
+      "correct_answer": ["c"],
+      "explanation": "7.62mm SLR is described as 'Self Loading' as it automatically loads the next round after firing.",
+      "points": 1
+    },
+    {
+      "id": "wt_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the magazine capacity of 7.62mm SLR?",
+      "options": {
+        "a": "10 rounds",
+        "b": "15 rounds",
+        "c": "20 rounds",
+        "d": "30 rounds"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The 7.62mm SLR has a magazine capacity of 20 rounds.",
+      "points": 1
+    },
+    {
+      "id": "wt_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the first step in stripping .22 rifle?",
+      "options": {
+        "a": "Remove bayonet",
+        "b": "Remove sling",
+        "c": "Remove bolt",
+        "d": "Remove case collector"
+      },
+      "correct_answer": ["a"],
+      "explanation": "When stripping .22 rifle, first remove the bayonet, then sling, bolt, and finally case collector.",
+      "points": 1
+    },
+    {
+      "id": "wt_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the normal rate of fire for 7.62mm SLR?",
+      "options": {
+        "a": "5 rounds per minute",
+        "b": "10 rounds per minute",
+        "c": "20 rounds per minute",
+        "d": "30 rounds per minute"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The normal rate of fire for 7.62mm SLR is 5 rounds per minute.",
+      "points": 1
+    },
+    {
+      "id": "wt_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which position is considered the basic and comfortable firing position?",
+      "options": {
+        "a": "Standing position",
+        "b": "Kneeling position",
+        "c": "Lying position",
+        "d": "Sitting position"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Lying position is considered the basic, comfortable, and fundamental firing position that provides stability.",
+      "points": 1
+    },
+    {
+      "id": "wt_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does 'MPI' stand for in shooting terminology?",
+      "options": {
+        "a": "Mean Point of Impact",
+        "b": "Maximum Point of Impact",
+        "c": "Minimum Point of Impact",
+        "d": "Main Point of Impact"
+      },
+      "correct_answer": ["a"],
+      "explanation": "MPI stands for 'Mean Point of Impact' - the central point of a group of shots fired at the same aiming point.",
+      "points": 1
+    },
+    {
+      "id": "wt_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Snap Shooting' training?",
+      "options": {
+        "a": "To fire at stationary targets",
+        "b": "To fire at targets visible for short duration",
+        "c": "To fire maximum rounds quickly",
+        "d": "To practice long-range shooting"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Snap shooting involves firing at targets that appear for very short durations, requiring quick aiming and firing.",
+      "points": 1
+    },
+    {
+      "id": "wt_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What should be checked before stripping any rifle?",
+      "options": {
+        "a": "Rifle is loaded",
+        "b": "Rifle is empty",
+        "c": "Safety catch position",
+        "d": "Both B and C"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Before stripping, ensure the rifle is empty and safety catch is in 'S' position for safety.",
+      "points": 1
+    },
+    {
+      "id": "wt_010",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many grooves are there in .22 rifle barrel?",
+      "options": {
+        "a": "4",
+        "b": "6",
+        "c": "8",
+        "d": "10"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Both .22 rifle models have 6 grooves in the barrel.",
+      "points": 1
+    },
+    {
+      "id": "wt_011",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the weight of 7.62mm SLR without magazine?",
+      "options": {
+        "a": "3.4 kg",
+        "b": "4.4 kg",
+        "c": "5.1 kg",
+        "d": "5.4 kg"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 7.62mm SLR weighs 4.4 kg without magazine.",
+      "points": 1
+    },
+    {
+      "id": "wt_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which part of the finger should be used for trigger operation?",
+      "options": {
+        "a": "Fingertip",
+        "b": "First joint",
+        "c": "Between first and second joint",
+        "d": "Any part of the finger"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The area between first and second joint of the index finger should be used for proper trigger control.",
+      "points": 1
+    },
+    {
+      "id": "wt_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'Follow Through' in shooting?",
+      "options": {
+        "a": "Preparing to fire",
+        "b": "Maintaining position after shot",
+        "c": "Reloading quickly",
+        "d": "Changing position"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Follow through means maintaining the same position, hold, and sight picture from shot firing until calling 'maar'.",
+      "points": 1
+    },
+    {
+      "id": "wt_014",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What color flag indicates 'Firing in Progress' on range?",
+      "options": {
+        "a": "Green flag",
+        "b": "Red flag",
+        "c": "White flag",
+        "d": "Yellow flag"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A red flag (6'x6') on a 20' pole indicates firing is in progress on the range.",
+      "points": 1
+    },
+    {
+      "id": "wt_015",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How many rounds are used for grouping practice?",
+      "options": {
+        "a": "3 rounds",
+        "b": "5 rounds",
+        "c": "7 rounds",
+        "d": "10 rounds"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Five rounds fired at the same aiming point are used to determine grouping capacity.",
+      "points": 1
+    },
+    {
+      "id": "wt_016",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of cleaning rifle after firing?",
+      "options": {
+        "a": "To improve accuracy",
+        "b": "To prevent rust and ensure functioning",
+        "c": "To make it look new",
+        "d": "To prepare for inspection"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Regular cleaning prevents rust, ensures proper functioning, and maintains weapon reliability.",
+      "points": 1
+    },
+    {
+      "id": "wt_017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which shooting principle emphasizes 'One Bullet One Enemy'?",
+      "options": {
+        "a": "Group Shooting",
+        "b": "Snap Shooting",
+        "c": "Deliberate Shooting",
+        "d": "Rapid Shooting"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Snap shooting follows the principle 'One Bullet One Enemy' and 'Shoot to Kill'.",
+      "points": 1
+    },
+    {
+      "id": "wt_018",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What should be the muzzle direction when handling weapons on range?",
+      "options": {
+        "a": "Towards sky",
+        "b": "Towards ground",
+        "c": "Towards safe direction",
+        "d": "Towards target"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Muzzle should always be pointed in a safe direction, away from personnel, when handling weapons.",
+      "points": 1
+    },
+    {
+      "id": "wt_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is 'Zeroing' of a rifle?",
+      "options": {
+        "a": "Setting sight to zero",
+        "b": "Adjusting sights so MPI matches POA",
+        "c": "Firing without ammunition",
+        "d": "Cleaning the rifle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Zeroing is adjusting sights so that the Mean Point of Impact coincides with the Point of Aim.",
+      "points": 1
+    },
+    {
+      "id": "wt_020",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How often should weekly cleaning of weapons be done?",
+      "options": {
+        "a": "Daily",
+        "b": "Once a week",
+        "c": "Twice a week",
+        "d": "Monthly"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Weekly cleaning should be done once a week where all parts are oiled and checked.",
+      "points": 1
+    },
+    {
+      "id": "wt_021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the maximum range of .22 rifle at 33 degree angle?",
+      "options": {
+        "a": "500 yards",
+        "b": "1000 yards",
+        "c": "1500 yards",
+        "d": "1700 yards"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The maximum range of .22 rifle when fired at 33 degree angle is 1700 yards.",
+      "points": 1
+    },
+    {
+      "id": "wt_022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which tool is used for extracting stuck cases?",
+      "options": {
+        "a": "Combination tool",
+        "b": "Case collector",
+        "c": "Tool removing ruptured case",
+        "d": "Chamber brush"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Special tool for removing ruptured cases is used to extract stuck cartridge cases from chamber.",
+      "points": 1
+    },
+    {
+      "id": "wt_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the correct procedure when a rifle fails to fire?",
+      "options": {
+        "a": "Immediately open bolt",
+        "b": "Wait 30 seconds keeping rifle aimed",
+        "c": "Tap the rifle",
+        "d": "Shake the rifle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "When rifle fails to fire, wait 30 seconds keeping it aimed at target, then unload carefully.",
+      "points": 1
+    },
+    {
+      "id": "wt_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does 'Sight Picture' refer to?",
+      "options": {
+        "a": "Alignment of sights only",
+        "b": "Target appearance only",
+        "c": "Sight alignment with target",
+        "d": "Weapon's appearance"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Sight Picture is the correct alignment of sights with the target point of aim.",
+      "points": 1
+    },
+    {
+      "id": "wt_025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many details work simultaneously on firing range?",
+      "options": {
+        "a": "2 details",
+        "b": "3 details",
+        "c": "4 details",
+        "d": "5 details"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Four details work simultaneously: one firing detail, two waiting details, and one ammunition collection detail.",
+      "points": 1
+    },
+    {
+      "id": "wt_026",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Tin Disc' exercise?",
+      "options": {
+        "a": "To test accuracy",
+        "b": "To practice trigger control",
+        "c": "To improve holding",
+        "d": "To test sight alignment"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Tin Disc exercise is used to practice trigger control without disturbing the rifle's aim.",
+      "points": 1
+    },
+    {
+      "id": "wt_027",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which position provides the smallest body profile?",
+      "options": {
+        "a": "Standing",
+        "b": "Kneeling",
+        "c": "Sitting",
+        "d": "Lying"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Lying position provides the smallest body profile, offering best protection from enemy fire.",
+      "points": 1
+    },
+    {
+      "id": "wt_028",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What should be done if MPI is above POA?",
+      "options": {
+        "a": "Lower foresight",
+        "b": "Raise foresight",
+        "c": "Move back sight down",
+        "d": "Move back sight up"
+      },
+      "correct_answer": ["b"],
+      "explanation": "If MPI is above POA, raise the foresight to lower the point of impact.",
+      "points": 1
+    },
+    {
+      "id": "wt_029",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the normal pace for NCC cadets in 'Tez Chal'?",
+      "options": {
+        "a": "110 steps/minute",
+        "b": "116 steps/minute",
+        "c": "120 steps/minute",
+        "d": "140 steps/minute"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NCC cadets march at 116 steps per minute, while rifle units march at 140 steps.",
+      "points": 1
+    },
+    {
+      "id": "wt_030",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which safety rule is most important on firing range?",
+      "options": {
+        "a": "Weapon always loaded",
+        "b": "Weapon always pointed down range",
+        "c": "Finger always on trigger",
+        "d": "Weapon always uncocked"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Weapon must always be pointed down range in safe direction, with muzzle control being paramount.",
+      "points": 1
+    },
+    {
+      "id": "wt_031",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the weight of .22 Deluxe BA rifle?",
+      "options": {
+        "a": "6 Lbs 2 OZ",
+        "b": "8 Lbs 10 OZ",
+        "c": "9 Lbs",
+        "d": "10 Lbs"
+      },
+      "correct_answer": ["a"],
+      "explanation": ".22 Deluxe BA rifle weighs 6 Lbs 2 OZ, lighter than .22 No II MK IV which weighs 8 Lbs 10½ OZ.",
+      "points": 1
+    },
+    {
+      "id": "wt_032",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many stages are there in Snap Shooting training?",
+      "options": {
+        "a": "3 stages",
+        "b": "4 stages",
+        "c": "5 stages",
+        "d": "6 stages"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Snap shooting training has 5 stages progressing from basic alignment to timed target practice.",
+      "points": 1
+    },
+    {
+      "id": "wt_033",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Natural Alignment' in firing position?",
+      "options": {
+        "a": "To look natural",
+        "b": "To minimize muscle strain",
+        "c": "To achieve comfort",
+        "d": "All of the above"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Natural alignment minimizes muscle strain, provides comfort, and helps maintain steady aim.",
+      "points": 1
+    },
+    {
+      "id": "wt_034",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which cleaning material is used for barrel?",
+      "options": {
+        "a": "Chindi and pull through",
+        "b": "Wire brush only",
+        "c": "Sand paper",
+        "d": "Water only"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Chindi (cloth pieces) and pull through are used for barrel cleaning with appropriate oil.",
+      "points": 1
+    },
+    {
+      "id": "wt_035",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does 'R' position on safety catch indicate?",
+      "options": {
+        "a": "Ready to fire",
+        "b": "Repair needed",
+        "c": "Rifle loaded",
+        "d": "Range safe"
+      },
+      "correct_answer": ["a"],
+      "explanation": "'R' position on safety catch means 'Ready' or fire position, while 'S' means 'Safe'.",
+      "points": 1
+    },
+    {
+      "id": "wt_036",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How long should warm water cleaning be done after firing?",
+      "options": {
+        "a": "1 day",
+        "b": "3 days",
+        "c": "7 days",
+        "d": "10 days"
+      },
+      "correct_answer": ["c"],
+      "explanation": "After firing, warm water cleaning should be done for at least 7 days to remove powder residue.",
+      "points": 1
+    },
+    {
+      "id": "wt_037",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary consideration in trigger operation?",
+      "options": {
+        "a": "Speed",
+        "b": "Smooth steady pressure",
+        "c": "Jerky movement",
+        "d": "Quick snap"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Trigger should be pressed with smooth, steady pressure without disturbing rifle alignment.",
+      "points": 1
+    },
+    {
+      "id": "wt_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which document records firing point activities?",
+      "options": {
+        "a": "Butt Register",
+        "b": "Firing Point Register",
+        "c": "Ammunition Register",
+        "d": "All of the above"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Butt Register, Firing Point Register, and Ammunition Register all document range activities.",
+      "points": 1
+    },
+    {
+      "id": "wt_039",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the correct breathing technique during aiming?",
+      "options": {
+        "a": "Hold breath completely",
+        "b": "Breathe normally",
+        "c": "Take deep breath and hold",
+        "d": "Exhale completely and hold"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Breathe normally during aiming, only pausing briefly during final trigger squeeze.",
+      "points": 1
+    },
+    {
+      "id": "wt_040",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What indicates a good grouping?",
+      "options": {
+        "a": "Shots spread widely",
+        "b": "Shots close together",
+        "c": "Shots in straight line",
+        "d": "Shots in circle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Good grouping shows shots closely clustered together, indicating consistent aiming and firing.",
+      "points": 1
+    },
+    {
+      "id": "wt_041",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which part of SLR operates using gas pressure?",
+      "options": {
+        "a": "Trigger mechanism",
+        "b": "Bolt system",
+        "c": "Piston and slide",
+        "d": "Sight system"
+      },
+      "correct_answer": ["c"],
+      "explanation": "SLR uses gas operation where gas pressure drives piston and slide to automate loading.",
+      "points": 1
+    },
+    {
+      "id": "wt_042",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the first action when weapon misfires?",
+      "options": {
+        "a": "Open bolt immediately",
+        "b": "Tap magazine",
+        "c": "Wait with weapon aimed",
+        "d": "Shake weapon"
+      },
+      "correct_answer": ["c"],
+      "explanation": "When weapon misfires, wait 30 seconds keeping it aimed at target before unloading.",
+      "points": 1
+    },
+    {
+      "id": "wt_043",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many types of rifle cleaning are mentioned?",
+      "options": {
+        "a": "2 types",
+        "b": "4 types",
+        "c": "6 types",
+        "d": "8 types"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Six types of cleaning: Daily, Weekly, Monthly, Before firing, During firing, and After firing.",
+      "points": 1
+    },
+    {
+      "id": "wt_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of 'Aiming Correcter'?",
+      "options": {
+        "a": "To test accuracy",
+        "b": "To check sight alignment",
+        "c": "To measure range",
+        "d": "To clean sights"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Aiming correcter is used to check and correct sight alignment during training.",
+      "points": 1
+    },
+    {
+      "id": "wt_045",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What should be worn by sentries on firing range?",
+      "options": {
+        "a": "White coats",
+        "b": "Red coats",
+        "c": "Green coats",
+        "d": "Black coats"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Sentries on firing range wear red coats for high visibility and safety identification.",
+      "points": 1
+    },
+    {
+      "id": "wt_046",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the correct way to carry weapon between firing points?",
+      "options": {
+        "a": "At trail",
+        "b": "On shoulder",
+        "c": "In hand",
+        "d": "Walk normally"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Weapon should be carried at trail (pointing down) when moving between firing points.",
+      "points": 1
+    },
+    {
+      "id": "wt_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which factor most affects shooting accuracy?",
+      "options": {
+        "a": "Weapon weight",
+        "b": "Ammunition type",
+        "c": "Shooter's technique",
+        "d": "Weather conditions"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Shooter's technique including position, hold, sight alignment and trigger control most affects accuracy.",
+      "points": 1
+    },
+    {
+      "id": "wt_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the final step in rifle assembly?",
+      "options": {
+        "a": "Fit bayonet",
+        "b": "Fit magazine",
+        "c": "Cock rifle",
+        "d": "Check safety"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Bayonet is fitted last after all other parts including sling and magazine are assembled.",
+      "points": 1
+    },
+    {
+      "id": "wt_049",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does 'HPS' stand for in scoring?",
+      "options": {
+        "a": "Highest Possible Score",
+        "b": "High Point Score",
+        "c": "Hit Point System",
+        "d": "High Precision Shooting"
+      },
+      "correct_answer": ["a"],
+      "explanation": "HPS stands for 'Highest Possible Score' - the maximum score achievable in a practice.",
+      "points": 1
+    },
+    {
+      "id": "wt_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the most important safety rule during weapon handling?",
+      "options": {
+        "a": "Treat every weapon as loaded",
+        "b": "Keep finger off trigger",
+        "c": "Keep weapon on safe",
+        "d": "All of the above"
+      },
+      "correct_answer": ["d"],
+      "explanation": "All options are fundamental safety rules: treat weapons as loaded, keep finger off trigger, and use safety catch.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

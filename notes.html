@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    
+    <!-- External Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="css/notes.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo and College Name -->
+                <div class="logo-container">
+                    <img src="images/Narmada College Icon.png" alt="NCC Logo" class="logo-img" />
+                    <div class="header-text">
+                        <h5>NATIONAL CADET CORPS</h5>
+                        <small>NARMADA COLLEGE</small>
+                    </div>
+                </div>
+                
+                <!-- Date, Time & Greeting -->
+                <div class="text-end text-white">
+                    <div id="date-time" class="mb-2 fw-bold"></div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-user-circle fa-xl me-2 text-gold"></i>
+                        <span id="greet-text" class="fw-semibold">Welcome, Cadet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== NAVIGATION SECTION ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light modern-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tests.html">Tests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="notes-hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">NCC Study Notes</h1>
+            <p class="lead">Comprehensive Notes, Cheat Sheets & Quick References</p>
+        </div>
+    </section>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container">
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <ul class="nav nav-pills nav-pills-custom justify-content-center" id="notesTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="common-notes-tab" data-bs-toggle="pill" data-bs-target="#common-notes" type="button" role="tab">
+                        <i class="fas fa-book me-2"></i>Common Subjects
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="special-notes-tab" data-bs-toggle="pill" data-bs-target="#special-notes" type="button" role="tab">
+                        <i class="fas fa-star me-2"></i>Special Subjects
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Back to Categories Button (Hidden by default) -->
+        <div class="text-center hidden" id="backButtonContainer">
+            <button class="back-to-categories mt-5 mb-5" id="backToCategories">
+                <i class="fas fa-arrow-left me-2"></i>Back to Categories
+            </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="notesTabsContent">
+            <!-- Common Subjects Tab -->
+            <div class="tab-pane fade show active" id="common-notes" role="tabpanel">
+                <div class="category-header">
+                    <h3>Common Subjects Notes</h3>
+                    <p class="text-muted">Essential notes for all NCC cadets</p>
+                </div>
+                
+                <div class="subcategory-grid" id="commonNotesSubcategories">
+                    <!-- NCC Introduction -->
+                    <div class="subcategory-card" data-subcategory="introduction">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h4>NCC Introduction</h4>
+                        <p class="text-muted">History, organization, and structure of NCC</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- National Integration -->
+                    <div class="subcategory-card" data-subcategory="national-integration">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>National Integration</h4>
+                        <p class="text-muted">Unity, diversity, and national pride</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Drill -->
+                    <div class="subcategory-card" data-subcategory="drill">
+                        <div class="subcategory-icon">
+                            <i class="fa-solid fa-person-military-rifle"></i>
+                        </div>
+                        <h4>Drill</h4>
+                        <p class="text-muted">Marching commands, formations, parade procedures</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Weapon Training -->
+                    <div class="subcategory-card" data-subcategory="weapon-training">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-gun"></i>
+                        </div>
+                        <h4>Weapon Training</h4>
+                        <p class="text-muted">Rifle handling, safety, firing techniques</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Disaster Management -->
+                    <div class="subcategory-card" data-subcategory="disaster-management">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-first-aid"></i>
+                        </div>
+                        <h4>Disaster Management</h4>
+                        <p class="text-muted">Emergency response, relief operations</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Social Awareness -->
+                    <div class="subcategory-card" data-subcategory="social-awareness">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4>Social Awareness & Community Development</h4>
+                        <p class="text-muted">Community service, social responsibility</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Health & Hygiene -->
+                    <div class="subcategory-card" data-subcategory="health-hygiene">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h4>Health & Hygiene</h4>
+                        <p class="text-muted">Personal hygiene, first aid, health maintenance</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Environment -->
+                    <div class="subcategory-card" data-subcategory="environment">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Environment Awareness & Conservation</h4>
+                        <p class="text-muted">Ecology, conservation, environmental protection</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Adventure -->
+                    <div class="subcategory-card" data-subcategory="adventure">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h4>Adventure</h4>
+                        <p class="text-muted">Adventure activities, trekking, camping</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Obstacle Training -->
+                    <div class="subcategory-card" data-subcategory="obstacle-training">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <h4>Obstacle Training</h4>
+                        <p class="text-muted">Obstacle courses, physical training techniques</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Personality Development -->
+                    <div class="subcategory-card" data-subcategory="personality-development">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h4>Personality Development & Leadership</h4>
+                        <p class="text-muted">Leadership skills, communication, character building</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                
+                <!-- ========== NOTES SECTIONS FOR COMMON SUBJECTS ========== -->
+
+                <!-- Disaster Management Notes -->
+                <div class="hidden" id="disaster-management-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        National Integration Notes
+                    </h3>
+                    <div class="notes-grid" id="disasterManagementNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Disaster Management</h5>
+                                <p class="note-description">PPT of Disaster Management</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1UdKBn1jaqPsRgcBz1hCNFbTvEyVtIRfq/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1UdKBn1jaqPsRgcBz1hCNFbTvEyVtIRfq/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Obstacle training Notes -->
+                <div class="hidden" id="obstacle-training-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        Obstacle Training Notes
+                    </h3>
+                    <div class="notes-grid" id="obstacleTrainingNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Obstacle Training</h5>
+                                <p class="note-description">PPT of Obstacle Training</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1OOdEvu2esAGRh7ZCzqlphykEetEOEIHJ/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1OOdEvu2esAGRh7ZCzqlphykEetEOEIHJ/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Awareness and Community development Notes -->
+                <div class="hidden" id="social-awareness-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        Social Awareness & Community Development Notes
+                    </h3>
+                    <div class="notes-grid" id="socialAwarenessNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Social Awareness</h5>
+                                <p class="note-description">PPT of Social Awareness and Community Development</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1yNgA-1ARJmmvs1NJCH7dBWkIsVdX3D_y/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1yNgA-1ARJmmvs1NJCH7dBWkIsVdX3D_y/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Special Subjects Tab -->
+            <div class="tab-pane fade" id="special-notes" role="tabpanel">
+                <div class="category-header">
+                    <h3>Special Subjects Notes</h3>
+                    <p class="text-muted">Specialized notes for different NCC wings</p>
+                </div>
+                
+                <div class="subcategory-grid" id="specialNotesSubcategories">
+                    <!-- Orientation -->
+                    <div class="subcategory-card" data-subcategory="orientation">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h4>Orientation</h4>
+                        <p class="text-muted">Basic orientation and familiarization</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="subcategory-card" data-subcategory="navigation">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-location-arrow"></i>
+                        </div>
+                        <h4>Navigation</h4>
+                        <p class="text-muted">Compass usage, chart reading, navigation techniques</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Communication -->
+                    <div class="subcategory-card" data-subcategory="communication">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-walkie-talkie"></i>
+                        </div>
+                        <h4>Communication</h4>
+                        <p class="text-muted">Radio procedures, signaling, communication protocols</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Seamanship -->
+                    <div class="subcategory-card" data-subcategory="seamanship">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <h4>Seamanship</h4>
+                        <p class="text-muted">Naval knots, maritime procedures, safety</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Fire Fighting -->
+                    <div class="subcategory-card" data-subcategory="fire-fighting">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-fire-extinguisher"></i>
+                        </div>
+                        <h4>Fire Fighting & Damage Control</h4>
+                        <p class="text-muted">Fire safety, damage control procedures</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Swimming -->
+                    <div class="subcategory-card" data-subcategory="swimming">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-swimmer"></i>
+                        </div>
+                        <h4>Swimming</h4>
+                        <p class="text-muted">Swimming techniques, water safety, rescue methods</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+
+                    <!-- Ship Modelling -->
+                    <div class="subcategory-card" data-subcategory="ship-modelling">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h4>Ship Modelling</h4>
+                        <p class="text-muted">Model construction, techniques, naval architecture</p>
+                        <div class="notes-count">0 notes available</div>
+                    </div>
+                </div>
+
+                <!-- ========== NOTES SECTIONS FOR SPECIAL SUBJECTS ========== -->
+                
+                <!-- Orientation Notes -->
+                <div class="hidden" id="orientation-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-compass me-2"></i>
+                        Orientation Notes
+                    </h3>
+                    <div class="notes-grid" id="orientationNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Naval Orientation 1</h5>
+                                <p class="note-description">1st PPt of Naval Orientation</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/18VM1mXSDkv9enYxatT4WrV50Qlho7xxW/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/18VM1mXSDkv9enYxatT4WrV50Qlho7xxW/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">05 Nov 2025</span>
+                            </div>
+                        </div>
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Naval Orientation 2</h5>
+                                <p class="note-description">2nd PPt of Naval Orientation</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1D8qqF-IcZo3WquTGHad_9a5ngLKbefAG/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1D8qqF-IcZo3WquTGHad_9a5ngLKbefAG/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">05 Nov 2025</span>
+                            </div>
+                        </div>
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Naval Orientation 3</h5>
+                                <p class="note-description">3rd PPt of Naval Orientation</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1aJt8M4-DFTWL5oaJdn-zMEluTH8UcSnd/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">05 Nov 2025</span>
+                            </div>
+                        </div>
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Naval Orientation 4</h5>
+                                <p class="note-description">4th PPt of Naval Orientation</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1Mx6LZaKN4s6FvdWgx6WvSbiJ7zFeB4oI/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">05 Nov 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Navigation Notes-->
+                <div class="hidden" id="navigation-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        Navigation Notes
+                    </h3>
+                    <div class="notes-grid" id="navigationNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Navigation 1</h5>
+                                <p class="note-description">1st PPT of Navigation</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1ZMBueuJeQyXzowhYDuV4lK1jBwlEPbSc/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1ZMBueuJeQyXzowhYDuV4lK1jBwlEPbSc/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Navigation 2</h5>
+                                <p class="note-description">2nd PPT of Navigation</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1taEKjgZkzgZx6wp40M3XN3cb8v32KvlG/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1taEKjgZkzgZx6wp40M3XN3cb8v32KvlG/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Communication Notes-->
+                <div class="hidden" id="communication-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        Naval Communication Notes
+                    </h3>
+                    <div class="notes-grid" id="communicationNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Communication</h5>
+                                <p class="note-description">Naval Communication PPT</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1yjyyO-VQXcylk0LRMbdzkBVIJp-5sFk0/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1yjyyO-VQXcylk0LRMbdzkBVIJp-5sFk0/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--ship moelling-->
+                <div class="hidden" id="ship-modelling-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        National Integration Notes
+                    </h3>
+                    <div class="notes-grid" id="shipModellingNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Ship Modelling 1</h5>
+                                <p class="note-description">1st PPT of Ship modelling</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/15qZnen6mp4EzcfBulIKUkl1Qlj8CijjH/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/15qZnen6mp4EzcfBulIKUkl1Qlj8CijjH/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Ship Modelling 2</h5>
+                                <p class="note-description">2nd PPT of Ship Modelling</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1ruzWc_JctlMRXkTLlS4ociGt_YvX_sjj/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1ruzWc_JctlMRXkTLlS4ociGt_YvX_sjj/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hidden" id="swimming-section">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        National Integration Notes
+                    </h3>
+                    <div class="notes-grid" id="swimmingNotesGrid">
+                        <div class="note-card" data-aos="fade-up">
+                            <div class="note-header">
+                                <h5 class="note-title">Swimming</h5>
+                                <p class="note-description">PPt for Swimming</p>
+                            </div>
+                            <div class="note-body">
+                                <div class="note-meta">
+                                    <span class="note-type">PPT</span>
+                                    <div class="note-actions">
+                                        <a href="https://docs.google.com/presentation/d/1BYNRcaUSF_c0ChQhVZ2-Sc8dLhWQF-3G/preview" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-eye"></i> Preview
+                                        </a>
+                                        <a href="https://docs.google.com/presentation/d/1BYNRcaUSF_c0ChQhVZ2-Sc8dLhWQF-3G/edit?usp=drive_link&ouid=115995957051456430192&rtpof=true&sd=true" class="note-action-btn" target="_blank">
+                                            <i class="fas fa-download"></i> Download
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="note-footer">
+                                <span class="note-date">DATE_ADDED</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </main>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="modern-footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 National Cadet Corps - Narmada College.</p>
+        </div>
+    </footer>
+
+    <!-- ========== EXTERNAL SCRIPTS ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="common.js"></script>
+    <script src="js/notes.js"></script>
+
+</body>
+</html>

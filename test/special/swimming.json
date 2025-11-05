@@ -1,0 +1,240 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "swimming",
+  "language": "en",
+  "title": "Swimming - Floating and Breathing Techniques",
+  "description": "Comprehensive test on swimming gear, styles, breathing techniques, and water safety",
+  "questions": [
+    {
+      "id": "swimming_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of swimming in emergency situations?",
+      "options": {
+        "a": "For sports competition",
+        "b": "For recreation and entertainment",
+        "c": "For survival till help arrives",
+        "d": "For physical exercise only"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Swimming provides survival capability during emergencies, accidents, or evacuations, keeping you alive until assistance reaches.",
+      "points": 1
+    },
+    {
+      "id": "swimming_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which swimming gear protects the eyes and improves underwater visibility?",
+      "options": {
+        "a": "Swim cap",
+        "b": "Goggles",
+        "c": "Swim fins",
+        "d": "Drag suit"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Goggles protect eyes from water and chlorine while improving underwater visibility for better swimming technique.",
+      "points": 1
+    },
+    {
+      "id": "swimming_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which swimming style is performed with the chest facing the sky?",
+      "options": {
+        "a": "Front Crawl",
+        "b": "Breast Stroke",
+        "c": "Butterfly",
+        "d": "Back Stroke"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Back Stroke (also called back crawl) is performed lying on the back with chest facing upward.",
+      "points": 1
+    },
+    {
+      "id": "swimming_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What type of kick is used in breast stroke?",
+      "options": {
+        "a": "Flutter kick",
+        "b": "Dolphin kick",
+        "c": "Frog kick",
+        "d": "Scissors kick"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Breast stroke uses a frog kick where legs move in a circular, frog-like motion.",
+      "points": 1
+    },
+    {
+      "id": "swimming_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Where should exhalation primarily occur during swimming?",
+      "options": {
+        "a": "Above water only",
+        "b": "Under water",
+        "c": "Through nose only",
+        "d": "Holding breath throughout"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Exhalation must be done under water, allowing quick inhalation when mouth comes above water.",
+      "points": 1
+    },
+    {
+      "id": "swimming_006",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the 'bow wave' created during swimming?",
+      "options": {
+        "a": "A wave made by kicking",
+        "b": "A wave created by head and body moving through water",
+        "c": "A wave from arm movements only",
+        "d": "A diving technique"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Bow wave is created by the head and body moving through water, which can be used for breathing.",
+      "points": 1
+    },
+    {
+      "id": "swimming_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which swimming style uses dolphin kick?",
+      "options": {
+        "a": "Front Crawl",
+        "b": "Breast Stroke",
+        "c": "Butterfly",
+        "d": "Dog Paddle"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Butterfly stroke uses dolphin kick where both legs move up and down together like a dolphin's tail.",
+      "points": 1
+    },
+    {
+      "id": "swimming_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the most important safety rule when swimming?",
+      "options": {
+        "a": "Wear expensive gear",
+        "b": "Never swim alone",
+        "c": "Always swim fast",
+        "d": "Swim only in deep water"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Never swim alone - this ensures someone can help in case of emergency or difficulty.",
+      "points": 1
+    },
+    {
+      "id": "swimming_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What should you do to prevent water entering your nose when face is in water?",
+      "options": {
+        "a": "Hold breath completely",
+        "b": "Exhale small amount of air",
+        "c": "Breathe through nose",
+        "d": "Keep mouth open"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Release small amount of air through nose when face is in water to prevent water entry.",
+      "points": 1
+    },
+    {
+      "id": "swimming_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which swimming style is described as 'face over water and paddling with alternate hands'?",
+      "options": {
+        "a": "Front Crawl",
+        "b": "Breast Stroke",
+        "c": "Butterfly",
+        "d": "Dog Paddle"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Dog Paddle involves keeping face over water while paddling with alternate hands, often with nose and mouth above water.",
+      "points": 1
+    },
+    {
+      "id": "swimming_011",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the purpose of a drag suit in swimming training?",
+      "options": {
+        "a": "To increase swimming speed",
+        "b": "To create resistance and build strength",
+        "c": "For better floating",
+        "d": "For warmth in cold water"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Drag suit creates water resistance, helping swimmers build strength and power during training.",
+      "points": 1
+    },
+    {
+      "id": "swimming_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "When should you rotate your head for breathing during swimming?",
+      "options": {
+        "a": "As much as possible",
+        "b": "Until you see your sides",
+        "c": "Until you see behind",
+        "d": "Keep head straight always"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Rotate head only until you see your sides - over-rotation can disrupt swimming rhythm and balance.",
+      "points": 1
+    },
+    {
+      "id": "swimming_013",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which of these is NOT mentioned as a swimming precaution?",
+      "options": {
+        "a": "Know water depth",
+        "b": "Never dive in shallow end",
+        "c": "Swim only during daytime",
+        "d": "Follow all safety instructions"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Documented precautions include knowing depth, no diving in shallow end, proper kit, and following safety instructions - not specifically daytime swimming.",
+      "points": 1
+    },
+    {
+      "id": "swimming_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What coordination is essential for good swimming?",
+      "options": {
+        "a": "Only physical movements",
+        "b": "Only breathing control",
+        "c": "Breathing, mental and physical coordination",
+        "d": "Only arm and leg movements"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Good swimming requires balanced coordination of breathing, mental focus, physical movements, strength and stamina.",
+      "points": 1
+    },
+    {
+      "id": "swimming_015",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which equipment helps with leg strength and kick technique?",
+      "options": {
+        "a": "Goggles",
+        "b": "Swim cap",
+        "c": "Kick board",
+        "d": "Paddlers"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Kick board supports upper body, allowing focus on leg movements and kick technique development.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 15,
+    "time_limit": 1200,
+    "passing_score": 70
+  }
+}

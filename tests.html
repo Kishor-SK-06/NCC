@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tests</title>
+    
+    <!-- External Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="css/tests.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo and College Name -->
+                <div class="logo-container">
+                    <img src="images/Narmada College Icon.png" alt="NCC Logo" class="logo-img" />
+                    <div class="header-text">
+                        <h5>NATIONAL CADET CORPS</h5>
+                        <small>NARMADA COLLEGE</small>
+                    </div>
+                </div>
+                
+                <!-- Date, Time & Greeting -->
+                <div class="text-end text-white">
+                    <div id="date-time" class="mb-2 fw-bold"></div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-user-circle fa-xl me-2 text-gold"></i>
+                        <span id="greet-text" class="fw-semibold">Welcome, Cadet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== NAVIGATION SECTION ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light modern-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tests.html">Tests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="tests-hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">NCC Assessment Tests</h1>
+            <p class="lead">Test Your Knowledge with Interactive Quizzes & Mock Tests</p>
+        </div>
+    </section>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container">
+        <!-- 
+            CATEGORY TABS SECTION
+            TO ADD NEW CATEGORY: 
+            1. Add new <li> here with unique id
+            2. Add corresponding tab-pane below
+            3. Update categories in tests.js
+        -->
+        <div class="category-tabs">
+            <ul class="nav nav-pills nav-pills-custom justify-content-center" id="testsTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="common-tests-tab" data-bs-toggle="pill" data-bs-target="#common-tests" type="button" role="tab">
+                        <i class="fas fa-book me-2"></i>Common Subjects
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="special-tests-tab" data-bs-toggle="pill" data-bs-target="#special-tests" type="button" role="tab">
+                        <i class="fas fa-star me-2"></i>Special Subjects
+                    </button>
+                </li>
+                <!-- 
+                    ADD NEW CATEGORY TAB HERE:
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="NEW-category-tab" data-bs-toggle="pill" data-bs-target="#NEW-category" type="button" role="tab">
+                            <i class="fas fa-icon me-2"></i>Category Name
+                        </button>
+                    </li>
+                -->
+            </ul>
+        </div>
+
+        <!-- Back to Categories Button (Hidden by default) -->
+        <div class="text-center mt-4 mb-4" id="backButtonContainer" style="display: none;">
+            <button class="btn btn-outline-primary" id="backToCategories">
+                <i class="fas fa-arrow-left me-2"></i>Back to Categories
+            </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="testsTabsContent">
+            
+            <!-- ========== COMMON SUBJECTS TAB ========== -->
+            <div class="tab-pane fade show active" id="common-tests" role="tabpanel">
+                <div class="category-header">
+                    <h3>Common Subjects Tests</h3>
+                    <p class="text-info">Assess your knowledge in core NCC subjects</p>
+                </div>
+                
+                <!-- 
+                    COMMON SUBJECTS GRID
+                    TO ADD NEW SUBJECT:
+                    1. Add new subcategory-card with data-subcategory="new-subject"
+                    2. Add corresponding test section below
+                    3. Update common subcategories in tests.js
+                -->
+                <div class="subcategory-grid" id="commonTestsGrid">
+                    <!-- NCC Introduction -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="introduction">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h4>NCC Introduction</h4>
+                        <p class="text-info">History, organization, and structure of NCC</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="introduction" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="introduction" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- National Integration -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="national-integration">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>National Integration</h4>
+                        <p class="text-info">Unity, diversity, and national pride</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="national-integration" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="national-integration" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Drill -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="drill">
+                        <div class="subcategory-icon">
+                            <i class="fa-solid fa-person-military-rifle"></i>
+                        </div>
+                        <h4>Drill</h4>
+                        <p class="text-info">Marching commands, formations, parade procedures</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="drill" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="drill" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Weapon Training -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="weapon-training">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-gun"></i>
+                        </div>
+                        <h4>Weapon Training</h4>
+                        <p class="text-info">Rifle handling, safety, firing techniques</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="weapon-training" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="weapon-training" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Disaster Management -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="disaster-management">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-first-aid"></i>
+                        </div>
+                        <h4>Disaster Management</h4>
+                        <p class="text-info">Emergency response, relief operations</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="disaster-management" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="disaster-management" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Social Awareness -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="social-awareness">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4>Social Awareness & Community Development</h4>
+                        <p class="text-info">Community service, social responsibility</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="social-awareness" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="social-awareness" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Health & Hygiene -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="health-hygiene">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h4>Health & Hygiene</h4>
+                        <p class="text-info">Personal hygiene, first aid, health maintenance</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="health-hygiene" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="health-hygiene" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Environment -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="environment">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Environment Awareness & Conservation</h4>
+                        <p class="text-info">Ecology, conservation, environmental protection</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="environment" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="environment" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Adventure -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="adventure">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <h4>Adventure</h4>
+                        <p class="text-info">Adventure activities, trekking, camping</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="adventure" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="adventure" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Obstacle Training -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="obstacle-training">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <h4>Obstacle Training</h4>
+                        <p class="text-info">Obstacle courses, physical training techniques</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="obstacle-training" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="obstacle-training" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Personality Development -->
+                    <div class="subcategory-card" data-category="common" data-subcategory="personality-development">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h4>Personality Development & Leadership</h4>
+                        <p class="text-info">Leadership skills, communication, character building</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="personality-development" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="personality-development" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 
+                        ADD NEW COMMON SUBJECT CARD HERE:
+                        <div class="subcategory-card" data-category="common" data-subcategory="NEW-subject">
+                            <div class="subcategory-icon">
+                                <i class="fas fa-icon"></i>
+                            </div>
+                            <h4>Subject Name</h4>
+                            <p class="text-info">Subject description</p>
+                            <div class="test-actions">
+                                <button class="btn-test practice-test" data-category="common" data-subcategory="NEW-subject" data-mode="practice">
+                                    <i class="fas fa-graduation-cap me-1"></i>Practice
+                                </button>
+                                <button class="btn-test exam-test" data-category="common" data-subcategory="NEW-subject" data-mode="exam">
+                                    <i class="fas fa-file-alt me-1"></i>Exam
+                                </button>
+                            </div>
+                        </div>
+                    -->
+                </div>
+            </div>
+
+            <!-- ========== SPECIAL SUBJECTS TAB ========== -->
+            <div class="tab-pane fade" id="special-tests" role="tabpanel">
+                <div class="category-header">
+                    <h3>Special Subjects Tests</h3>
+                    <p class="text-info">Test your specialized NCC wing knowledge</p>
+                </div>
+                
+                <!-- 
+                    SPECIAL SUBJECTS GRID
+                    TO ADD NEW SUBJECT: Follow same pattern as common subjects
+                -->
+                <div class="subcategory-grid" id="specialTestsGrid">
+                    <!-- Orientation -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="orientation">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h4>Orientation</h4>
+                        <p class="text-info">Basic orientation and familiarization</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="orientation" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="orientation" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Navigation -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="navigation">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-location-arrow"></i>
+                        </div>
+                        <h4>Navigation</h4>
+                        <p class="text-info">Compass usage, chart reading, navigation techniques</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="navigation" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="navigation" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Communication -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="communication">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-walkie-talkie"></i>
+                        </div>
+                        <h4>Communication</h4>
+                        <p class="text-info">Radio procedures, signaling, communication protocols</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="communication" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="communication" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Seamanship -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="seamanship">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <h4>Seamanship</h4>
+                        <p class="text-info">Naval knots, maritime procedures, safety</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="seamanship" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="seamanship" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Fire Fighting -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="fire-fighting">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-fire-extinguisher"></i>
+                        </div>
+                        <h4>Fire Fighting & Damage Control</h4>
+                        <p class="text-info">Fire safety, damage control procedures</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="fire-fighting" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="fire-fighting" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Swimming -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="swimming">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-swimmer"></i>
+                        </div>
+                        <h4>Swimming</h4>
+                        <p class="text-info">Swimming techniques, water safety, rescue methods</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="swimming" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="swimming" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Ship Modelling -->
+                    <div class="subcategory-card" data-category="special" data-subcategory="ship-modelling">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h4>Ship Modelling</h4>
+                        <p class="text-info">Model construction, techniques, naval architecture</p>
+                        <div class="test-actions">
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="ship-modelling" data-mode="practice">
+                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            </button>
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="ship-modelling" data-mode="exam">
+                                <i class="fas fa-file-alt me-1"></i>Exam
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- 
+                        ADD NEW SPECIAL SUBJECT CARD HERE (same pattern as above)
+                    -->
+                </div>
+            </div>
+
+            <!-- 
+                ADD NEW CATEGORY TAB PANE HERE:
+                <div class="tab-pane fade" id="NEW-category" role="tabpanel">
+                    <div class="category-header">
+                        <h3>Category Name Tests</h3>
+                        <p class="text-info">Category description</p>
+                    </div>
+                    <div class="subcategory-grid" id="NEWCategoryTestsGrid">
+                        <!-- Add subcategory cards here -->
+                    </div>
+                </div>
+            -->
+        </div>
+    </main>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="modern-footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 National Cadet Corps - Narmada College.</p>
+        </div>
+    </footer>
+
+    <!-- ========== EXTERNAL SCRIPTS ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="common.js"></script>
+    <script src="js/tests.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    
+    <!-- External Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo and College Name -->
+                <div class="logo-container">
+                    <img src="images/Narmada College Icon.png" alt="NCC Logo" class="logo-img" />
+                    <div class="header-text">
+                        <h5>NATIONAL CADET CORPS</h5>
+                        <small>NARMADA COLLEGE</small>
+                    </div>
+                </div>
+                
+                <!-- Date, Time & Greeting -->
+                <div class="text-end text-white">
+                    <div id="date-time" class="mb-2 fw-bold"></div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-user-circle fa-xl me-2 text-gold"></i>
+                        <span id="greet-text" class="fw-semibold">Welcome, Cadet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== NAVIGATION SECTION ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light modern-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tests.html">Tests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_National_Cadet_Corps_%28India%29.png" 
+                 alt="NCC Logo" class="ncc-logo" />
+            <h1 class="display-4 fw-bold mb-3">National Cadet Corps</h1>
+            <p class="lead">Unity and Discipline</p>
+        </div>
+    </section>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container my-5">
+
+        <!-- NCC Hierarchy Section -->
+        <section id="hierarchy" class="mb-5">
+            <h3 class="section-title text-center">NCC Hierarchy</h3>
+            <div class="row justify-content-center">
+                
+                <!-- Card 1 - NCC -->
+                <div class="col-lg-10" data-aos="fade-up">
+                    <div class="modern-card d-flex flex-md-row flex-column p-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Lieutenant_General_of_the_Indian_Army.svg/320px-Lieutenant_General_of_the_Indian_Army.svg.png" 
+                             alt="NCC" class="hierarchy-img me-md-4 mb-3 mb-md-0" />
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">National Cadet Corps</h5>
+                            <p class="card-text">The National Cadet Corps (NCC) is a prestigious youth development movement in India that instills discipline, leadership, and a sense of national service among students. It operates under the Ministry of Defence and provides military training to school and college students across the country.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 - Gujarat Directorate -->
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="modern-card d-flex flex-md-row-reverse flex-column p-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Major_General_of_the_Indian_Army.svg/320px-Major_General_of_the_Indian_Army.svg.png" 
+                             alt="Gujarat Directorate" class="hierarchy-img ms-md-4 mb-3 mb-md-0" />
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Gujarat Directorate</h5>
+                            <p class="card-text">In Gujarat, the NCC is administered by the Gujarat Directorate, which oversees all NCC activities across the state. This directorate is responsible for coordinating training programs, camps, and ceremonial events.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 - Baroda Group -->
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="200">
+                    <div class="modern-card d-flex flex-md-row flex-column p-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Brigadier_of_the_Indian_Army.svg/320px-Brigadier_of_the_Indian_Army.svg.png" 
+                             alt="Baroda Group" class="hierarchy-img me-md-4 mb-3 mb-md-0" />
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Baroda Group</h5>
+                            <p class="card-text">Within the Gujarat Directorate, the Baroda Group plays a vital role in managing NCC operations in and around Vadodara. It supervises several units and organizes social service initiatives and adventure activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 - 2 GUJ Naval Unit -->
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="300">
+                    <div class="modern-card d-flex flex-md-row-reverse flex-column p-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Generic-Navy-8.svg/320px-Generic-Navy-8.svg.png" 
+                             alt="2 Guj Naval" class="hierarchy-img ms-md-4 mb-3 mb-md-0" />
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">2 GUJ Naval Unit</h5>
+                            <p class="card-text">One of the key units under the Baroda Group is the 2 Gujarat Naval Unit NCC, based in Vadodara. This unit specializes in naval training and provides cadets with hands-on experience in seamanship and sailing.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 - Narmada College -->
+                <div class="col-lg-10" data-aos="fade-up" data-aos-delay="400">
+                    <div class="modern-card d-flex flex-md-row flex-column p-4">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Generic-Navy-2.svg/320px-Generic-Navy-2.svg.png" 
+                             alt="Narmada College" class="hierarchy-img me-md-4 mb-3 mb-md-0" />
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold text-primary">Narmada College</h5>
+                            <p class="card-text">Narmada College, located in Bharuch, is one of the prominent institutions affiliated with the NCC under the Baroda Group. The college actively encourages its students to enroll in NCC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notable Leaders Section -->
+        <section id="leaders" class="mb-5">
+            <div class="container">
+                <h3 class="section-title text-center">Troop Commanders</h3>
+                <p class="text-center text-muted mb-5">Dedicated leaders shaping the future of our cadets</p>
+                
+                <div class="row justify-content-center g-4">
+                    <!-- Leader 1 -->
+                    <div class="col-md-5" data-aos="fade-up">
+                        <div class="leader-card">
+                            <div class="leader-portrait-container text-center mt-4">
+                                <img src="images/Raval Sir.jpg" alt="Lt Cdr Raval Sir (Retd)" 
+                                     onload="this.classList.add('loaded')" />
+                                <div class="rank-ribbon">
+                                    <i class="fas fa-star me-1"></i>Retired ANO
+                                </div>
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <h4 class="card-title fw-bold text-primary mb-3">Lt Cdr Raval Sir (Retd)</h4>
+                                <div class="leader-bio mb-3">
+                                    <p class="card-text">A distinguished Naval NCC officer with over 20 years of service, now dedicated to mentoring the next generation of NCC cadets.</p>
+                                </div>
+                                <div class="leader-stats">
+                                    <div class="row text-center">
+                                        <div class="col-4">
+                                            <div class="stat-item">
+                                                <h5 class="text-primary mb-0">20+</h5>
+                                                <small>Years Service</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="stat-item">
+                                                <h5 class="text-primary mb-0">500+</h5>
+                                                <small>Cadets Trained</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="stat-item">
+                                                <h5 class="text-primary mb-0">15+</h5>
+                                                <small>Camps Led</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specializations mt-3">
+                                    <span class="badge bg-primary me-1">Naval Training</span>
+                                    <span class="badge bg-primary me-1">Leadership</span>
+                                    <span class="badge bg-primary">Drill</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Leader 2 -->
+                    <div class="col-md-5" data-aos="fade-up" data-aos-delay="100">
+                        <div class="leader-card">
+                            <div class="leader-portrait-container text-center mt-4">
+                                <img src="images/Bhavesh Sir.png" alt="Sub Lt Bhavesh Sir" 
+                                     onload="this.classList.add('loaded')" />
+                                <div class="rank-ribbon">
+                                    <i class="fas fa-star me-1"></i>ANO
+                                </div>
+                            </div>
+                            <div class="card-body text-center p-4">
+                                <h4 class="card-title fw-bold text-primary mb-3">Sub Lt Bhavesh Sir</h4>
+                                <div class="leader-bio mb-3">
+                                    <p class="card-text">An enthusiastic and dynamic officer known for his innovative training methods and dedication to cadet development.</p>
+                                </div>
+                                <div class="leader-stats">
+                                    <div class="row text-center">
+                                        <div class="col-4">
+                                            <div class="stat-item">
+                                                <h5 class="text-primary mb-0">2+</h5>
+                                                <small>Years Service</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="stat-item">
+                                                <h5 class="text-primary mb-0">100+</h5>
+                                                <small>Cadets Trained</small>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="stat-item">
+                                                <h5 class="text-primary mb-0">0</h5>
+                                                <small>Camps Led</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="specializations mt-3">
+                                    <span class="badge bg-primary me-1">Adventure</span>
+                                    <span class="badge bg-primary me-1">Physical Training</span>
+                                    <span class="badge bg-primary">Events</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rank Structure Section -->
+        <section id="ranks" class="mb-5">
+            <h3 class="section-title text-center mb-4">Rank Structure</h3>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <!-- Captain Level -->
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card border-0 shadow bg-primary text-white">
+                                <div class="card-body text-center py-3">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/NCC_Navy_CC.png" alt="Captain Rank" class="img-fluid mb-2" style="max-height: 50px;">
+                                    <h5 class="card-title mb-0 fw-bold">Cadet Captain</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Connector Line -->
+                    <div class="d-flex justify-content-center mb-3">
+                        <div class="bg-secondary" style="width: 2px; height: 25px;"></div>
+                    </div>
+                    
+                    <!-- PO Level -->
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-md-4 mb-2">
+                            <div class="card border-0 shadow bg-info text-white h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ncc-navy-cadets-po-_-petty-officer-badge_3_1.jpg" alt="PO Rank" class="img-fluid mb-1 mx-auto" style="max-height: 40px;">
+                                    <h6 class="card-title mb-0 fw-bold">PO Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="card border-0 shadow bg-info text-white h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ncc-navy-cadets-po-_-petty-officer-badge_3_1.jpg" alt="PO Rank" class="img-fluid mb-1 mx-auto" style="max-height: 40px;">
+                                    <h6 class="card-title mb-0 fw-bold">PO Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-2">
+                            <div class="card border-0 shadow bg-info text-white h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Ncc-navy-cadets-po-_-petty-officer-badge_3_1.jpg" alt="PO Rank" class="img-fluid mb-1 mx-auto" style="max-height: 40px;">
+                                    <h6 class="card-title mb-0 fw-bold">PO Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Leading Cadet Level -->
+                    <div class="row mb-3">
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-light h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ncc-navy-cadets-LC-Leading_Cadet-_badge.jpg" alt="L Rank" class="img-fluid mb-1 mx-auto" style="max-height: 35px;">
+                                    <h6 class="card-title mb-0 fw-bold">L Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-light h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ncc-navy-cadets-LC-Leading_Cadet-_badge.jpg" alt="L Rank" class="img-fluid mb-1 mx-auto" style="max-height: 35px;">
+                                    <h6 class="card-title mb-0 fw-bold">L Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-light h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ncc-navy-cadets-LC-Leading_Cadet-_badge.jpg" alt="L Rank" class="img-fluid mb-1 mx-auto" style="max-height: 35px;">
+                                    <h6 class="card-title mb-0 fw-bold">L Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-light h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ncc-navy-cadets-LC-Leading_Cadet-_badge.jpg" alt="L Rank" class="img-fluid mb-1 mx-auto" style="max-height: 35px;">
+                                    <h6 class="card-title mb-0 fw-bold">L Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-light h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ncc-navy-cadets-LC-Leading_Cadet-_badge.jpg" alt="L Rank" class="img-fluid mb-1 mx-auto" style="max-height: 35px;">
+                                    <h6 class="card-title mb-0 fw-bold">L Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-light h-100">
+                                <div class="card-body text-center d-flex flex-column justify-content-center py-2">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ncc-navy-cadets-LC-Leading_Cadet-_badge.jpg" alt="L Rank" class="img-fluid mb-1 mx-auto" style="max-height: 35px;">
+                                    <h6 class="card-title mb-0 fw-bold">L Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Cadet Level -->
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-white h-100">
+                                <div class="card-body text-center d-flex align-items-center justify-content-center py-2">
+                                    <h6 class="card-title mb-0 fw-bold">SD Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-white h-100">
+                                <div class="card-body text-center d-flex align-items-center justify-content-center py-2">
+                                    <h6 class="card-title mb-0 fw-bold">SD Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-white h-100">
+                                <div class="card-body text-center d-flex align-items-center justify-content-center py-2">
+                                    <h6 class="card-title mb-0 fw-bold">SD Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-white h-100">
+                                <div class="card-body text-center d-flex align-items-center justify-content-center py-2">
+                                    <h6 class="card-title mb-0 fw-bold">SD Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-white h-100">
+                                <div class="card-body text-center d-flex align-items-center justify-content-center py-2">
+                                    <h6 class="card-title mb-0 fw-bold">SD Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 mb-2">
+                            <div class="card border-0 shadow bg-white h-100">
+                                <div class="card-body text-center d-flex align-items-center justify-content-center py-2">
+                                    <h6 class="card-title mb-0 fw-bold">SD Cadet</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="modern-footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 National Cadet Corps - Narmada College.</p>
+        </div>
+    </footer>
+
+    <!-- ========== EXTERNAL SCRIPTS ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/index.js"></script>
+    <script src="common.js"></script>
+
+</body>
+</html>

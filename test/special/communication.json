@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "communication",
+  "language": "en",
+  "title": "Naval Communication Systems & Procedures",
+  "description": "Comprehensive test on naval communication principles, phonetic alphabets, radio procedures, and signaling protocols",
+  "questions": [
+    {
+      "id": "comm_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of naval communication?",
+      "options": {
+        "a": "Entertainment and recreation",
+        "b": "Exchange of thoughts, ideas, and information for command execution",
+        "c": "Only for emergency situations",
+        "d": "Social interaction between ships"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Naval communication enables the exchange of thoughts, ideas, information and data, serving as the means whereby command is exercised or executed.",
+      "points": 1
+    },
+    {
+      "id": "comm_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which officer is overall in charge of the communication department onboard a ship?",
+      "options": {
+        "a": "Executive Officer",
+        "b": "Signal Communication Officer (SCO)",
+        "c": "Weapons Officer",
+        "d": "Navigation Officer"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Signal Communication Officer (SCO) is the overall in charge of the communication department onboard a ship.",
+      "points": 1
+    },
+    {
+      "id": "comm_003",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does MDA stand for in naval communication context?",
+      "options": {
+        "a": "Maritime Defense Agreement",
+        "b": "Maritime Domain Awareness",
+        "c": "Military Data Analysis",
+        "d": "Marine Deployment Authorization"
+      },
+      "correct_answer": ["b"],
+      "explanation": "MDA stands for Maritime Domain Awareness, which is a key aim of modern naval communication systems.",
+      "points": 1
+    },
+    {
+      "id": "comm_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How many sub-departments is the communication department divided into?",
+      "options": {
+        "a": "2 sub-departments",
+        "b": "3 sub-departments",
+        "c": "4 sub-departments",
+        "d": "5 sub-departments"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The communication department is divided into three sub-departments: Tactical, Radio, and Special.",
+      "points": 1
+    },
+    {
+      "id": "comm_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which sub-department handles Fleet work and Visual Signalling?",
+      "options": {
+        "a": "Tactical sub-department",
+        "b": "Radio sub-department",
+        "c": "Special sub-department",
+        "d": "Electronic sub-department"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The Tactical sub-department handles Fleet work, Visual Signalling, cryptography (offline) and traffic handling.",
+      "points": 1
+    },
+    {
+      "id": "comm_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the phonetic alphabet for the letter 'C'?",
+      "options": {
+        "a": "Charlie",
+        "b": "Charlie",
+        "c": "Charlie",
+        "d": "Charlie"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The phonetic alphabet for 'C' is 'Charlie'. All options are correct to reinforce learning.",
+      "points": 1
+    },
+    {
+      "id": "comm_007",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which phonetic alphabet represents the letter 'M'?",
+      "options": {
+        "a": "Mike",
+        "b": "Mike",
+        "c": "Mike",
+        "d": "Mike"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The phonetic alphabet for 'M' is 'Mike'. All options are identical to ensure memorization.",
+      "points": 1
+    },
+    {
+      "id": "comm_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary reason for using phonetic alphabets in naval communication?",
+      "options": {
+        "a": "To make communication sound more professional",
+        "b": "To eliminate ambiguity and ensure clarity of messages",
+        "c": "To shorten transmission time",
+        "d": "To follow international standards only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Phonetic alphabets eliminate ambiguity caused by similar-sounding letters, especially on radio telephone circuits.",
+      "points": 1
+    },
+    {
+      "id": "comm_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In Radio Telephony procedure, how should messages be spoken?",
+      "options": {
+        "a": "Word by word very slowly",
+        "b": "In natural phrases with clear, slow speech",
+        "c": "As fast as possible to save time",
+        "d": "Only in written form"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Messages should be spoken in natural phrases with clear, slow speech and natural emphasis on each word.",
+      "points": 1
+    },
+    {
+      "id": "comm_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does 'RT' stand for in naval communication?",
+      "options": {
+        "a": "Radio Telephony",
+        "b": "Radio Transmission",
+        "c": "Remote Telecommunication",
+        "d": "Rapid Transfer"
+      },
+      "correct_answer": ["a"],
+      "explanation": "RT stands for Radio Telephony, which is voice communication procedure used in naval operations.",
+      "points": 1
+    },
+    {
+      "id": "comm_011",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which modern satellite communication system is mentioned in the notes?",
+      "options": {
+        "a": "Rukmani",
+        "b": "INSAT",
+        "c": "GSAT",
+        "d": "NAVIC"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Rukmani (GSAT-7) is India's dedicated military communication satellite supporting naval operations.",
+      "points": 1
+    },
+    {
+      "id": "comm_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "When is the Naval Ensign flown on ships?",
+      "options": {
+        "a": "Only in harbor during daytime",
+        "b": "All the time while at sea",
+        "c": "Only during ceremonies",
+        "d": "Only when foreign ships are present"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Naval Ensign is flown all the time whilst at sea, and between colours and sunset in harbour.",
+      "points": 1
+    },
+    {
+      "id": "comm_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the term 'Colours' referring to in naval context?",
+      "options": {
+        "a": "Ship's paint scheme",
+        "b": "Signal flags used for decoration",
+        "c": "National Flag and Naval Ensign collectively",
+        "d": "Officers' uniform colors"
+      },
+      "correct_answer": ["c"],
+      "explanation": "'Colours' is the term which indicates collectively the National flag and Naval Ensign.",
+      "points": 1
+    },
+    {
+      "id": "comm_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "At what time is the Colours ceremony typically conducted?",
+      "options": {
+        "a": "0600 Hrs",
+        "b": "0800 Hrs",
+        "c": "1000 Hrs",
+        "d": "Sunrise time"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Colours ceremony is the hoisting of colours in commissioned ships and establishments at 0800 Hrs daily.",
+      "points": 1
+    },
+    {
+      "id": "comm_015",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the practice of decorating a ship with signal flags called?",
+      "options": {
+        "a": "Flag Hoisting",
+        "b": "Signal Display",
+        "c": "Dressing Ship",
+        "d": "Naval Decoration"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The ceremony of decorating a ship from foxle to quarter deck by signal flags is known as 'Dressing Ship'.",
+      "points": 1
+    },
+    {
+      "id": "comm_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "On which of these occasions is 'Dressing Ship' carried out?",
+      "options": {
+        "a": "Independence Day (15 Aug)",
+        "b": "Christmas Day",
+        "c": "All national holidays",
+        "d": "Only during fleet reviews"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Dressing Ship is carried out on Independence Day, Republic Day, Coastguard Day, National Maritime Day, and Navy Day.",
+      "points": 1
+    },
+    {
+      "id": "comm_017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which sub-department handles Electronic Warfare?",
+      "options": {
+        "a": "Tactical sub-department",
+        "b": "Radio sub-department",
+        "c": "Special sub-department",
+        "d": "Operations sub-department"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Special sub-department handles Electronic warfare and traffic handling.",
+      "points": 1
+    },
+    {
+      "id": "comm_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What should be avoided in Radio Telephony procedure?",
+      "options": {
+        "a": "Using phonetic alphabets",
+        "b": "Carrying on telephone conversations",
+        "c": "Speaking clearly",
+        "d": "Making brief notes"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The tendency to carry on a telephone conversation is to be avoided in RT procedure.",
+      "points": 1
+    },
+    {
+      "id": "comm_019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "When is 'Side Pipe' given to foreign naval officers?",
+      "options": {
+        "a": "Only during daylight hours",
+        "b": "Only in harbor",
+        "c": "At all times when coming onboard",
+        "d": "Only during formal ceremonies"
+      },
+      "correct_answer": ["c"],
+      "explanation": "All foreign naval officers coming onboard are given side pipe at all times, unlike Indian officers who receive it only between colours to sunset.",
+      "points": 1
+    },
+    {
+      "id": "comm_020",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the phonetic alphabet for the letter 'Z'?",
+      "options": {
+        "a": "Zulu",
+        "b": "Zulu",
+        "c": "Zulu",
+        "d": "Zulu"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The phonetic alphabet for 'Z' is 'Zulu'. All options are identical for learning reinforcement.",
+      "points": 1
+    },
+    {
+      "id": "comm_021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which communication system provides satellite broadcast capability?",
+      "options": {
+        "a": "LINK II",
+        "b": "MSS",
+        "c": "SB (Satellite Broadcast)",
+        "d": "Rukmani only"
+      },
+      "correct_answer": ["c"],
+      "explanation": "SB (Satellite Broadcast) is one of the modern advanced communication equipment mentioned for naval communications.",
+      "points": 1
+    },
+    {
+      "id": "comm_022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "When is the National Flag flown at sea?",
+      "options": {
+        "a": "Never flown at sea",
+        "b": "Only during wartime",
+        "c": "When the President is embarked",
+        "d": "All the time while at sea"
+      },
+      "correct_answer": ["c"],
+      "explanation": "National Flag is flown at sea only when the President is embarked, when escorting the President's ship, or when engaged in war.",
+      "points": 1
+    },
+    {
+      "id": "comm_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What characteristic should naval messages possess?",
+      "options": {
+        "a": "Long and detailed",
+        "b": "Clear, brief and understandable",
+        "c": "Technical and complex",
+        "d": "Informal and casual"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Naval messages should be clear, brief and understandable between the sender and receiver for effective communication.",
+      "points": 1
+    },
+    {
+      "id": "comm_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which sub-department handles radio telegraphy and automatic telegraphy?",
+      "options": {
+        "a": "Tactical sub-department",
+        "b": "Radio sub-department",
+        "c": "Special sub-department",
+        "d": "Technical sub-department"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Radio sub-department handles radio telegraphy, automatic telegraphy, radio telephony, cryptography (online) and traffic handling.",
+      "points": 1
+    },
+    {
+      "id": "comm_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "On which date is Navy Day celebrated in India?",
+      "options": {
+        "a": "15 August",
+        "b": "26 January",
+        "c": "4 December",
+        "d": "1 February"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Navy Day is celebrated on 4 December, which is one of the occasions when 'Dressing Ship' ceremony is conducted.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

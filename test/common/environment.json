@@ -1,0 +1,765 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "environment",
+  "language": "en",
+  "title": "Environment Awareness & Conservation - Comprehensive Test",
+  "description": "Comprehensive test covering natural resources, water conservation, waste management, pollution control, energy conservation, and wildlife conservation projects",
+  "questions": [
+    {
+      "id": "env_cons_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is a renewable natural resource?",
+      "options": {
+        "a": "Coal",
+        "b": "Petroleum",
+        "c": "Solar energy",
+        "d": "Natural gas"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Solar energy is a renewable resource that is continuously available and not noticeably affected by human consumption, unlike fossil fuels which are non-renewable.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main cause of ozone layer depletion?",
+      "options": {
+        "a": "Carbon dioxide emissions",
+        "b": "Chlorofluorocarbons (CFCs)",
+        "c": "Sulfur dioxide",
+        "d": "Nitrogen oxides"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Chlorofluorocarbons (CFCs) used in refrigerants and other industrial applications are the primary cause of ozone layer depletion.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which method of water conservation involves capturing and storing rainwater for later use?",
+      "options": {
+        "a": "Water recycling",
+        "b": "Rainwater harvesting",
+        "c": "Drip irrigation",
+        "d": "Water metering"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Rainwater harvesting means capturing runoff and storing rainwater for reuse before it reaches the aquifer, which can be used for gardening, irrigation, and even drinking if properly stored.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What percentage of water is available for human consumption on Earth?",
+      "options": {
+        "a": "1%",
+        "b": "5%",
+        "c": "10%",
+        "d": "25%"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Only 1% of Earth's water is available for human consumption, making water conservation an inescapable necessity.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of rainwater harvesting system is most suited for urban areas?",
+      "options": {
+        "a": "Ground catchment systems",
+        "b": "Roof catchment systems",
+        "c": "Subsurface dykes",
+        "d": "Percolation tanks"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Roof catchment systems channel rainwater from roofs into storage tanks and are most suited for towns and cities, while ground catchment systems are better for rural areas.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is classified as e-waste?",
+      "options": {
+        "a": "Hospital waste",
+        "b": "Plastic bags",
+        "c": "Old computers and TVs",
+        "d": "Agricultural waste"
+      },
+      "correct_answer": ["c"],
+      "explanation": "E-waste includes electronic items like old computers, TVs, refrigerators, mobile phones, and other electronic equipment that have reached end-of-life.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary benefit of waste segregation at household level?",
+      "options": {
+        "a": "Reduces electricity consumption",
+        "b": "Makes recycling more efficient",
+        "c": "Increases water supply",
+        "d": "Prevents air pollution"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Segregating household waste into biodegradable and non-biodegradable categories makes recycling more efficient and helps in proper waste management.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which gas is primarily responsible for acid rain formation?",
+      "options": {
+        "a": "Carbon dioxide",
+        "b": "Methane",
+        "c": "Sulfur dioxide",
+        "d": "Nitrous oxide"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Sulfur dioxide emissions from industries react with water molecules in the atmosphere to produce sulfuric acid, which falls as acid rain.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_009",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the main effect of sound pollution from mobile towers on wildlife?",
+      "options": {
+        "a": "Soil contamination",
+        "b": "Water pollution",
+        "c": "Disturbance of ecological balance",
+        "d": "Air quality deterioration"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Ultrasonic and electromagnetic sound waves from mobile towers have caused birds like sparrows to vanish from cities, disturbing the ecological balance.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is NOT a major reason for increased energy consumption?",
+      "options": {
+        "a": "Population explosion",
+        "b": "Improved energy efficiency",
+        "c": "Increased manufacturing",
+        "d": "Poor usage habits"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Improved energy efficiency actually reduces energy consumption. The major reasons for increased consumption include population growth, urbanization, industrialization, and poor usage habits.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What was the primary objective of Project Tiger when it was launched in 1973-74?",
+      "options": {
+        "a": "To create zoological parks",
+        "b": "To restrain and augment declining tiger population",
+        "c": "To promote wildlife tourism",
+        "d": "To establish breeding centers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Project Tiger was launched with the objective of restraining as well as augmenting the declining population of tigers in India, starting with nine wildlife sanctuaries developed into tiger reserves.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_012",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which project focuses on the conservation of Olive Ridley Turtles in India?",
+      "options": {
+        "a": "Project Elephant",
+        "b": "Project Hangul",
+        "c": "Project Sea Turtle",
+        "d": "Crocodile Conservation Project"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Project Sea Turtle was initiated in 1999 for conservation of Olive Ridley Turtles and other endangered marine turtles, particularly along the Eastern Coast of Orissa.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_013",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the main threat to vultures in India that led to their 'Critically Endangered' status?",
+      "options": {
+        "a": "Habitat destruction",
+        "b": "Veterinary use of Diclofenac",
+        "c": "Climate change",
+        "d": "Poaching"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The population of White-backed, Slender-billed and Long-billed Vultures declined by 97% by 2005 mainly due to veterinary use of Diclofenac, leading to their 'Critically Endangered' status.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_014",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which natural resource classification includes resources that exist but cannot be used due to lack of technology?",
+      "options": {
+        "a": "Potential resources",
+        "b": "Actual resources",
+        "c": "Reserve resources",
+        "d": "Stock resources"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Stock resources are those that have been surveyed but cannot be used by organisms due to lack of technology, such as hydrogen.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary purpose of a subsurface dyke in rainwater harvesting?",
+      "options": {
+        "a": "To collect roof water",
+        "b": "To obstruct natural groundwater flow",
+        "c": "To filter rainwater",
+        "d": "To store surface water"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A subsurface dyke is built in an aquifer to obstruct the natural flow of groundwater, thereby raising the groundwater level and increasing water storage in the aquifer.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is an example of hazardous waste?",
+      "options": {
+        "a": "Kitchen waste",
+        "b": "Newspapers",
+        "c": "Industrial chemicals",
+        "d": "Garden leaves"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Hazardous waste includes industrial chemicals, heavy metals, cyanides, pesticides and other toxic substances from industries like textiles, tanneries, and petrochemicals.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main cause of soil erosion mentioned in the lesson?",
+      "options": {
+        "a": "Natural weathering",
+        "b": "Deforestation and urbanization",
+        "c": "Agricultural practices",
+        "d": "Animal grazing"
+      },
+      "correct_answer": ["b"],
+      "explanation": "While erosion is a natural process, human activities like deforestation and expansion of built-up areas have dramatically increased the rate of soil erosion.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which energy conservation measure involves using CFLs and solar lighting?",
+      "options": {
+        "a": "Public transport system",
+        "b": "Public lighting",
+        "c": "Building designs",
+        "d": "Preventing pilferage"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Public lighting using energy-efficient equipment like CFLs, halogen lamps, and solar lighting can significantly conserve electricity as public lighting is a large consumer of electricity.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which wildlife project focuses on the conservation of the Kashmiri stag?",
+      "options": {
+        "a": "Project Tiger",
+        "b": "Project Hangul",
+        "c": "Project Elephant",
+        "d": "Vulture Conservation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Project Hangul was initiated for the protection of the Kashmiri stag (Hangul), whose population had fallen to about 150 animals by 1970 but increased to over 340 by 1980 through conservation efforts.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_020",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary greenhouse gas responsible for global warming?",
+      "options": {
+        "a": "Water vapor",
+        "b": "Carbon dioxide",
+        "c": "Methane",
+        "d": "Nitrous oxide"
+      },
+      "correct_answer": ["b"],
+      "explanation": "While several greenhouse gases contribute to global warming, carbon dioxide from fossil fuel combustion and deforestation is the primary greenhouse gas responsible for global warming.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which method of natural resource conservation involves reusing materials like paper and metals?",
+      "options": {
+        "a": "Aforestation",
+        "b": "Recycling",
+        "c": "Water harvesting",
+        "d": "Waste management"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Recycling involves reusing materials like paper, metals, and plastics, which helps conserve natural resources by reducing the demand for raw materials.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_022",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main advantage of rainwater harvesting in urban areas?",
+      "options": {
+        "a": "Increases groundwater table",
+        "b": "Provides supplemental water",
+        "c": "Reduces flooding",
+        "d": "All of the above"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Rainwater harvesting in urban areas provides supplemental water, increases soil moisture for greenery, raises groundwater table, mitigates urban flooding, and improves groundwater quality.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which type of pollution is caused by excessive use of horns and loudspeakers?",
+      "options": {
+        "a": "Air pollution",
+        "b": "Water pollution",
+        "c": "Soil pollution",
+        "d": "Noise pollution"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Noise pollution is caused by motor vehicles, excessive use of horns, loudspeakers, aircraft, and other sources of loud sound that affect human health and wildlife.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What was the estimated population of wild elephants in India under Project Elephant?",
+      "options": {
+        "a": "Over 10,000",
+        "b": "Over 15,000",
+        "c": "Over 20,000",
+        "d": "Over 25,000"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Project Elephant estimates the population of wild elephants in India to be in excess of 25,000, with 25 Elephant Reserves extending over about 58,000 sq km.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is NOT a recommended water conservation practice at home?",
+      "options": {
+        "a": "Closing taps while brushing",
+        "b": "Using water-efficient flushes",
+        "c": "Watering lawn during midday",
+        "d": "Fixing leaks promptly"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Watering lawns during midday leads to high evaporation losses. It's recommended to water lawns in morning or evening when temperatures are cooler.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_026",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary cause of water pollution from agricultural activities?",
+      "options": {
+        "a": "Industrial discharge",
+        "b": "Chemical fertilizers and pesticides",
+        "c": "Domestic sewage",
+        "d": "Oil spills"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Agricultural pollution primarily comes from chemical fertilizers, insecticides, pesticides and herbicides that wash into surface or groundwater sources.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_027",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which energy conservation method focuses on reducing transmission losses?",
+      "options": {
+        "a": "Energy efficient equipment",
+        "b": "Improved infrastructure",
+        "c": "Public awareness",
+        "d": "Building design"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Improving energy infrastructure including transmission systems helps reduce energy losses during transmission and transportation.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_028",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main purpose of wildlife sanctuaries and national parks?",
+      "options": {
+        "a": "Promote tourism",
+        "b": "Generate revenue",
+        "c": "Protect natural habitats",
+        "d": "Conduct research"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Wildlife sanctuaries, national parks, and biosphere reserves serve as protected areas that help conserve wildlife in their natural habitats.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a biotic natural resource?",
+      "options": {
+        "a": "Gold",
+        "b": "Air",
+        "c": "Forests",
+        "d": "Water"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Biotic resources are obtained from the biosphere and include living and organic material such as forests, animals, and fossil fuels formed from decayed organic matter.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_030",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary benefit of vermin-composting mentioned in waste management?",
+      "options": {
+        "a": "Reduces electricity consumption",
+        "b": "Manages biodegradable waste",
+        "c": "Prevents air pollution",
+        "d": "Conserves water"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Vermin-composting is an effective method for managing biodegradable household waste through natural decomposition processes.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_031",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which project is considered among the most successful crocodile conservation initiatives in the world?",
+      "options": {
+        "a": "Project Tiger",
+        "b": "Indian Crocodile Conservation Project",
+        "c": "Project Elephant",
+        "d": "Project Sea Turtle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Indian Crocodile Conservation Project is considered among the more successful conservation initiatives worldwide, having pulled back threatened crocodilians from the brink of extinction.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_032",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main reason for migration of rural population contributing to increased energy consumption?",
+      "options": {
+        "a": "Better education",
+        "b": "Need for housing and infrastructure",
+        "c": "Agricultural development",
+        "d": "Cultural factors"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Migration of rural population to urban centers increases demand for housing, electricity, transport and other infrastructure, putting heavy toll on energy consumption.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_033",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of waste includes soiled waste, disposables, and anatomical waste?",
+      "options": {
+        "a": "Municipal solid waste",
+        "b": "E-waste",
+        "c": "Hospital waste",
+        "d": "Hazardous waste"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Hospital or bio-medical waste includes soiled waste, disposables, anatomical waste, discarded medicines and chemical wastes generated during medical activities.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_034",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary effect of pollution on water bodies mentioned in the lesson?",
+      "options": {
+        "a": "Increased water temperature",
+        "b": "Depletion of dissolved oxygen",
+        "c": "Change in water color",
+        "d": "Reduced water flow"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The principal effect of pollution is depletion of dissolved oxygen content in water bodies to a point that streams become incapable of self-purification, potentially destroying aquatic life.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_035",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which conservation project involves cooperation between India and Russia?",
+      "options": {
+        "a": "Project Tiger",
+        "b": "Indo-Russian Cooperation on Migratory Birds",
+        "c": "Project Elephant",
+        "d": "Vulture Conservation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Indo-Russian Cooperation on Migratory Birds involves developing joint projects on migration and nesting behavior of Siberian Cranes and common cranes.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_036",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main threat to wildlife from tourism in national parks?",
+      "options": {
+        "a": "Vehicle pollution and road fatalities",
+        "b": "Food shortage",
+        "c": "Natural predators",
+        "d": "Climate change"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Increased tourism leads to growth in vehicle pollution and wildlife road fatalities, besides damaging natural habitats of birds and animals.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_037",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which energy conservation measure focuses on using fuel-efficient vehicles?",
+      "options": {
+        "a": "Public transport system",
+        "b": "Energy efficient equipment",
+        "c": "Building designs",
+        "d": "Usage habits"
+      },
+      "correct_answer": ["a"],
+      "explanation": "An efficient public transport system with fuel-efficient vehicles can reduce the number of personal vehicles on road, thus conserving fuel energy.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_038",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of the Wildlife Protection Act 1972?",
+      "options": {
+        "a": "Promote hunting",
+        "b": "Legal protection to wildlife",
+        "c": "Develop tourism",
+        "d": "Generate revenue"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Wildlife Protection Act 1972 provides legal protection to wildlife and endangered species in particular, making hunting punishable by law.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_039",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which of these is an example of stock resources?",
+      "options": {
+        "a": "Petroleum in unused fields",
+        "b": "Hydrogen",
+        "c": "Active coal mines",
+        "d": "Working oil wells"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Stock resources like hydrogen have been surveyed but cannot be used due to lack of technology, unlike potential or actual resources that are usable.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_040",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main advantage of drip irrigation in agriculture?",
+      "options": {
+        "a": "Increases crop yield",
+        "b": "Saves large quantities of water",
+        "c": "Reduces labor cost",
+        "d": "Improves soil quality"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Drip irrigation is a water-saving irrigation practice that can save large quantities of water compared to traditional irrigation methods.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_041",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which pollution control measure involves using color-coded bins?",
+      "options": {
+        "a": "Waste segregation",
+        "b": "Water treatment",
+        "c": "Air filtration",
+        "d": "Noise monitoring"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Color-coded bins are used to promote waste segregation at source, making recycling and waste management more efficient.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_042",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What was the population of tigers in India when Project Tiger started?",
+      "options": {
+        "a": "800",
+        "b": "1,200",
+        "c": "1,500",
+        "d": "2,000"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Project Tiger helped increase the tiger population from 1,200 in the 1970s to 1,700 in 2011 through conservation efforts.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_043",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT a recommended individual action for waste management?",
+      "options": {
+        "a": "Segregation of household waste",
+        "b": "Reducing plastic bag use",
+        "c": "Dumping waste on roads",
+        "d": "Vermin-composting"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Dumping waste on roads is harmful and should be avoided. Proper waste disposal through designated systems is recommended.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary purpose of mass awareness in wildlife conservation?",
+      "options": {
+        "a": "Generate funds",
+        "b": "Educate and involve people",
+        "c": "Promote tourism",
+        "d": "Create jobs"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Mass awareness and education are essential for wildlife conservation as they help educate people and encourage participation in preservation processes.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_045",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which natural resource conservation method involves planting more trees?",
+      "options": {
+        "a": "Recycling",
+        "b": "Aforestation",
+        "c": "Water harvesting",
+        "d": "Waste management"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Aforestation involves planting more trees and avoiding cutting of trees, which prevents soil erosion and increases beneficial gases in the environment.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_046",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the main threat to coastal wildlife from personal watercraft?",
+      "options": {
+        "a": "Water pollution",
+        "b": "Disturbing nesting birds",
+        "c": "Oil spills",
+        "d": "Chemical discharge"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Personal watercraft like jet skis enter shallow waters and expel nesting birds from their roosts, disturbing their mating patterns.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_047",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which energy conservation method focuses on switching off unused lights?",
+      "options": {
+        "a": "Usage habits",
+        "b": "Equipment efficiency",
+        "c": "Building design",
+        "d": "Public transport"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Improving usage habits by switching off lights and appliances when not needed is a simple but effective energy conservation measure.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary reason for maintaining wildlife food chains?",
+      "options": {
+        "a": "Tourism development",
+        "b": "Ecological balance",
+        "c": "Scientific research",
+        "d": "Cultural significance"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Maintaining wildlife food chains is essential for sustaining the natural ecosystem and ecological balance, as all living organisms are connected through food relationships.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_049",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of resource classification includes resources currently being used?",
+      "options": {
+        "a": "Potential resources",
+        "b": "Actual resources",
+        "c": "Reserve resources",
+        "d": "Stock resources"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Actual resources are those that have been surveyed, their quantity and quality determined, and are being used in present times.",
+      "points": 1
+    },
+    {
+      "id": "env_cons_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main role of NCC cadets in environmental conservation?",
+      "options": {
+        "a": "Government policy making",
+        "b": "Industrial regulation",
+        "c": "Personal example and education",
+        "d": "International negotiations"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC cadets can contribute to environmental conservation through personal example and by educating others about environmental protection and sustainable practices.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

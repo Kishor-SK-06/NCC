@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "seamanship",
+  "language": "en",
+  "title": "Seamanship Fundamentals & Boat Handling",
+  "description": "Comprehensive test on anchorwork, rigging, knots, boat parts, and seamanship procedures",
+  "questions": [
+    {
+      "id": "seamanship_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of an anchor on a ship?",
+      "options": {
+        "a": "To measure water depth",
+        "b": "To hold ship temporarily to sea bed in shallow water",
+        "c": "To assist in steering",
+        "d": "To measure ship's speed"
+      },
+      "correct_answer": ["b"],
+      "explanation": "An anchor is a hook attached to cable that holds a ship temporarily to the sea bed in comparatively shallow water.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which part of the anchor helps it dig into the sea bed?",
+      "options": {
+        "a": "Shank",
+        "b": "Fluke",
+        "c": "Anchor Ring",
+        "d": "Anchor Shackle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Flukes are the parts that dig into the sea bed when the anchor is dragged, providing holding power.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What are the three main types of ropes used onboard ships?",
+      "options": {
+        "a": "Natural fibre, Manmade, and Steel wire ropes",
+        "b": "Cotton, Nylon, and Polyester ropes",
+        "c": "Light, Medium, and Heavy ropes",
+        "d": "Short, Medium, and Long ropes"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The three main types are Natural fibre ropes, Manmade ropes, and Steel wire ropes.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which knot is most useful for making temporary eyes in ropes of all sizes?",
+      "options": {
+        "a": "Reef knot",
+        "b": "Clove hitch",
+        "c": "Bow line",
+        "d": "Timber hitch"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Bow line is the most useful knot for making temporary eyes and can be used as a lifeline round a man's waist.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the order 'Give way together' used for in boat pulling?",
+      "options": {
+        "a": "To stop pulling",
+        "b": "To start pulling together by whole crew",
+        "c": "To back water",
+        "d": "To reduce speed"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Give way together' is the order to start pulling and is obeyed together by the whole crew.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which part of the boat is the 'Gunwale'?",
+      "options": {
+        "a": "The bottom of the boat",
+        "b": "The upper edge of the boat's side",
+        "c": "The steering mechanism",
+        "d": "The front of the boat"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Gunwale is the upper edge of the boat's side, an important structural part.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the order 'Hold water' mean in boat pulling?",
+      "options": {
+        "a": "Start pulling faster",
+        "b": "Reduce or stop boat's way by holding oars at right angles",
+        "c": "Back the boat",
+        "d": "Ship the oars"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Hold water' is the order to reduce or stop the way of the boat by holding oars at right angles with blades in water.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of shackle is used for joining lengths of chain together?",
+      "options": {
+        "a": "Screw shackle",
+        "b": "Joining shackle",
+        "c": "Forelock shackle",
+        "d": "Recovery hook"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Joining shackles are used for coupling links or joining ropes, webbing, chain together.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is a 'Derrick' used for on ships?",
+      "options": {
+        "a": "Steering the ship",
+        "b": "Measuring depth",
+        "c": "Hoisting boats, stores, cargo, or gear",
+        "d": "Anchoring operations"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A derrick is a spar rigged as a swinging boom used for hoisting boats, stores, cargo, ammunition or gear.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_010",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which part of the oar has copper bands and leather?",
+      "options": {
+        "a": "Blade",
+        "b": "Shaft",
+        "c": "Loom",
+        "d": "Grip"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The loom of the oar has copper bands and leather for protection and grip.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the process of joining rope ends by interlocking strands called?",
+      "options": {
+        "a": "Knotting",
+        "b": "Splicing",
+        "c": "Hitching",
+        "d": "Bending"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Splicing is a method of joining ends of two ropes or making an eye by interlocking strands.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_012",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which natural fibre rope is known for its water resistance and durability?",
+      "options": {
+        "a": "Sisal",
+        "b": "Manila",
+        "c": "Coir",
+        "d": "Hemp"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Manila rope is known for its good water resistance and durability among natural fibre ropes.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does the order 'Eyes in the boat' mean?",
+      "options": {
+        "a": "Look at the coxswain",
+        "b": "Keep gaze from wandering and pay attention to duties",
+        "c": "Watch for other boats",
+        "d": "Check the boat for water"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Eyes in the boat' orders crew to keep their gaze from wandering and pay attention to their duties.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which hitch is useful for tying a line to a post when the end is not available?",
+      "options": {
+        "a": "Timber hitch",
+        "b": "Bow line",
+        "c": "Clove hitch",
+        "d": "Rolling hitch"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Clove hitch is useful for tying a line to a post, even when the end of the line is not available.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the 'Stem' of a boat?",
+      "options": {
+        "a": "The rear part",
+        "b": "The frontmost part",
+        "c": "The bottom center",
+        "d": "The side edge"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Stem is the frontmost part of the boat's structure.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which type of anchor has tripping palms that help flukes dig into the bottom?",
+      "options": {
+        "a": "Admirality pattern anchor",
+        "b": "Stockless anchor",
+        "c": "Danforth anchor",
+        "d": "CQR anchor"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Admirality pattern anchor has tripping palms that tilt the flukes to dig into the sea bed.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the purpose of 'Bottle Screw Slip' in cable work?",
+      "options": {
+        "a": "To join two cables",
+        "b": "To secure cable to buoy",
+        "c": "To adjust tension",
+        "d": "To mark cable length"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Bottle Screw Slip is used for securing cable to buoy in anchorwork.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which knot is used to secure a rope's end to a spar or bale?",
+      "options": {
+        "a": "Reef knot",
+        "b": "Timber hitch",
+        "c": "Bow line",
+        "d": "Clove hitch"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Timber hitch is used to secure a rope's end to a spar or bale.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the order 'Back together' accomplish in boat pulling?",
+      "options": {
+        "a": "Stop the boat",
+        "b": "Move boat backward by pushing on oar looms",
+        "c": "Turn the boat",
+        "d": "Increase speed"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Back together' orders crew to back water together by pushing on looms instead of pulling.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which part of the cable is painted white for identification?",
+      "options": {
+        "a": "Every link",
+        "b": "Only the end shackle",
+        "c": "Every joining shackle except one between half shackles",
+        "d": "Only the first 10 links"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Every joining shackle except one between two half shackles is painted white for cable identification.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the 'Keel' of a boat?",
+      "options": {
+        "a": "The top edge",
+        "b": "The bottom centerline structure",
+        "c": "The steering mechanism",
+        "d": "The seating area"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Keel is the bottom centerline structure that provides stability and strength.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which type of splice reduces rope strength the least?",
+      "options": {
+        "a": "Back splice",
+        "b": "Eye splice",
+        "c": "Long splice",
+        "d": "Short splice"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Long splice maintains most of the rope's original strength compared to other splices.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the role of the Coxswain in a pulling boat?",
+      "options": {
+        "a": "Only to steer",
+        "b": "To synchronize pulling and steer the boat",
+        "c": "Only to give orders",
+        "d": "To row with the crew"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Coxswain is responsible for ensuring crew pulls steadily and together, and for steering correctly.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_024",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which equipment is essential in a pulling boat for safety?",
+      "options": {
+        "a": "Life jacket for all crew",
+        "b": "Fishing gear",
+        "c": "Cooking equipment",
+        "d": "Sleeping bags"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Life jacket for all crew is essential safety equipment in a pulling boat.",
+      "points": 1
+    },
+    {
+      "id": "seamanship_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the 'Painter' on a boat?",
+      "options": {
+        "a": "The person who paints the boat",
+        "b": "A rope at bow for securing boat",
+        "c": "The color scheme",
+        "d": "A type of oar"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Painter is a rope at the bow used for securing the boat to ship or shore.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

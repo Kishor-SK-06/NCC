@@ -1,0 +1,765 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "social-awareness",
+  "language": "en",
+  "title": "Social Awareness and Community Development - Comprehensive Test",
+  "description": "Comprehensive test covering social service basics, rural development programs, NGOs, youth contribution, social evils, civic responsibilities, and relevant legislation",
+  "questions": [
+    {
+      "id": "sa_cd_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "When was the National Rural Employment Guarantee Act (NREGA) launched, which was later renamed MGNREGA?",
+      "options": {
+        "a": "2nd February 2005",
+        "b": "2nd February 2006",
+        "c": "15th August 2005",
+        "d": "26th January 2006"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NREGA was launched on 2nd February 2006 and was later renamed as Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) in 2010.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary objective of the Swarnajayanti Gram Swarojgar Yojna (SGSY)?",
+      "options": {
+        "a": "To provide rural housing",
+        "b": "To provide sustainable income to rural poor",
+        "c": "To build rural roads",
+        "d": "To provide old age pensions"
+      },
+      "correct_answer": ["b"],
+      "explanation": "SGSY aims to provide sustainable income to the rural poor by establishing micro-enterprises based on the potential of rural poor.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT one of the three accepted methods of social service?",
+      "options": {
+        "a": "Social Case Work",
+        "b": "Social Group Work",
+        "c": "Community Organization",
+        "d": "Political Mobilization"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The three accepted methods are Social Case Work, Social Group Work, and Community Organization. Political Mobilization is not considered a core method of social service.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What percentage of benefits under SGSY are reserved for women?",
+      "options": {
+        "a": "30%",
+        "b": "40%",
+        "c": "50%",
+        "d": "60%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Under SGSY, special safeguards include reserving 50% of benefits for SCs/STs, 40% for women, and 3% for physically handicapped persons.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which government ministry is responsible for administering rural development programs in India?",
+      "options": {
+        "a": "Ministry of Home Affairs",
+        "b": "Ministry of Rural Development",
+        "c": "Ministry of Agriculture",
+        "d": "Ministry of Social Justice"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Ministry of Rural Development is responsible for rural development programs and includes two departments: Department of Rural Development and Department of Land Resources.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the guaranteed number of days of wage employment provided under MGNREGA?",
+      "options": {
+        "a": "50 days",
+        "b": "100 days",
+        "c": "150 days",
+        "d": "200 days"
+      },
+      "correct_answer": ["b"],
+      "explanation": "MGNREGA provides at least 100 days of guaranteed wage employment in a financial year to every household whose adult members volunteer to do unskilled manual work.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these programs is specifically aimed at providing rural housing?",
+      "options": {
+        "a": "JGSY",
+        "b": "IAY",
+        "c": "SGSY",
+        "d": "PMGSY"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Indira Aawas Yojna (IAY) is the flagship rural housing scheme aimed at providing shelter to the poor below poverty line.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main objective of National Social Assistance Programme (NSAP)?",
+      "options": {
+        "a": "To provide rural employment",
+        "b": "To provide social security to elderly, widows and disabled",
+        "c": "To build rural infrastructure",
+        "d": "To promote education"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NSAP provides social assistance to the elderly, widow and disabled persons through various pension schemes and assistance programs.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which rural development program focuses on providing all-weather road connectivity?",
+      "options": {
+        "a": "PMGSY",
+        "b": "IAY",
+        "c": "SGSY",
+        "d": "JGSY"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Pradhan Mantri Gram Sadak Yojana (PMGSY) was launched to provide connectivity by all weather roads to unconnected habitations.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does the term 'INGO' stand for in the context of NGOs?",
+      "options": {
+        "a": "Indian National Government Organization",
+        "b": "International NGOs",
+        "c": "Integrated National Growth Organization",
+        "d": "Independent National Governance Organization"
+      },
+      "correct_answer": ["b"],
+      "explanation": "INGO stands for International NGOs, which operate across international boundaries.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is an example of an International NGO mentioned in the lesson?",
+      "options": {
+        "a": "Child Relief and You",
+        "b": "International Red Cross",
+        "c": "Helpage India",
+        "d": "People for Animals"
+      },
+      "correct_answer": ["b"],
+      "explanation": "International Red Cross and Red Crescent Movement is mentioned as the world's largest group of humanitarian NGOs.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_012",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What percentage of India's population is below 18 years according to the lesson?",
+      "options": {
+        "a": "34%",
+        "b": "42%",
+        "c": "50%",
+        "d": "28%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "According to the lesson, almost 42% of India's total population is under eighteen years of age.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which act provides protection to children from sexual offences?",
+      "options": {
+        "a": "Protection of Children from Sexual Offences Act 2012",
+        "b": "Child Rights Protection Act 2005",
+        "c": "Juvenile Justice Act 2000",
+        "d": "Child Safety Act 2010"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The Protection of Children from Sexual Offences Act was passed in 2012 and received President's assent on 19th June 2012.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_014",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the punishment for penetrative sexual assault under the Protection of Children from Sexual Offences Act?",
+      "options": {
+        "a": "Not less than 3 years imprisonment",
+        "b": "Not less than 5 years imprisonment",
+        "c": "Not less than 7 years imprisonment",
+        "d": "Not less than 10 years imprisonment"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Penetrative Sexual Assault carries punishment of not less than seven years imprisonment, which may extend to imprisonment for life and fine.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which commission is designated to monitor the implementation of Protection of Children from Sexual Offences Act?",
+      "options": {
+        "a": "National Human Rights Commission",
+        "b": "National Commission for Women",
+        "c": "National Commission for Protection of Child Rights",
+        "d": "National Commission for Scheduled Castes"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The National Commission for the Protection of Child Rights (NCPCR) and State Commissions are designated to monitor implementation of the Act.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the legal Blood Alcohol Level (BAC) limit for driving in India?",
+      "options": {
+        "a": "20 mg per 100 ml blood",
+        "b": "30 mg per 100 ml blood",
+        "c": "40 mg per 100 ml blood",
+        "d": "50 mg per 100 ml blood"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In India, if a person has Blood Alcohol Level exceeding 30 mg per 100 ml of blood detected by Breathalyzer, it is considered drunk driving.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is identified as the most common violator of drunk driving laws?",
+      "options": {
+        "a": "Senior citizens",
+        "b": "Children between 16-25 years",
+        "c": "Women drivers",
+        "d": "Commercial taxi drivers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The most common violators are identified as children between 16-25 years, truck drivers, people returning from pubs/parties, and after New Year or Holi celebrations.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What percentage of road accidents in India are caused due to driver's fault according to the lesson?",
+      "options": {
+        "a": "58%",
+        "b": "68%",
+        "c": "78%",
+        "d": "88%"
+      },
+      "correct_answer": ["c"],
+      "explanation": "According to the lesson, almost 78% of all road accidents in India are caused due to driver's fault.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "When was the Right to Information Act passed by the Indian Parliament?",
+      "options": {
+        "a": "2002",
+        "b": "2004",
+        "c": "2005",
+        "d": "2007"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Right to Information Bill was passed by both Houses of Parliament in May 2005 and received President's assent on 15th June 2005.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these states is exempted from the Right to Information Act?",
+      "options": {
+        "a": "Jammu and Kashmir",
+        "b": "Nagaland",
+        "c": "Mizoram",
+        "d": "Sikkim"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The RTI Act covers the whole of India except Jammu and Kashmir, where J&K Right to Information Act is in force.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_021",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What percentage of seats in private schools are reserved for poor families under RTE Act?",
+      "options": {
+        "a": "15%",
+        "b": "25%",
+        "c": "30%",
+        "d": "40%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The RTE Act requires all private schools to reserve 25% of seats to children from poor families, to be reimbursed by the state.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "When was the Right to Education Act enforced in India?",
+      "options": {
+        "a": "1st April 2009",
+        "b": "1st April 2010",
+        "c": "1st April 2011",
+        "d": "1st April 2012"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The RTE Act was enforced on 1st April 2010, making India one of 135 countries to make education a fundamental right.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_023",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT a form of child abuse as defined in the lesson?",
+      "options": {
+        "a": "Physical Abuse",
+        "b": "Emotional Abuse",
+        "c": "Sexual Abuse",
+        "d": "Academic Pressure"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The forms of child abuse defined include Physical Abuse, Emotional Abuse, Sexual Abuse, Child Neglect, and Unreasonable Deprivation.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "According to the National Study on Child Abuse, what percentage of children reported facing physical abuse?",
+      "options": {
+        "a": "49%",
+        "b": "59%",
+        "c": "69%",
+        "d": "79%"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The National Study on Child Abuse found that two out of every three children (69%) were physically abused.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_025",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the definition of female foeticide?",
+      "options": {
+        "a": "Discrimination against girls in education",
+        "b": "Selective abortion of female foetus",
+        "c": "Early marriage of girls",
+        "d": "Gender bias in employment"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Female foeticide is defined as the selective abortion/elimination of the girl child in the womb itself after detection of gender through medical means.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_026",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What was the sex ratio in India according to 2011 census?",
+      "options": {
+        "a": "914 girls per 1000 boys",
+        "b": "927 girls per 1000 boys",
+        "c": "940 girls per 1000 boys",
+        "d": "953 girls per 1000 boys"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The sex ratio had plummeted to an all-time low of only 914 girls for 1000 boys in 2011 census.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_027",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a major cause of female foeticide?",
+      "options": {
+        "a": "Lack of educational facilities",
+        "b": "Dowry system",
+        "c": "Urbanization",
+        "d": "Working women"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The dowry system is cited as a major cause of female foeticide as girls are seen as a burden due to marriage expenses.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the punishment for giving or taking dowry under Dowry Prohibition Act?",
+      "options": {
+        "a": "1 year imprisonment and fine",
+        "b": "3 years imprisonment and fine",
+        "c": "5 years imprisonment and fine",
+        "d": "7 years imprisonment and fine"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Dowry Prohibition Act states imprisonment for not less than five years and fine not less than fifteen thousand rupees.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_029",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which organization monitors the implementation of Protection of Children from Sexual Offences Act at state level?",
+      "options": {
+        "a": "State Human Rights Commission",
+        "b": "State Commission for Protection of Child Rights",
+        "c": "State Women Commission",
+        "d": "State Legal Services Authority"
+      },
+      "correct_answer": ["b"],
+      "explanation": "State Commissions for Protection of Child Rights (SCPCRs) are designated to monitor implementation at state level.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_030",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the time limit for recording evidence of a child under Protection of Children from Sexual Offences Act?",
+      "options": {
+        "a": "15 days",
+        "b": "30 days",
+        "c": "45 days",
+        "d": "60 days"
+      },
+      "correct_answer": ["b"],
+      "explanation": "For speedy trial, the Act provides that evidence of the child should be recorded within 30 days.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_031",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT a method of family planning mentioned in the lesson?",
+      "options": {
+        "a": "Vasectomy",
+        "b": "Tubectomy",
+        "c": "Oral pills",
+        "d": "IUCD"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The methods mentioned are Vasectomy, Tubectomy, Conventional contraceptives like condoms, and Oral pills.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_032",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the most common route of HIV transmission according to the lesson?",
+      "options": {
+        "a": "Blood transfusion",
+        "b": "Sexual transmission",
+        "c": "Mother to child",
+        "d": "Sharing needles"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Sexual transmission is identified as the most common route of HIV spread through unprotected sex.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_033",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which group is at greater risk of HIV transmission through unprotected sex?",
+      "options": {
+        "a": "Men",
+        "b": "Women",
+        "c": "Children",
+        "d": "Elderly"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Women are at greater risk of developing HIV infection through unprotected sex due to biological and social factors.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_034",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does NACO stand for?",
+      "options": {
+        "a": "National AIDS Control Organisation",
+        "b": "National Advisory Committee on Obesity",
+        "c": "National Agricultural Co-operative Organisation",
+        "d": "National Authority for Child Welfare"
+      },
+      "correct_answer": ["a"],
+      "explanation": "NACO stands for National AIDS Control Organisation, which is responsible for HIV/AIDS policy and program implementation in India.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_035",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a type of terrorist incident mentioned in the lesson?",
+      "options": {
+        "a": "Cyber Terrorism",
+        "b": "Economic Terrorism",
+        "c": "Cultural Terrorism",
+        "d": "Religious Terrorism"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Cyber Terrorism is mentioned as a new form of terrorism that allows terrorists to operate with little risk.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_036",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the full form of NCTC in counter-terrorism context?",
+      "options": {
+        "a": "National Counter Terrorism Center",
+        "b": "National Cyber Threat Center",
+        "c": "National Crime Tracking Cell",
+        "d": "National Counter Terror Command"
+      },
+      "correct_answer": ["a"],
+      "explanation": "NCTC stands for National Counter Terrorism Center, established to deal with terrorist threats.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_037",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is considered 'Petty Corruption'?",
+      "options": {
+        "a": "Exchange of small improper gifts",
+        "b": "Large scale embezzlement",
+        "c": "Political fund misuse",
+        "d": "Corporate fraud"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Petty corruption occurs at smaller scale and includes exchange of small improper gifts or use of personal connections.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary objective of Jawahar Gram Samriddhi Yojna (JGSY)?",
+      "options": {
+        "a": "To create community village infrastructure",
+        "b": "To provide rural housing",
+        "c": "To offer self-employment",
+        "d": "To build schools"
+      },
+      "correct_answer": ["a"],
+      "explanation": "JGSY's primary objective is creation of demand-driven community village infrastructure including durable assets.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_039",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which program was restructured as National Rural Livelihoods Mission (NRLM)?",
+      "options": {
+        "a": "SGSY",
+        "b": "JGSY",
+        "c": "IAY",
+        "d": "PMGSY"
+      },
+      "correct_answer": ["a"],
+      "explanation": "SGSY has been restructured as National Rural Livelihoods Mission (NRLM) and renamed as 'Aajeevika'.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_040",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the duration of Annual Training Camps for senior division NCC cadets?",
+      "options": {
+        "a": "7 days",
+        "b": "10 days",
+        "c": "12 days",
+        "d": "15 days"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Annual Training Camps are of 12 days duration for senior boys/girls and 10 days for junior boys/girls.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_041",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which organization provides financial assistance to cadets for injuries during NCC activities?",
+      "options": {
+        "a": "Cadet Welfare Society (CWS)",
+        "b": "NCC Foundation",
+        "c": "Ministry of Defence",
+        "d": "State Government"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Cadet Welfare Society (CWS) provides financial assistance and relief to cadets for injuries during NCC activities.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_042",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What percentage of vacancies in Air Force courses are reserved for NCC 'C' certificate holders?",
+      "options": {
+        "a": "5%",
+        "b": "10%",
+        "c": "15%",
+        "d": "20%"
+      },
+      "correct_answer": ["b"],
+      "explanation": "10% vacancies in all Air Force courses are reserved for NCC 'C' certificate holders through Air Force SSB.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_043",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which training involves attachment with army/naval/air force units in NCC?",
+      "options": {
+        "a": "Institutional Training",
+        "b": "Camp Training",
+        "c": "Attachment Training",
+        "d": "Adventure Training"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Attachment Training is formal training organized by attachment with armed forces units or officer training academies.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main objective of Youth Exchange Programme (YEP) in NCC?",
+      "options": {
+        "a": "To provide foreign education",
+        "b": "To interact with youths of friendly foreign countries",
+        "c": "To train for international sports",
+        "d": "To learn foreign languages"
+      },
+      "correct_answer": ["b"],
+      "explanation": "YEP sends selected cadets to friendly foreign countries for 10-day visits to promote international understanding.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_045",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many Directorates does NCC have across India?",
+      "options": {
+        "a": "12",
+        "b": "15",
+        "c": "17",
+        "d": "20"
+      },
+      "correct_answer": ["c"],
+      "explanation": "There are 17 Directorates located in state capitals, headed by officers of Major General/Brigadier rank or equivalent.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_046",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the current approximate enrolled strength of NCC cadets?",
+      "options": {
+        "a": "Over 5 lakhs",
+        "b": "Over 8 lakhs",
+        "c": "Over 13 lakhs",
+        "d": "Over 20 lakhs"
+      },
+      "correct_answer": ["c"],
+      "explanation": "NCC has an enrolled strength of more than 13 Lakh cadets comprising Senior and Junior divisions.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_047",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a Centrally Organised Camp (COC) in NCC?",
+      "options": {
+        "a": "Annual Training Camp",
+        "b": "Basic Leadership Camp",
+        "c": "Institutional Training",
+        "d": "Weekly Parade"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Leadership Camps (Basic and Advance) are Centrally Organised Camps planned by HQ DG NCC for all-India participation.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_048",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "How many seats are reserved for NCC 'C' certificate holders at IMA per year?",
+      "options": {
+        "a": "32 seats",
+        "b": "64 seats",
+        "c": "100 seats",
+        "d": "128 seats"
+      },
+      "correct_answer": ["b"],
+      "explanation": "64 seats per year are reserved at Indian Military Academy (IMA) for NCC 'C' certificate holders as officers.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_049",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which of these states provides reservation in police department for NCC certificate holders?",
+      "options": {
+        "a": "Delhi",
+        "b": "Gujarat",
+        "c": "Jammu & Kashmir",
+        "d": "Mizoram"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Jammu & Kashmir reserves 10% or one post in non-gazetted police services for NCC 'C' certificate holders.",
+      "points": 1
+    },
+    {
+      "id": "sa_cd_050",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What benefit do NCC cadets get for recruitment in ranks of armed forces?",
+      "options": {
+        "a": "Direct entry without tests",
+        "b": "5-10% bonus marks",
+        "c": "Higher starting salary",
+        "d": "Quick promotions"
+      },
+      "correct_answer": ["b"],
+      "explanation": "NCC cadets get 5-10% bonus marks for recruitment in ranks in Army, Navy and Air Force.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

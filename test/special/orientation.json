@@ -1,0 +1,765 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "orientation",
+  "language": "en",
+  "title": "Indian Navy Orientation & Current Affairs 2025",
+  "description": "Comprehensive test covering basic Navy knowledge and current developments up to 2025",
+  "questions": [
+    {
+      "id": "orient_basic_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "When was the Royal Indian Navy re-designated as the Indian Navy?",
+      "options": {
+        "a": "15 August 1947",
+        "b": "26 January 1950",
+        "c": "26 January 1948",
+        "d": "15 August 1950"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Royal Indian Navy was re-designated as Indian Navy on 26 January 1950 when India became a Republic.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which was the first aircraft carrier commissioned in the Indian Navy?",
+      "options": {
+        "a": "INS Vikramaditya",
+        "b": "INS Viraat",
+        "c": "INS Vikrant",
+        "d": "INS Delhi"
+      },
+      "correct_answer": ["c"],
+      "explanation": "INS Vikrant was commissioned in February 1961, adding integral air defence and strike capability to the Indian Navy.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "In which operation were Indian Naval ships deployed for the first time?",
+      "options": {
+        "a": "Indo-Pak War 1965",
+        "b": "Liberation of Goa 1961",
+        "c": "Kargil War 1999",
+        "d": "Bangladesh Liberation 1971"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Indian Naval Ships were deployed for operations for the first time in the liberation of Goa in December 1961.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the highest rank in the Indian Navy?",
+      "options": {
+        "a": "Admiral",
+        "b": "Vice Admiral",
+        "c": "Admiral of the Fleet",
+        "d": "Commodore"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Admiral of the Fleet is the highest rank in the Indian Navy, equivalent to Field Marshal in Army and Marshal of the Air Force in Air Force.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How many operational commands does the Indian Navy have?",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The Indian Navy has two operational commands: Western Naval Command (Mumbai) and Eastern Naval Command (Visakhapatnam).",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of the following is NOT a wing of the National Cadet Corps?",
+      "options": {
+        "a": "Army Wing",
+        "b": "Navy Wing",
+        "c": "Air Force Wing",
+        "d": "Coast Guard Wing"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The NCC has three wings: Army Wing, Navy Wing, and Air Force Wing. Coast Guard is a separate service.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_007",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the motto of the National Cadet Corps?",
+      "options": {
+        "a": "Service Before Self",
+        "b": "Unity and Discipline",
+        "c": "Truth Alone Triumphs",
+        "d": "Knowledge is Power"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The NCC motto is 'Unity and Discipline' (Ekta aur Anushasan), reflecting the core values of the organization.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary role of an aircraft carrier in the Indian Navy?",
+      "options": {
+        "a": "Mine sweeping operations",
+        "b": "Coastal patrolling",
+        "c": "Operating aircraft and helicopters",
+        "d": "Submarine warfare"
+      },
+      "correct_answer": ["c"],
+      "explanation": "An aircraft carrier serves as a floating airfield and its primary role is to operate aircraft and helicopters.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which ceremony is observed when Indian Naval Ships cross the Equator?",
+      "options": {
+        "a": "Dressing Ship ceremony",
+        "b": "Crossing the Line ceremony",
+        "c": "Sunset ceremony",
+        "d": "Commissioning ceremony"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 'Crossing the Line' ceremony is observed whenever Indian Naval Ships cross the Equator.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How many gun salutes are entitled to the President of India?",
+      "options": {
+        "a": "17 gun salutes",
+        "b": "19 gun salutes",
+        "c": "21 gun salutes",
+        "d": "25 gun salutes"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The President of India is entitled to 21 gun salutes as per naval traditions.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of the following is a training command of the Indian Navy?",
+      "options": {
+        "a": "Western Naval Command",
+        "b": "Eastern Naval Command",
+        "c": "Southern Naval Command",
+        "d": "Andaman & Nicobar Command"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Southern Naval Command (Kochi) is the training command where all training establishments are located.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the term 'Colours' refer to in naval terminology?",
+      "options": {
+        "a": "Ship's paint scheme",
+        "b": "National Flag and Naval Ensign",
+        "c": "Officer's uniform colors",
+        "d": "Signal flags"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Colours' describes the National Flag and Naval Ensign flown on ships between 0800 hrs to sunset in harbour.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which class of ships in the Indian Navy is designed for landing tanks and troops directly onto beaches?",
+      "options": {
+        "a": "Destroyers",
+        "b": "Frigates",
+        "c": "Corvettes",
+        "d": "LSTs (Landing Ship Tank)"
+      },
+      "correct_answer": ["d"],
+      "explanation": "LSTs (Landing Ship Tank) are specially constructed to beach on shore and offload tanks, troops and vehicles directly onto beaches.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the equivalent rank of Lieutenant in the Indian Army?",
+      "options": {
+        "a": "Captain",
+        "b": "Major",
+        "c": "Lieutenant",
+        "d": "Second Lieutenant"
+      },
+      "correct_answer": ["a"],
+      "explanation": "A Lieutenant in the Indian Navy is equivalent to a Captain in the Indian Army.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the role of the Chief of Personnel (COP) in the Indian Navy?",
+      "options": {
+        "a": "Operations and intelligence",
+        "b": "Ship maintenance and construction",
+        "c": "Recruitment, training, and discipline",
+        "d": "Weapon systems development"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Chief of Personnel (COP) controls manning requirements and is responsible for recruitment, training, welfare and discipline of naval personnel.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which establishment serves as the Marine Engineering School for the Indian Navy?",
+      "options": {
+        "a": "INS Shivaji (Lonavala)",
+        "b": "INS Valsura (Jamnagar)",
+        "c": "INS Venduruthy (Kochi)",
+        "d": "INS Circars (Visakhapatnam)"
+      },
+      "correct_answer": ["a"],
+      "explanation": "INS Shivaji at Lonavala serves as the Marine Engineering School, Naval Engineering College and NBCD School.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the significance of the 'Commissioning Pennant' on a naval ship?",
+      "options": {
+        "a": "Indicates the ship is ready for combat",
+        "b": "Shows the ship's battle honors",
+        "c": "Hoisted on commissioning day and remains until decommissioning",
+        "d": "Signals the presence of a flag officer onboard"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Commissioning Pennant is hoisted on the main mast on the day of commissioning and is not struck down until the ship is decommissioned.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of the following is a primary function of survey ships in the Indian Navy?",
+      "options": {
+        "a": "Anti-submarine warfare",
+        "b": "Coastal defense",
+        "c": "Geographical survey of sea and coastal areas",
+        "d": "Amphibious operations"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Survey ships carry out geographical survey of sea and coastal areas and prepare charts for navigation.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What does the term 'Man and Cheer Ship' ceremony involve?",
+      "options": {
+        "a": "Lowering the national flag at sunset",
+        "b": "Firing gun salutes for dignitaries",
+        "c": "Ships company standing on catwalks to receive dignitaries",
+        "d": "Crossing the equator celebration"
+      },
+      "correct_answer": ["c"],
+      "explanation": "In 'Man and Cheer Ship' ceremony, the ship's company mans the ship standing on catwalks from foxle to Quarter deck facing towards the dignitary.",
+      "points": 1
+    },
+    {
+      "id": "orient_basic_020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary difference between Destroyers and Frigates in the Indian Navy?",
+      "options": {
+        "a": "Destroyers are larger and more heavily armed than Frigates",
+        "b": "Frigates are faster than Destroyers",
+        "c": "Destroyers are used only for training",
+        "d": "Frigates carry aircraft while Destroyers do not"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Destroyers are larger, general-purpose fighting ships, while Frigates are smaller and primarily serve as escort ships.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "As of 2025, which aircraft carrier is the flagship of the Indian Navy?",
+      "options": {
+        "a": "INS Vikramaditya",
+        "b": "INS Vikrant",
+        "c": "INS Viraat",
+        "d": "INS Vishal"
+      },
+      "correct_answer": ["b"],
+      "explanation": "INS Vikrant, India's first indigenous aircraft carrier, is currently the flagship of the Indian Navy as of 2025.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How many operational commands does the Indian Navy currently have in 2025?",
+      "options": {
+        "a": "3 commands",
+        "b": "4 commands",
+        "c": "5 commands",
+        "d": "6 commands"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Indian Navy currently operates 4 commands: Western, Eastern, Southern, and Andaman & Nicobar Command.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which new indigenous aircraft carrier is under construction as of 2025?",
+      "options": {
+        "a": "INS Vikrant-II",
+        "b": "INS Vishal",
+        "c": "INS Viraat-II",
+        "d": "INS Vikramaditya-II"
+      },
+      "correct_answer": ["b"],
+      "explanation": "INS Vishal, India's second indigenous aircraft carrier, is currently under construction with advanced capabilities.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the current strength of the Indian Navy's submarine fleet in 2025?",
+      "options": {
+        "a": "12-15 submarines",
+        "b": "16-18 submarines",
+        "c": "19-21 submarines",
+        "d": "22-25 submarines"
+      },
+      "correct_answer": ["b"],
+      "explanation": "As of 2025, the Indian Navy operates 16-18 submarines including conventional and nuclear-powered vessels.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which new stealth frigate class has been recently inducted into the Indian Navy?",
+      "options": {
+        "a": "Nilgiri-class",
+        "b": "Shivalik-class",
+        "c": "Talwar-class",
+        "d": "Project 17A frigates"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Project 17A stealth frigates are the latest induction, featuring advanced stealth technology and weapon systems.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_026",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary maritime reconnaissance aircraft currently used by Indian Navy?",
+      "options": {
+        "a": "IL-38",
+        "b": "TU-142",
+        "c": "P-8I Poseidon",
+        "d": "Dornier 228"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The P-8I Poseidon is the primary maritime reconnaissance aircraft, providing advanced anti-submarine and surveillance capabilities.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_027",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new naval base has been developed on the eastern coast as a strategic asset?",
+      "options": {
+        "a": "INS Kadamba",
+        "b": "INS Vajrakosh",
+        "c": "INS Rambilli",
+        "d": "INS Dweeprakshak"
+      },
+      "correct_answer": ["c"],
+      "explanation": "INS Rambilli is a new strategic naval base being developed on the eastern coast for enhanced operational capabilities.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the current focus area for Indian Navy's modernization under 'Make in India'?",
+      "options": {
+        "a": "Import of advanced weapons",
+        "b": "Indigenous shipbuilding and systems",
+        "c": "Joint exercises with foreign navies",
+        "d": "Coastal surveillance only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Navy's modernization heavily focuses on indigenous shipbuilding and systems under the 'Make in India' initiative.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which new missile system has been integrated into Indian Navy's destroyers recently?",
+      "options": {
+        "a": "BrahMos supersonic cruise missile",
+        "b": "Prithvi missile",
+        "c": "Agni missile",
+        "d": "Akash missile"
+      },
+      "correct_answer": ["a"],
+      "explanation": "BrahMos supersonic cruise missiles have been successfully integrated into multiple naval platforms for enhanced strike capability.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_030",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the current status of India's nuclear submarine program as of 2025?",
+      "options": {
+        "a": "Only one nuclear submarine operational",
+        "b": "Two SSBNs and one SSN operational",
+        "c": "No nuclear submarines yet",
+        "d": "Only leased nuclear submarines"
+      },
+      "correct_answer": ["b"],
+      "explanation": "India currently operates two SSBNs (Arihant class) and one SSN (Chakra class) in its nuclear submarine fleet.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_031",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which new naval helicopter has been inducted for anti-submarine warfare?",
+      "options": {
+        "a": "Dhruv ALH",
+        "b": "Chetak",
+        "c": "MH-60R Seahawk",
+        "d": "Ka-31"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The MH-60R Seahawk helicopters have been inducted to significantly enhance anti-submarine warfare capabilities.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_032",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the Indian Navy's current focus in the Indian Ocean Region?",
+      "options": {
+        "a": "Maritime Domain Awareness",
+        "b": "Coastal tourism",
+        "c": "Fishing regulations",
+        "d": "Port development only"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Maritime Domain Awareness through enhanced surveillance and international cooperation is a key focus area in IOR.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_033",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new unmanned system has the Indian Navy recently acquired?",
+      "options": {
+        "a": "Sea Guardian drones",
+        "b": "Predator drones",
+        "c": "Global Hawk",
+        "d": "Reaper drones"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The Indian Navy has acquired Sea Guardian drones for enhanced maritime surveillance and reconnaissance.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_034",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the current strength of the Indian Navy's aircraft carrier fleet?",
+      "options": {
+        "a": "1 aircraft carrier",
+        "b": "2 aircraft carriers",
+        "c": "3 aircraft carriers",
+        "d": "4 aircraft carriers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Indian Navy currently operates 2 aircraft carriers: INS Vikramaditya and INS Vikrant.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_035",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which new indigenous destroyer class has been commissioned recently?",
+      "options": {
+        "a": "Delhi-class",
+        "b": "Kolkata-class",
+        "c": "Visakhapatnam-class",
+        "d": "Rajput-class"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Visakhapatnam-class destroyers are the latest indigenous destroyers with advanced capabilities.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_036",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the Indian Navy's role in 'SAGAR' initiative?",
+      "options": {
+        "a": "Security and Growth for All in the Region",
+        "b": "Shipbuilding and Growth Alliance",
+        "c": "Strategic Alliance for Global Affairs",
+        "d": "Security Against Global Risks"
+      },
+      "correct_answer": ["a"],
+      "explanation": "SAGAR (Security and Growth for All in the Region) is India's maritime initiative where Navy plays a key role.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_037",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new naval air station has been commissioned in the Andaman & Nicobar Islands?",
+      "options": {
+        "a": "INS Kohassa",
+        "b": "INS Baaz",
+        "c": "INS Utkrosh",
+        "d": "INS Rajali"
+      },
+      "correct_answer": ["a"],
+      "explanation": "INS Kohassa is the new naval air station commissioned in the Andaman & Nicobar Islands.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_038",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the current focus of Indian Navy's cyber security efforts?",
+      "options": {
+        "a": "Cyberspace as a warfare domain",
+        "b": "Only email security",
+        "c": "Social media monitoring",
+        "d": "Website development"
+      },
+      "correct_answer": ["a"],
+      "explanation": "The Navy treats cyberspace as a critical warfare domain and has established dedicated cyber security commands.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_039",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which new corvette class has been designed for anti-submarine warfare?",
+      "options": {
+        "a": "Kamorta-class",
+        "b": "Kora-class",
+        "c": "Khukri-class",
+        "d": "Kirpan-class"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Kamorta-class corvettes are specifically designed for anti-submarine warfare operations.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_040",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the Indian Navy's current approach to women's participation?",
+      "options": {
+        "a": "Limited to medical branch only",
+        "b": "Permanent commission in all branches",
+        "c": "No women officers",
+        "d": "Only in administrative roles"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Women are now granted permanent commission in all branches of the Indian Navy.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_041",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new training establishment has been set up for naval aviation?",
+      "options": {
+        "a": "INS Rajali",
+        "b": "INS Garuda",
+        "c": "INS Hansa",
+        "d": "Naval Institute of Aeronautical Technology"
+      },
+      "correct_answer": ["d"],
+      "explanation": "The Naval Institute of Aeronautical Technology has been established for specialized naval aviation training.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_042",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the current status of India's sea-based nuclear deterrent?",
+      "options": {
+        "a": "Not developed yet",
+        "b": "Under development",
+        "c": "Operational with Arihant-class",
+        "d": "Only land-based available"
+      },
+      "correct_answer": ["c"],
+      "explanation": "India's sea-based nuclear deterrent is operational with the Arihant-class ballistic missile submarines.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_043",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new satellite system supports Indian Navy's communications?",
+      "options": {
+        "a": "GSAT-7 (Rukmini)",
+        "b": "INSAT-3D",
+        "c": "Cartosat-3",
+        "d": "RISAT-2"
+      },
+      "correct_answer": ["a"],
+      "explanation": "GSAT-7 (Rukmini) is India's first dedicated military satellite supporting naval communications.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_044",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the Indian Navy's current strength in terms of personnel?",
+      "options": {
+        "a": "Approximately 50,000",
+        "b": "Approximately 70,000",
+        "c": "Approximately 90,000",
+        "d": "Approximately 110,000"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Indian Navy currently has approximately 70,000 personnel including officers and sailors.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_045",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new naval exercise has been initiated with African navies?",
+      "options": {
+        "a": "Exercise MILAN",
+        "b": "Exercise INDRA",
+        "c": "Exercise IBSAMAR",
+        "d": "Exercise KONKAN"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Exercise IBSAMAR is a joint naval exercise between India, Brazil, and South Africa.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_046",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the focus of Indian Navy's 'Digital Navy' initiative?",
+      "options": {
+        "a": "Paperless administration",
+        "b": "Complete digital transformation",
+        "c": "Only email systems",
+        "d": "Social media presence"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The 'Digital Navy' initiative aims at complete digital transformation of naval operations and administration.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_047",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new indigenous torpedo has been developed for submarines?",
+      "options": {
+        "a": "Varunastra",
+        "b": "Shyena",
+        "c": "Takshak",
+        "d": "Nag"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Varunastra is the indigenous heavyweight torpedo developed for submarine operations.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the current approach to coastal security post-26/11?",
+      "options": {
+        "a": "Only naval patrols",
+        "b": "Multi-layered coastal security system",
+        "c": "Coast Guard only responsibility",
+        "d": "No specific measures"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A comprehensive multi-layered coastal security system involving Navy, Coast Guard, and marine police has been established.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_049",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which new naval facility has been developed in Mauritius?",
+      "options": {
+        "a": "Naval monitoring station",
+        "b": "Coastal radar station",
+        "c": "Agra Asha monitoring facility",
+        "d": "Joint hydrographic facility"
+      },
+      "correct_answer": ["b"],
+      "explanation": "India has helped Mauritius establish coastal radar stations for enhanced maritime surveillance in the Indian Ocean Region.",
+      "points": 1
+    },
+    {
+      "id": "orient_current_050",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the Indian Navy's current approach to environmental conservation?",
+      "options": {
+        "a": "No specific measures",
+        "b": "Only waste management",
+        "c": "Comprehensive 'Green Initiatives' program",
+        "d": "Only during exercises"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Navy has implemented comprehensive 'Green Initiatives' including waste management, renewable energy, and marine conservation.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 2700,
+    "passing_score": 70
+  }
+}

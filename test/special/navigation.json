@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "navigation",
+  "language": "en",
+  "title": "Marine Navigation Principles & Practices",
+  "description": "Comprehensive test on navigation fundamentals, compass systems, chart work, tides, and navigational instruments",
+  "questions": [
+    {
+      "id": "nav_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of marine navigation?",
+      "options": {
+        "a": "Entertainment and recreation at sea",
+        "b": "Planning and carrying out movement of ships from one place to another",
+        "c": "Only for emergency situations",
+        "d": "Measuring ocean depths only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Navigation is the process of planning and carrying out the movement of all modes of transport from one place to another by sea, air, land or space.",
+      "points": 1
+    },
+    {
+      "id": "nav_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the definition of Latitude?",
+      "options": {
+        "a": "Angle between plane of Prime Meridian and meridian of the place",
+        "b": "Angle perpendicular to earth surface at the place with plane of equator",
+        "c": "Distance from the nearest coast",
+        "d": "Height above sea level"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Latitude is the angle which the perpendicular to the earth surface at the place makes with the plane of the equator, measured 0 to 90 north or south.",
+      "points": 1
+    },
+    {
+      "id": "nav_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the standard length of an International Nautical Mile?",
+      "options": {
+        "a": "1609 meters",
+        "b": "1852 meters",
+        "c": "2000 meters",
+        "d": "1500 meters"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The International Nautical Mile is a standard fixed length of 1852 meters, used for maritime navigation worldwide.",
+      "points": 1
+    },
+    {
+      "id": "nav_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What does the unit 'Knot' measure?",
+      "options": {
+        "a": "Distance traveled",
+        "b": "Depth of water",
+        "c": "Speed in nautical miles per hour",
+        "d": "Wind direction"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A Knot is the unit for measuring speed in navigation, equal to one International Nautical Mile (1852 meters) per hour.",
+      "points": 1
+    },
+    {
+      "id": "nav_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which instrument uses radio waves to determine direction and range of objects?",
+      "options": {
+        "a": "Sextant",
+        "b": "Echo Sounder",
+        "c": "Radar",
+        "d": "Compass"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Radar (Radio aided Direction and ranging) uses radio waves to obtain the direction and range of objects for navigation.",
+      "points": 1
+    },
+    {
+      "id": "nav_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary use of a Sextant in navigation?",
+      "options": {
+        "a": "Measuring water depth",
+        "b": "Determining ship's position by sighting heavenly bodies",
+        "c": "Measuring ship's speed",
+        "d": "Finding magnetic north"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A Sextant is used to determine a ship's position by taking sights of heavenly bodies such as sun, stars, etc.",
+      "points": 1
+    },
+    {
+      "id": "nav_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which instrument measures depth of water below the ship's keel?",
+      "options": {
+        "a": "Radar",
+        "b": "Sextant",
+        "c": "Echo Sounder",
+        "d": "Log"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Echo Sounder is an instrument that measures depth of water below the keel of the ship to prevent grounding.",
+      "points": 1
+    },
+    {
+      "id": "nav_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What are the two main types of compass used in marine navigation?",
+      "options": {
+        "a": "Digital and Analog compass",
+        "b": "Magnetic and Gyro compass",
+        "c": "Electronic and Mechanical compass",
+        "d": "Portable and Fixed compass"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The two main types of navigational compass are Magnetic compass and Gyro compass.",
+      "points": 1
+    },
+    {
+      "id": "nav_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does a Magnetic Compass point towards?",
+      "options": {
+        "a": "True North",
+        "b": "Geographic North",
+        "c": "Approximately to true north (Compass North)",
+        "d": "The nearest land mass"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A Magnetic compass is a magnet freely suspended that settles with one end pointing approximately to true north, affected by earth's magnetism and ship's magnetic properties.",
+      "points": 1
+    },
+    {
+      "id": "nav_010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the key principle behind a Gyro Compass?",
+      "options": {
+        "a": "Earth's magnetic field",
+        "b": "Rapidly spinning wheel (gyroscope) pointing to true north",
+        "c": "Satellite positioning",
+        "d": "Celestial navigation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A Gyro Compass uses a rapidly spinning wheel or gyroscope, the axis of which is made to point along the meridian towards true north.",
+      "points": 1
+    },
+    {
+      "id": "nav_011",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is 'Variation' in compass terminology?",
+      "options": {
+        "a": "Angle between true meridian and magnetic meridian",
+        "b": "Error caused by ship's magnetism",
+        "c": "Difference between high and low tide",
+        "d": "Change in ship's speed"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Variation is the angle between the true meridian and the magnetic meridian at any place, expressed in degrees and minutes.",
+      "points": 1
+    },
+    {
+      "id": "nav_012",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is 'Deviation' in compass terminology?",
+      "options": {
+        "a": "Angle between magnetic meridian and compass needle direction",
+        "b": "Difference between true north and geographic north",
+        "c": "Error in chart measurements",
+        "d": "Tidal current effect"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Deviation is the angle between the magnetic meridian and the direction in which the magnetic needle actually points, caused by ship's magnetic properties.",
+      "points": 1
+    },
+    {
+      "id": "nav_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which chart projection shows rhumb lines as straight lines?",
+      "options": {
+        "a": "Gnomonic Projection",
+        "b": "Mercator Projection",
+        "c": "Polar Projection",
+        "d": "Orthographic Projection"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Mercator Projection has the property that rhumb lines on Earth appear as straight lines on the chart.",
+      "points": 1
+    },
+    {
+      "id": "nav_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which chart projection shows great circles as straight lines?",
+      "options": {
+        "a": "Mercator Projection",
+        "b": "Gnomonic Projection",
+        "c": "Cylindrical Projection",
+        "d": "Conic Projection"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Gnomonic Projection is constructed so that any straight line drawn on them represents a great circle.",
+      "points": 1
+    },
+    {
+      "id": "nav_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What type of chart is used for harbor approaches and precise navigation?",
+      "options": {
+        "a": "Small Scale Charts",
+        "b": "Medium Scale Charts",
+        "c": "Large Scale Charts",
+        "d": "Routing Charts"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Large Scale Charts cover harbors and their approaches (5-7 NM area) and contain all information required for precise navigation.",
+      "points": 1
+    },
+    {
+      "id": "nav_016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What does DR position represent in navigation?",
+      "options": {
+        "a": "Position from celestial observations",
+        "b": "Position obtained from true course and speed through water",
+        "c": "Estimated position considering currents",
+        "d": "Satellite determined position"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Dead Reckoning (DR) position is obtained from the true course steered by the ship and her speed through the water only.",
+      "points": 1
+    },
+    {
+      "id": "nav_017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What factors are considered in Estimated Position (EP)?",
+      "options": {
+        "a": "Only course and speed",
+        "b": "DR position adjusted for leeway, tidal stream, current and surface drift",
+        "c": "Satellite data only",
+        "d": "Visual observations only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Estimated Position is derived from DR position adjusted for estimated effects of leeway, tidal stream, current and surface drift.",
+      "points": 1
+    },
+    {
+      "id": "nav_018",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the definition of 'High Water' in tidal terminology?",
+      "options": {
+        "a": "Average sea level",
+        "b": "Lowest level reached during tidal oscillation",
+        "c": "Highest level reached during tidal oscillation",
+        "d": "Time between high and low tide"
+      },
+      "correct_answer": ["c"],
+      "explanation": "High Water is the highest level reached during one tidal oscillation, specified by time and height above chart datum.",
+      "points": 1
+    },
+    {
+      "id": "nav_019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What are 'Spring Tides'?",
+      "options": {
+        "a": "Tides with least range during semi-lunation",
+        "b": "Tides of greatest range during semi-lunation",
+        "c": "Tides caused by spring season",
+        "d": "Rapidly changing tides"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Spring Tides are semi-diurnal tides of greatest range that occur during periods of semi-lunation (about 14½ days).",
+      "points": 1
+    },
+    {
+      "id": "nav_020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What are 'Neap Tides'?",
+      "options": {
+        "a": "Tides with least range during semi-lunation",
+        "b": "Tides of greatest range",
+        "c": "Tides with no range",
+        "d": "Unexpected tidal changes"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Neap Tides are semi-diurnal tides with least range that occur in each period of semi-lunation.",
+      "points": 1
+    },
+    {
+      "id": "nav_021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is 'Chart Datum'?",
+      "options": {
+        "a": "Highest water level recorded",
+        "b": "Average sea level",
+        "c": "Low water horizontal plane below which tide seldom falls",
+        "d": "Reference for ship's draft"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Chart Datum is a low water horizontal plane below which tide seldom falls, used as reference for depth measurements on charts.",
+      "points": 1
+    },
+    {
+      "id": "nav_022",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary cause of tides?",
+      "options": {
+        "a": "Wind patterns only",
+        "b": "Gravitational pull between earth, moon and sun",
+        "c": "Ocean currents",
+        "d": "Atmospheric pressure changes"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Tides are caused by gravitational pull exerted between earth and moon, and to lesser extent by sun.",
+      "points": 1
+    },
+    {
+      "id": "nav_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What instrument is used to find ship's speed and distance traveled through water?",
+      "options": {
+        "a": "Sextant",
+        "b": "Echo Sounder",
+        "c": "Log",
+        "d": "Radar"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Log is used for finding the speed and distance traveled through water.",
+      "points": 1
+    },
+    {
+      "id": "nav_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the approximate length of a 'Cable' in navigation?",
+      "options": {
+        "a": "100 meters",
+        "b": "200 yards",
+        "c": "500 meters",
+        "d": "1000 yards"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A Cable is approximately 200 yards, a convenient measure frequently used at sea for navigational purposes.",
+      "points": 1
+    },
+    {
+      "id": "nav_025",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What does a triple arrow denote on navigation tracks?",
+      "options": {
+        "a": "Course steered",
+        "b": "Ship's ground track",
+        "c": "Tidal stream, current, surface drift and drift",
+        "d": "Water track"
+      },
+      "correct_answer": ["c"],
+      "explanation": "A triple arrow denotes tidal stream, current, surface drift and drift on navigation plotting.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

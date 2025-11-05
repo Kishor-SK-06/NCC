@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "obstacle-training",
+  "language": "en",
+  "title": "Obstacle Training Course - Comprehensive Test",
+  "description": "Comprehensive test covering NCC obstacle course training, obstacle types, negotiation techniques, safety measures, and benefits",
+  "questions": [
+    {
+      "id": "obstacle_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How many obstacles are there in the standard NCC obstacle course?",
+      "options": {
+        "a": "8 obstacles",
+        "b": "10 obstacles",
+        "c": "12 obstacles",
+        "d": "15 obstacles"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Standard Obstacle Course that the NCC cadets are required to negotiate consists of ten obstacles.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the approximate distance between each obstacle in the course?",
+      "options": {
+        "a": "20 feet",
+        "b": "30 feet",
+        "c": "40 feet",
+        "d": "50 feet"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Each obstacle is placed at a distance of about 30 feet from each other in the standard obstacle course.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the height of the Straight Balance obstacle from the ground?",
+      "options": {
+        "a": "1 foot",
+        "b": "1½ feet",
+        "c": "2 feet",
+        "d": "2½ feet"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Straight Balance is a wooden plank 1½ feet above ground level that cadets cross while balancing.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How should a cadet cross the Straight Balance obstacle?",
+      "options": {
+        "a": "Walking slowly with arms closed",
+        "b": "Running with arms open for balance",
+        "c": "Crawling on hands and knees",
+        "d": "Jumping across quickly"
+      },
+      "correct_answer": ["b"],
+      "explanation": "A cadet crosses the Straight Balance obstacle running, keeping his arms open and balancing his body.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the height of the Clear Jump obstacle from the ground?",
+      "options": {
+        "a": "2 feet",
+        "b": "2½ feet",
+        "c": "3 feet",
+        "d": "3½ feet"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Clear Jump wooden beam is 2½ feet from the ground, and cadets must jump over it without touching it.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the key requirement when crossing the Clear Jump obstacle?",
+      "options": {
+        "a": "Touching the beam with one hand",
+        "b": "Jumping without touching any part of the body",
+        "c": "Using both hands for support",
+        "d": "Running and sliding under"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Cadet has to jump over the Clear Jump without touching or using any part of the body on the beam.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the length of the Zig-Zag Balance obstacle?",
+      "options": {
+        "a": "12 feet",
+        "b": "15 feet",
+        "c": "18 feet",
+        "d": "20 feet"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Zig-Zag Balance is a wooden beam 18 feet in length, constructed in a zig-zag manner 1½ feet above ground.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the height of the High Wall obstacle?",
+      "options": {
+        "a": "5 feet",
+        "b": "6 feet",
+        "c": "7 feet",
+        "d": "8 feet"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The High Wall is a 6 feet high brick wall with plaster on both sides that cadets must climb over.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the correct technique for crossing the High Wall?",
+      "options": {
+        "a": "Run, jump, kick the wall with one leg, use hands to push over",
+        "b": "Climb using ropes only",
+        "c": "Crawl under the wall",
+        "d": "Jump over in one attempt"
+      },
+      "correct_answer": ["a"],
+      "explanation": "For crossing the High Wall, a cadet has to run, jump, kick the wall with one leg, take leap putting both hands on the wall, push body upwards and jump over.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How many ditches are there in the Double Ditch obstacle?",
+      "options": {
+        "a": "One large ditch",
+        "b": "Two ditches",
+        "c": "Three small ditches",
+        "d": "Four connected ditches"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Double Ditch obstacle is composed of two ditches separated by a small gap of approximately 9-12 inches.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the technique for crossing the Double Ditch?",
+      "options": {
+        "a": "Jump across both ditches in one leap",
+        "b": "Jump first ditch, place foot on gap, jump second ditch",
+        "c": "Walk through the ditches",
+        "d": "Crawl across the gap"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The cadet must jump across the two ditches by jumping over the first ditch, placing one foot on the gap and jumping across the second ditch.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the height of the Right Hand Vault and Left Hand Vault obstacles?",
+      "options": {
+        "a": "2½ feet",
+        "b": "3 feet",
+        "c": "3½ feet",
+        "d": "4 feet"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Both Right Hand Vault and Left Hand Vault are wooden structures 3½ feet above the ground.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main difference between Right Hand Vault and Left Hand Vault?",
+      "options": {
+        "a": "The hand used for support",
+        "b": "The height of the obstacle",
+        "c": "The length of the beam",
+        "d": "The landing technique"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Right Hand Vault uses right hand as support, while Left Hand Vault uses left hand as support on the beam.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How many beams does the Gate Vault obstacle have?",
+      "options": {
+        "a": "One beam",
+        "b": "Two beams at different heights",
+        "c": "Three beams",
+        "d": "Four beams in square formation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The Gate Vault has two beams at heights of 3 feet and 5 feet respectively, both 18 feet long.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the correct technique for Gate Vault?",
+      "options": {
+        "a": "Hold upper beam with both hands, put feet on 3ft gate and jump across",
+        "b": "Jump over both beams simultaneously",
+        "c": "Crawl under the lower beam",
+        "d": "Use only the lower beam for support"
+      },
+      "correct_answer": ["a"],
+      "explanation": "For Gate Vault, one must hold the upper beam with both hands and put feet on the 3ft gate, then jump across.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the height of the Ramp obstacle?",
+      "options": {
+        "a": "3½ feet",
+        "b": "4 feet",
+        "c": "4½ feet",
+        "d": "5 feet"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The Ramp is 4½ feet high, 15 feet long and 18 feet wide sloppy hillock that cadets must climb and jump from.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How should a cadet land after jumping from the Ramp?",
+      "options": {
+        "a": "On one foot only",
+        "b": "On both feet in a pit",
+        "c": "Rolling on the ground",
+        "d": "On hands and knees"
+      },
+      "correct_answer": ["b"],
+      "explanation": "After reaching the top of the Ramp, the cadet takes a long jump and lands on a pit on both feet.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_018",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which safety measure is recommended for obstacle training?",
+      "options": {
+        "a": "Train first in formal dress",
+        "b": "Training first in PT dress, later with packs and weapon",
+        "c": "Avoid all supervision",
+        "d": "Train only in rainy conditions"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Training should be given first in PT dress, later on with packs and weapon to ensure proper progression and safety.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What type of obstacles and areas should be avoided during training?",
+      "options": {
+        "a": "Dry and clean obstacles",
+        "b": "Wet and slippery obstacles and areas",
+        "c": "Newly constructed obstacles",
+        "d": "Only the highest obstacles"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Wet and slippery obstacles and areas should be avoided to prevent accidents and injuries during training.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What qualification should instructors have for obstacle training?",
+      "options": {
+        "a": "No specific qualifications needed",
+        "b": "Should be qualified instructors",
+        "c": "Only senior cadets",
+        "d": "Any available person"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Obstacles should be done under supervision of qualified instructors using correct techniques only.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_021",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which of these is NOT mentioned as a benefit of obstacle course training?",
+      "options": {
+        "a": "Ensures physical fitness",
+        "b": "Improves cooking skills",
+        "c": "Ensures mental robustness",
+        "d": "Develops team spirit"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Benefits include physical fitness, agility, mental robustness, coordination, risk-taking ability, problem-solving skills, and team spirit - but not cooking skills.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What qualities does obstacle training help to develop in cadets?",
+      "options": {
+        "a": "Courage and patience",
+        "b": "Only physical strength",
+        "c": "Academic knowledge",
+        "d": "Musical talent"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Obstacle training infuses courage, patience and makes cadets physically fit and mentally robust.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_023",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "In which camp is intensive obstacle training especially given to cadets?",
+      "options": {
+        "a": "Annual Training Camp",
+        "b": "Thal Sainik Camp",
+        "c": "Republic Day Camp",
+        "d": "Social Service Camp"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Intensive training is given to cadets in the camps especially in Thal Sainik Camp.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What materials are used for constructing the obstacles?",
+      "options": {
+        "a": "Only wood",
+        "b": "Only bricks",
+        "c": "Wood, bricks, concrete and mud",
+        "d": "Only metal"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The obstacles are constructed of wood, bricks, concrete and mud depending upon the structure.",
+      "points": 1
+    },
+    {
+      "id": "obstacle_025",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of obstacle training in NCC?",
+      "options": {
+        "a": "To make cadets physically tough and develop confidence",
+        "b": "Only for entertainment",
+        "c": "To test academic knowledge",
+        "d": "For photography opportunities"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Obstacle course training makes cadets physically tough but also develops high degree of confidence and inculcates qualities of patience and courage.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

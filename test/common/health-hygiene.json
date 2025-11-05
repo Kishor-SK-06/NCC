@@ -1,0 +1,765 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "health-hygiene",
+  "language": "en",
+  "title": "Health & Hygiene - Comprehensive Test",
+  "description": "Comprehensive test covering human body structure, hygiene, sanitation, diseases, first aid, home nursing, and yoga",
+  "questions": [
+    {
+      "id": "health_hygiene_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "How many bones are there in the human body?",
+      "options": {
+        "a": "186 bones",
+        "b": "206 bones",
+        "c": "226 bones",
+        "d": "246 bones"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The human body has 206 bones of various shapes and sizes that give shape and firmness to the body and protect vital organs.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which type of bones are found in the ankle and wrists?",
+      "options": {
+        "a": "Long Bones",
+        "b": "Short Bones",
+        "c": "Flat Bones",
+        "d": "Irregular Bones"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Short bones are short and tubular and are found in the ankle and wrists, while long bones are in limbs, flat bones in cranium, and irregular bones in vertebral column.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the normal pulse rate for an average adult?",
+      "options": {
+        "a": "60-70 beats per minute",
+        "b": "72 beats per minute",
+        "c": "80-90 beats per minute",
+        "d": "100-120 beats per minute"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The average pulse rate is 72 beats per minute. For infants it is 100-140 bpm and for children 90-100 bpm.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the normal body temperature when measured by mouth?",
+      "options": {
+        "a": "96.4°F",
+        "b": "98.4°F",
+        "c": "100.4°F",
+        "d": "102.4°F"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Normal temperature by mouth is 98.4°F or 37°C. By axilla or groin it is 1°F lower, and by rectum it is 1°F higher.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a voluntary muscle?",
+      "options": {
+        "a": "Cardiac muscle",
+        "b": "Skeletal muscle",
+        "c": "Smooth muscle",
+        "d": "Involuntary muscle"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Voluntary or skeletal muscles are attached to bones and controlled by will, forming about 47% of body weight. Cardiac and smooth muscles are involuntary.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the process of heating milk to destroy pathogens without destroying nutritive value called?",
+      "options": {
+        "a": "Sterilization",
+        "b": "Pasteurization",
+        "c": "Clarification",
+        "d": "Precipitation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Pasteurization involves heating milk to 130°C for 1-2 seconds to destroy pathogens without altering taste or nutritive value.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which method of water purification uses potassium permanganate?",
+      "options": {
+        "a": "Clarification",
+        "b": "Sterilization",
+        "c": "Pinking",
+        "d": "Precipitation"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Pinking is done using potassium permanganate during cholera epidemics to disinfect wells and water sources.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the most satisfactory method of refuse disposal where suitable land is available?",
+      "options": {
+        "a": "Incineration",
+        "b": "Controlled Tipping",
+        "c": "Burial",
+        "d": "Composting"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Controlled tipping or sanitary landfill is the most satisfactory method of refuse disposal where suitable land is available.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_009",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which type of latrine has a water seal that prevents access to flies and escape of foul odour?",
+      "options": {
+        "a": "Bore Hole Latrine",
+        "b": "Dug Well Latrine",
+        "c": "Water Seal Latrine",
+        "d": "Deep Trench Latrine"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Water Seal Latrine performs two important functions: prevents access to flies and prevents escape of foul odour. The RCA type is widely adopted.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "According to WHO, how is health defined?",
+      "options": {
+        "a": "Absence of disease",
+        "b": "Ability to work efficiently",
+        "c": "Complete state of physical, mental and social well-being",
+        "d": "Normal functioning of all body systems"
+      },
+      "correct_answer": ["c"],
+      "explanation": "WHO defines health as 'a complete state of physical, mental and social well-being' and not merely the absence of disease or infirmity.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is NOT a characteristic of a healthy mind?",
+      "options": {
+        "a": "Cheerful outlook",
+        "b": "Good temper",
+        "c": "Undue anxiety",
+        "d": "Normal appetite"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Undue anxiety is an indicator of mental disorders. Characteristics of a healthy mind include cheerful outlook, good temper, normal appetite, and socially acceptable habits.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which disease is transmitted through droplet infection?",
+      "options": {
+        "a": "Typhoid",
+        "b": "Cholera",
+        "c": "Tuberculosis",
+        "d": "Malaria"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Tuberculosis is spread through droplet infection when germs are sprayed out from nose, throat or lungs during coughing, sneezing or talking.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which insect is the carrier of Malaria?",
+      "options": {
+        "a": "Sand fly",
+        "b": "Mosquito",
+        "c": "Fleas",
+        "d": "Lice"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Mosquitoes carry Malaria, Dengue and Filaria. Sand flies carry Kala Zar, fleas carry plague, and lice carry typhus.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the first aid treatment for snake bite?",
+      "options": {
+        "a": "Apply ice pack",
+        "b": "Give plenty of water to drink",
+        "c": "Apply tourniquet above the bite",
+        "d": "Make the victim run"
+      },
+      "correct_answer": ["c"],
+      "explanation": "For snake bite, apply a light constricting tourniquet above the bite, wash with soap and water, incise the skin, suck the blood, and evacuate to hospital.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which artificial respiration method is used when the casualty is in prone position?",
+      "options": {
+        "a": "Mouth to Mouth",
+        "b": "Holger-Nielson Method",
+        "c": "Schaefer's Method",
+        "d": "Cardiac Compression"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Holger-Nielson Method is used when casualty is in prone position, while Schaefer's method also uses prone position but with different technique.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What does the acronym NURSE stand for in home nursing?",
+      "options": {
+        "a": "Nobility, Understanding, Responsibility, Sympathy, Efficiency",
+        "b": "Nursing, Unity, Respect, Service, Excellence",
+        "c": "Nutrition, Uniform, Rest, Safety, Exercise",
+        "d": "Knowledge, Unity, Responsibility, Skill, Efficiency"
+      },
+      "correct_answer": ["a"],
+      "explanation": "NURSE stands for Nobility/Knowledge, Usefulness/Understanding, Righteousness/Responsibility, Simplicity/Sympathy, Efficiency/Equanimity.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_017",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which bandaging method is used for parts of uniform thickness like fingers or wrists?",
+      "options": {
+        "a": "Simple Spiral",
+        "b": "Reverse Spiral",
+        "c": "Figure of 8",
+        "d": "Circular"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Simple Spiral is used when the part is of uniform thickness. Reverse Spiral is for varying thickness, and Figure of 8 is for joints.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the ideal direction for a sick room to face?",
+      "options": {
+        "a": "North or North-East",
+        "b": "South or South-West",
+        "c": "East or South-East",
+        "d": "West or North-West"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The sick room should face South or South-West and should be away from noise with bathroom and lavatory close by.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which type of fracture has broken bones protruding through the skin?",
+      "options": {
+        "a": "Simple fracture",
+        "b": "Compound fracture",
+        "c": "Complicated fracture",
+        "d": "Greenstick fracture"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Compound or Open fracture has skin broken and sometimes broken bones protruding. Simple fracture has skin intact, complicated fracture damages underlying structures.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the first aid for dislocation?",
+      "options": {
+        "a": "Try to reduce it immediately",
+        "b": "Apply heat compress",
+        "c": "Do not try to reduce it",
+        "d": "Massage the joint"
+      },
+      "correct_answer": ["c"],
+      "explanation": "For dislocation, do not try to reduce it. Immobilize the joint with sling or bandage, apply cold compress, and send to hospital.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which asana is known for awakening the power of Kundalini?",
+      "options": {
+        "a": "Padmasana",
+        "b": "Siddhasana",
+        "c": "Sarvangasana",
+        "d": "Bhujangasana"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Siddhasana's main function is to awaken the power of Kundalini. It helps the mind to be firm, attentive and alert.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_022",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "How many positions are there in Surya Namaskar?",
+      "options": {
+        "a": "8 positions",
+        "b": "10 positions",
+        "c": "12 positions",
+        "d": "14 positions"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Surya Namaskar is a combined sequence of 12 positions that exercises the whole body comprehensively.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_023",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which asana can be done immediately after eating food?",
+      "options": {
+        "a": "Sarvangasana",
+        "b": "Vajrasana",
+        "c": "Dhanurasana",
+        "d": "Halasana"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Vajrasana can be done immediately after eating food as it helps digestion and eliminates gas troubles.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_024",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the recommended age for children to start yoga exercises?",
+      "options": {
+        "a": "Under 10 years",
+        "b": "Under 12 years",
+        "c": "Under 14 years",
+        "d": "Under 16 years"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Yoga exercises are not recommended for children under 16 because their nervous and glandular systems are still growing.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_025",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is a potential benefit of yoga for heart patients?",
+      "options": {
+        "a": "Increases heart rate",
+        "b": "Reduces high blood pressure",
+        "c": "Decreases cardiac output",
+        "d": "Increases cholesterol"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Yoga may reduce high blood pressure, improve symptoms of heart failure, enhance cardiac rehabilitation, and lower cardiovascular risk factors.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_026",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the average amount of sleep required per day for an adult?",
+      "options": {
+        "a": "5-6 hours",
+        "b": "7-8 hours",
+        "c": "9-10 hours",
+        "d": "10-12 hours"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The average requirement of sleep is about 7 to 8 hours a day, though this varies with individual age.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_027",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which system is responsible for filtering waste from blood in the human body?",
+      "options": {
+        "a": "Respiratory system",
+        "b": "Digestive system",
+        "c": "Urinary system",
+        "d": "Circulatory system"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The urinary system, particularly the kidneys, acts as filters to remove waste from blood and maintain fluid balance.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_028",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the process of removing suspended matter from water by passing it through gravel and sand called?",
+      "options": {
+        "a": "Sterilization",
+        "b": "Clarification",
+        "c": "Pinking",
+        "d": "Precipitation"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Clarification is the removal of suspended matter through filtration by passing water through filter beds of gravel and sand.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_029",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of waste disposal method is best for hospital refuse?",
+      "options": {
+        "a": "Controlled tipping",
+        "b": "Incineration",
+        "c": "Composting",
+        "d": "Burial"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Incineration is best for hospital refuse which is particularly dangerous, as it completely destroys pathogens.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_030",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the main cause of asphyxia in drowning cases?",
+      "options": {
+        "a": "Heart failure",
+        "b": "Water entering air passage",
+        "c": "Hypothermia",
+        "d": "Electric shock"
+      },
+      "correct_answer": ["b"],
+      "explanation": "In drowning, asphyxia occurs due to water entering the air passage and preventing normal respiration.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_031",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which bandage is made of elastic material and used for sprains and strains?",
+      "options": {
+        "a": "Roller bandage",
+        "b": "Crepe bandage",
+        "c": "Triangular bandage",
+        "d": "Tubular bandage"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Crepe bandage is made of elastic material which stretches and binds firmly around joints, helping reduce swelling and movement.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_032",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the temperature range of a clinical thermometer?",
+      "options": {
+        "a": "90°F to 105°F",
+        "b": "95°F to 110°F",
+        "c": "100°F to 115°F",
+        "d": "85°F to 100°F"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The range of clinical thermometer is 95°F to 110°F with degrees indicated by black lines and normal temperature marked at 98.4°F.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_033",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which asana is recommended for Jaap, Dhyana and Samadhi?",
+      "options": {
+        "a": "Padmasana",
+        "b": "Bhujangasana",
+        "c": "Dhanurasana",
+        "d": "Sarvangasana"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Padmasana is useful for Jaap (chanting), Dhyana (meditation) and Samadhi (deep meditation), and also helps in curing asthma, hysteria and insomnia.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_034",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the first aid treatment for burns?",
+      "options": {
+        "a": "Apply butter or oil",
+        "b": "Break blisters immediately",
+        "c": "Protect burnt area with clean dressing",
+        "d": "Use ice directly on burn"
+      },
+      "correct_answer": ["c"],
+      "explanation": "For burns, protect the burnt area with bandage or clean cloth, give complete rest and fluids, reassure patient, and evacuate to hospital.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_035",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which system controls involuntary functions like stomach and intestine movements?",
+      "options": {
+        "a": "Central Nervous System",
+        "b": "Peripheral Nervous System",
+        "c": "Autonomic Nervous System",
+        "d": "Somatic Nervous System"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Autonomic Nervous System controls involuntary functions of internal organs like stomach, intestine, bladder, and secretions of liver and kidneys.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_036",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the purpose of Gyan Mudra in yoga?",
+      "options": {
+        "a": "Improve digestion",
+        "b": "Increase flexibility",
+        "c": "Pranayam and Dhyana",
+        "d": "Reduce blood pressure"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Gyan Mudra is most suitable for pranayam (breathing exercises) and dhyana (meditation).",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_037",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which method of sewage treatment involves using anaerobic and aerobic bacteria?",
+      "options": {
+        "a": "Screening",
+        "b": "Chambering",
+        "c": "Primary Sedimentation",
+        "d": "Activated Sludge Process"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Activated Sludge Process uses anaerobic and aerobic bacteria to treat sewage through biological action.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_038",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the recommended time for holding Sarvangasana?",
+      "options": {
+        "a": "10-20 seconds",
+        "b": "30 seconds to 1 minute",
+        "c": "½ to 1 minute",
+        "d": "2-5 minutes"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Sarvangasana should be held for ½ to 1 minute initially. It improves circulatory, respiratory and alimentary systems.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_039",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which quality is NOT essential for a good nurse?",
+      "options": {
+        "a": "Sympathy and Understanding",
+        "b": "Cheerfulness and Gentleness",
+        "c": "Observant nature",
+        "d": "Impatience and harshness"
+      },
+      "correct_answer": ["d"],
+      "explanation": "A good nurse should be patient, sympathetic, cheerful, gentle, observant, tactful, courageous and have team spirit - not impatient or harsh.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_040",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the first aid for foreign body in ear?",
+      "options": {
+        "a": "Use pin or forceps to remove",
+        "b": "Pour oil to float it out",
+        "c": "Do not try to remove it",
+        "d": "Use water to flush it out"
+      },
+      "correct_answer": ["c"],
+      "explanation": "For foreign body in ear, do not try to remove with pin or forceps as this may push it further and damage eardrum. Send patient to hospital.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_041",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which asana is known as the 'Bow pose'?",
+      "options": {
+        "a": "Dhanurasana",
+        "b": "Bhujangasana",
+        "c": "Halasana",
+        "d": "Trikonasana"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Dhanurasana is known as the Bow pose as the body resembles a bow when performed. It exercises abdominal muscles, lower back and thighs.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_042",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main purpose of sterilization using autoclaving?",
+      "options": {
+        "a": "Remove bad odor",
+        "b": "Improve taste",
+        "c": "Destroy all germs",
+        "d": "Add minerals"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Autoclaving or steam under pressure is the most effective method to destroy all germs and sterilize hospital equipment.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_043",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which type of fracture is caused by diseases of bones?",
+      "options": {
+        "a": "Through direct violence",
+        "b": "Through indirect violence",
+        "c": "Through muscular contraction",
+        "d": "Through bone diseases"
+      },
+      "correct_answer": ["d"],
+      "explanation": "Certain diseases of bones make them weak and easily breakable, causing fractures even with minimal force.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_044",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the recommended sleeping position for a patient with fracture of spine?",
+      "options": {
+        "a": "On back with head raised",
+        "b": "On side with pillows",
+        "c": "Face downwards on board",
+        "d": "Semi-reclining position"
+      },
+      "correct_answer": ["c"],
+      "explanation": "For fracture of spine, carry the patient face downwards on a board placed lengthwise on the stretcher to prevent further spinal injury.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_045",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which asana is known for providing complete relaxation in shortest time?",
+      "options": {
+        "a": "Shavasana",
+        "b": "Padmasana",
+        "c": "Vajrasana",
+        "d": "Siddhasana"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Shavasana provides complete relaxation in the shortest possible time and helps in releasing the mind from the body.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_046",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the purpose of applying splints in fracture treatment?",
+      "options": {
+        "a": "To stop bleeding",
+        "b": "To reduce pain",
+        "c": "To immobilize the fracture",
+        "d": "To prevent infection"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Splints are applied to immobilize the fracture and prevent movement of broken bones, which reduces pain and prevents further injury.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_047",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which method of artificial respiration involves blowing directly into patient's mouth?",
+      "options": {
+        "a": "Holger-Nielson Method",
+        "b": "Schaefer's Method",
+        "c": "Mouth to Mouth",
+        "d": "Silvester's Method"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Mouth to Mouth respiration involves blowing directly into patient's mouth through clean gauze at 10-12 times per minute.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_048",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main symptom of a strain?",
+      "options": {
+        "a": "Deformity of joint",
+        "b": "Grating sound",
+        "c": "Sudden sharp pain",
+        "d": "Bone protruding"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Strain shows sudden sharp pain, possible swelling or severe cramp, and difficulty in further exertion.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_049",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which asana stimulates blood circulation and makes spine flexible?",
+      "options": {
+        "a": "Halasana",
+        "b": "Sarvangasana",
+        "c": "Bhujangasana",
+        "d": "Padmasana"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Halasana stimulates blood circulation and makes the spine flexible and elastic. It should be held for 30-50 seconds.",
+      "points": 1
+    },
+    {
+      "id": "health_hygiene_050",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary goal of home nursing?",
+      "options": {
+        "a": "Replace hospital treatment",
+        "b": "Reduce frequency and intensity of sickness",
+        "c": "Provide emergency surgery",
+        "d": "Diagnose complex diseases"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Home nursing aims to reduce the intensity and frequency of sickness to the barest minimum through proper care at home.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 50,
+    "time_limit": 3600,
+    "passing_score": 70
+  }
+}

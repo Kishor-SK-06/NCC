@@ -1,0 +1,388 @@
+{
+  "version": "2.0",
+  "category": "common",
+  "subcategory": "adventure",
+  "language": "en",
+  "questions": [
+    {
+      "id": "trekking_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the recommended approach regarding accessories during trekking?",
+      "options": {
+        "a": "Carry maximum accessories for grace",
+        "b": "Keep accessories that are easy to carry",
+        "c": "Avoid all accessories completely",
+        "d": "Carry only expensive accessories"
+      },
+      "correct_answer": ["b"],
+      "explanation": "During travel, keep accessories which are easy to carry and may add grace to your overall look, rather than carrying too many or avoiding them completely.",
+      "points": 1
+    },
+    {
+      "id": "trekking_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What medical precaution is recommended before heading for trekking?",
+      "options": {
+        "a": "Only basic fitness check",
+        "b": "Medical fitness check up",
+        "c": "No medical checks needed",
+        "d": "Only vaccination for COVID"
+      },
+      "correct_answer": ["b"],
+      "explanation": "While planning your trekking trip, it is preferable to have a medical fitness check up done to ensure you are fit and fine before heading for trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_003",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these diseases are mentioned for taking medical precautions before trekking?",
+      "options": {
+        "a": "Malaria and cholera",
+        "b": "Diabetes only",
+        "c": "Heart diseases only",
+        "d": "No specific diseases mentioned"
+      },
+      "correct_answer": ["a"],
+      "explanation": "It is essential to have medical precautions against diseases like malaria, cholera, tetanus, typhoid and hepatitis before going for trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What should you do if suffering from previous ailments before trekking?",
+      "options": {
+        "a": "Ignore and hope for the best",
+        "b": "Carry proper prescribed medicines",
+        "c": "Stop all medications",
+        "d": "Take extra vitamins only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "If suffering from any kind of ailment, do carry proper prescribed medicines to prevent serious health problems during trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What type of shoes are recommended for trekking?",
+      "options": {
+        "a": "Fashionable shoes",
+        "b": "Proper trekking shoes",
+        "c": "Regular sports shoes",
+        "d": "Any comfortable slippers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Always wear proper trekking shoes while trekking as uncomfortable shoes can hurt your feet and lead to serious foot injuries.",
+      "points": 1
+    },
+    {
+      "id": "trekking_006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Why is it important to spend time arranging proper trekking shoes?",
+      "options": {
+        "a": "To look fashionable",
+        "b": "To prevent serious foot injuries",
+        "c": "To match with clothes",
+        "d": "To impress other trekkers"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Uncomfortable pair of shoes can harshly hurt your feet and can lead to serious foot injuries while trekking, hence proper shoes are essential.",
+      "points": 1
+    },
+    {
+      "id": "trekking_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What size of trekking shoes is recommended compared to regular shoes?",
+      "options": {
+        "a": "Same size as regular shoes",
+        "b": "Half-size smaller",
+        "c": "Half-size bigger",
+        "d": "One full size bigger"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Choose trekking shoes that are a half-size bigger than your regular shoes to allow space for swelling caused while trekking and to hold heavier trekking socks.",
+      "points": 1
+    },
+    {
+      "id": "trekking_008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Why should trekking shoes be half-size bigger than regular shoes?",
+      "options": {
+        "a": "For fashion statement",
+        "b": "To allow space for swelling",
+        "c": "To save money",
+        "d": "For better color options"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Half-size bigger shoes allow space for swelling caused while trekking and provide room for heavier trekking socks.",
+      "points": 1
+    },
+    {
+      "id": "trekking_009",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What type of food items are recommended to carry during trekking?",
+      "options": {
+        "a": "Food with larger carbohydrates",
+        "b": "Only protein-rich food",
+        "c": "Fatty food only",
+        "d": "Liquid food only"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Do carry food items which carry larger amount of carbohydrates as they provide sustained energy during trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_010",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What essential medical item must always be carried during trekking?",
+      "options": {
+        "a": "Only painkillers",
+        "b": "First aid box and important medicines",
+        "c": "Just bandages",
+        "d": "No medical items needed"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Always take important medicine and first aid box with you to handle any medical emergencies during trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which body part needs special protection in frequently changing weather?",
+      "options": {
+        "a": "Hands only",
+        "b": "Neck area",
+        "c": "Feet only",
+        "d": "Head only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Always cover your neck area, particularly in frequently changing weather as it can lead to serious neck problems and pains if left uncovered.",
+      "points": 1
+    },
+    {
+      "id": "trekking_012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What can happen if the neck is left uncovered during trekking?",
+      "options": {
+        "a": "Sunburn only",
+        "b": "Serious neck problems and pains",
+        "c": "No significant issues",
+        "d": "Only cosmetic issues"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The neck area can lead to serious neck problems and pains if left uncovered, especially in frequently changing weather conditions.",
+      "points": 1
+    },
+    {
+      "id": "trekking_013",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What type of socks are recommended for trekking?",
+      "options": {
+        "a": "Thin cotton socks",
+        "b": "Thick woolen socks or stockings",
+        "c": "No socks needed",
+        "d": "Regular dress socks"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Do wear thick woolen socks or stockings while trekking for better comfort and protection.",
+      "points": 1
+    },
+    {
+      "id": "trekking_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the advantage of synthetic blended socks for trekking?",
+      "options": {
+        "a": "They are cheaper",
+        "b": "They preclude feet moisture",
+        "c": "They look better",
+        "d": "They are lighter"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Synthetic blended socks are specially designed to preclude feet moisture, making them ideal for trekking purposes.",
+      "points": 1
+    },
+    {
+      "id": "trekking_015",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What health problems should prescribed medicines prevent during trekking?",
+      "options": {
+        "a": "Only minor cuts",
+        "b": "Heatstroke and dehydration",
+        "c": "Only bone fractures",
+        "d": "Skin diseases only"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Carry proper prescribed medicines to prevent serious health problems including heatstroke, severe headache, cough, dehydration and hypothermia.",
+      "points": 1
+    },
+    {
+      "id": "trekking_016",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Why is medical fitness check up considered 'most essential' before trekking?",
+      "options": {
+        "a": "For insurance purposes",
+        "b": "To be fit and fine before heading",
+        "c": "To get certificates",
+        "d": "For group compatibility"
+      },
+      "correct_answer": ["b"],
+      "explanation": "It is most essential to be fit and fine before heading for trekking, hence medical fitness check up is crucial.",
+      "points": 1
+    },
+    {
+      "id": "trekking_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the consequence of wearing uncomfortable shoes during trekking?",
+      "options": {
+        "a": "Only minor discomfort",
+        "b": "Serious foot injuries",
+        "c": "Just blisters",
+        "d": "No major consequences"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Uncomfortable shoes can harshly hurt your feet and can lead to serious foot injuries while trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What additional purpose do half-size bigger shoes serve besides accommodating swelling?",
+      "options": {
+        "a": "To hold heavier trekking socks",
+        "b": "For better fashion",
+        "c": "To save money",
+        "d": "For easy removal"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Half-size bigger shoes allow space for swelling and also provide room to hold heavier trekking socks comfortably.",
+      "points": 1
+    },
+    {
+      "id": "trekking_019",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which of these is NOT mentioned as a health problem to prevent with medicines?",
+      "options": {
+        "a": "Heatstroke",
+        "b": "Dehydration",
+        "c": "Diabetes",
+        "d": "Hypothermia"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The mentioned health problems to prevent include heatstroke, severe headache, cough, dehydration and hypothermia, but not diabetes specifically.",
+      "points": 1
+    },
+    {
+      "id": "trekking_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the primary reason for carrying carbohydrate-rich food during trekking?",
+      "options": {
+        "a": "For quick energy supply",
+        "b": "For taste preference",
+        "c": "For weight reduction",
+        "d": "For easy cooking"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Carbohydrate-rich food provides sustained energy needed for the physical exertion during trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_021",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Why are synthetic blended socks specifically recommended for trekking?",
+      "options": {
+        "a": "Their special design prevents moisture",
+        "b": "They are more colorful",
+        "c": "They are cheaper",
+        "d": "They are thinner"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Synthetic blended socks are specially designed to preclude feet moisture, which is crucial for comfort and preventing blisters during trekking.",
+      "points": 1
+    },
+    {
+      "id": "trekking_022",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What should be the approach towards accessories during trekking travel?",
+      "options": {
+        "a": "Minimal and easy to carry",
+        "b": "Maximum for all occasions",
+        "c": "Only expensive ones",
+        "d": "None at all"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Accessories should be easy to carry and add grace to your overall look, suggesting a minimal and practical approach.",
+      "points": 1
+    },
+    {
+      "id": "trekking_023",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the relationship between trekking shoes and trekking socks?",
+      "options": {
+        "a": "Shoes should accommodate thicker socks",
+        "b": "No relationship",
+        "c": "Socks should match shoe color",
+        "d": "Shoes determine sock material"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Trekking shoes need to be half-size bigger to accommodate both foot swelling and heavier trekking socks comfortably.",
+      "points": 1
+    },
+    {
+      "id": "trekking_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What weather condition specifically requires neck protection?",
+      "options": {
+        "a": "Only extreme cold",
+        "b": "Frequently changing weather",
+        "c": "Only hot weather",
+        "d": "Only rainy weather"
+      },
+      "correct_answer": ["b"],
+      "explanation": "The neck area particularly needs protection in frequently changing weather conditions to prevent serious neck problems.",
+      "points": 1
+    },
+    {
+      "id": "trekking_025",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the overall theme of these trekking guidelines?",
+      "options": {
+        "a": "Fashion and style during trekking",
+        "b": "Prevention and preparation for safety",
+        "c": "Cost-saving measures",
+        "d": "Social media opportunities"
+      },
+      "correct_answer": ["b"],
+      "explanation": "All guidelines focus on prevention of problems and proper preparation to ensure a safe and trouble-free trekking experience.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

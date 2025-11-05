@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorials</title>
+    
+    <!-- External Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="css/tutorials.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo and College Name -->
+                <div class="logo-container">
+                    <img src="images/Narmada College Icon.png" alt="NCC Logo" class="logo-img" />
+                    <div class="header-text">
+                        <h5>NATIONAL CADET CORPS</h5>
+                        <small>NARMADA COLLEGE</small>
+                    </div>
+                </div>
+                
+                <!-- Date, Time & Greeting -->
+                <div class="text-end text-white">
+                    <div id="date-time" class="mb-2 fw-bold"></div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-user-circle fa-xl me-2 text-gold"></i>
+                        <span id="greet-text" class="fw-semibold">Welcome, Cadet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== NAVIGATION SECTION ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light modern-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="tutorials.html">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tests.html">Tests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="tutorials-hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">NCC Training Tutorials</h1>
+            <p class="lead">Master Military Skills with Professional Video Guides</p>
+        </div>
+    </section>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container">
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+            <ul class="nav nav-pills nav-pills-custom justify-content-center" id="tutorialTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="common-tab" data-bs-toggle="pill" data-bs-target="#common" type="button" role="tab">
+                        <i class="fas fa-users me-2"></i>Common Subjects
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="special-tab" data-bs-toggle="pill" data-bs-target="#special" type="button" role="tab">
+                        <i class="fas fa-star me-2"></i>Special Subjects
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Back to Categories Button (Hidden by default) -->
+        <div class="text-center hidden" id="backButtonContainer">
+            <button class="back-to-categories mt-5" id="backToCategories">
+                <i class="fas fa-arrow-left me-2"></i>Back to Categories
+            </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content" id="tutorialTabsContent">
+            
+            <!-- ========== COMMON SUBJECTS TAB ========== -->
+            <div class="tab-pane fade show active" id="common" role="tabpanel">
+                <div class="category-header">
+                    <h3>Common Subjects</h3>
+                    <p class="text-muted">Essential training for all NCC cadets</p>
+                </div>
+                
+                <!-- Subcategory Grid -->
+                <div class="subcategory-grid">
+                    <!-- Drill Training Card -->
+                    <div class="subcategory-card" data-subcategory="drill">
+                        <div class="subcategory-icon">
+                            <i class="fa-solid fa-person-military-rifle"></i>
+                        </div>
+                        <h4>Drill Training</h4>
+                        <p class="text-muted">Marching, commands, and formations</p>
+                        <div class="videos-count">2 videos available</div>
+                    </div>
+
+                    <!-- Weapon Training Card -->
+                    <div class="subcategory-card" data-subcategory="weapon">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-gun"></i>
+                        </div>
+                        <h4>Weapon Training</h4>
+                        <p class="text-muted">Rifle handling and safety procedures</p>
+                        <div class="videos-count">1 video available</div>
+                    </div>
+                </div>
+
+                <!-- ========== VIDEO SECTIONS (Hidden by default) ========== -->
+                
+                <!-- Drill Videos Section -->
+                <div class="hidden" id="drillVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fa-solid fa-person-military-rifle me-2"></i>
+                        Drill Training Videos
+                    </h3>
+                    
+                    <div class="video-grid" id="drillVideoGrid">
+                        <!-- ========== ADD DRILL VIDEOS HERE ========== -->
+                        <!-- 
+                        COPY AND PASTE THIS BLOCK FOR EACH NEW DRILL VIDEO:
+                        
+                        <div class="video-card" data-aos="fade-up">
+                            <div class="video-thumbnail">
+                                <img src="THUMBNAIL_URL" alt="Video Title" class="thumbnail-img">
+                                <div class="video-duration">10:30</div>
+                                <div class="play-overlay">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h5 class="video-title">VIDEO_TITLE</h5>
+                                <p class="video-description">VIDEO_DESCRIPTION</p>
+                                <div class="video-meta">
+                                    <span class="video-views"><i class="fas fa-eye me-1"></i>1.2K views</span>
+                                    <span class="video-date"><i class="fas fa-calendar me-1"></i>2 days ago</span>
+                                </div>
+                            </div>
+                            <a href="YOUTUBE_URL" class="video-link" target="_blank"></a>
+                        </div>
+                        -->
+                        
+                        <!-- Example Drill Video 1 -->
+                        <div class="video-card" data-aos="fade-up">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/ABC123/maxresdefault.jpg" alt="Basic Drill Commands" class="thumbnail-img">
+                                <div class="video-duration">15:30</div>
+                                <div class="play-overlay">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h5 class="video-title">Basic Drill Commands</h5>
+                                <p class="video-description">Learn fundamental marching commands and formations used in NCC</p>
+                                <div class="video-meta">
+                                    <span class="video-views"><i class="fas fa-eye me-1"></i>2.5K views</span>
+                                    <span class="video-date"><i class="fas fa-calendar me-1"></i>1 week ago</span>
+                                </div>
+                            </div>
+                            <a href="https://youtube.com/watch?v=ABC123" class="video-link" target="_blank"></a>
+                        </div>
+
+                        <!-- Example Drill Video 2 -->
+                        <div class="video-card" data-aos="fade-up">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/DEF456/maxresdefault.jpg" alt="Advanced Marching Techniques" class="thumbnail-img">
+                                <div class="video-duration">22:15</div>
+                                <div class="play-overlay">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h5 class="video-title">Advanced Marching Techniques</h5>
+                                <p class="video-description">Master complex formations and parade procedures for NCC cadets</p>
+                                <div class="video-meta">
+                                    <span class="video-views"><i class="fas fa-eye me-1"></i>1.8K views</span>
+                                    <span class="video-date"><i class="fas fa-calendar me-1"></i>3 days ago</span>
+                                </div>
+                            </div>
+                            <a href="https://youtube.com/watch?v=DEF456" class="video-link" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weapon Training Videos Section -->
+                <div class="hidden" id="weaponVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-gun me-2"></i>
+                        Weapon Training Videos
+                    </h3>
+                    
+                    <div class="video-grid" id="weaponVideoGrid">
+                        <!-- ========== ADD WEAPON TRAINING VIDEOS HERE ========== -->
+                        
+                        <!-- Example Weapon Video -->
+                        <div class="video-card" data-aos="fade-up">
+                            <div class="video-thumbnail">
+                                <img src="https://img.youtube.com/vi/GHI789/maxresdefault.jpg" alt="Rifle Safety Basics" class="thumbnail-img">
+                                <div class="video-duration">18:45</div>
+                                <div class="play-overlay">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="video-info">
+                                <h5 class="video-title">Rifle Safety Basics</h5>
+                                <p class="video-description">Essential safety procedures for rifle handling in NCC training</p>
+                                <div class="video-meta">
+                                    <span class="video-views"><i class="fas fa-eye me-1"></i>3.2K views</span>
+                                    <span class="video-date"><i class="fas fa-calendar me-1"></i>5 days ago</span>
+                                </div>
+                            </div>
+                            <a href="https://youtube.com/watch?v=GHI789" class="video-link" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ========== SPECIAL SUBJECTS TAB ========== -->
+            <div class="tab-pane fade" id="special" role="tabpanel">
+                <div class="category-header">
+                    <h3>Special Subjects</h3>
+                    <p class="text-muted">Specialized training for different NCC wings</p>
+                </div>
+                
+                <!-- Subcategory Grid -->
+                <div class="subcategory-grid">
+                    <!-- Semaphore Card -->
+                    <div class="subcategory-card" data-subcategory="semaphore">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h4>Semaphore</h4>
+                        <p class="text-muted">Flag signaling and communication</p>
+                        <div class="videos-count">0 videos available</div>
+                    </div>
+
+                    <!-- Seamanship Card -->
+                    <div class="subcategory-card" data-subcategory="seamanship">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-ship"></i>
+                        </div>
+                        <h4>Seamanship</h4>
+                        <p class="text-muted">Naval knots and maritime procedures</p>
+                        <div class="videos-count">0 videos available</div>
+                    </div>
+
+                    <!-- Navigation Card -->
+                    <div class="subcategory-card" data-subcategory="navigation">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h4>Navigation</h4>
+                        <p class="text-muted">Map reading and compass usage</p>
+                        <div class="videos-count">0 videos available</div>
+                    </div>
+
+                    <!-- Ship Modelling Card -->
+                    <div class="subcategory-card" data-subcategory="shipmodelling">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h4>Ship Modelling</h4>
+                        <p class="text-muted">Model construction and techniques</p>
+                        <div class="videos-count">0 videos available</div>
+                    </div>
+
+                    <!-- Swimming Card -->
+                    <div class="subcategory-card" data-subcategory="swimming">
+                        <div class="subcategory-icon">
+                            <i class="fas fa-swimmer"></i>
+                        </div>
+                        <h4>Swimming</h4>
+                        <p class="text-muted">Swimming techniques and water safety</p>
+                        <div class="videos-count">0 videos available</div>
+                    </div>
+                </div>
+
+                <!-- ========== VIDEO SECTIONS FOR SPECIAL SUBJECTS ========== -->
+                
+                <!-- Semaphore Videos Section -->
+                <div class="hidden" id="semaphoreVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-flag me-2"></i>
+                        Semaphore Training Videos
+                    </h3>
+                    <div class="video-grid" id="semaphoreVideoGrid">
+                        <!-- ========== ADD SEMAPHORE VIDEOS HERE ========== -->
+                    </div>
+                </div>
+
+                <!-- Seamanship Videos Section -->
+                <div class="hidden" id="seamanshipVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-ship me-2"></i>
+                        Seamanship Training Videos
+                    </h3>
+                    <div class="video-grid" id="seamanshipVideoGrid">
+                        <!-- ========== ADD SEAMANSHIP VIDEOS HERE ========== -->
+                    </div>
+                </div>
+
+                <!-- Navigation Videos Section -->
+                <div class="hidden" id="navigationVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-compass me-2"></i>
+                        Navigation Training Videos
+                    </h3>
+                    <div class="video-grid" id="navigationVideoGrid">
+                        <!-- ========== ADD NAVIGATION VIDEOS HERE ========== -->
+                    </div>
+                </div>
+
+                <!-- Ship Modelling Videos Section -->
+                <div class="hidden" id="shipmodellingVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-puzzle-piece me-2"></i>
+                        Ship Modelling Training Videos
+                    </h3>
+                    <div class="video-grid" id="shipmodellingVideoGrid">
+                        <!-- ========== ADD SHIP MODELLING VIDEOS HERE ========== -->
+                    </div>
+                </div>
+
+                <!-- Swimming Videos Section -->
+                <div class="hidden" id="swimmingVideos">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-swimmer me-2"></i>
+                        Swimming Training Videos
+                    </h3>
+                    <div class="video-grid" id="swimmingVideoGrid">
+                        <!-- ========== ADD SWIMMING VIDEOS HERE ========== -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="modern-footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 National Cadet Corps - Narmada College.</p>
+        </div>
+    </footer>
+
+    <!-- ========== EXTERNAL SCRIPTS ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="common.js"></script>
+    <script src="js/tutorials.js"></script>
+
+</body>
+</html>

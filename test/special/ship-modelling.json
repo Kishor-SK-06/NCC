@@ -1,0 +1,390 @@
+{
+  "version": "2.0",
+  "category": "special",
+  "subcategory": "ship-modelling",
+  "language": "en",
+  "title": "Ship & Boat Modelling Principles & Techniques",
+  "description": "Comprehensive test on ship modelling history, tools, techniques, joints, and competition criteria",
+  "questions": [
+    {
+      "id": "shipmod_001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is the primary purpose of ship modelling in NCC training?",
+      "options": {
+        "a": "Only for entertainment",
+        "b": "To develop observation skills and apply scientific knowledge",
+        "c": "To learn ship building for career",
+        "d": "Only for competition purposes"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Ship modelling makes cadets observant, cool-headed and helps apply scientific knowledge while being an important part of naval training.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which ancient civilizations are known for early ship model discoveries?",
+      "options": {
+        "a": "Greece, Egypt, and Phoenicia",
+        "b": "Rome, China, and India",
+        "c": "Persia, Mesopotamia, and Babylon",
+        "d": "All European civilizations"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Ancient ship models have been discovered throughout Mediterranean, especially from ancient Greece, Egypt and Phoenicia.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What are the two main views provided in ship modelling construction charts?",
+      "options": {
+        "a": "Front and Back views",
+        "b": "Top View (Plan) and Side View (Elevation)",
+        "c": "Inside and Outside views",
+        "d": "Waterline and Deck views"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Construction charts comprise Top View (Plan) for length/breadth and Side View (Elevation) for length/height/thickness measurements.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_004",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of wood is considered most suitable for ship modelling?",
+      "options": {
+        "a": "Teak",
+        "b": "Mahogany",
+        "c": "Balsa",
+        "d": "Oak"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Balsa is the most perfectly suited wood for modelling, especially if the model is designed to take its characteristics into account.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_005",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the essential requirement for adhesives used in ship modelling?",
+      "options": {
+        "a": "Quick drying",
+        "b": "Color matching",
+        "c": "Waterproof quality",
+        "d": "Low cost"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The first essential requirement for ship modelling adhesives is insolubility in water, making them waterproof.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_006",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which joint is commonly used for connecting wood pieces at right angles?",
+      "options": {
+        "a": "Lap joint",
+        "b": "Mortice and tenon joint",
+        "c": "Bridle joint",
+        "d": "Tongue and groove joint"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Mortice and tenon joints are strong joints used for connecting pieces at right angles in ship modelling.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What are the three main types of models built in NCC competitions?",
+      "options": {
+        "a": "Small, Medium, and Large models",
+        "b": "Wooden, Plastic, and Metal models",
+        "c": "Camp Model, Dte. Model, and VIP Model",
+        "d": "Sail, Power, and RC models"
+      },
+      "correct_answer": ["c"],
+      "explanation": "The three types are Camp Model (made during camp), Dte. Model (preparatory), and VIP Model (solid models).",
+      "points": 1
+    },
+    {
+      "id": "shipmod_008",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which tool is used for making curved cuts in wood?",
+      "options": {
+        "a": "Tenon saw",
+        "b": "Fret saw",
+        "c": "Hacksaw",
+        "d": "Jack plane"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Fret saw is used for making curved cuts and intricate designs in ship modelling work.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the purpose of testing a model's stability during construction?",
+      "options": {
+        "a": "To check painting quality",
+        "b": "To ensure it floats correctly at waterline",
+        "c": "To test motor operation",
+        "d": "To verify dimensions"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Testing stability ensures the hull floats true at the marked waterline and corrects trim before final assembly.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_010",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Which adhesive is recommended for high-adhesion joints like metal to wood?",
+      "options": {
+        "a": "Nitro Cellulose cement",
+        "b": "Animal glue",
+        "c": "Epoxy resins like Araldite",
+        "d": "Quick drying adhesives"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Epoxy resins like Araldite provide extremely high adhesion for difficult materials but are relatively expensive.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_011",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What is a 'Solid Model' in ship modelling?",
+      "options": {
+        "a": "Model made from single wood piece",
+        "b": "Model that doesn't float",
+        "c": "Heavy metal model",
+        "d": "Model with working parts"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Solid model is made with solid block of wood including appendages attached post preparation of basic structure.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_012",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which tool is essential for holding workpieces securely during modelling?",
+      "options": {
+        "a": "Bench vice",
+        "b": "Hammer",
+        "c": "Screwdriver",
+        "d": "File"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Bench vice is essential for holding workpieces securely during cutting, shaping, and assembly operations.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What characteristic makes Balsa wood particularly suitable for modelling?",
+      "options": {
+        "a": "High density and strength",
+        "b": "Natural water resistance",
+        "c": "Light weight and easy workability",
+        "d": "Dark color that doesn't need painting"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Balsa is lightweight and easy to cut and shape, making it ideal for modelling, though it requires sealing against water absorption.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "In competition judging, what does 'Proximity to drawing' refer to?",
+      "options": {
+        "a": "Color matching with original",
+        "b": "Accuracy in following construction plans",
+        "c": "Distance from judging panel",
+        "d": "Similarity to real ship size"
+      },
+      "correct_answer": ["b"],
+      "explanation": "'Proximity to drawing' assesses how accurately the model follows the construction plans and specifications.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the purpose of using ballast in ship models?",
+      "options": {
+        "a": "To make model heavier",
+        "b": "To correct trim and achieve proper waterline",
+        "c": "To add decorative elements",
+        "d": "To increase speed"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Ballast is used to bring the model down to its marks and correct trim, placed as low as possible in the hull.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_016",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of saw is specifically designed for cutting joints?",
+      "options": {
+        "a": "Hacksaw",
+        "b": "Fret saw",
+        "c": "Tenon saw",
+        "d": "Junior hacksaw"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Tenon saw is designed for precision cutting required in joint-making for ship modelling.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_017",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "What precaution is necessary when using power tools for ship modelling?",
+      "options": {
+        "a": "Using polythene dust covers when not in use",
+        "b": "Keeping tools at high temperature",
+        "c": "Using without supervision",
+        "d": "Storing tools loosely"
+      },
+      "correct_answer": ["a"],
+      "explanation": "Power tools should be covered with polythene/canvas dust covers when not in use to protect against dust and moisture.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What does 'Righting Moment' refer to in model evaluation?",
+      "options": {
+        "a": "Speed of the model",
+        "b": "Ability to return to upright position when heeled",
+        "c": "Turning capability",
+        "d": "Straight line stability"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Righting Moment assesses the model's stability and ability to return to upright position when tilted.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_019",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which tool is used for smoothing and shaping wood surfaces?",
+      "options": {
+        "a": "Chisel",
+        "b": "Plane",
+        "c": "File",
+        "d": "Saw"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Planes like jack plane and smoothing plane are used for smoothing and shaping wood surfaces in ship modelling.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_020",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is the main advantage of using full-sized plans in ship modelling?",
+      "options": {
+        "a": "They are cheaper",
+        "b": "They minimize scaling errors",
+        "c": "They are easier to read",
+        "d": "They show more details"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Full-sized plans minimize chances of error since errors get multiplied when enlarging from small scale plans.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_021",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "Which type of model is typically built during camps within specified time?",
+      "options": {
+        "a": "VIP Model",
+        "b": "Dte. Model",
+        "c": "Camp Model",
+        "d": "Display Model"
+      },
+      "correct_answer": ["c"],
+      "explanation": "Camp Models are made during a particular camp within specified period, usually power models.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_022",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "What is the primary use of a 'Spoke shave' in ship modelling?",
+      "options": {
+        "a": "Cutting large pieces",
+        "b": "Shaping curved surfaces",
+        "c": "Making holes",
+        "d": "Sanding finishes"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Spoke shave is used for shaping curved surfaces and intricate contours in ship modelling work.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_023",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "text": "Why should wood for modelling not be kiln-dried?",
+      "options": {
+        "a": "It becomes too hard",
+        "b": "It doesn't produce same result as natural seasoning",
+        "c": "It absorbs more water",
+        "d": "It changes color"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Kiln-dried wood doesn't produce the same modelling results as natural seasoning and may have different working properties.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_024",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "text": "What is evaluated in the 'Straight Run' performance test?",
+      "options": {
+        "a": "Model's speed only",
+        "b": "Accuracy in following straight course",
+        "c": "Turning capability",
+        "d": "Stability in waves"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Straight Run tests model's ability to maintain straight course, with marks deducted for deviation from center line.",
+      "points": 1
+    },
+    {
+      "id": "shipmod_025",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "text": "Which tool category includes items like tape measure and tri-square?",
+      "options": {
+        "a": "Cutting Tools",
+        "b": "Measuring and Testing Tools",
+        "c": "Boring Tools",
+        "d": "Holding Tools"
+      },
+      "correct_answer": ["b"],
+      "explanation": "Measuring and Testing Tools include tape, chain measure, foot rule, tri-square, sliding level, marking gauge and compass.",
+      "points": 1
+    }
+  ],
+  "metadata": {
+    "total_questions": 25,
+    "time_limit": 1800,
+    "passing_score": 70
+  }
+}

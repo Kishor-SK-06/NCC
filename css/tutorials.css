@@ -1,0 +1,431 @@
+/* Tutorials Page Custom Styles */
+.tutorials-hero {
+    background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+    color: white;
+    padding: 100px 0 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tutorials-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.03"><polygon points="0,0 1000,50 1000,100 0,100"/></svg>');
+    background-size: cover;
+}
+
+.tutorials-hero h1 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.tutorials-hero .lead {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Category Tabs */
+.category-tabs {
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.nav-pills-custom .nav-link {
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.nav-pills-custom .nav-link.active {
+    background: linear-gradient(135deg, #1a365d, #2d3748);
+    color: white;
+    border-color: #d4af37;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(26, 54, 93, 0.3);
+}
+
+.nav-pills-custom .nav-link:hover:not(.active) {
+    background: #e9ecef;
+    border-color: #dee2e6;
+}
+
+/* Category Headers */
+.category-header {
+    text-align: center;
+    margin: 3rem 0 2rem;
+    position: relative;
+}
+
+.category-header h3 {
+    color: #1a365d;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 2rem;
+    background: white;
+    position: relative;
+    z-index: 2;
+}
+
+.category-header::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+    z-index: 1;
+}
+
+.category-header p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+}
+
+/* Subcategory Grid */
+.subcategory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Subcategory Cards */
+.subcategory-card {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.subcategory-card:hover {
+    transform: translateY(-10px);
+    border-color: #d4af37;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.subcategory-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #1a365d, #2d3748);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.subcategory-card h4 {
+    color: #1a365d;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.subcategory-card p {
+    color: #6c757d;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.videos-count {
+    font-weight: 600;
+    color: #1a365d;
+    font-size: 0.9rem;
+}
+
+/* Video Grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+/* Video Card Styles */
+.video-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+    position: relative;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.video-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+/* Video Thumbnail */
+.video-thumbnail {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.video-card:hover .thumbnail-img {
+    transform: scale(1.1);
+}
+
+.play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(212, 175, 55, 0.9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.video-card:hover .play-overlay {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-duration {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Video Information */
+.video-info {
+    padding: 1.5rem;
+}
+
+.video-title {
+    font-weight: 700;
+    color: #1a365d;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.video-description {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.video-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.video-views, .video-date {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Video Link Overlay */
+.video-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* NEW Video Badge */
+.new-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #e53e3e;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    z-index: 3;
+}
+
+/* Animation for new videos */
+@keyframes newVideoPulse {
+    0% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(212, 175, 55, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0); }
+}
+
+.new-video {
+    animation: newVideoPulse 2s infinite;
+}
+
+/* Back Button */
+.back-to-categories {
+    background: linear-gradient(135deg, #1a365d, #2d3748);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.back-to-categories:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(26, 54, 93, 0.4);
+}
+
+/* Subcategory Title in Video Sections */
+.subcategory-title {
+    color: #1a365d;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 3px solid #d4af37;
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.text-gold {
+    color: #ffd700 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tutorials-hero {
+        padding: 80px 0 40px;
+    }
+    
+    .tutorials-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .category-tabs {
+        padding: 1.5rem;
+        margin-top: -30px;
+    }
+    
+    .nav-pills-custom .nav-link {
+        padding: 0.75rem 1.5rem;
+        margin: 0.25rem;
+        font-size: 0.9rem;
+    }
+    
+    .subcategory-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .video-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .subcategory-title {
+        font-size: 1.5rem;
+    }
+    
+    .video-thumbnail {
+        height: 180px;
+    }
+    
+    .subcategory-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .tutorials-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .tutorials-hero .lead {
+        font-size: 1.1rem;
+    }
+    
+    .nav-pills-custom .nav-link {
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .video-info {
+        padding: 1rem;
+    }
+    
+    .video-title {
+        font-size: 1rem;
+    }
+    
+    .subcategory-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .category-tabs, .video-card:hover {
+        box-shadow: none;
+        transform: none;
+    }
+    
+    .video-card {
+        break-inside: avoid;
+        margin-bottom: 1rem;
+    }
+    
+    .play-overlay, .video-link {
+        display: none;
+    }
+}
