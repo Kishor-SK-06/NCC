@@ -145,6 +145,7 @@ class NotesManager {
             'adventure': document.querySelectorAll('#adventureNotesGrid .note-card').length,
             'obstacle-training': document.querySelectorAll('#obstacleTrainingNotesGrid .note-card').length,
             'personality-development': document.querySelectorAll('#personalityDevelopmentNotesGrid .note-card').length,
+            'common-subject': document.querySelectorAll('#commonSubjectNotesGrid .note-card').length,
             
             // Special Subjects
             'orientation': document.querySelectorAll('#orientationNotesGrid .note-card').length,
@@ -154,8 +155,9 @@ class NotesManager {
             'fire-fighting': document.querySelectorAll('#fireFightingNotesGrid .note-card').length,
             'swimming': document.querySelectorAll('#swimmingNotesGrid .note-card').length,
             'ship-modelling': document.querySelectorAll('#shipModellingNotesGrid .note-card').length,
+            'special-subject': document.querySelectorAll('#specialSubjectNotesGrid .note-card').length,
             
-            // Advanced Topics - NEW
+            // Advanced Topics
             'awards-decorations': document.querySelectorAll('#awardsDecorationsNotesGrid .note-card').length,
             'military-operations': document.querySelectorAll('#militaryOperationsNotesGrid .note-card').length,
             'important-wars': document.querySelectorAll('#importantWarsNotesGrid .note-card').length,
@@ -193,12 +195,13 @@ class NotesManager {
             'introduction', 'national-integration', 'drill', 'weapon-training',
             'disaster-management', 'social-awareness', 'health-hygiene',
             'environment', 'adventure', 'obstacle-training', 'personality-development',
+            'common-subject',
             
             // Special Subjects
             'orientation', 'navigation', 'communication', 'seamanship',
-            'fire-fighting', 'swimming', 'ship-modelling',
+            'fire-fighting', 'swimming', 'ship-modelling', 'special-subject',
             
-            // Advanced Topics - NEW
+            // Advanced Topics
             'awards-decorations', 'military-operations', 'important-wars', 
             'global-issues', 'important-personalities'
         ];
@@ -295,6 +298,27 @@ class NotesManager {
             return noteType.includes(type.toLowerCase());
         });
     }
+
+    // Method to handle missing notes sections gracefully
+    handleMissingSections() {
+        const subcategories = [
+            'introduction', 'national-integration', 'drill', 'weapon-training',
+            'disaster-management', 'social-awareness', 'health-hygiene',
+            'environment', 'adventure', 'obstacle-training', 'personality-development',
+            'common-subject',
+            'orientation', 'navigation', 'communication', 'seamanship',
+            'fire-fighting', 'swimming', 'ship-modelling', 'special-subject',
+            'awards-decorations', 'military-operations', 'important-wars', 
+            'global-issues', 'important-personalities'
+        ];
+
+        subcategories.forEach(subcategory => {
+            const section = document.getElementById(`${subcategory}-section`);
+            if (!section) {
+                console.warn(`Missing notes section for: ${subcategory}`);
+            }
+        });
+    }
 }
 
 // Initialize when DOM is loaded
@@ -302,7 +326,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check if we're on the notes page
     if (document.querySelector('.notes-hero')) {
         window.notesManager = new NotesManager();
-        console.log('Notes page initialized with Advanced Topics support');
+        
+        // Check for missing sections
+        window.notesManager.handleMissingSections();
+        
+        console.log('Notes page initialized with common-subject support');
         
         // Example of how to use the new note addition functionality:
         /*
@@ -317,6 +345,19 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add note to awards-decorations category
         window.notesManager.addNoteToCategory('awards-decorations', sampleNote);
+        */
+
+        // Example for common-subject:
+        /*
+        const commonSubjectNote = {
+            title: "Common Subject PDF",
+            description: "Comprehensive Guide for Common Subject",
+            type: "PDF",
+            previewLink: "https://drive.google.com/file/d/1TfNF5rn7EOBbHLldlW0m-84BBIjjf3ZB/preview",
+            downloadLink: "https://drive.google.com/file/d/1TfNF5rn7EOBbHLldlW0m-84BBIjjf3ZB/view?usp=drive_link",
+            date: "06 OCT"
+        };
+        window.notesManager.addNoteToCategory('common-subject', commonSubjectNote);
         */
     }
 });
@@ -350,8 +391,9 @@ const NotesUtils = {
             'introduction', 'national-integration', 'drill', 'weapon-training',
             'disaster-management', 'social-awareness', 'health-hygiene',
             'environment', 'adventure', 'obstacle-training', 'personality-development',
+            'common-subject',
             'orientation', 'navigation', 'communication', 'seamanship',
-            'fire-fighting', 'swimming', 'ship-modelling',
+            'fire-fighting', 'swimming', 'ship-modelling', 'special-subject',
             'awards-decorations', 'military-operations', 'important-wars', 
             'global-issues', 'important-personalities'
         ];
@@ -363,8 +405,8 @@ const NotesUtils = {
                     title: note.querySelector('.note-title').textContent,
                     description: note.querySelector('.note-description').textContent,
                     type: note.querySelector('.note-type').textContent,
-                    previewLink: note.querySelector('.note-actions a[href*="preview"]').href,
-                    downloadLink: note.querySelector('.note-actions a[href*="download"]').href,
+                    previewLink: note.querySelector('.note-actions a[href*="preview"]')?.href || '#',
+                    downloadLink: note.querySelector('.note-actions a[href*="download"]')?.href || '#',
                     date: note.querySelector('.note-date').textContent
                 }));
                 allNotes[subcategory] = notes;
@@ -372,8 +414,63 @@ const NotesUtils = {
         });
 
         return allNotes;
+    },
+
+    // Import notes data
+    importNotesData: (notesData) => {
+        Object.keys(notesData).forEach(subcategory => {
+            const grid = document.getElementById(`${subcategory}NotesGrid`);
+            if (grid && notesData[subcategory]) {
+                // Clear existing notes
+                grid.innerHTML = '';
+                
+                // Add imported notes
+                notesData[subcategory].forEach(noteData => {
+                    const noteCard = window.notesManager.createNoteCard(noteData);
+                    grid.appendChild(noteCard);
+                });
+            }
+        });
+        
+        // Update counts and refresh
+        if (window.notesManager) {
+            window.notesManager.updateNotesCounts();
+            window.notesManager.refreshAOS();
+        }
+    },
+
+    // Get all available subcategories
+    getAllSubcategories: () => {
+        return {
+            common: [
+                'introduction', 'national-integration', 'drill', 'weapon-training',
+                'disaster-management', 'social-awareness', 'health-hygiene',
+                'environment', 'adventure', 'obstacle-training', 'personality-development',
+                'common-subject'
+            ],
+            special: [
+                'orientation', 'navigation', 'communication', 'seamanship',
+                'fire-fighting', 'swimming', 'ship-modelling', 'special-subject'
+            ],
+            advanced: [
+                'awards-decorations', 'military-operations', 'important-wars', 
+                'global-issues', 'important-personalities'
+            ]
+        };
     }
 };
 
 // Make utils globally available
 window.NotesUtils = NotesUtils;
+
+// Error handling for missing elements
+window.addEventListener('error', function(e) {
+    if (e.message.includes('notesManager') || e.message.includes('NotesUtils')) {
+        console.warn('Notes functionality not available on this page');
+    }
+});
+
+// Export for module usage if needed
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { NotesManager, NotesUtils };
+}
