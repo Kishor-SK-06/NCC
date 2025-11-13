@@ -61,7 +61,7 @@
 }
 
 .nav-pills-custom .nav-link:hover:not(.active) {
-    background: #e9ecef;
+    background: rgba(222, 14, 14, 0.8);;
     border-color: #dee2e6;
 }
 
