@@ -107,6 +107,7 @@
     min-height: calc(100vh - 160px);
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 /* Question Navigation (Desktop) */
