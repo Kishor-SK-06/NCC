@@ -1,0 +1,634 @@
+/* Notes Combined Styles - Enhanced Version */
+
+/* Common Hero Section */
+.notes-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 100px 0 60px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.notes-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.05"><polygon points="0,0 1000,50 1000,100 0,100"/></svg>');
+    background-size: cover;
+}
+
+.notes-hero h1 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #fff, #f0f0f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.notes-hero .lead {
+    font-size: 1.3rem;
+    opacity: 0.95;
+    font-weight: 400;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+/* Category Header */
+.category-header {
+    text-align: center;
+    margin: 3rem 0 2rem;
+    position: relative;
+}
+
+.category-header h3 {
+    color: #4a5568;
+    font-weight: 800;
+    display: inline-block;
+    padding: 0 2rem;
+    background: white;
+    position: relative;
+    z-index: 2;
+    font-size: 2.2rem;
+    background: linear-gradient(135deg, #4a5568, #2d3748);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.category-header::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #667eea, #764ba2, transparent);
+    z-index: 1;
+}
+
+.category-header p {
+    font-size: 1.1rem;
+    color: #718096;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+/* ========== MAIN NOTES PAGE STYLES ========== */
+
+/* Category Cards Grid */
+.category-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    margin: 3rem 0;
+}
+
+.category-card {
+    background: linear-gradient(145deg, #ffffff, #f7fafc);
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.category-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.category-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: left 0.6s;
+}
+
+.category-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(102, 126, 234, 0.25);
+    border-color: #667eea;
+}
+
+.category-card:hover::after {
+    left: 100%;
+}
+
+.category-card-icon {
+    font-size: 4.5rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 4px 8px rgba(102, 126, 234, 0.3));
+}
+
+.category-card:hover .category-card-icon {
+    transform: scale(1.15) rotate(5deg);
+    filter: drop-shadow(0 6px 12px rgba(102, 126, 234, 0.4));
+}
+
+.category-card h4 {
+    color: #2d3748;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    background: linear-gradient(135deg, #2d3748, #4a5568);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.category-description {
+    color: #718096;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.category-stats {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+}
+
+.subcategories-count, .notes-count {
+    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #667eea;
+    border: 2px solid #e2e8f0;
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.1);
+}
+
+.category-card-btn {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    padding: 14px 32px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.category-card-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.6s;
+}
+
+.category-card-btn:hover {
+    background: white;
+    color: #667eea;
+    border-color: #667eea;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+}
+
+.category-card-btn:hover::before {
+    left: 100%;
+}
+
+/* Quick Stats */
+.quick-stats {
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    border-radius: 25px;
+    padding: 4rem 2rem;
+    margin: 4rem 0 2rem;
+    border: 2px solid #e2e8f0;
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.1);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.stat-item {
+    padding: 1.5rem;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #667eea;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(102, 126, 234, 0.2);
+}
+
+.stat-label {
+    color: #4a5568;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* ========== SUBJECT PAGES STYLES ========== */
+
+/* Back to Main Button */
+.back-to-main {
+    background: linear-gradient(135deg, #a0aec0 0%, #718096 100%);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 6px 15px rgba(113, 128, 150, 0.3);
+    margin-top: 20px;
+}
+
+.back-to-main:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    transform: translateY(-2px);
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+}
+
+/* Subcategory Grid */
+.subcategory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    margin: 2rem 0;
+}
+
+/* Subcategory Cards */
+.subcategory-card {
+    background: linear-gradient(145deg, #ffffff, #f7fafc);
+    border-radius: 20px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.12);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 2px solid transparent;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.subcategory-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.subcategory-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+    transition: left 0.6s;
+}
+
+.subcategory-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(102, 126, 234, 0.2);
+    border-color: #667eea;
+}
+
+.subcategory-card:hover::before {
+    transform: scaleX(1);
+}
+
+.subcategory-card:hover::after {
+    left: 100%;
+}
+
+.subcategory-icon {
+    font-size: 3.5rem;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 4px 8px rgba(102, 126, 234, 0.3));
+}
+
+.subcategory-card:hover .subcategory-icon {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(0 6px 12px rgba(102, 126, 234, 0.4));
+}
+
+.subcategory-card h4 {
+    color: #2d3748;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    background: linear-gradient(135deg, #2d3748, #4a5568);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subcategory-card p {
+    color: #718096;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.notes-count {
+    font-weight: 800;
+    color: #667eea;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+    padding: 8px 16px;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.1);
+}
+
+/* Notes Grid */
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    gap: 2.5rem;
+    margin: 3rem 0;
+}
+
+/* Note Card Styles */
+.note-card {
+    background: linear-gradient(145deg, #ffffff, #f7fafc);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    border: 2px solid #e2e8f0;
+}
+
+.note-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.note-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 30px 60px rgba(102, 126, 234, 0.25);
+    border-color: #667eea;
+}
+
+.note-header {
+    padding: 2rem;
+    border-bottom: 2px solid #e2e8f0;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+}
+
+.note-title {
+    font-weight: 800;
+    color: #2d3748;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    background: linear-gradient(135deg, #2d3748, #4a5568);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.note-description {
+    color: #718096;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.note-body {
+    padding: 2rem;
+}
+
+.note-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.note-type {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.note-actions {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.note-action-btn {
+    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 10px 16px;
+    color: #4a5568;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.1);
+}
+
+.note-action-btn:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-color: #667eea;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.3);
+}
+
+.note-footer {
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    border-top: 2px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-date {
+    color: #718096;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Subcategory Title */
+.subcategory-title {
+    color: #4a5568;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.2rem;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(135deg, #667eea, #764ba2) 1;
+    padding-bottom: 0.8rem;
+    display: inline-block;
+    background: linear-gradient(135deg, #4a5568, #2d3748);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.text-gold {
+    color: #ffd700 !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .notes-hero {
+        padding: 80px 0 40px;
+    }
+    
+    .notes-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .category-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .category-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .category-stats {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .subcategory-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .notes-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .subcategory-title {
+        font-size: 1.8rem;
+    }
+    
+    .subcategory-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .note-header, .note-body, .note-footer {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .notes-hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .notes-hero .lead {
+        font-size: 1.1rem;
+    }
+    
+    .category-card-icon {
+        font-size: 3.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    .subcategory-icon {
+        font-size: 3rem;
+    }
+    
+    .note-title {
+        font-size: 1.2rem;
+    }
+    
+    .note-actions {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .note-action-btn {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+    }
+}

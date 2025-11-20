@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Topics Notes</title>
+    <link rel="icon" href="images/Narmada College Icon.png" type="image/x-icon">
+    
+    <!-- External Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="css/notes-combined.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="modern-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Logo and College Name -->
+                <div class="logo-container">
+                    <img src="images/Narmada College Icon.png" alt="NCC Logo" class="logo-img" />
+                    <div class="header-text">
+                        <h5>NATIONAL CADET CORPS</h5>
+                        <small>NARMADA COLLEGE</small>
+                    </div>
+                </div>
+                
+                <!-- Date, Time & Greeting -->
+                <div class="text-end text-white">
+                    <div id="date-time" class="mb-2 fw-bold"></div>
+                    <div class="d-flex align-items-center justify-content-end">
+                        <i class="fas fa-user-circle fa-xl me-2 text-gold"></i>
+                        <span id="greet-text" class="fw-semibold">Welcome, Cadet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== NAVIGATION SECTION ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light modern-nav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tutorials.html">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="notes.html">Notes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tests.html">Tests</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="notes-hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">Advanced Topics Notes</h1>
+            <p class="lead">Elite Knowledge for Distinguished Cadet Leaders - Expert Level Training</p>
+        </div>
+    </section>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="container">
+        <!-- Back to Main Notes Page -->
+        <a href="notes.html" class="back-to-main">
+            <i class="fas fa-arrow-left me-2"></i>Back to All Notes
+        </a>
+
+        <div class="category-header">
+            <h3>Advanced Topics Categories</h3>
+            <p class="text-muted">Select an advanced subcategory to explore elite-level study materials</p>
+        </div>
+
+        <!-- Subcategory Grid -->
+        <div class="subcategory-grid">
+            <!-- Awards and Decorations -->
+            <div class="subcategory-card" data-subcategory="awards-decorations">
+                <div class="subcategory-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h4>Awards & Decorations</h4>
+                <p class="text-muted">Honor & Valor: Complete Guide to Military Medals & Recognition Systems</p>
+                <div class="notes-count">2 notes available</div>
+            </div>
+
+            <!-- Military Operations -->
+            <div class="subcategory-card" data-subcategory="military-operations">
+                <div class="subcategory-icon">
+                    <i class="fas fa-chess-board"></i>
+                </div>
+                <h4>Military Operations</h4>
+                <p class="text-muted">Strategic Command: Advanced Tactical Planning & Battlefield Excellence</p>
+                <div class="notes-count">0 notes available</div>
+            </div>
+
+            <!-- Important Persons -->
+            <div class="subcategory-card" data-subcategory="important-persons">
+                <div class="subcategory-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h4>Important Persons</h4>
+                <p class="text-muted">Legendary Leaders: Profiles of Military Icons & Strategic Visionaries</p>
+                <div class="notes-count">0 notes available</div>
+            </div>
+
+            <!-- Global Issues -->
+            <div class="subcategory-card" data-subcategory="global-issues">
+                <div class="subcategory-icon">
+                    <i class="fas fa-globe-americas"></i>
+                </div>
+                <h4>Global Issues</h4>
+                <p class="text-muted">World Stage Analysis: Geopolitical Strategies & International Security</p>
+                <div class="notes-count">0 notes available</div>
+            </div>
+
+            <!-- Armed Forces -->
+            <div class="subcategory-card" data-subcategory="armed-forces">
+                <div class="subcategory-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h4>Armed Forces</h4>
+                <p class="text-muted">Complete Overview of Army, Navy, Air Force Structure & Capabilities</p>
+                <div class="notes-count">0 notes available</div>
+            </div>
+        </div>
+
+        <!-- Back to Categories Button (Hidden by default) -->
+        <div class="text-center hidden" id="backButtonContainer">
+            <button class="back-to-main" id="backToCategories">
+                <i class="fas fa-arrow-left me-2"></i>Back to Categories
+            </button>
+        </div>
+
+        <!-- ========== NOTES SECTIONS FOR EACH SUBCATEGORY ========== -->
+
+        <!-- Awards and Decorations Notes -->
+        <div class="hidden" id="awards-decorations-section">
+            <h3 class="subcategory-title">
+                <i class="fas fa-trophy me-2"></i>
+                Awards & Decorations Notes
+            </h3>
+            <div class="notes-grid" id="awardsDecorationsNotesGrid">
+                <div class="note-card" data-aos="fade-up">
+                    <div class="note-header">
+                        <h5 class="note-title">Military Awards</h5>
+                        <p class="note-description">All Awards given to military personnel - Complete Reference Guide</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+                <div class="note-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="note-header">
+                        <h5 class="note-title">Civilian Awards</h5>
+                        <p class="note-description">All awards given to civilians - Complete Reference Guide</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Military Operations Notes -->
+        <div class="hidden" id="military-operations-section">
+            <h3 class="subcategory-title">
+                <i class="fas fa-chess-board me-2"></i>
+                Military Operations Notes
+            </h3>
+            <div class="notes-grid" id="militaryOperationsNotesGrid">
+                <!-- 
+                ADD MILITARY OPERATIONS NOTES HERE IN FUTURE:
+                
+                <div class="note-card" data-aos="fade-up">
+                    <div class="note-header">
+                        <h5 class="note-title">Military Operations 1</h5>
+                        <p class="note-description">Strategic Command & Tactical Planning</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+
+                <div class="note-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="note-header">
+                        <h5 class="note-title">Military Operations 2</h5>
+                        <p class="note-description">Advanced Battlefield Strategies</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+                -->
+                <div class="text-center py-5">
+                    <i class="fas fa-clock fa-3x text-muted mb-3"></i>
+                    <h4 class="text-muted">Content Coming Soon</h4>
+                    <p class="text-muted">Military Operations notes are being prepared and will be available shortly.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Important Persons Notes -->
+        <div class="hidden" id="important-persons-section">
+            <h3 class="subcategory-title">
+                <i class="fas fa-user-tie me-2"></i>
+                Important Persons Notes
+            </h3>
+            <div class="notes-grid" id="importantPersonsNotesGrid">
+                <!-- 
+                ADD IMPORTANT PERSONS NOTES HERE IN FUTURE:
+                
+                <div class="note-card" data-aos="fade-up">
+                    <div class="note-header">
+                        <h5 class="note-title">Important Persons 1</h5>
+                        <p class="note-description">Profiles of Military Leaders & Visionaries</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+
+                <div class="note-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="note-header">
+                        <h5 class="note-title">Important Persons 2</h5>
+                        <p class="note-description">Historical Military Figures & Their Contributions</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+                -->
+                <div class="text-center py-5">
+                    <i class="fas fa-clock fa-3x text-muted mb-3"></i>
+                    <h4 class="text-muted">Content Coming Soon</h4>
+                    <p class="text-muted">Important Persons notes are being prepared and will be available shortly.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Global Issues Notes -->
+        <div class="hidden" id="global-issues-section">
+            <h3 class="subcategory-title">
+                <i class="fas fa-globe-americas me-2"></i>
+                Global Issues Notes
+            </h3>
+            <div class="notes-grid" id="globalIssuesNotesGrid">
+                <!-- 
+                ADD GLOBAL ISSUES NOTES HERE IN FUTURE:
+                
+                <div class="note-card" data-aos="fade-up">
+                    <div class="note-header">
+                        <h5 class="note-title">Global Issues 1</h5>
+                        <p class="note-description">Geopolitical Strategies & International Security</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+
+                <div class="note-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="note-header">
+                        <h5 class="note-title">Global Issues 2</h5>
+                        <p class="note-description">International Relations & Security Challenges</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+                -->
+                <div class="text-center py-5">
+                    <i class="fas fa-clock fa-3x text-muted mb-3"></i>
+                    <h4 class="text-muted">Content Coming Soon</h4>
+                    <p class="text-muted">Global Issues notes are being prepared and will be available shortly.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Armed Forces Notes -->
+        <div class="hidden" id="armed-forces-section">
+            <h3 class="subcategory-title">
+                <i class="fas fa-shield-alt me-2"></i>
+                Armed Forces Notes
+            </h3>
+            <div class="notes-grid" id="armedForcesNotesGrid">
+                <!-- 
+                ADD ARMED FORCES NOTES HERE IN FUTURE:
+                
+                <div class="note-card" data-aos="fade-up">
+                    <div class="note-header">
+                        <h5 class="note-title">Armed Forces 1</h5>
+                        <p class="note-description">Army, Navy, Air Force Structure & Organization</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+
+                <div class="note-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="note-header">
+                        <h5 class="note-title">Armed Forces 2</h5>
+                        <p class="note-description">Military Capabilities & Defense Systems</p>
+                    </div>
+                    <div class="note-body">
+                        <div class="note-meta">
+                            <span class="note-type">PPT</span>
+                            <div class="note-actions">
+                                <a href="#preview-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-eye"></i> Preview
+                                </a>
+                                <a href="#download-link" class="note-action-btn" target="_blank">
+                                    <i class="fas fa-download"></i> Download
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note-footer">
+                        <span class="note-date">06 OCT</span>
+                    </div>
+                </div>
+                -->
+                <div class="text-center py-5">
+                    <i class="fas fa-clock fa-3x text-muted mb-3"></i>
+                    <h4 class="text-muted">Content Coming Soon</h4>
+                    <p class="text-muted">Armed Forces notes are being prepared and will be available shortly.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="modern-footer">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 National Cadet Corps - Narmada College.</p>
+        </div>
+    </footer>
+
+    <!-- ========== EXTERNAL SCRIPTS ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="common.js"></script>
+    <script src="js/notes-combined.js"></script>
+
+</body>
+</html>
