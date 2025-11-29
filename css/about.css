@@ -1,6 +1,6 @@
-/* About Page Custom Styles - Special Enhanced Version */
+/* About Page Custom Styles - Performance Optimized */
 
-/* Hero Section with Particle Animation */
+/* Hero Section with Particle Animation (RETAINED) */
 .about-hero {
     background: 
         radial-gradient(circle at 20% 80%, rgba(13, 110, 253, 0.4) 0%, transparent 50%),
@@ -40,7 +40,7 @@
     z-index: 2;
 }
 
-/* Profile Section with 3D Effect */
+/* Profile Section - REMOVED ANIMATIONS */
 .profile-section {
     margin-top: -120px;
     position: relative;
@@ -48,42 +48,14 @@
 }
 
 .profile-card {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(20px);
+    background: white;
     border-radius: 25px;
-    box-shadow: 
-        0 25px 50px rgba(0, 0, 0, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
     overflow: hidden;
-    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    position: relative;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profile-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, rgba(13, 110, 253, 0.1) 0%, rgba(10, 88, 202, 0.05) 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.profile-card:hover {
-    transform: translateY(-15px) scale(1.02);
-    box-shadow: 
-        0 40px 80px rgba(13, 110, 253, 0.25),
-        0 0 0 1px rgba(255, 255, 255, 0.2);
-}
-
-.profile-card:hover::before {
-    opacity: 1;
-}
-
-/* Profile Image with Parallax Effect */
+/* Profile Image - REMOVED ANIMATIONS */
 .profile-image {
     height: 450px;
     background: linear-gradient(45deg, #f8f9fa, #e9ecef);
@@ -94,30 +66,13 @@
     overflow: hidden;
 }
 
-.profile-image::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(45deg, rgba(13, 110, 253, 0.1), rgba(10, 88, 202, 0.1));
-    z-index: 1;
-}
-
 .profile-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transform: scale(1.1);
 }
 
-.profile-card:hover .profile-image img {
-    transform: scale(1.15) rotate(1deg);
-}
-
-/* Profile Content with Staggered Animations */
+/* Profile Content - REMOVED ANIMATIONS */
 .profile-content {
     padding: 50px;
     position: relative;
@@ -128,34 +83,9 @@
     align-items: center;
     margin-bottom: 25px;
     padding: 25px;
-    background: rgba(248, 249, 250, 0.8);
+    background: #f8f9fa;
     border-radius: 20px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-left: 4px solid transparent;
-    position: relative;
-    overflow: hidden;
-}
-
-.detail-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(13, 110, 253, 0.1), transparent);
-    transition: left 0.6s ease;
-}
-
-.detail-item:hover {
-    background: rgba(13, 110, 253, 0.05);
-    transform: translateX(15px);
-    border-left-color: #0d6efd;
-    box-shadow: 0 10px 25px rgba(13, 110, 253, 0.15);
-}
-
-.detail-item:hover::before {
-    left: 100%;
+    border-left: 4px solid #0d6efd;
 }
 
 .detail-icon {
@@ -169,14 +99,8 @@
     margin-right: 25px;
     color: white;
     font-size: 1.5rem;
-    transition: all 0.3s ease;
     box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
     flex-shrink: 0;
-}
-
-.detail-item:hover .detail-icon {
-    transform: scale(1.1) rotate(10deg);
-    box-shadow: 0 12px 25px rgba(13, 110, 253, 0.4);
 }
 
 /* Content wrapper for detail items */
@@ -185,7 +109,6 @@
     min-width: 0;
 }
 
-/* Ensure text doesn't overflow */
 .detail-item strong {
     display: block;
     font-size: 1.1rem;
@@ -202,39 +125,14 @@
     overflow-wrap: break-word;
 }
 
-/* Enhanced Achievements Section */
+/* Achievements Section - REMOVED ANIMATIONS */
 .achievements-section {
-    background: linear-gradient(135deg, rgba(248, 249, 250, 0.9) 0%, rgba(233, 236, 239, 0.9) 100%);
-    backdrop-filter: blur(10px);
+    background: #f8f9fa;
     padding: 40px;
     border-radius: 20px;
     margin-top: 40px;
     border-left: 5px solid #d4af37;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-}
-
-.achievements-section::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: conic-gradient(from 0deg, transparent, rgba(212, 175, 55, 0.1), transparent, rgba(229, 62, 62, 0.1), transparent);
-    animation: rotate 10s linear infinite;
-    z-index: 1;
-}
-
-.achievements-section > * {
-    position: relative;
-    z-index: 2;
-}
-
-@keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
 }
 
 .achievements-title {
@@ -242,20 +140,17 @@
     font-weight: 800;
     margin-bottom: 30px;
     text-align: center;
-    position: relative;
     font-size: 2.2rem;
 }
 
 .achievements-title::after {
     content: '';
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: block;
     width: 80px;
     height: 3px;
     background: linear-gradient(90deg, #d4af37, #e53e3e, #0d6efd);
     border-radius: 2px;
+    margin: 12px auto 0;
 }
 
 .achievement-item {
@@ -263,34 +158,10 @@
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.9);
+    background: white;
     border-radius: 15px;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-left: 4px solid transparent;
-    position: relative;
-    overflow: hidden;
-}
-
-.achievement-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(26, 54, 93, 0.1), transparent);
-    transition: left 0.6s ease;
-}
-
-.achievement-item:hover {
-    transform: translateX(10px) translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
-    border-left-color: #1a365d;
-}
-
-.achievement-item:hover::before {
-    left: 100%;
+    border-left: 4px solid #1a365d;
 }
 
 .achievement-icon {
@@ -304,17 +175,11 @@
     margin-right: 20px;
     color: white;
     font-size: 1.2rem;
-    transition: all 0.3s ease;
     box-shadow: 0 6px 15px rgba(26, 54, 93, 0.3);
     flex-shrink: 0;
 }
 
-.achievement-item:hover .achievement-icon {
-    transform: scale(1.15) rotate(15deg);
-    box-shadow: 0 10px 20px rgba(26, 54, 93, 0.4);
-}
-
-/* Enhanced Stats Grid with Hover Effects */
+/* Stats Grid - REMOVED ANIMATIONS */
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -328,78 +193,31 @@
     padding: 30px;
     border-radius: 20px;
     text-align: center;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    position: relative;
-    overflow: hidden;
     box-shadow: 0 15px 35px rgba(13, 110, 253, 0.3);
-}
-
-.stat-card::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-    transform: rotate(45deg);
-    transition: all 0.6s ease;
-}
-
-.stat-card:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 25px 50px rgba(13, 110, 253, 0.4);
-}
-
-.stat-card:hover::before {
-    transform: rotate(45deg) translate(50%, 50%);
 }
 
 .stat-number {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 10px;
-    position: relative;
-    z-index: 2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Enhanced Skill Bars */
+/* Skill Bars - REMOVED ANIMATIONS */
 .skill-bar {
-    background: rgba(233, 236, 239, 0.8);
+    background: #e9ecef;
     border-radius: 12px;
     height: 10px;
     margin: 20px 0;
     overflow: hidden;
-    position: relative;
 }
 
 .skill-progress {
     height: 100%;
     background: linear-gradient(90deg, #0d6efd, #0a58ca);
     border-radius: 12px;
-    transition: width 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    position: relative;
-    overflow: hidden;
 }
 
-.skill-progress::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    animation: shimmer 2s infinite;
-}
-
-@keyframes shimmer {
-    0% { left: -100%; }
-    100% { left: 100%; }
-}
-
-/* Enhanced Social Links */
+/* Social Links - REMOVED ANIMATIONS */
 .social-links {
     display: flex;
     justify-content: center;
@@ -417,30 +235,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    position: relative;
-    overflow: hidden;
     box-shadow: 0 8px 20px rgba(13, 110, 253, 0.3);
-}
-
-.social-link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    transition: left 0.6s ease;
-}
-
-.social-link:hover {
-    transform: translateY(-8px) scale(1.1);
-    box-shadow: 0 15px 30px rgba(13, 110, 253, 0.4);
-}
-
-.social-link:hover::before {
-    left: 100%;
 }
 
 /* Smooth scrolling */
@@ -466,9 +261,7 @@ html {
     background: linear-gradient(135deg, #0a58ca, #084298);
 }
 
-/* ========== IMPROVED RESPONSIVE DESIGN ========== */
-
-/* Tablet and Mobile Styles */
+/* ========== RESPONSIVE DESIGN ========== */
 @media (max-width: 992px) {
     .profile-content {
         padding: 40px 30px;
@@ -508,10 +301,6 @@ html {
         width: 70px;
         height: 70px;
         font-size: 1.4rem;
-    }
-    
-    .detail-item .content {
-        width: 100%;
     }
     
     .stats-grid {
@@ -590,44 +379,5 @@ html {
     
     .stat-number {
         font-size: 2.5rem;
-    }
-}
-
-/* Extra Small Devices */
-@media (max-width: 400px) {
-    .profile-content {
-        padding: 20px 15px;
-    }
-    
-    .detail-item {
-        padding: 18px 12px;
-    }
-    
-    .detail-icon {
-        width: 60px;
-        height: 60px;
-        font-size: 1.2rem;
-    }
-    
-    .social-links {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-/* Large Desktop Screens */
-@media (min-width: 1400px) {
-    .profile-content {
-        padding: 60px;
-    }
-    
-    .detail-item {
-        padding: 30px;
-    }
-    
-    .detail-icon {
-        width: 80px;
-        height: 80px;
-        font-size: 1.6rem;
     }
 }
