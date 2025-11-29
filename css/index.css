@@ -1,8 +1,22 @@
+/* Index Page Complete CSS - Fixed & Stable */
+
+/* CSS Variables */
+:root {
+    --primary: #667eea;
+    --secondary: #764ba2;
+    --accent: #f093fb;
+    --gold: #ffd700;
+}
+
 /* Hero Section */
 .hero-section {
     position: relative;
-    height: 60vh;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    height: 70vh;
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(118, 75, 162, 0.4) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%),
+        linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,26 +24,142 @@
     margin-bottom: 4rem;
 }
 
+/* Animated Background Elements */
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='1.5' fill='%23ffffff' opacity='0.6'/%3E%3Ccircle cx='80' cy='40' r='1' fill='%23ffffff' opacity='0.4'/%3E%3Ccircle cx='40' cy='80' r='2' fill='%23ffffff' opacity='0.8'/%3E%3Ccircle cx='60' cy='20' r='1.2' fill='%23ffffff' opacity='0.5'/%3E%3Ccircle cx='30' cy='60' r='1.8' fill='%23ffffff' opacity='0.7'/%3E%3C/svg%3E");
+    animation: floatParticles 20s linear infinite;
+}
+
+@keyframes floatParticles {
+    0% { transform: translateY(0px) translateX(0px); }
+    25% { transform: translateY(-20px) translateX(10px); }
+    50% { transform: translateY(-10px) translateX(-10px); }
+    75% { transform: translateY(10px) translateX(15px); }
+    100% { transform: translateY(0px) translateX(0px); }
+}
+
+/* Floating NCC Badges */
+.hero-badges {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.hero-badge {
+    position: absolute;
+    font-size: 2rem;
+    opacity: 0.1;
+    animation: floatBadge 15s linear infinite;
+}
+
+.hero-badge:nth-child(1) { top: 20%; left: 10%; animation-delay: 0s; }
+.hero-badge:nth-child(2) { top: 60%; left: 80%; animation-delay: -5s; }
+.hero-badge:nth-child(3) { top: 80%; left: 20%; animation-delay: -10s; }
+.hero-badge:nth-child(4) { top: 40%; left: 90%; animation-delay: -7s; }
+
+@keyframes floatBadge {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    25% { transform: translateY(-20px) rotate(90deg); }
+    50% { transform: translateY(0px) rotate(180deg); }
+    75% { transform: translateY(20px) rotate(270deg); }
+}
+
 .hero-content {
     text-align: center;
     color: white;
     z-index: 2;
+    position: relative;
 }
 
 .ncc-logo {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 2rem;
-    animation: float 3s ease-in-out infinite;
-    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.3));
+    animation: floatLogo 4s ease-in-out infinite;
+    filter: 
+        drop-shadow(0 15px 30px rgba(0,0,0,0.4))
+        brightness(1.1);
+    position: relative;
 }
 
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+.ncc-logo::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+    border-radius: 50%;
+    animation: pulseGlow 3s ease-in-out infinite;
+    z-index: -1;
 }
 
-/* Modern Cards */
+@keyframes floatLogo {
+    0%, 100% { 
+        transform: translateY(0px) scale(1); 
+    }
+    50% { 
+        transform: translateY(-15px) scale(1.05); 
+    }
+}
+
+@keyframes pulseGlow {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.1); }
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: titleSlideIn 1.5s ease-out;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    opacity: 0.9;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    animation: subtitleSlideIn 1.8s ease-out;
+}
+
+@keyframes titleSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes subtitleSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 0.9;
+        transform: translateY(0);
+    }
+}
+
+/* Modern Cards - Animated */
 .modern-card {
     border: none;
     border-radius: 20px;
@@ -54,7 +184,39 @@
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
-/* FIXED Leaders Section Styles - No Image Cropping */
+/* Hierarchy Section - Fixed & Stable (No Animations) */
+.hierarchy-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    background: white;
+    margin-bottom: 2rem;
+    transition: none !important;
+}
+
+.hierarchy-card:hover {
+    transform: none !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08) !important;
+}
+
+.hierarchy-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+    padding: 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: none !important;
+}
+
+/* Ensure hierarchy cards don't animate */
+.hierarchy-card .card-body,
+.hierarchy-card .card-title,
+.hierarchy-card .card-text {
+    transition: none !important;
+}
+
+/* Leaders Section - Animated */
 .leader-card {
     border: none;
     border-radius: 20px;
@@ -92,7 +254,6 @@
     padding: 20px;
 }
 
-/* FIXED: Changed from object-fit: cover to contain to prevent cropping */
 .leader-card img {
     width: auto;
     max-width: 100%;
@@ -247,84 +408,7 @@ section .container {
     padding: 0 15px;
 }
 
-/* Responsive Design for Page Content */
-@media (max-width: 768px) {
-    .hierarchy-card {
-        flex-direction: column !important;
-        text-align: center;
-    }
-    
-    .hierarchy-img {
-        margin: 0 auto 1rem auto !important;
-    }
-    
-    .hero-section {
-        height: 50vh;
-    }
-    
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-    
-    /* Leaders responsive fixes */
-    .leader-portrait-container {
-        min-height: 300px;
-        padding: 15px;
-    }
-    
-    .leader-card img {
-        max-height: 260px;
-    }
-    
-    .rank-ribbon {
-        font-size: 0.7rem;
-        padding: 6px 15px;
-    }
-    
-    .leader-stats .row {
-        margin: 0 -5px;
-    }
-    
-    .stat-item {
-        padding: 0 5px;
-    }
-    
-    .leader-bio {
-        font-size: 0.9rem;
-    }
-    
-    .leader-card {
-        margin-bottom: 2rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .leader-portrait-container {
-        min-height: 250px;
-        padding: 10px;
-    }
-    
-    .leader-card img {
-        max-height: 220px;
-    }
-    
-    .specializations .badge {
-        display: block;
-        margin-bottom: 5px;
-        margin-right: 0 !important;
-    }
-    
-    .leader-stats .row {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .stat-item {
-        padding: 0.5rem;
-    }
-}
-
-/* Redesigned Popup Modal - Side by Side Layout */
+/* Popup Modal */
 .popup-overlay {
     position: fixed;
     top: 0;
@@ -556,7 +640,94 @@ section .container {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width: 768px) {
+    .hero-section {
+        height: 60vh;
+        padding: 1rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .ncc-logo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Hierarchy responsive fixes */
+    .hierarchy-card {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hierarchy-img {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 1rem auto;
+        display: block;
+    }
+    
+    .hierarchy-card .d-flex {
+        flex-direction: column !important;
+    }
+    
+    .hierarchy-card .flex-grow-1 {
+        text-align: center;
+    }
+    
+    /* Leaders responsive fixes */
+    .leader-portrait-container {
+        min-height: 300px;
+        padding: 15px;
+    }
+    
+    .leader-card img {
+        max-height: 260px;
+    }
+    
+    .rank-ribbon {
+        font-size: 0.7rem;
+        padding: 6px 15px;
+    }
+    
+    .leader-stats .row {
+        margin: 0 -5px;
+    }
+    
+    .stat-item {
+        padding: 0 5px;
+    }
+    
+    .leader-bio {
+        font-size: 0.9rem;
+    }
+    
+    .leader-card {
+        margin-bottom: 2rem;
+    }
+    
+    /* Popup responsive */
     .popup-modal {
         margin: 1rem;
         width: 95%;
@@ -591,9 +762,56 @@ section .container {
         font-size: 1.1rem;
         justify-content: center;
     }
+    
+    /* Reduce animation intensity on mobile */
+    .hero-badge {
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
+    .hero-section {
+        height: 50vh;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .ncc-logo {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .leader-portrait-container {
+        min-height: 250px;
+        padding: 10px;
+    }
+    
+    .leader-card img {
+        max-height: 220px;
+    }
+    
+    .specializations .badge {
+        display: block;
+        margin-bottom: 5px;
+        margin-right: 0 !important;
+    }
+    
+    .leader-stats .row {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .stat-item {
+        padding: 0.5rem;
+    }
+    
+    /* Popup mobile */
     .popup-body {
         padding: 1.5rem;
     }
@@ -611,4 +829,46 @@ section .container {
         padding: 10px 25px;
         font-size: 0.9rem;
     }
+    
+    /* Disable some animations on very small screens */
+    .hero-badges {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        height: 45vh;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .ncc-logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Prevent layout shifts during animations */
+.modern-card,
+.leader-card {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+/* Ensure images don't cause layout shifts */
+.hierarchy-img,
+.leader-card img {
+    aspect-ratio: 1;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
 }

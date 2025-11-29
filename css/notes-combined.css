@@ -1,8 +1,12 @@
-/* Notes Combined Styles - Enhanced Version */
+/* Notes Combined Styles - Enhanced Version with Modern Animations */
 
-/* Common Hero Section */
+/* Common Hero Section - Enhanced with Floating Background */
 .notes-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: 
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%),
+        linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     padding: 100px 0 60px;
     text-align: center;
@@ -17,15 +21,22 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="%23ffffff" opacity="0.05"><polygon points="0,0 1000,50 1000,100 0,100"/></svg>');
-    background-size: cover;
+    background: 
+        url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23ffffff' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+    animation: float 20s linear infinite;
+}
+
+.notes-hero .container {
+    position: relative;
+    z-index: 2;
 }
 
 .notes-hero h1 {
     font-weight: 800;
-    margin-bottom: 1rem;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-    background: linear-gradient(135deg, #fff, #f0f0f0);
+    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #fff 0%, #f0f0f0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -34,8 +45,17 @@
 .notes-hero .lead {
     font-size: 1.3rem;
     opacity: 0.95;
-    font-weight: 400;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+@keyframes float {
+    0% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(180deg); }
+    100% { transform: translateY(0px) rotate(360deg); }
 }
 
 /* Category Header */
@@ -85,15 +105,17 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2.5rem;
-    margin: 3rem 0;
+    margin: 3rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
 }
 
 .category-card {
-    background: linear-gradient(145deg, #ffffff, #f7fafc);
+    background: white;
     border-radius: 20px;
     padding: 2.5rem 2rem;
     text-align: center;
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: 2px solid transparent;
     position: relative;
@@ -122,8 +144,8 @@
 }
 
 .category-card:hover {
-    transform: translateY(-12px) scale(1.02);
-    box-shadow: 0 30px 60px rgba(102, 126, 234, 0.25);
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     border-color: #667eea;
 }
 
@@ -175,14 +197,20 @@
 }
 
 .subcategories-count, .notes-count {
-    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+    background: #f7fafc;
+    color: #4a5568;
     padding: 10px 18px;
-    border-radius: 25px;
-    font-weight: 700;
+    border-radius: 8px;
+    font-weight: 600;
     font-size: 0.9rem;
-    color: #667eea;
-    border: 2px solid #e2e8f0;
-    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.1);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+}
+
+.category-card:hover .subcategories-count,
+.category-card:hover .notes-count {
+    background: #edf2f7;
+    transform: translateY(-2px);
 }
 
 .category-card-btn {
@@ -192,11 +220,10 @@
     color: white;
     text-decoration: none;
     padding: 14px 32px;
-    border-radius: 30px;
-    font-weight: 700;
+    border-radius: 10px;
+    font-weight: 600;
     transition: all 0.3s ease;
     border: 2px solid transparent;
-    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.3);
     position: relative;
     overflow: hidden;
 }
@@ -217,7 +244,7 @@
     color: #667eea;
     border-color: #667eea;
     text-decoration: none;
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
 }
 
@@ -227,18 +254,19 @@
 
 /* Quick Stats */
 .quick-stats {
-    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
-    border-radius: 25px;
-    padding: 4rem 2rem;
-    margin: 4rem 0 2rem;
-    border: 2px solid #e2e8f0;
-    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.1);
+    background: #f8f9fa;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    margin: 4rem auto 2rem;
+    max-width: 1200px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 2.5rem;
+    gap: 2rem;
     text-align: center;
 }
 
@@ -247,64 +275,79 @@
 }
 
 .stat-number {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #667eea;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c3e50;
     margin-bottom: 0.5rem;
-    text-shadow: 2px 2px 4px rgba(102, 126, 234, 0.2);
 }
 
 .stat-label {
-    color: #4a5568;
-    font-weight: 700;
-    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 /* ========== SUBJECT PAGES STYLES ========== */
 
 /* Back to Main Button */
 .back-to-main {
-    background: linear-gradient(135deg, #a0aec0 0%, #718096 100%);
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     border: none;
-    padding: 14px 28px;
-    border-radius: 30px;
-    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
     transition: all 0.3s ease;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 2rem;
-    box-shadow: 0 6px 15px rgba(113, 128, 150, 0.3);
-    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-to-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.6s;
 }
 
 .back-to-main:hover {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     transform: translateY(-2px);
     text-decoration: none;
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+.back-to-main:hover::before {
+    left: 100%;
 }
 
 /* Subcategory Grid */
 .subcategory-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem;
-    margin: 2rem 0;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
 }
 
 /* Subcategory Cards */
 .subcategory-card {
-    background: linear-gradient(145deg, #ffffff, #f7fafc);
-    border-radius: 20px;
-    padding: 2.5rem 2rem;
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
     text-align: center;
-    box-shadow: 0 15px 35px rgba(102, 126, 234, 0.12);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border: 2px solid transparent;
+    border: 1px solid #eaeaea;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -316,7 +359,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 5px;
+    height: 4px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     transform: scaleX(0);
     transition: transform 0.4s ease;
@@ -334,8 +377,8 @@
 }
 
 .subcategory-card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 25px 50px rgba(102, 126, 234, 0.2);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     border-color: #667eea;
 }
 
@@ -355,23 +398,17 @@
     background-clip: text;
     margin-bottom: 1.5rem;
     transition: all 0.3s ease;
-    filter: drop-shadow(0 4px 8px rgba(102, 126, 234, 0.3));
 }
 
 .subcategory-card:hover .subcategory-icon {
     transform: scale(1.1) rotate(5deg);
-    filter: drop-shadow(0 6px 12px rgba(102, 126, 234, 0.4));
 }
 
 .subcategory-card h4 {
     color: #2d3748;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 1rem;
     font-size: 1.4rem;
-    background: linear-gradient(135deg, #2d3748, #4a5568);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .subcategory-card p {
@@ -382,33 +419,35 @@
 }
 
 .notes-count {
-    font-weight: 800;
+    font-weight: 700;
     color: #667eea;
     font-size: 1rem;
-    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
+    background: #f7fafc;
     padding: 8px 16px;
-    border-radius: 20px;
+    border-radius: 6px;
     display: inline-block;
-    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.1);
+    border: 1px solid #e2e8f0;
 }
 
 /* Notes Grid */
 .notes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    gap: 2.5rem;
-    margin: 3rem 0;
+    gap: 2rem;
+    margin: 3rem auto;
+    max-width: 1200px;
+    padding: 0 1rem;
 }
 
 /* Note Card Styles */
 .note-card {
-    background: linear-gradient(145deg, #ffffff, #f7fafc);
-    border-radius: 20px;
+    background: white;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.15);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     position: relative;
-    border: 2px solid #e2e8f0;
+    border: 1px solid #eaeaea;
 }
 
 .note-card::before {
@@ -422,27 +461,23 @@
 }
 
 .note-card:hover {
-    transform: translateY(-12px) scale(1.02);
-    box-shadow: 0 30px 60px rgba(102, 126, 234, 0.25);
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     border-color: #667eea;
 }
 
 .note-header {
-    padding: 2rem;
-    border-bottom: 2px solid #e2e8f0;
-    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    padding: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+    background: #f8f9fa;
 }
 
 .note-title {
-    font-weight: 800;
+    font-weight: 700;
     color: #2d3748;
     margin-bottom: 0.8rem;
     font-size: 1.3rem;
     line-height: 1.4;
-    background: linear-gradient(135deg, #2d3748, #4a5568);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .note-description {
@@ -454,7 +489,7 @@
 }
 
 .note-body {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .note-meta {
@@ -467,11 +502,10 @@
 .note-type {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 8px 16px;
-    border-radius: 25px;
+    padding: 6px 12px;
+    border-radius: 6px;
     font-size: 0.85rem;
-    font-weight: 700;
-    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+    font-weight: 600;
 }
 
 .note-actions {
@@ -480,11 +514,11 @@
 }
 
 .note-action-btn {
-    background: linear-gradient(135deg, #edf2f7, #e2e8f0);
-    border: 2px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 10px 16px;
-    color: #4a5568;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #495057;
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 600;
@@ -492,7 +526,6 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.1);
 }
 
 .note-action-btn:hover {
@@ -501,20 +534,19 @@
     border-color: #667eea;
     text-decoration: none;
     transform: translateY(-2px);
-    box-shadow: 0 6px 15px rgba(102, 126, 234, 0.3);
 }
 
 .note-footer {
-    padding: 1.5rem 2rem;
-    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
-    border-top: 2px solid #e2e8f0;
+    padding: 1rem 1.5rem;
+    background: #f8f9fa;
+    border-top: 1px solid #eaeaea;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .note-date {
-    color: #718096;
+    color: #6c757d;
     font-size: 0.9rem;
     font-weight: 600;
 }
@@ -522,18 +554,14 @@
 /* Subcategory Title */
 .subcategory-title {
     color: #4a5568;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 2rem;
     text-align: center;
-    font-size: 2.2rem;
-    border-bottom: 4px solid;
+    font-size: 2rem;
+    border-bottom: 3px solid;
     border-image: linear-gradient(135deg, #667eea, #764ba2) 1;
     padding-bottom: 0.8rem;
     display: inline-block;
-    background: linear-gradient(135deg, #4a5568, #2d3748);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 /* Utility Classes */
@@ -543,6 +571,29 @@
 
 .text-gold {
     color: #ffd700 !important;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
 }
 
 /* Responsive Design */
@@ -589,11 +640,11 @@
     }
     
     .subcategory-card {
-        padding: 2rem 1.5rem;
+        padding: 1.5rem;
     }
     
     .note-header, .note-body, .note-footer {
-        padding: 1.5rem;
+        padding: 1.25rem;
     }
 }
 
@@ -611,7 +662,7 @@
     }
     
     .stat-number {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     .subcategory-icon {
