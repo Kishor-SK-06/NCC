@@ -2,35 +2,36 @@
 <html lang="en">
 <head>
     <!-- Essential Meta Tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <!-- Primary Meta Tags -->
-    <title>NCC Assessment Tests - Practice Quizzes & Mock Exams | Narmada College NCC</title>
+    <!-- Primary Meta Tags - OPTIMIZED -->
+    <title>NCC Assessment Tests - Practice Quizzes & Mock Exams | Narmada College</title>
     <meta name="description" content="Test your NCC knowledge with interactive quizzes and mock exams. Practice tests for common subjects, special subjects, and comprehensive NCC training assessments.">
     <meta name="keywords" content="NCC tests, NCC practice exams, cadet assessment, NCC quizzes, mock tests, common subjects NCC, special subjects NCC, NCC training evaluation">
     <meta name="author" content="National Cadet Corps - Narmada College">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="7 days">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     
-    <!-- Open Graph Meta Tags (for social media sharing) -->
-    <meta property="og:title" content="NCC Assessment Tests - Practice Quizzes & Mock Exams | Narmada College">
+    <!-- Open Graph Meta Tags (for social media sharing) - OPTIMIZED -->
+    <meta property="og:title" content="NCC Assessment Tests - Practice Quizzes & Mock Exams">
     <meta property="og:description" content="Test your NCC knowledge with interactive quizzes and mock exams. Practice tests for common subjects and special subjects.">
     <meta property="og:image" content="https://narmadacollegencc.netlify.app/images/ncc-tests-social.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://narmadacollegencc.netlify.app/tests.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="NCC Narmada College">
     <meta property="og:locale" content="en_US">
     
-    <!-- Twitter Card Meta Tags -->
+    <!-- Twitter Card Meta Tags - OPTIMIZED -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@NCCNarmada">
     <meta name="twitter:creator" content="@NCCNarmada">
     <meta name="twitter:title" content="NCC Assessment Tests - Practice Quizzes & Mock Exams">
     <meta name="twitter:description" content="Interactive NCC practice tests and mock exams for cadets. Test your knowledge in common and special subjects.">
     <meta name="twitter:image" content="https://narmadacollegencc.netlify.app/images/ncc-tests-twitter.jpg">
+    <meta name="twitter:image:alt" content="NCC Assessment Tests - Narmada College">
     
     <!-- Additional Important Meta Tags -->
     <meta name="theme-color" content="#0d6efd">
@@ -42,46 +43,66 @@
     <meta name="application-name" content="NCC Tests">
     <meta name="format-detection" content="telephone=no">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="rating" content="General">
-    <meta name="distribution" content="Global">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://narmadacollegencc.netlify.app/tests.html">
     
     <!-- Favicon and App Icons -->
-    <link rel="icon" href="images/Narmada College Icon.png" type="image/x-icon">
+    <link rel="icon" href="images/Narmada%20College%20Icon.png" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <!-- Structured Data (JSON-LD) -->
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="/css/common.css" as="style">
+    <link rel="preload" href="/css/tests.css" as="style">
+    
+    <!-- Structured Data (JSON-LD) - ENHANCED -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "NCC Assessment Tests - Narmada College",
-      "description": "Interactive assessment tests and practice exams for NCC cadets",
+      "@type": "CollectionPage",
+      "name": "NCC Assessment Tests - Practice Quizzes & Mock Exams",
+      "description": "Interactive assessment tests and practice exams for NCC cadets covering common and special subjects",
       "url": "https://narmadacollegencc.netlify.app/tests.html",
-      "mainEntityOfPage": {
-        "@type": "CollectionPage",
-        "name": "NCC Assessment Tests Collection",
-        "description": "Comprehensive collection of practice tests and mock exams for NCC training evaluation",
-        "numberOfItems": "19",
-        "hasPart": [
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": 19,
+        "itemListElement": [
           {
-            "@type": "Quiz",
-            "name": "Common Subjects Tests",
-            "description": "Assessment tests covering core NCC subjects including drill, weapon training, and national integration",
-            "educationalLevel": "Beginner to Advanced",
-            "assesses": "NCC Common Subjects Knowledge"
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Quiz",
+              "name": "NCC Introduction",
+              "description": "History, organization, and structure of NCC",
+              "educationalLevel": "Beginner",
+              "assesses": "NCC History and Organization Knowledge"
+            }
           },
           {
-            "@type": "Quiz",
-            "name": "Special Subjects Tests",
-            "description": "Specialized assessment tests for different NCC wings including navigation, seamanship, and communication",
-            "educationalLevel": "Intermediate to Advanced",
-            "assesses": "NCC Specialized Subjects Knowledge"
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Quiz",
+              "name": "National Integration",
+              "description": "Unity, diversity, and national pride",
+              "educationalLevel": "Beginner",
+              "assesses": "National Integration and Unity Knowledge"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Quiz",
+              "name": "Drill Training",
+              "description": "Marching commands, formations, parade procedures",
+              "educationalLevel": "Intermediate",
+              "assesses": "Drill Commands and Parade Procedures"
+            }
           }
         ]
       },
@@ -91,7 +112,9 @@
         "url": "https://narmadacollegencc.netlify.app",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://narmadacollegencc.netlify.app/images/Narmada College Icon.png"
+          "url": "https://narmadacollegencc.netlify.app/images/Narmada%20College%20Icon.png",
+          "width": 100,
+          "height": 100
         }
       },
       "breadcrumb": {
@@ -115,9 +138,9 @@
     </script>
 
     <!-- External Stylesheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/tests.css">
 </head>
@@ -130,7 +153,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <!-- Logo and College Name -->
                 <div class="logo-container" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-                    <img src="images/Narmada College Icon.png" alt="NCC Logo - National Cadet Corps Narmada College" class="logo-img" itemprop="logo" />
+                    <img src="images/Narmada%20College%20Icon.png" alt="NCC Logo - National Cadet Corps Narmada College" class="logo-img" itemprop="logo" width="50" height="50">
                     <div class="header-text">
                         <h5 itemprop="name">NATIONAL CADET CORPS</h5>
                         <small itemprop="address">NARMADA COLLEGE</small>
@@ -141,7 +164,7 @@
                 <div class="text-end text-white">
                     <div id="date-time" class="mb-2 fw-bold"></div>
                     <div class="d-flex align-items-center justify-content-end">
-                        <i class="fas fa-user-circle fa-xl me-2 text-gold"></i>
+                        <i class="fas fa-user-circle fa-xl me-2 text-gold" aria-hidden="true"></i>
                         <span id="greet-text" class="fw-semibold">Welcome, Cadet</span>
                     </div>
                 </div>
@@ -152,7 +175,7 @@
     <!-- ========== NAVIGATION SECTION ========== -->
     <nav class="navbar navbar-expand-lg navbar-light modern-nav">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
@@ -161,7 +184,7 @@
                     <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/tutorials.html">Tutorials</a></li>
                     <li class="nav-item"><a class="nav-link" href="/notes.html">Notes</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/tests.html">Practice</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/tests.html" aria-current="page">Practice</a></li>
                     <li class="nav-item"><a class="nav-link" href="/camps.html">Camps</a></li>
                     <li class="nav-item"><a class="nav-link" href="/about.html">About Me</a></li>
                 </ul>
@@ -189,13 +212,13 @@
         <div class="category-tabs">
             <ul class="nav nav-pills nav-pills-custom justify-content-center" id="testsTabs" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="common-tests-tab" data-bs-toggle="pill" data-bs-target="#common-tests" type="button" role="tab">
-                        <i class="fas fa-book me-2"></i>Common Subjects
+                    <button class="nav-link active" id="common-tests-tab" data-bs-toggle="pill" data-bs-target="#common-tests" type="button" role="tab" aria-controls="common-tests" aria-selected="true">
+                        <i class="fas fa-book me-2" aria-hidden="true"></i>Common Subjects
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="special-tests-tab" data-bs-toggle="pill" data-bs-target="#special-tests" type="button" role="tab">
-                        <i class="fas fa-star me-2"></i>Special Subjects
+                    <button class="nav-link" id="special-tests-tab" data-bs-toggle="pill" data-bs-target="#special-tests" type="button" role="tab" aria-controls="special-tests" aria-selected="false">
+                        <i class="fas fa-star me-2" aria-hidden="true"></i>Special Subjects
                     </button>
                 </li>
                 <!-- 
@@ -212,7 +235,7 @@
         <!-- Back to Categories Button (Hidden by default) -->
         <div class="text-center mt-4 mb-4" id="backButtonContainer" style="display: none;">
             <button class="btn btn-outline-primary" id="backToCategories">
-                <i class="fas fa-arrow-left me-2"></i>Back to Categories
+                <i class="fas fa-arrow-left me-2" aria-hidden="true"></i>Back to Categories
             </button>
         </div>
 
@@ -220,7 +243,7 @@
         <div class="tab-content" id="testsTabsContent">
             
             <!-- ========== COMMON SUBJECTS TAB ========== -->
-            <div class="tab-pane fade show active" id="common-tests" role="tabpanel">
+            <div class="tab-pane fade show active" id="common-tests" role="tabpanel" aria-labelledby="common-tests-tab">
                 <div class="category-header">
                     <h2>Common Subjects Tests</h2>
                     <p class="text-info">Assess your knowledge in core NCC subjects</p>
@@ -237,16 +260,16 @@
                     <!-- NCC Introduction -->
                     <div class="subcategory-card" data-category="common" data-subcategory="introduction" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-info-circle"></i>
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">NCC Introduction</h3>
                         <p class="text-info" itemprop="description">History, organization, and structure of NCC</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="introduction" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="introduction" data-mode="practice" aria-label="Practice NCC Introduction test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="introduction" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="introduction" data-mode="exam" aria-label="Take NCC Introduction exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Beginner">
@@ -256,16 +279,16 @@
                     <!-- National Integration -->
                     <div class="subcategory-card" data-category="common" data-subcategory="national-integration" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-flag"></i>
+                            <i class="fas fa-flag" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">National Integration</h3>
                         <p class="text-info" itemprop="description">Unity, diversity, and national pride</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="national-integration" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="national-integration" data-mode="practice" aria-label="Practice National Integration test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="national-integration" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="national-integration" data-mode="exam" aria-label="Take National Integration exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Beginner">
@@ -275,16 +298,16 @@
                     <!-- Drill -->
                     <div class="subcategory-card" data-category="common" data-subcategory="drill" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fa-solid fa-person-military-rifle"></i>
+                            <i class="fa-solid fa-person-military-rifle" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Drill</h3>
                         <p class="text-info" itemprop="description">Marching commands, formations, parade procedures</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="drill" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="drill" data-mode="practice" aria-label="Practice Drill test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="drill" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="drill" data-mode="exam" aria-label="Take Drill exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -294,16 +317,16 @@
                     <!-- Weapon Training -->
                     <div class="subcategory-card" data-category="common" data-subcategory="weapon-training" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-gun"></i>
+                            <i class="fas fa-gun" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Weapon Training</h3>
                         <p class="text-info" itemprop="description">Rifle handling, safety, firing techniques</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="weapon-training" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="weapon-training" data-mode="practice" aria-label="Practice Weapon Training test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="weapon-training" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="weapon-training" data-mode="exam" aria-label="Take Weapon Training exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -313,16 +336,16 @@
                     <!-- Disaster Management -->
                     <div class="subcategory-card" data-category="common" data-subcategory="disaster-management" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-first-aid"></i>
+                            <i class="fas fa-first-aid" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Disaster Management</h3>
                         <p class="text-info" itemprop="description">Emergency response, relief operations</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="disaster-management" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="disaster-management" data-mode="practice" aria-label="Practice Disaster Management test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="disaster-management" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="disaster-management" data-mode="exam" aria-label="Take Disaster Management exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -332,16 +355,16 @@
                     <!-- Social Awareness -->
                     <div class="subcategory-card" data-category="common" data-subcategory="social-awareness" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-hands-helping"></i>
+                            <i class="fas fa-hands-helping" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Social Awareness & Community Development</h3>
                         <p class="text-info" itemprop="description">Community service, social responsibility</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="social-awareness" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="social-awareness" data-mode="practice" aria-label="Practice Social Awareness test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="social-awareness" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="social-awareness" data-mode="exam" aria-label="Take Social Awareness exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Beginner">
@@ -351,16 +374,16 @@
                     <!-- Health & Hygiene -->
                     <div class="subcategory-card" data-category="common" data-subcategory="health-hygiene" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-heartbeat"></i>
+                            <i class="fas fa-heartbeat" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Health & Hygiene</h3>
                         <p class="text-info" itemprop="description">Personal hygiene, first aid, health maintenance</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="health-hygiene" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="health-hygiene" data-mode="practice" aria-label="Practice Health & Hygiene test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="health-hygiene" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="health-hygiene" data-mode="exam" aria-label="Take Health & Hygiene exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Beginner">
@@ -370,16 +393,16 @@
                     <!-- Environment -->
                     <div class="subcategory-card" data-category="common" data-subcategory="environment" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-leaf" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Environment Awareness & Conservation</h3>
                         <p class="text-info" itemprop="description">Ecology, conservation, environmental protection</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="environment" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="environment" data-mode="practice" aria-label="Practice Environment test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="environment" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="environment" data-mode="exam" aria-label="Take Environment exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Beginner">
@@ -389,16 +412,16 @@
                     <!-- Adventure -->
                     <div class="subcategory-card" data-category="common" data-subcategory="adventure" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-mountain"></i>
+                            <i class="fas fa-mountain" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Adventure</h3>
                         <p class="text-info" itemprop="description">Adventure activities, trekking, camping</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="adventure" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="adventure" data-mode="practice" aria-label="Practice Adventure test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="adventure" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="adventure" data-mode="exam" aria-label="Take Adventure exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -408,16 +431,16 @@
                     <!-- Obstacle Training -->
                     <div class="subcategory-card" data-category="common" data-subcategory="obstacle-training" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-running"></i>
+                            <i class="fas fa-running" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Obstacle Training</h3>
                         <p class="text-info" itemprop="description">Obstacle courses, physical training techniques</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="obstacle-training" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="obstacle-training" data-mode="practice" aria-label="Practice Obstacle Training test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="obstacle-training" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="obstacle-training" data-mode="exam" aria-label="Take Obstacle Training exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -427,16 +450,16 @@
                     <!-- Personality Development -->
                     <div class="subcategory-card" data-category="common" data-subcategory="personality-development" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-user-graduate"></i>
+                            <i class="fas fa-user-graduate" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Personality Development & Leadership</h3>
                         <p class="text-info" itemprop="description">Leadership skills, communication, character building</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="common" data-subcategory="personality-development" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="common" data-subcategory="personality-development" data-mode="practice" aria-label="Practice Personality Development test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="common" data-subcategory="personality-development" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="common" data-subcategory="personality-development" data-mode="exam" aria-label="Take Personality Development exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Advanced">
@@ -446,7 +469,7 @@
             </div>
 
             <!-- ========== SPECIAL SUBJECTS TAB ========== -->
-            <div class="tab-pane fade" id="special-tests" role="tabpanel">
+            <div class="tab-pane fade" id="special-tests" role="tabpanel" aria-labelledby="special-tests-tab">
                 <div class="category-header">
                     <h2>Special Subjects Tests</h2>
                     <p class="text-info">Test your specialized NCC wing knowledge</p>
@@ -457,16 +480,16 @@
                     <!-- Orientation -->
                     <div class="subcategory-card" data-category="special" data-subcategory="orientation" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-compass"></i>
+                            <i class="fas fa-compass" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Orientation</h3>
                         <p class="text-info" itemprop="description">Basic orientation and familiarization</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="orientation" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="orientation" data-mode="practice" aria-label="Practice Orientation test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="orientation" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="orientation" data-mode="exam" aria-label="Take Orientation exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Beginner">
@@ -476,16 +499,16 @@
                     <!-- Navigation -->
                     <div class="subcategory-card" data-category="special" data-subcategory="navigation" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-location-arrow"></i>
+                            <i class="fas fa-location-arrow" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Navigation</h3>
                         <p class="text-info" itemprop="description">Compass usage, chart reading, navigation techniques</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="navigation" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="navigation" data-mode="practice" aria-label="Practice Navigation test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="navigation" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="navigation" data-mode="exam" aria-label="Take Navigation exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -495,16 +518,16 @@
                     <!-- Communication -->
                     <div class="subcategory-card" data-category="special" data-subcategory="communication" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-walkie-talkie"></i>
+                            <i class="fas fa-walkie-talkie" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Communication</h3>
                         <p class="text-info" itemprop="description">Radio procedures, signaling, communication protocols</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="communication" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="communication" data-mode="practice" aria-label="Practice Communication test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="communication" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="communication" data-mode="exam" aria-label="Take Communication exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -514,16 +537,16 @@
                     <!-- Seamanship -->
                     <div class="subcategory-card" data-category="special" data-subcategory="seamanship" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-ship"></i>
+                            <i class="fas fa-ship" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Seamanship</h3>
                         <p class="text-info" itemprop="description">Naval knots, maritime procedures, safety</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="seamanship" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="seamanship" data-mode="practice" aria-label="Practice Seamanship test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="seamanship" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="seamanship" data-mode="exam" aria-label="Take Seamanship exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Advanced">
@@ -533,16 +556,16 @@
                     <!-- Fire Fighting -->
                     <div class="subcategory-card" data-category="special" data-subcategory="fire-fighting" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-fire-extinguisher"></i>
+                            <i class="fas fa-fire-extinguisher" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Fire Fighting & Damage Control</h3>
                         <p class="text-info" itemprop="description">Fire safety, damage control procedures</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="fire-fighting" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="fire-fighting" data-mode="practice" aria-label="Practice Fire Fighting test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="fire-fighting" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="fire-fighting" data-mode="exam" aria-label="Take Fire Fighting exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -552,16 +575,16 @@
                     <!-- Swimming -->
                     <div class="subcategory-card" data-category="special" data-subcategory="swimming" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-swimmer"></i>
+                            <i class="fas fa-swimmer" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Swimming</h3>
                         <p class="text-info" itemprop="description">Swimming techniques, water safety, rescue methods</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="swimming" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="swimming" data-mode="practice" aria-label="Practice Swimming test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="swimming" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="swimming" data-mode="exam" aria-label="Take Swimming exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Intermediate">
@@ -571,16 +594,16 @@
                     <!-- Ship Modelling -->
                     <div class="subcategory-card" data-category="special" data-subcategory="ship-modelling" itemscope itemtype="https://schema.org/Quiz">
                         <div class="subcategory-icon">
-                            <i class="fas fa-puzzle-piece"></i>
+                            <i class="fas fa-puzzle-piece" aria-hidden="true"></i>
                         </div>
                         <h3 itemprop="name">Ship Modelling</h3>
                         <p class="text-info" itemprop="description">Model construction, techniques, naval architecture</p>
                         <div class="test-actions">
-                            <button class="btn-test practice-test" data-category="special" data-subcategory="ship-modelling" data-mode="practice">
-                                <i class="fas fa-graduation-cap me-1"></i>Practice
+                            <button class="btn-test practice-test" data-category="special" data-subcategory="ship-modelling" data-mode="practice" aria-label="Practice Ship Modelling test">
+                                <i class="fas fa-graduation-cap me-1" aria-hidden="true"></i>Practice
                             </button>
-                            <button class="btn-test exam-test" data-category="special" data-subcategory="ship-modelling" data-mode="exam">
-                                <i class="fas fa-file-alt me-1"></i>Exam
+                            <button class="btn-test exam-test" data-category="special" data-subcategory="ship-modelling" data-mode="exam" aria-label="Take Ship Modelling exam">
+                                <i class="fas fa-file-alt me-1" aria-hidden="true"></i>Exam
                             </button>
                         </div>
                         <meta itemprop="educationalLevel" content="Advanced">
