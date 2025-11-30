@@ -26,10 +26,7 @@ function setupCampButtons() {
 
 function handleCampClick(campId) {
     const campURLs = {
-        // Add camp URLs here when available
-        // 'rdc': 'https://example.com/rdc-details.html',
-        // 'ina': 'https://example.com/ina-details.html',
-        // Add all other camp URLs similarly
+        'nsc' : 'camps/nsc.html',
     };
 
     if (campURLs[campId]) {

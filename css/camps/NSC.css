@@ -1,0 +1,631 @@
+:root {
+    --navy-blue: #1a237e;
+    --light-navy: #283593;
+    --gold: #ffc107;
+    --light-gold: #ffecb3;
+    --white: #ffffff;
+    --light-gray: #f5f5f5;
+    --dark-gray: #424242;
+    --accent-blue: #1565c0;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* WhatsApp Button Styles */
+.whatsapp-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    z-index: 1000;
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+.whatsapp-button img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.whatsapp-button i {
+    font-size: 28px;
+}
+
+/* Back Button Styles */
+.back-button {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--navy-blue);
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    z-index: 1000;
+    border: 2px solid var(--gold);
+}
+
+.back-button:hover {
+    background-color: var(--accent-blue);
+    transform: translateY(-50%) scale(1.05);
+    padding-right: 20px;
+}
+
+.back-button span {
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-width 0.3s ease, margin-left 0.3s ease;
+}
+
+.back-button:hover span {
+    max-width: 120px;
+    margin-left: 5px;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(135deg, var(--navy-blue) 0%, var(--accent-blue) 100%);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.ncc-badge {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--gold);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+.camp-date {
+    display: inline-block;
+    background-color: var(--gold);
+    color: var(--navy-blue);
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: var(--shadow);
+}
+
+/* Process Timeline */
+.process-section {
+    padding: 4rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--navy-blue);
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--gold);
+    border-radius: 2px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background-color: var(--accent-blue);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    display: flex;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.timeline-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.timeline-content {
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    width: 45%;
+    position: relative;
+    transition: var(--transition);
+    border-top: 4px solid var(--gold);
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-item:nth-child(odd) .timeline-content {
+    margin-left: 5%;
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    margin-right: 5%;
+}
+
+.timeline-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: var(--accent-blue);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 1.2rem;
+    box-shadow: 0 0 0 4px var(--light-gray), 0 0 0 8px var(--accent-blue);
+    z-index: 1;
+}
+
+.timeline-title {
+    color: var(--navy-blue);
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-title i {
+    margin-right: 10px;
+    color: var(--gold);
+}
+
+.timeline-location {
+    color: var(--accent-blue);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-location i {
+    margin-right: 5px;
+}
+
+.timeline-details {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.selection-count {
+    display: inline-block;
+    background-color: var(--light-navy);
+    color: var(--white);
+    padding: 0.2rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+/* Events Section */
+.events-section {
+    background-color: var(--white);
+    padding: 4rem 0;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.event-card {
+    background-color: var(--light-gray);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: var(--transition);
+    border-left: 4px solid var(--accent-blue);
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.event-icon {
+    font-size: 2rem;
+    color: var(--navy-blue);
+    margin-bottom: 1rem;
+}
+
+.event-title {
+    color: var(--navy-blue);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Notes Section */
+.notes-section {
+    padding: 4rem 0;
+}
+
+.notes-card {
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: 5px solid var(--gold);
+}
+
+.notes-title {
+    color: var(--navy-blue);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.notes-title i {
+    margin-right: 10px;
+    color: var(--gold);
+}
+
+.notes-list {
+    list-style-type: none;
+}
+
+.notes-list li {
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.notes-list li::before {
+    content: "•";
+    color: var(--accent-blue);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--gold);
+}
+
+.footer-text {
+    opacity: 0.9;
+    max-width: 600px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.footer-copyright {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* Enhanced Responsive Design */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .timeline-content {
+        width: 48%;
+    }
+    
+    .events-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .back-button {
+        left: 10px;
+        padding: 10px 12px;
+    }
+    
+    .back-button:hover span {
+        max-width: 100px;
+    }
+    
+    .whatsapp-button {
+        right: 15px;
+        bottom: 15px;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .whatsapp-button img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .whatsapp-button i {
+        font-size: 24px;
+    }
+    
+    .timeline::before {
+        left: 30px;
+    }
+    
+    .timeline-item {
+        flex-direction: row !important;
+        margin-left: 60px;
+        margin-bottom: 3rem;
+    }
+    
+    .timeline-content {
+        width: 100%;
+        margin: 0 !important;
+    }
+    
+    .timeline-icon {
+        left: 30px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    .ncc-badge {
+        font-size: 3rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .events-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    
+    .notes-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .back-button {
+        left: 5px;
+        padding: 8px 10px;
+    }
+    
+    .back-button span {
+        display: none;
+    }
+    
+    .back-button:hover span {
+        display: none;
+    }
+    
+    .whatsapp-button {
+        right: 10px;
+        bottom: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .whatsapp-button img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .whatsapp-button i {
+        font-size: 22px;
+    }
+    
+    .timeline::before {
+        left: 20px;
+    }
+    
+    .timeline-item {
+        margin-left: 40px;
+        margin-bottom: 2.5rem;
+    }
+    
+    .timeline-icon {
+        left: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        box-shadow: 0 0 0 3px var(--light-gray), 0 0 0 6px var(--accent-blue);
+    }
+    
+    .timeline-content {
+        padding: 1.2rem;
+    }
+    
+    .timeline-title {
+        font-size: 1.1rem;
+    }
+    
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .ncc-badge {
+        font-size: 2.5rem;
+    }
+    
+    .camp-date {
+        font-size: 0.9rem;
+        padding: 0.4rem 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+    
+    .notes-card {
+        padding: 1rem;
+    }
+    
+    .footer-text {
+        font-size: 0.9rem;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .timeline-item {
+        margin-left: 30px;
+    }
+    
+    .timeline-icon {
+        left: 15px;
+    }
+    
+    .timeline-content {
+        padding: 1rem;
+    }
+    
+    .timeline-title {
+        font-size: 1rem;
+    }
+    
+    .timeline-details {
+        font-size: 0.85rem;
+    }
+    
+    .event-card {
+        padding: 1rem;
+    }
+    
+    header {
+        padding: 1.5rem 0;
+    }
+    
+    .process-section, .events-section, .notes-section {
+        padding: 2.5rem 0;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .back-button, .whatsapp-button {
+        display: none;
+    }
+    
+    .timeline-content:hover {
+        transform: none;
+        box-shadow: var(--shadow);
+    }
+    
+    .event-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
