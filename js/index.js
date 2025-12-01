@@ -635,11 +635,6 @@ class ImportantDatesCalendar {
         this.currentFilter = 'all';
         this.currentSearch = '';
         this.loadAllDates();
-        
-        // Focus search
-        setTimeout(() => {
-            this.elements.dateSearch.focus();
-        }, 100);
     }
     
     closeCalendar() {
