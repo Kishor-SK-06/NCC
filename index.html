@@ -538,6 +538,62 @@
     </div>
 </div>
 
+
+<!-- Fixed Calendar Button -->
+    <button class="calendar-btn" id="calendarBtn">
+        <i class="fas fa-calendar-alt"></i>
+        <span>View All Dates</span>
+    </button>
+
+    <!-- Calendar Popup Modal -->
+    <div class="calendar-modal" id="calendarModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-calendar-day"></i> Complete Important Dates Calendar</h2>
+                <div class="modal-filter">
+                    <select id="modalFilter">
+                        <option value="all">All Categories</option>
+                        <option value="national">National Days</option>
+                        <option value="international">International Days</option>
+                        <option value="armed-forces">Armed Forces</option>
+                        <option value="army">Army</option>
+                        <option value="navy">Navy</option>
+                        <option value="air-force">Air Force</option>
+                        <option value="health">Health</option>
+                        <option value="environment">Environment</option>
+                        <option value="social">Social Justice</option>
+                        <option value="cultural">Cultural</option>
+                        <option value="education">Education</option>
+                        <option value="science">Science & Tech</option>
+                    </select>
+                    <input type="text" id="dateSearch" placeholder="Search dates...">
+                </div>
+                <button class="close-modal" id="closeModal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <div class="dates-count">
+                    Showing <span id="datesCount">0</span> dates
+                </div>
+                <div class="dates-container" id="datesContainer">
+                    <!-- All dates will be loaded here -->
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <div class="legend">
+                    <div class="legend-item"><span class="legend-color national"></span> National</div>
+                    <div class="legend-item"><span class="legend-color international"></span> International</div>
+                    <div class="legend-item"><span class="legend-color armed-forces"></span> Armed Forces</div>
+                    <div class="legend-item"><span class="legend-color army"></span> Army</div>
+                    <div class="legend-item"><span class="legend-color navy"></span> Navy</div>
+                    <div class="legend-item"><span class="legend-color air-force"></span> Air Force</div>
+                </div>
+                <button class="btn-close" id="closeModalBottom">Close Calendar</button>
+            </div>
+        </div>
+    </div>
+
     <!-- ========== EXTERNAL SCRIPTS ========== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
