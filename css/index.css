@@ -433,7 +433,7 @@ section .container {
     padding: 0 15px;
 }
 
-/* Popup Modal */
+/* ========== DISCLAIMER POPUP FIX ========== */
 .popup-overlay {
     position: fixed;
     top: 0;
@@ -444,8 +444,10 @@ section .container {
     display: none;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 99999;
+    padding: 20px;
     backdrop-filter: blur(5px);
+    overflow-y: auto;
 }
 
 .popup-modal {
@@ -453,10 +455,14 @@ section .container {
     border-radius: 20px;
     max-width: 800px;
     width: 90%;
+    max-height: 90vh;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
     border: 2px solid var(--gold);
     overflow: hidden;
     animation: popupSlideIn 0.5s ease-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes popupSlideIn {
@@ -476,6 +482,7 @@ section .container {
     text-align: center;
     border-bottom: 2px solid var(--gold);
     position: relative;
+    flex-shrink: 0;
 }
 
 .popup-header::before {
@@ -496,9 +503,35 @@ section .container {
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
+.popup-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.popup-close:hover {
+    background: rgba(255,255,255,0.3);
+    transform: rotate(90deg);
+}
+
 .popup-body {
     padding: 2rem;
     background: white;
+    flex: 1;
+    overflow-y: auto;
 }
 
 .popup-content {
@@ -549,7 +582,6 @@ section .container {
 
 .popup-message-section {
     flex: 1;
-    max-height: 400px;
     overflow-y: auto;
     padding-right: 10px;
 }
@@ -621,6 +653,7 @@ section .container {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     border-top: 1px solid #e0e0e0;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .popup-button {
@@ -633,35 +666,13 @@ section .container {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    font-size: 1rem;
 }
 
 .popup-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
     background: linear-gradient(135deg, var(--secondary), var(--primary));
-}
-
-.popup-close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    background: rgba(255,255,255,0.2);
-    border: none;
-    color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-}
-
-.popup-close:hover {
-    background: rgba(255,255,255,0.3);
-    transform: rotate(90deg);
 }
 
 /* Stats */
@@ -1098,6 +1109,10 @@ section .container {
         width: 160px;
         height: 160px;
     }
+    
+    .popup-title {
+        padding-right: 40px;
+    }
 }
 
 /* Mobile Landscape & Small Tablets (576px to 767px) */
@@ -1170,6 +1185,15 @@ section .container {
     }
     
     /* Popup modal - stack layout */
+    .popup-overlay {
+        padding: 15px;
+    }
+    
+    .popup-modal {
+        width: 95%;
+        max-height: 95vh;
+    }
+    
     .popup-content {
         flex-direction: column;
         text-align: center;
@@ -1181,13 +1205,29 @@ section .container {
     }
     
     .popup-photo-container {
-        width: 140px;
-        height: 140px;
+        width: 150px;
+        height: 150px;
         margin: 0 auto 1rem auto;
     }
     
     .popup-message-section {
         max-height: 300px;
+        padding-right: 5px;
+    }
+    
+    .popup-title {
+        font-size: 1.3rem;
+        padding-right: 40px;
+    }
+    
+    .popup-close {
+        top: 12px;
+        right: 12px;
+    }
+    
+    .popup-button {
+        padding: 10px 25px;
+        font-size: 0.9rem;
     }
     
     /* Calendar modal - compact */
@@ -1331,17 +1371,17 @@ section .container {
     }
     
     /* Popup modal - mobile optimized */
+    .popup-overlay {
+        padding: 10px;
+    }
+    
     .popup-modal {
-        width: 95%;
-        margin: 10px;
+        width: 100%;
+        border-radius: 15px;
     }
     
     .popup-header {
         padding: 1rem;
-    }
-    
-    .popup-title {
-        font-size: 1.2rem;
     }
     
     .popup-body {
@@ -1375,8 +1415,8 @@ section .container {
     }
     
     .popup-button {
-        padding: 10px 20px;
-        font-size: 0.9rem;
+        width: 100%;
+        padding: 12px;
     }
     
     /* Calendar modal - mobile compact */
@@ -1655,4 +1695,13 @@ img {
 /* Smooth scrolling */
 html {
     scroll-behavior: smooth;
+}
+
+/* Make sure the popup is visible and interactive */
+#welcomePopup {
+    display: none; /* Hidden by default, shown by JavaScript */
+}
+
+#welcomePopup[style*="display: flex"] {
+    display: flex !important;
 }
