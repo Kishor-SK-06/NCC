@@ -551,19 +551,19 @@ const importantDates = [
     }
 ];
 
-// Calendar System
+// Calendar System - FIXED VERSION
 class ImportantDatesCalendar {
     constructor() {
         this.importantDates = [...importantDates];
         this.currentFilter = 'all';
         this.currentSearch = '';
+        this.isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         
         // DOM Elements
         this.elements = {
             calendarBtn: document.getElementById('calendarBtn'),
             calendarModal: document.getElementById('calendarModal'),
             closeModal: document.getElementById('closeModal'),
-            closeModalBottom: document.getElementById('closeModalBottom'),
             datesContainer: document.getElementById('datesContainer'),
             datesCount: document.getElementById('datesCount'),
             modalFilter: document.getElementById('modalFilter'),
@@ -575,6 +575,7 @@ class ImportantDatesCalendar {
     
     init() {
         console.log('Calendar system initialized');
+        console.log('Is mobile device:', this.isMobile);
         this.setupEventListeners();
         this.loadAllDates();
         this.addCalendarStyles();
@@ -588,12 +589,8 @@ class ImportantDatesCalendar {
             this.openCalendar();
         });
         
-        // Close buttons
+        // Close button
         this.elements.closeModal.addEventListener('click', () => {
-            this.closeCalendar();
-        });
-        
-        this.elements.closeModalBottom.addEventListener('click', () => {
             this.closeCalendar();
         });
         
@@ -611,21 +608,31 @@ class ImportantDatesCalendar {
             }
         });
         
-        // Filter
+        // Filter change
         this.elements.modalFilter.addEventListener('change', (e) => {
             this.currentFilter = e.target.value;
             this.loadAllDates();
         });
         
-        // Search
+        // Search input
         this.elements.dateSearch.addEventListener('input', (e) => {
             this.currentSearch = e.target.value.trim().toLowerCase();
             this.loadAllDates();
+        });
+        
+        // For better mobile UX: Add click handler for the search input
+        this.elements.dateSearch.addEventListener('click', () => {
+            // Allow focus when user intentionally clicks
+            if (this.isMobile) {
+                // On mobile, focus is okay when user clicks
+                this.elements.dateSearch.focus();
+            }
         });
     }
     
     openCalendar() {
         console.log('Opening calendar');
+        console.log('Mobile device:', this.isMobile);
         this.elements.calendarModal.style.display = 'block';
         document.body.style.overflow = 'hidden';
         
@@ -635,12 +642,28 @@ class ImportantDatesCalendar {
         this.currentFilter = 'all';
         this.currentSearch = '';
         this.loadAllDates();
+        
+        // FIX: Only auto-focus on desktop, not mobile
+        if (!this.isMobile) {
+            // Auto-focus on desktop for better UX
+            setTimeout(() => {
+                this.elements.dateSearch.focus();
+            }, 100);
+        } else {
+            // On mobile, ensure input is not focused to prevent keyboard popup
+            this.elements.dateSearch.blur();
+            // Add a visual hint for mobile users
+            this.showMobileSearchHint();
+        }
     }
     
     closeCalendar() {
         console.log('Closing calendar');
         this.elements.calendarModal.style.display = 'none';
         document.body.style.overflow = 'auto';
+        
+        // Blur input when closing
+        this.elements.dateSearch.blur();
     }
     
     loadAllDates() {
@@ -677,9 +700,17 @@ class ImportantDatesCalendar {
                 const inDate = date.date.toLowerCase().includes(searchText);
                 const inName = date.name.toLowerCase().includes(searchText);
                 const inObjective = date.objective.toLowerCase().includes(searchText);
-                const inCategories = date.categories.some(cat => 
-                    cat.toLowerCase().includes(searchText)
-                );
+                
+                // Also search in formatted categories
+                const inCategories = date.categories.some(cat => {
+                    // Search both original and formatted category names
+                    const originalMatch = cat.toLowerCase().includes(searchText);
+                    const formattedCat = cat.split('-')
+                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                        .join(' ');
+                    const formattedMatch = formattedCat.toLowerCase().includes(searchText);
+                    return originalMatch || formattedMatch;
+                });
                 
                 if (!(inDate || inName || inObjective || inCategories)) {
                     return false;
@@ -874,6 +905,17 @@ class ImportantDatesCalendar {
         this.elements.datesContainer.appendChild(noResults);
     }
     
+    showMobileSearchHint() {
+        // Temporarily change placeholder to show hint
+        const originalPlaceholder = this.elements.dateSearch.placeholder;
+        this.elements.dateSearch.placeholder = "Tap here to search...";
+        
+        // Reset after 2 seconds
+        setTimeout(() => {
+            this.elements.dateSearch.placeholder = originalPlaceholder;
+        }, 2000);
+    }
+    
     addCalendarStyles() {
         const style = document.createElement('style');
         style.textContent = `
@@ -968,6 +1010,23 @@ class ImportantDatesCalendar {
             .cultural { background-color: #d35400 !important; }
             .education { background-color: #3498db !important; }
             .science { background-color: #16a085 !important; }
+            
+            /* Mobile-specific styles for better UX */
+            @media (max-width: 768px) {
+                .modal-filter {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+                
+                #dateSearch {
+                    width: 100%;
+                    font-size: 16px; /* Prevents zoom on iOS */
+                }
+                
+                .modal-header h2 {
+                    font-size: 1.5rem;
+                }
+            }
         `;
         document.head.appendChild(style);
     }
