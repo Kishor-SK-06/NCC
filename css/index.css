@@ -8,6 +8,22 @@
     --gold: #ffd700;
 }
 
+/* Prevent horizontal scrolling */
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Container fixes */
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /* Hero Section */
 .hero-section {
     position: relative;
@@ -77,6 +93,9 @@
     color: white;
     z-index: 2;
     position: relative;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
 }
 
 .ncc-logo {
@@ -168,6 +187,7 @@
     transition: all 0.3s ease;
     background: white;
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .modern-card:hover {
@@ -225,6 +245,7 @@
     transition: all 0.4s ease;
     background: white;
     position: relative;
+    width: 100%;
 }
 
 .leader-card::before {
@@ -252,6 +273,7 @@
     justify-content: center;
     min-height: 350px;
     padding: 20px;
+    width: 100%;
 }
 
 .leader-card img {
@@ -311,6 +333,7 @@
     position: relative;
     z-index: 2;
     padding: 1.5rem;
+    width: 100%;
 }
 
 .leader-card .card-title {
@@ -375,6 +398,8 @@
     margin-bottom: 3rem;
     position: relative;
     display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .section-title::after {
@@ -637,240 +662,6 @@ section .container {
 .popup-close:hover {
     background: rgba(255,255,255,0.3);
     transform: rotate(90deg);
-}
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .hero-title {
-        font-size: 3.5rem;
-    }
-}
-
-@media (max-width: 992px) {
-    .hero-title {
-        font-size: 3rem;
-    }
-    
-    .hero-subtitle {
-        font-size: 1.3rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero-section {
-        height: 60vh;
-        padding: 1rem;
-    }
-    
-    .hero-title {
-        font-size: 2.5rem;
-    }
-    
-    .hero-subtitle {
-        font-size: 1.2rem;
-    }
-    
-    .ncc-logo {
-        width: 120px;
-        height: 120px;
-    }
-    
-    /* Hierarchy responsive fixes */
-    .hierarchy-card {
-        text-align: center;
-        margin-bottom: 1.5rem;
-    }
-    
-    .hierarchy-img {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 1rem auto;
-        display: block;
-    }
-    
-    .hierarchy-card .d-flex {
-        flex-direction: column !important;
-    }
-    
-    .hierarchy-card .flex-grow-1 {
-        text-align: center;
-    }
-    
-    /* Leaders responsive fixes */
-    .leader-portrait-container {
-        min-height: 300px;
-        padding: 15px;
-    }
-    
-    .leader-card img {
-        max-height: 260px;
-    }
-    
-    .rank-ribbon {
-        font-size: 0.7rem;
-        padding: 6px 15px;
-    }
-    
-    .leader-stats .row {
-        margin: 0 -5px;
-    }
-    
-    .stat-item {
-        padding: 0 5px;
-    }
-    
-    .leader-bio {
-        font-size: 0.9rem;
-    }
-    
-    .leader-card {
-        margin-bottom: 2rem;
-    }
-    
-    /* Popup responsive */
-    .popup-modal {
-        margin: 1rem;
-        width: 95%;
-        max-width: 400px;
-    }
-    
-    .popup-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5rem;
-    }
-    
-    .popup-image-section {
-        flex: none;
-    }
-    
-    .popup-photo-container {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .popup-message-section {
-        max-height: 300px;
-        padding-right: 5px;
-    }
-    
-    .popup-title {
-        font-size: 1.3rem;
-    }
-    
-    .disclaimer-title {
-        font-size: 1.1rem;
-        justify-content: center;
-    }
-    
-    /* Reduce animation intensity on mobile */
-    .hero-badge {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 576px) {
-    .hero-section {
-        height: 50vh;
-    }
-    
-    .hero-title {
-        font-size: 2rem;
-    }
-    
-    .hero-subtitle {
-        font-size: 1rem;
-    }
-    
-    .ncc-logo {
-        width: 100px;
-        height: 100px;
-    }
-    
-    .leader-portrait-container {
-        min-height: 250px;
-        padding: 10px;
-    }
-    
-    .leader-card img {
-        max-height: 220px;
-    }
-    
-    .specializations .badge {
-        display: block;
-        margin-bottom: 5px;
-        margin-right: 0 !important;
-    }
-    
-    .leader-stats .row {
-        flex-direction: column;
-        gap: 1rem;
-    }
-    
-    .stat-item {
-        padding: 0.5rem;
-    }
-    
-    /* Popup mobile */
-    .popup-body {
-        padding: 1.5rem;
-    }
-    
-    .popup-photo-container {
-        width: 120px;
-        height: 120px;
-    }
-    
-    .disclaimer-text {
-        font-size: 0.9rem;
-    }
-    
-    .popup-button {
-        padding: 10px 25px;
-        font-size: 0.9rem;
-    }
-    
-    /* Disable some animations on very small screens */
-    .hero-badges {
-        display: none;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-section {
-        height: 45vh;
-    }
-    
-    .hero-title {
-        font-size: 1.8rem;
-    }
-    
-    .ncc-logo {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .section-title {
-        font-size: 1.5rem;
-    }
-}
-
-/* Prevent layout shifts during animations */
-.modern-card,
-.leader-card {
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-}
-
-/* Ensure images don't cause layout shifts */
-.hierarchy-img,
-.leader-card img {
-    aspect-ratio: 1;
-}
-
-/* Smooth scrolling */
-html {
-    scroll-behavior: smooth;
 }
 
 /* Stats */
@@ -1207,46 +998,235 @@ html {
     font-weight: bold;
 }
 
-/* Responsive Design */
-@media (max-width: 992px) {
-    .header-content {
-        flex-direction: column;
-        align-items: flex-start;
+/* ========== RESPONSIVE FIXES FOR ALL DEVICES ========== */
+
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
     }
     
-    .filter-container {
-        align-items: flex-start;
+    .hero-section {
+        height: 75vh;
     }
     
-    .dates-container {
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    .hero-title {
+        font-size: 4.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.8rem;
     }
 }
 
-@media (max-width: 768px) {
-    .modal-header {
-        flex-direction: column;
-        align-items: flex-start;
+/* Desktop (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
     }
     
-    .modal-filter {
+    .hero-section {
+        height: 70vh;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.5rem;
+    }
+    
+    .ncc-logo {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+/* Tablet (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-section {
+        height: 60vh;
+        margin-bottom: 3rem;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .ncc-logo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    /* Hierarchy cards - stack images and text */
+    .modern-card.d-flex {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem !important;
+    }
+    
+    .hierarchy-img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 1.5rem auto !important;
+    }
+    
+    /* Leaders - side by side but smaller */
+    #leaders .col-md-5 {
+        width: 48%;
+    }
+    
+    .leader-portrait-container {
+        min-height: 280px;
+    }
+    
+    .leader-card img {
+        max-height: 250px;
+    }
+    
+    /* Popup modal - adjust layout */
+    .popup-content {
+        gap: 1.5rem;
+    }
+    
+    .popup-photo-container {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+/* Mobile Landscape & Small Tablets (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-section {
+        height: 50vh;
+        padding: 15px;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .ncc-logo {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    
+    /* Hierarchy cards - full width */
+    .col-lg-10 {
         width: 100%;
     }
     
-    .modal-footer {
+    .modern-card {
+        padding: 1.5rem !important;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hierarchy-img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    /* Leaders - stack vertically */
+    #leaders .row {
         flex-direction: column;
-        align-items: flex-start;
+    }
+    
+    #leaders .col-md-5 {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 2rem auto;
+    }
+    
+    .leader-portrait-container {
+        min-height: 250px;
+        padding: 15px;
+    }
+    
+    .leader-card img {
+        max-height: 220px;
+    }
+    
+    /* Rank structure - 3 columns */
+    #ranks .col-md-2,
+    #ranks .col-6 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+    
+    /* Popup modal - stack layout */
+    .popup-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .popup-image-section {
+        flex: none;
+    }
+    
+    .popup-photo-container {
+        width: 140px;
+        height: 140px;
+        margin: 0 auto 1rem auto;
+    }
+    
+    .popup-message-section {
+        max-height: 300px;
+    }
+    
+    /* Calendar modal - compact */
+    .modal-content {
+        margin: 15px auto;
+        max-height: 85vh;
+    }
+    
+    .modal-header {
+        padding: 15px;
+    }
+    
+    .modal-header h2 {
+        font-size: 1.3rem;
+    }
+    
+    .modal-filter {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .modal-filter select,
+    .modal-filter input {
+        width: 100%;
+        min-width: auto;
+        font-size: 0.9rem;
+        padding: 8px 12px;
     }
     
     .dates-container {
         grid-template-columns: 1fr;
+        gap: 15px;
     }
     
     .calendar-btn {
-        bottom: 20px;
-        right: 20px;
         width: 60px;
         height: 60px;
+        bottom: 20px;
+        right: 20px;
     }
     
     .calendar-btn i {
@@ -1254,20 +1234,425 @@ html {
     }
 }
 
-@media (max-width: 480px) {
-    .container {
-        padding: 0;
+/* Mobile Portrait (below 576px) */
+@media (max-width: 575px) {
+    /* Base adjustments */
+    body {
+        font-size: 14px;
     }
     
-    header, main {
-        border-radius: 0;
+    .hero-section {
+        height: 45vh;
+        padding: 10px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .ncc-logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Hierarchy - compact cards */
+    .modern-card {
+        padding: 1rem !important;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+    }
+    
+    .hierarchy-img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 1rem !important;
+    }
+    
+    /* Leaders - compact */
+    .leader-portrait-container {
+        min-height: 200px;
+        padding: 10px;
+    }
+    
+    .leader-card img {
+        max-height: 180px;
+    }
+    
+    .rank-ribbon {
+        font-size: 0.7rem;
+        padding: 5px 12px;
+        top: 10px;
+    }
+    
+    .leader-card .card-body {
+        padding: 1rem;
+    }
+    
+    .leader-bio {
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+    }
+    
+    .leader-stats {
+        padding: 10px;
+        margin: 15px 0;
+    }
+    
+    .stat-item h5 {
+        font-size: 1rem;
+    }
+    
+    .stat-item small {
+        font-size: 0.7rem;
+    }
+    
+    /* Rank structure - 2 columns */
+    #ranks .col-md-2,
+    #ranks .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    #ranks .card {
+        padding: 10px !important;
+    }
+    
+    /* Popup modal - mobile optimized */
+    .popup-modal {
+        width: 95%;
+        margin: 10px;
+    }
+    
+    .popup-header {
+        padding: 1rem;
+    }
+    
+    .popup-title {
+        font-size: 1.2rem;
+    }
+    
+    .popup-body {
+        padding: 1rem;
+    }
+    
+    .popup-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .popup-photo-container {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .popup-badge {
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+    
+    .disclaimer-title {
+        font-size: 1.1rem;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .disclaimer-text {
+        font-size: 0.85rem;
+    }
+    
+    .popup-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Calendar modal - mobile compact */
+    .calendar-modal {
+        padding: 5px;
     }
     
     .modal-content {
-        margin: 0;
         width: 100%;
-        height: 100%;
+        margin: 0;
         border-radius: 0;
         max-height: 100vh;
+        height: 100vh;
     }
+    
+    .modal-header {
+        padding: 12px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .modal-header h2 {
+        font-size: 1.1rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .modal-header h2 i {
+        font-size: 0.9rem;
+        margin-right: 5px;
+    }
+    
+    .close-modal {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 28px;
+        height: 28px;
+        font-size: 20px;
+        background: rgba(0,0,0,0.3);
+    }
+    
+    .modal-filter {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .modal-filter select,
+    .modal-filter input {
+        width: 100%;
+        font-size: 0.85rem;
+        padding: 6px 10px;
+        border-radius: 6px;
+    }
+    
+    .modal-body {
+        padding: 12px;
+    }
+    
+    .dates-count {
+        font-size: 0.85rem;
+        padding: 6px 0;
+        margin-bottom: 12px;
+    }
+    
+    .dates-container {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 5px;
+    }
+    
+    .date-card {
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+    
+    .date-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        margin-bottom: 8px;
+    }
+    
+    .date {
+        font-size: 0.95rem;
+    }
+    
+    .event-name {
+        font-size: 1rem;
+        margin-bottom: 6px;
+    }
+    
+    .event-objective {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+    
+    .category-tags {
+        gap: 3px;
+    }
+    
+    .category-tag {
+        padding: 2px 6px;
+        font-size: 0.65rem;
+    }
+    
+    .modal-footer {
+        padding: 12px;
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .legend {
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    .legend-item {
+        font-size: 0.7rem;
+    }
+    
+    .legend-color {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .btn-close {
+        width: 100%;
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+    
+    .month-header {
+        padding: 10px;
+        font-size: 1rem;
+        margin: 12px 0 6px;
+    }
+    
+    /* Calendar button - smaller */
+    .calendar-btn {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .calendar-btn i {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    
+    .calendar-btn span {
+        display: none;
+    }
+    
+    /* Reduce animations on very small screens */
+    .hero-badges {
+        display: none;
+    }
+    
+    .hero-section::before {
+        animation-duration: 30s;
+    }
+}
+
+/* Extra small devices (below 400px) */
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .ncc-logo {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+    
+    /* Rank structure - single column */
+    #ranks .col-md-2,
+    #ranks .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    /* Leader stats - vertical layout */
+    .leader-stats .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .stat-item {
+        padding: 5px;
+    }
+    
+    /* Specializations - vertical badges */
+    .specializations .badge {
+        display: block;
+        margin-bottom: 5px;
+        margin-right: 0 !important;
+    }
+}
+
+/* Landscape mobile optimization */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero-section {
+        height: 80vh;
+        padding: 10px;
+    }
+    
+    .hero-content {
+        padding: 10px;
+    }
+    
+    .popup-modal,
+    .modal-content {
+        max-height: 95vh;
+        margin: 5px auto;
+    }
+    
+    .popup-body,
+    .modal-body {
+        padding: 10px;
+    }
+    
+    .popup-content {
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    .popup-photo-container {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .dates-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-height: 60vh;
+        overflow-y: auto;
+    }
+}
+
+/* Fix for Bootstrap grid on mobile */
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-md-5, .col-md-6, .col-md-4, .col-md-2, .col-6, .col-lg-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Ensure all images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent layout shifts during animations */
+.modern-card,
+.leader-card {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
 }
