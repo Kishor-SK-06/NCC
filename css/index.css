@@ -15,14 +15,7 @@ body {
     width: 100%;
 }
 
-/* Container fixes */
-.container {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+/* REMOVED PROBLEMATIC CONTAINER STYLES - Let Bootstrap handle containers */
 
 /* Hero Section */
 .hero-section {
@@ -427,10 +420,6 @@ body {
 /* Ensure proper spacing for all sections */
 section {
     padding: 2rem 0;
-}
-
-section .container {
-    padding: 0 15px;
 }
 
 /* ========== DISCLAIMER POPUP FIX ========== */
@@ -1013,10 +1002,6 @@ section .container {
 
 /* Large Desktop (1200px and above) */
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-    
     .hero-section {
         height: 75vh;
     }
@@ -1032,10 +1017,6 @@ section .container {
 
 /* Desktop (992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    .container {
-        max-width: 960px;
-    }
-    
     .hero-section {
         height: 70vh;
     }
