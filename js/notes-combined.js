@@ -1,8 +1,14 @@
-// Notes Combined JavaScript - For all notes pages
-
+// Notes Manager - Complete Solution with Preview & Download
 class NotesManager {
     constructor() {
         this.currentSubcategory = null;
+        this.googleDriveConfig = {
+            directDownload: 'https://drive.google.com/uc?export=download&id=',
+            previewBase: 'https://drive.google.com/file/d/',
+            docsExport: 'https://docs.google.com/document/d/',
+            sheetsExport: 'https://docs.google.com/spreadsheets/d/',
+            slidesExport: 'https://docs.google.com/presentation/d/'
+        };
         this.init();
     }
 
@@ -10,7 +16,8 @@ class NotesManager {
         this.initializeEventListeners();
         this.initializeAOS();
         this.updateNotesCounts();
-        console.log('NotesManager initialized successfully');
+        this.enhanceGoogleDriveLinks(); // Fix all links on load
+        console.log('NotesManager initialized with enhanced Google Drive functionality');
     }
 
     initializeAOS() {
@@ -24,20 +31,12 @@ class NotesManager {
     }
 
     initializeEventListeners() {
-        // Check if we're on main notes page or subject page
-        if (document.querySelector('.category-cards-grid')) {
-            // Main notes page - no subcategory navigation needed
-            console.log('Initializing main notes page');
-        } else if (document.querySelector('.subcategory-grid')) {
-            // Subject page - initialize subcategory navigation
+        if (document.querySelector('.subcategory-grid')) {
             this.initializeSubcategoryNavigation();
         }
-
-        console.log('Event listeners initialized');
     }
 
     initializeSubcategoryNavigation() {
-        // Subcategory card clicks for subject pages
         const subcategoryCards = document.querySelectorAll('.subcategory-card');
         subcategoryCards.forEach(card => {
             card.addEventListener('click', (e) => {
@@ -46,7 +45,6 @@ class NotesManager {
             });
         });
 
-        // Back to categories button for subject pages
         const backButton = document.getElementById('backToCategories');
         if (backButton) {
             backButton.addEventListener('click', (e) => {
@@ -57,203 +55,313 @@ class NotesManager {
     }
 
     showSubcategoryNotes(subcategory) {
-        console.log('Showing notes for:', subcategory);
         this.currentSubcategory = subcategory;
         
-        // Hide the "Back to Main" button when entering subcategory
         const backToMainButton = document.querySelector('.back-to-main');
-        if (backToMainButton) {
-            backToMainButton.classList.add('hidden');
-        }
+        if (backToMainButton) backToMainButton.classList.add('hidden');
         
-        // Hide all subcategory grids
         const subcategoryGrids = document.querySelectorAll('.subcategory-grid');
-        subcategoryGrids.forEach(grid => {
-            grid.classList.add('hidden');
-        });
+        subcategoryGrids.forEach(grid => grid.classList.add('hidden'));
         
-        // Hide all note sections
         const noteSections = document.querySelectorAll('[id$="-section"]');
-        noteSections.forEach(section => {
-            section.classList.add('hidden');
-        });
+        noteSections.forEach(section => section.classList.add('hidden'));
         
-        // Show the selected subcategory's notes section
         const notesSection = document.getElementById(`${subcategory}-section`);
         if (notesSection) {
             notesSection.classList.remove('hidden');
-            console.log('Found and showing notes section:', `${subcategory}-section`);
-        } else {
-            console.error('Notes section not found:', `${subcategory}-section`);
+            this.enhanceGoogleDriveLinks(); // Fix links in new section
         }
         
-        // Show back to categories button
         const backButtonContainer = document.getElementById('backButtonContainer');
-        if (backButtonContainer) {
-            backButtonContainer.classList.remove('hidden');
-        }
+        if (backButtonContainer) backButtonContainer.classList.remove('hidden');
         
-        // Scroll to top smoothly
         window.scrollTo({ top: 0, behavior: 'smooth' });
-        
-        // Refresh AOS for new content
         this.refreshAOS();
     }
 
     showCategories() {
-        console.log('Showing categories');
-        
-        // Show the "Back to Main" button when returning to categories
         const backToMainButton = document.querySelector('.back-to-main');
-        if (backToMainButton) {
-            backToMainButton.classList.remove('hidden');
-        }
+        if (backToMainButton) backToMainButton.classList.remove('hidden');
         
-        // Hide all note sections
         const noteSections = document.querySelectorAll('[id$="-section"]');
-        noteSections.forEach(section => {
-            section.classList.add('hidden');
-        });
+        noteSections.forEach(section => section.classList.add('hidden'));
         
-        // Show all subcategory grids
         const subcategoryGrids = document.querySelectorAll('.subcategory-grid');
-        subcategoryGrids.forEach(grid => {
-            grid.classList.remove('hidden');
-        });
+        subcategoryGrids.forEach(grid => grid.classList.remove('hidden'));
         
-        // Hide back to categories button
         const backButtonContainer = document.getElementById('backButtonContainer');
-        if (backButtonContainer) {
-            backButtonContainer.classList.add('hidden');
-        }
+        if (backButtonContainer) backButtonContainer.classList.add('hidden');
         
         this.currentSubcategory = null;
-        
-        // Scroll to top smoothly
         window.scrollTo({ top: 0, behavior: 'smooth' });
-        
-        // Refresh AOS
         this.refreshAOS();
     }
 
     refreshAOS() {
         if (typeof AOS !== 'undefined') {
-            setTimeout(() => {
-                AOS.refresh();
-            }, 300);
+            setTimeout(() => AOS.refresh(), 300);
         }
     }
 
-    updateNotesCounts() {
-        console.log('Updating notes counts...');
+    // MAIN FIX: Enhance Google Drive Links for Preview & Download
+    enhanceGoogleDriveLinks() {
+        console.log('Enhancing Google Drive links for Preview & Download...');
         
-        // Only update counts if we're on a subject page with subcategories
-        if (!document.querySelector('.subcategory-grid')) {
-            console.log('Not a subject page, skipping notes count update');
-            return;
-        }
-
-        const counts = this.getNotesCounts();
-        console.log('Calculated counts:', counts);
-
-        // Update counts in subcategory cards
-        const subcategoryCards = document.querySelectorAll('.subcategory-card');
-        let updatedCount = 0;
+        const allLinks = document.querySelectorAll('a[href*="drive.google.com"], a[href*="docs.google.com"]');
+        let enhancedCount = 0;
         
-        subcategoryCards.forEach(card => {
-            const subcategory = card.dataset.subcategory;
-            const count = counts[subcategory] || 0;
-            const countElement = card.querySelector('.notes-count');
+        allLinks.forEach(link => {
+            const originalHref = link.href;
+            const fileId = this.extractFileId(originalHref);
             
-            if (countElement) {
-                countElement.textContent = `${count} note${count !== 1 ? 's' : ''} available`;
-                console.log(`Updated ${subcategory}: ${count} notes`);
-                updatedCount++;
-            } else {
-                console.warn(`Notes count element not found for: ${subcategory}`);
+            if (!fileId) return;
+            
+            // Determine if this is a preview or download button
+            const isPreviewBtn = link.classList.contains('preview-btn') || 
+                               link.textContent.toLowerCase().includes('preview') ||
+                               link.querySelector('i.fa-eye');
+            
+            const isDownloadBtn = link.classList.contains('download-btn') || 
+                                link.textContent.toLowerCase().includes('download') ||
+                                link.querySelector('i.fa-download');
+            
+            if (isPreviewBtn) {
+                // ENHANCE PREVIEW LINK
+                const previewLink = this.getOptimizedPreviewLink(originalHref, fileId);
+                link.href = previewLink;
+                link.target = '_blank'; // Open preview in new tab
+                link.removeAttribute('download'); // Remove download attr for preview
+                enhancedCount++;
+                
+            } else if (isDownloadBtn) {
+                // ENHANCE DOWNLOAD LINK
+                const fileType = this.detectFileType(originalHref);
+                const downloadLink = this.getDirectDownloadLink(fileId, fileType);
+                const fileName = this.getFileNameFromLink(link);
+                
+                link.href = downloadLink;
+                link.setAttribute('download', fileName);
+                // Optional: Remove target="_blank" for direct download
+                // link.target = '_blank'; // Keep or remove based on preference
+                enhancedCount++;
             }
         });
         
-        console.log(`Updated ${updatedCount} subcategory counts successfully`);
+        console.log(`Enhanced ${enhancedCount} Google Drive links`);
     }
 
-    getNotesCounts() {
-        const counts = {};
+    // Extract File ID from various Google Drive URL formats
+    extractFileId(url) {
+        const urlPatterns = [
+            /\/d\/([a-zA-Z0-9_-]+)/,
+            /id=([a-zA-Z0-9_-]+)/,
+            /\/file\/d\/([a-zA-Z0-9_-]+)/,
+            /\/document\/d\/([a-zA-Z0-9_-]+)/,
+            /\/spreadsheets\/d\/([a-zA-Z0-9_-]+)/,
+            /\/presentation\/d\/([a-zA-Z0-9_-]+)/,
+            /\/open\?id=([a-zA-Z0-9_-]+)/
+        ];
         
-        // Get all possible subcategories for the current page
+        for (const pattern of urlPatterns) {
+            const match = url.match(pattern);
+            if (match && match[1]) {
+                return match[1];
+            }
+        }
+        
+        console.warn('Could not extract file ID:', url);
+        return null;
+    }
+
+    // Get optimized preview link (opens in Google Drive viewer)
+    getOptimizedPreviewLink(originalUrl, fileId) {
+        // Check if it's a Google Doc/Sheet/Slide
+        if (originalUrl.includes('/document/')) {
+            return `${this.googleDriveConfig.docsExport}${fileId}/preview`;
+        } else if (originalUrl.includes('/spreadsheets/')) {
+            return `${this.googleDriveConfig.sheetsExport}${fileId}/preview`;
+        } else if (originalUrl.includes('/presentation/')) {
+            return `${this.googleDriveConfig.slidesExport}${fileId}/preview`;
+        } else {
+            // For regular files (PDF, images, etc.)
+            return `${this.googleDriveConfig.previewBase}${fileId}/preview`;
+        }
+    }
+
+    // Get direct download link (forces download to user's storage)
+    getDirectDownloadLink(fileId, fileType = 'pdf') {
+        const type = fileType.toLowerCase();
+        
+        // Google Workspace files - use export endpoints
+        switch(type) {
+            case 'docs':
+            case 'docx':
+            case 'document':
+                return `${this.googleDriveConfig.docsExport}${fileId}/export?format=docx`;
+                
+            case 'sheets':
+            case 'xlsx':
+            case 'spreadsheet':
+                return `${this.googleDriveConfig.sheetsExport}${fileId}/export?format=xlsx`;
+                
+            case 'slides':
+            case 'pptx':
+            case 'presentation':
+                return `${this.googleDriveConfig.slidesExport}${fileId}/export/pptx`;
+                
+            case 'pdf':
+                // Check if it's a Google Doc converted to PDF
+                if (this.isGoogleDoc(fileId)) {
+                    return `${this.googleDriveConfig.docsExport}${fileId}/export?format=pdf`;
+                }
+                // Fall through to direct download
+                
+            default:
+                // For all other files (PDF, images, videos, zip, etc.)
+                // Using 'confirm=t' bypasses virus scan warning for large files
+                return `${this.googleDriveConfig.directDownload}id=${fileId}&confirm=t`;
+        }
+    }
+
+    // Detect file type from URL
+    detectFileType(url) {
+        const urlLower = url.toLowerCase();
+        
+        if (urlLower.includes('/document/') || urlLower.includes('format=docx')) return 'docx';
+        if (urlLower.includes('/spreadsheets/') || urlLower.includes('format=xlsx')) return 'xlsx';
+        if (urlLower.includes('/presentation/') || urlLower.includes('export/pptx')) return 'pptx';
+        if (urlLower.includes('.pdf') || urlLower.includes('format=pdf')) return 'pdf';
+        if (urlLower.includes('.jpg') || urlLower.includes('.jpeg')) return 'jpg';
+        if (urlLower.includes('.png')) return 'png';
+        if (urlLower.includes('.zip')) return 'zip';
+        if (urlLower.includes('.mp4') || urlLower.includes('.avi')) return 'video';
+        
+        return 'pdf'; // default
+    }
+
+    // Get file name from link or card
+    getFileNameFromLink(link) {
+        // Try to get from data attribute first
+        if (link.dataset.filename) return link.dataset.filename;
+        
+        // Try to get from parent note card title
+        const noteCard = link.closest('.note-card');
+        if (noteCard) {
+            const titleElement = noteCard.querySelector('.note-title');
+            if (titleElement) {
+                const title = titleElement.textContent.trim();
+                const fileType = this.detectFileType(link.href);
+                const extension = this.getFileExtension(fileType);
+                return `${title}.${extension}`;
+            }
+        }
+        
+        // Default name
+        return `document_${Date.now()}.pdf`;
+    }
+
+    // Get file extension
+    getFileExtension(fileType) {
+        const extensionMap = {
+            'pdf': 'pdf',
+            'docs': 'pdf',
+            'docx': 'docx',
+            'sheets': 'xlsx',
+            'xlsx': 'xlsx',
+            'slides': 'pptx',
+            'pptx': 'pptx',
+            'jpg': 'jpg',
+            'jpeg': 'jpg',
+            'png': 'png',
+            'zip': 'zip',
+            'video': 'mp4'
+        };
+        return extensionMap[fileType.toLowerCase()] || 'pdf';
+    }
+
+    // Check if file is a Google Doc (simplified)
+    isGoogleDoc(fileId) {
+        // You can implement more sophisticated check if needed
+        // For now, return false to use direct download
+        return false;
+    }
+
+    updateNotesCounts() {
+        if (!document.querySelector('.subcategory-grid')) return;
+        
+        const counts = {};
         const subcategories = Array.from(document.querySelectorAll('.subcategory-card'))
             .map(card => card.dataset.subcategory);
         
-        console.log('Found subcategories:', subcategories);
-        
         subcategories.forEach(subcategory => {
-            // Try different possible ID formats
             const possibleIds = [
                 `${subcategory}NotesGrid`,
                 `${subcategory.replace(/-([a-z])/g, (g) => g[1].toUpperCase())}NotesGrid`
             ];
             
             let noteCount = 0;
-            let foundGrid = null;
-            
             for (const id of possibleIds) {
                 const grid = document.getElementById(id);
                 if (grid) {
-                    foundGrid = grid;
                     noteCount = grid.querySelectorAll('.note-card').length;
-                    console.log(`Found grid ${id} for ${subcategory}: ${noteCount} notes`);
                     break;
                 }
             }
-            
-            if (!foundGrid) {
-                console.warn(`No notes grid found for subcategory: ${subcategory}. Tried IDs: ${possibleIds.join(', ')}`);
-            }
-            
             counts[subcategory] = noteCount;
         });
         
-        return counts;
+        // Update count displays
+        document.querySelectorAll('.subcategory-card').forEach(card => {
+            const subcategory = card.dataset.subcategory;
+            const count = counts[subcategory] || 0;
+            const countElement = card.querySelector('.notes-count');
+            if (countElement) {
+                countElement.textContent = `${count} note${count !== 1 ? 's' : ''} available`;
+            }
+        });
     }
 
-    // Enhanced method to add new notes dynamically
-    addNoteToCategory(subcategory, noteData) {
-        const grid = document.getElementById(`${subcategory}NotesGrid`);
-        if (!grid) {
-            console.error(`Notes grid not found for: ${subcategory}`);
-            return false;
-        }
-
-        const noteCard = this.createNoteCard(noteData);
-        grid.appendChild(noteCard);
-        
-        // Refresh counts and animations
-        this.updateNotesCounts();
-        this.refreshAOS();
-        
-        console.log(`Note added to ${subcategory}: ${noteData.title}`);
-        return true;
-    }
-
-    // Helper method to create note card HTML
+    // Create new note card with proper preview/download links
     createNoteCard(noteData) {
-        const noteCard = document.createElement('div');
-        noteCard.className = 'note-card';
-        noteCard.setAttribute('data-aos', 'fade-up');
+        const card = document.createElement('div');
+        card.className = 'note-card';
+        card.setAttribute('data-aos', 'fade-up');
         
-        noteCard.innerHTML = `
+        const fileId = noteData.driveId || this.extractFileId(noteData.url);
+        const fileType = noteData.fileType || this.detectFileType(noteData.url);
+        
+        // Get optimized links
+        const previewLink = fileId ? 
+            this.getOptimizedPreviewLink(noteData.url || '', fileId) : 
+            noteData.previewUrl;
+        
+        const downloadLink = fileId ? 
+            this.getDirectDownloadLink(fileId, fileType) : 
+            noteData.downloadUrl;
+        
+        const fileName = `${noteData.title}.${this.getFileExtension(fileType)}`;
+        
+        card.innerHTML = `
             <div class="note-header">
                 <h5 class="note-title">${noteData.title}</h5>
                 <p class="note-description">${noteData.description}</p>
             </div>
             <div class="note-body">
                 <div class="note-meta">
-                    <span class="note-type">${noteData.type}</span>
+                    <span class="note-type">${fileType.toUpperCase()}</span>
                     <div class="note-actions">
-                        <a href="${noteData.previewLink}" class="note-action-btn" target="_blank">
+                        <!-- Preview Button -->
+                        <a href="${previewLink}" 
+                           class="note-action-btn preview-btn" 
+                           target="_blank"
+                           title="Preview this document">
                             <i class="fas fa-eye"></i> Preview
                         </a>
-                        <a href="${noteData.downloadLink}" class="note-action-btn" target="_blank">
+                        <!-- Download Button -->
+                        <a href="${downloadLink}" 
+                           class="note-action-btn download-btn" 
+                           download="${fileName}"
+                           title="Download to your device">
                             <i class="fas fa-download"></i> Download
                         </a>
                     </div>
@@ -264,20 +372,25 @@ class NotesManager {
             </div>
         `;
         
-        return noteCard;
+        return card;
     }
 
-    // Method to bulk add notes
-    addMultipleNotes(subcategory, notesArray) {
-        notesArray.forEach(noteData => {
-            this.addNoteToCategory(subcategory, noteData);
-        });
+    // Add note to specific category
+    addNoteToCategory(subcategory, noteData) {
+        const grid = document.getElementById(`${subcategory}NotesGrid`);
+        if (!grid) return false;
+        
+        const noteCard = this.createNoteCard(noteData);
+        grid.appendChild(noteCard);
+        
+        this.updateNotesCounts();
+        this.refreshAOS();
+        return true;
     }
 }
 
-// Utility functions
+// Utility Functions
 const NotesUtils = {
-    // Format date for note cards
     formatDate: (date) => {
         return new Date(date).toLocaleDateString('en-IN', {
             day: '2-digit',
@@ -286,27 +399,65 @@ const NotesUtils = {
         });
     },
 
-    // Get page type
     getPageType: () => {
         if (document.querySelector('.category-cards-grid')) return 'main';
         if (document.querySelector('.subcategory-grid')) return 'subject';
         return 'unknown';
+    },
+
+    // Quick fix for individual links (can be called manually)
+    fixLink: (linkElement) => {
+        if (!window.notesManager) window.notesManager = new NotesManager();
+        
+        const originalHref = linkElement.href;
+        const fileId = window.notesManager.extractFileId(originalHref);
+        
+        if (!fileId) return false;
+        
+        const isDownload = linkElement.classList.contains('download-btn') || 
+                          linkElement.textContent.toLowerCase().includes('download');
+        
+        if (isDownload) {
+            const fileType = window.notesManager.detectFileType(originalHref);
+            linkElement.href = window.notesManager.getDirectDownloadLink(fileId, fileType);
+            linkElement.setAttribute('download', '');
+            return true;
+        }
+        return false;
     }
 };
 
-// Initialize when DOM is loaded
+// Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
-    // Check if we're on any notes-related page
     if (document.querySelector('.notes-hero')) {
         window.notesManager = new NotesManager();
-        console.log('Notes page initialized - Type:', NotesUtils.getPageType());
         
-        // Force update notes counts after a short delay to ensure DOM is fully loaded
+        // Additional fixes after dynamic content loads
         setTimeout(() => {
             window.notesManager.updateNotesCounts();
-        }, 500);
+            window.notesManager.enhanceGoogleDriveLinks();
+            
+            // Set up mutation observer for dynamically added content
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.addedNodes.length) {
+                        window.notesManager.enhanceGoogleDriveLinks();
+                    }
+                });
+            });
+            
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        }, 1000);
     }
 });
 
-// Make utils globally available
-window.NotesUtils = NotesUtils;
+// Global helper function for manual fixes
+window.fixAllDriveLinks = function() {
+    if (window.notesManager) {
+        window.notesManager.enhanceGoogleDriveLinks();
+        alert('✓ All Google Drive links enhanced!\n• Preview buttons open in viewer\n• Download buttons save directly to device');
+    }
+};
